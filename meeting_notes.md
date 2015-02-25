@@ -30,3 +30,8 @@ This was followed by further comments and about 20 minutes of general discussion
 * what kind of research we can do 
 * working backwards from our deliverables to what we need to do 
 * Jonathan's results from a survey of hackathon participants 
+* 
+
+## Hangout, 25 Feb 2015
+
+present: Karen, Sh, Arlin, Jonathan, Aidan,  Mike, Enrico
