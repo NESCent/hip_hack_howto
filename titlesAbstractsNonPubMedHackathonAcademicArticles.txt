@@ -1,0 +1,58 @@
+
+Theophrastus: On demand and real-time automatic annotation and exploration of (web) documents using open linked data
+By: Fafalios, Pavlos; Papadakos, Panagiotis
+JOURNAL OF WEB SEMANTICS  Volume: 29   Pages: 31-38   Published: DEC 2014 
+
+Theophrastus  is a system that supports the automatic annotation of (web) documents through entity mining and provides exploration services by exploiting Linked Open Data (LOD), in real-time and only when needed. The system aims at assisting biologists in their research on species and biodiversity. It was based on requirements coming from the biodiversity domain and was awarded the first prize in the Blue Hackathon 2013. Theophrastus  has been designed to be highly configurable regarding a number of different aspects like entities of interest, information cards and external search systems. As a result it can be exploited in different contexts and other areas of interest. The provided experimental results show that the proposed approach is efficient and can be applied in real-time.
+
+
+HACK FOR CF, THE CYSTIC FIBROSIS HACKATHON
+By: McCarty, N. A.; Geyer, R.; Allen, T.; et al.
+PEDIATRIC PULMONOLOGY  Volume: 49   Supplement: 38   Pages: 391-391   Meeting Abstract: 480   Published: SEP 2014
+
+No abstract available
+
+
+Civic Hackathons: Innovation, Procurement, or Civic Engagement?
+By: Johnson, Peter; Robinson, Pamela
+REVIEW OF POLICY RESEARCH  Volume: 31   Issue: 4   Pages: 349-357   Published: JUL 2014 
+
+At all levels, governments around the world are moving toward the provision of open data, that is, the direct provision to citizens, the private sector, and other third parties, of raw government datasets, controlled by a relatively permissible license. In tandem with this distribution of open data is the promotion of civic hackathons, or "app contests" by government. The civic hackathon is designed to offer prize money to developers as a way to spur innovative use of open data, more specifically the creation of commercial software applications that deliver services to citizens. Within this context, we propose that the civic hackathon has the potential to act in multiple ways, possibly as a backdoor to the traditional government procurement process, and as a form of civic engagement. We move beyond much of the hype of civic hackathons, critically framing an approach to understanding civic hackathons through these two lenses. Key questions for future research emphasize the emerging, and important, nature of this research path.
+
+
+
+Open innovation requires integrated competition-community ecosystems: Lessons learned from civic open innovation
+By: Almirall, Esteve; Lee, Melissa; Majchrzak, Ann
+BUSINESS HORIZONS  Volume: 57   Issue: 3   Pages: 391-400   Published: MAY-JUN 2014 
+
+Open innovation has received substantial business attention as a means of providing firms in hyper-competitive environments with the ability to create a stream of new products and services. For open innovation, organizing external sources correctly is a critical capability; current literature suggests that external sources should be organized either as collaborative communities or as competitive markets. While firms have generally been slow to adopt open innovation, many cities in the U.S. and Europe have been quick to embrace it-providing needed field-based experience on how to organize external sources. Based on our examination of six cities opening their data for innovation, we found that while cities often started with one or the other approach to organizing their external sources, each approach was inadequate in ways that could potentially be addressed by the addition of the other approach. Thus, we conclude with an integrated approach in which the needs of the entire ecosystem of sources and supporters of innovation are organized to address both competitive and community needs. (C) 2014 Kelley School of Business, Indiana University. Published by Elsevier Inc. All rights reserved.
+
+
+
+Reinventing Relevance
+By: Milojicic, Dejan S.
+COMPUTER  Volume: 47   Issue: 1   Pages: 6-8   Published: JAN 2014 
+
+Today's IT professionals, computer engineers, and students share knowledge directly through the Internet and gather at "cool" events like hackathons. How can the Computer Society reinvent its relevance with contemporary researchers and practitioners?
+
+
+
+Open innovation in digital journalism: Examining the impact of Open APIs at four news organizations
+By: Aitamurto, Tanja; Lewis, Seth C.
+NEW MEDIA & SOCIETY  Volume: 15   Issue: 2   Pages: 314-331   Published: MAR 2013 
+
+This article examines the relative value of open innovation principles for digital media, exemplified by the emergence of Open Application Programming Interfaces (Open APIs) at four news organizations: The New York Times, The Guardian, USA Today and NPR. The use of Open APIs represents a shift toward an open innovation paradigm that may help address twin challenges facing the news industry: the need for improved R&D and the need for new revenue streams. This paper extends the interdisciplinary study of open innovation to digital communication. Findings indicate that the use of Open APIs has accelerated R&D through knowledge-sharing with web developers; generated new means of commercializing content by extending a firm's product portfolio; and forged innovation networks that function as external R&D departments. The article discusses the constant negotiation between openness and control, and open and closed paradigms in journalism.
+
+
+Mic Check! Media Cultures and the Occupy Movement
+By: Costanza-Chock, Sasha
+SOCIAL MOVEMENT STUDIES  Volume: 11   Issue: 3-4   Special Issue: SI   Pages: 375-385   
+
+Scholars and activists have hotly debated the relationship between social media and social movement activity during the current global cycle of protest. This article investigates media practices in the Occupy movement and develops the concept of social movement media cultures: the set of tools, skills, social practices and norms that movement participants deploy to create, circulate, curate and amplify movement media across all available platforms. The article posits three key areas of inquiry into social movement media cultures, and explores them through the lens of the Occupy movement: (1) What media platforms, tools and skills are used most widely by movement participants? (Practices); (2) What role do experienced practitioners play in movement media practices? (Expertise); and (3) In what ways does the movement media culture lean toward open or participatory, and in what ways toward closed or top-down? (Open/Closed). Insight into the media culture of the Occupy movement is based on mixed qualitative and quantitative methods, including semi-structured interviews, participant observation, visual research and participation in Occupy Hackathons, as well as the Occupy Research General Demographic and Political Participation Survey, a database of approximately 1200 local Occupy sites, and a dataset of more than 13 million Occupy-related tweets. The findings will be of interest to both scholars and movement participants.
+
+
+The 2006 NESCent Phyloinformatics Hackathon: A Field Report
+By: Lapp, Hilmar; Bala, Sendu; Balhoff, James P.; et al.
+EVOLUTIONARY BIOINFORMATICS  Volume: 3   Pages: 287-296   Published: 2007 
+
+In December, 2006, a group of 26 software developers from some of the most widely used life science programming toolkits and phylogenetic software projects converged on Durham, North Carolina, for a Phyloinformatics Hackathon, an intense five-day collaborative software coding event sponsored by the National Evolutionary Synthesis Center (NESCent). The goal was to help researchers to integrate multiple phylogenetic software tools into automated workflows. Participants addressed deficiencies in interoperability between programs by implementing "glue code" and improving support for phylogenetic data exchange standards (particularly NEXUS) across the toolkits. The work was guided by use-cases compiled in advance by both developers and users, and the code was documented as it was developed. The resulting software is freely available for both users and developers through incorporation into the distributions of several widely-used open-source toolkits. We explain the motivation for the hackathon, how it was organized, and discuss some of the outcomes and lessons learned. We conclude that hackathons are an effective mode of solving problems in software interoperability and usability, and are underutilized in scientific software development.
