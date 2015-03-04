@@ -21,9 +21,9 @@ Small group, but could try speed-dating i.e. 1:1 chats 2-min each, everyone meet
 
 ...?
 
-#### Lean Coffee for an hour
+#### [Lean Coffee](http://leancoffee.org/) for an hour
 
-A meeting format that helps focus discussion on those topics of interest shared across the group, and to crowd-control the amount of time spend discussing each topic. URL
+A meeting format that helps focus discussion on those topics of interest shared across the group, and to crowd-control the amount of time spend discussing each topic. [This link](http://leancoffee.org/) describes it in a bit more detail.
 
 Could help us spot/catch any common discussion topics of interest, and give us a chance to discuss them all together, that somehow weren't covered during meeting preparations.
 
@@ -47,7 +47,7 @@ Possible sub-projects could include:
 
 #### Cluster around pitched sub-projects by interests, start working on them 
 
-Very similar to Open Space Technology approaches URL, people free to move between projects as feels right to them.
+Very similar to Open Space Technology approaches (the [wikipedia article](http://en.wikipedia.org/wiki/Open_Space_Technology) on this gives a reasonable, quick intro to the idea), people free to move between projects as feels right to them.
 
 #### Regular updates on progress (midday, evening)
    
