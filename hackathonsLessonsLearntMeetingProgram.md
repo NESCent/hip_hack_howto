@@ -13,13 +13,11 @@ To produce material that we can share with the world, that will help organisers 
 
 #### Welcome and introduction to the event
 
-#### Personal introductions
+#### Personal introductions (25 min)
 
-Something other than one at a time introduce ourselves? e.g.
+Speed-dating - we'll be 8 people (as I think Rutger - or someone else - arrives in the afternoon, at which point we'll be 9) which fits the [approach described here](http://figshare.com/articles/Why_participate_in_a_course_Speed_dating_introduction_activity_/1145610) well, as it works best (i.e. with noone ever standing around without someone to talk to) with square numbers. We'll do 3 minutes per chat, so we'll allow 25 minutes for the session.
 
-Small group, but could try speed-dating i.e. 1:1 chats 2-min each, everyone meets everyone?
-
-...?
+Aim is to generally wake us all up, promote an interactive/collaborative approach for the rest of the day,  making sure that everyone at the meeting has a chance to directly greet each other. This is most useful for people who know few people at the meeting, but experience indicates that even those who already know most others enjoy the chance for a chat with those they already know.
 
 #### [Lean Coffee](http://leancoffee.org/) for an hour
 
