@@ -9,29 +9,51 @@ To produce material that we can share with the world, that will help organisers 
 - organise more effective events, and to do this more efficiently i.e. with less time and/or effort
 - lobby funders to provide resources to organise such events
 
-### Program
+### Thursday 12th March
+
+My (Aidan's) aims with this first morning session are to help us:
+
+- "break the ice" i.e. help us all get to know each other, and set a collaborative, friendly mood for the rest of the meeting
+- check we have aligned goals and intended outcomes for our 4 days together; if not, or there's uncertainty, to discuss and agree on some
+- explore a wide range of possible activities we could carry out to achieve our aims, with particular focus on what we can achieve during the 4 days
+
+Some of the above is already worked on during our pre-course hangouts, but doing this is person may help develop all these things further, which may help us in spotting opportunities we didn't yet touch on.
 
 #### Welcome and introduction to the event
 
-#### Personal introductions (25 min)
+Probably best coming from Arlin.
 
-Speed-dating - we'll be 8 people (as I think Rutger - or someone else - arrives in the afternoon, at which point we'll be 9) which fits the [approach described here](http://figshare.com/articles/Why_participate_in_a_course_Speed_dating_introduction_activity_/1145610) well, as it works best (i.e. with noone ever standing around without someone to talk to) with square numbers. We'll do 3 minutes per chat, so we'll allow 25 minutes for the session.
+#### Personal introductions
+
+Let's vote on which of the two following options we use for introducing ourselves:
+
+##### Option 1: Speed-dating
+
+We'll be 8 people (as I think Rutger - or someone else - arrives in the afternoon, at which point we'll be 9) which fits the [approach described here](http://figshare.com/articles/Why_participate_in_a_course_Speed_dating_introduction_activity_/1145610) well, as it works best (i.e. with no one ever standing around without someone to talk to) with square numbers. We'll do 3 minutes per chat, so we'll allow 25 minutes for the session. (If we're 7, then one person is always standing silently - but then that person can be the one counting the next 3 minutes down for us!)
 
 Aim is to generally wake us all up, promote an interactive/collaborative approach for the rest of the day,  making sure that everyone at the meeting has a chance to directly greet each other. This is most useful for people who know few people at the meeting, but experience indicates that even those who already know most others enjoy the chance for a chat with those they already know.
 
-#### [Lean Coffee](http://leancoffee.org/) for an hour
+##### Option 2: "Classic" introductions
 
-A meeting format that helps focus discussion on those topics of interest shared across the group, and to crowd-control the amount of time spend discussing each topic. [This link](http://leancoffee.org/) describes it in a bit more detail.
+One at a time, each person stands up and describes their current job and their reason for being interested in joining the meeting
+
+
+
+#### [Lean Coffee](http://leancoffee.org/) (30 min - 1 hour)
+
+A meeting format that helps focus discussion on those topics of interest shared by the majority of a group, and to regulate the amount of time spend discussing each topic so that it fits the interest/attention span of the majority of the group. [This link](http://leancoffee.org/) describes it in a bit more detail.
+
+Could be good to have a volunteer to take minutes during the session, ideally taken online (GoogleDoc, Etherpad?), and to take a photo of the post-it notes used for voting at the end of the session.
+
+If we find the format useful, we might like to try starting each day with one.
 
 Could help us spot/catch any common discussion topics of interest, and give us a chance to discuss them all together, that somehow weren't covered during meeting preparations.
 
 #### BrainSwarming
 
-BrainSwarming is an approach to generating a set of possible solutions to a problem that is a response to acknowledged problems of brainstorming.
+BrainSwarming is an approach to generating a set of possible solutions to a problem that is a response to acknowledged inefficiencies of brainstorming. It also produces a map/network of a groups ideas about addressing a question or problem that can be useful documentation for future discussion, without time being spent organising and transcribing the results of a discussion.
 
-Here's a [page on Harvard Buisness Review](http://99u.com/workbook/24273/stop-brainstorming-start-brainswarming) with a video embedded that describes the process and the rationale.
-
-And here's a [more detailed description of it on BrainPlay](http://brainplay.wikia.com/wiki/Brainswarming)
+Here's a [page on Harvard Buisness Review](http://99u.com/workbook/24273/stop-brainstorming-start-brainswarming) with a video embedded that describes the process and the rationale. And here's a [more detailed description of it on BrainPlay.](http://brainplay.wikia.com/wiki/Brainswarming)
 
 I've (Aidan) never tried it, but been looking for an opportunity to try it out. Might be fun to try, and we might get something surprising/valuable out of it?
 
