@@ -37,11 +37,16 @@ Aim is to generally wake us all up, promote an interactive/collaborative approac
 
 One at a time, each person stands up and describes their current job and their reason for being interested in joining the meeting
 
+#### Clarifying goals, intended outcomes, program structure, activities etc.
 
+Let's vote on which of the following activities we do, and in what order (we can change our mind as we go along). My suggestion would be:
 
-#### [Lean Coffee](http://leancoffee.org/) (30 min - 1 hour)
+- 45 - 60 min of Lean Coffee to start us off exploring, very free-form, what we're interested in doing together, any pressing issues not yet discussed in what we percieve as enough detail
+- 60 min Project Point of Departure for us to draw up together and agree on a set of important features of the meeting (outcomes, goals, possible activities etc.)
 
-A meeting format that helps focus discussion on those topics of interest shared by the majority of a group, and to regulate the amount of time spend discussing each topic so that it fits the interest/attention span of the majority of the group. [This link](http://leancoffee.org/) describes it in a bit more detail.
+#### [Lean Coffee](http://de.slideshare.net/SteveRogalsky/a-guide-to-lean-coffee) 
+
+A meeting format that helps focus discussion on those topics of interest shared by the majority of a group, and to regulate the amount of time spend discussing each topic so that it fits the interest/attention span of the majority of the group. [This link](http://de.slideshare.net/SteveRogalsky/a-guide-to-lean-coffee) describes it in a bit more detail.
 
 Could be good to have a volunteer to take minutes during the session, ideally taken online (GoogleDoc, Etherpad?), and to take a photo of the post-it notes used for voting at the end of the session.
 
@@ -49,13 +54,34 @@ If we find the format useful, we might like to try starting each day with one.
 
 Could help us spot/catch any common discussion topics of interest, and give us a chance to discuss them all together, that somehow weren't covered during meeting preparations.
 
+#### [Project Point of Departure](http://toolbox.hyperisland.com/project-point-of-departure)
+
+This is not much more (indeed, if I understand, it is nothing more) than us running together through a list of issues/questions where we try to agree, in a short time, on a common answer to them. We could give 10 minutes (maximum) to each of the topics listed below?
+
+The text below is largely quoted from this "Hyper Island" description of the activity, with a bit of editing:
+
+***Purpose***: What is the overall purpose of the project? (express this in one sentence)
+
+***Desired Outcome***: What specific outcomes should be achieved by the end of the project? (aim for 2-4 bullets)
+
+***Target Group & Value***: Who are you doing the project for? And what value does it provide to those people? (aim for 3 bullets or less)
+
+***Milestones & Budget***: What needs to happen by when? And how much money do you have? (broken down into bullet points, on a broad level)
+
+***How***: How will the team work together, how will you communicate, divide tasks, collaborate, approach decision making, etc. (try to define about 5 guidelines with short descriptions for each)
+
+***Success / Fiasco Criterias***: What do success look like? What does failure look like? (aim for 4-5 bullet point for each one)
+
+***Connections***: What projects are connected to this one? Are there any other documents or data sources that we need to take into account? (list the connections with hyperlinks to key documents)
+
+
 #### BrainSwarming
 
 BrainSwarming is an approach to generating a set of possible solutions to a problem that is a response to acknowledged inefficiencies of brainstorming. It also produces a map/network of a groups ideas about addressing a question or problem that can be useful documentation for future discussion, without time being spent organising and transcribing the results of a discussion.
 
 Here's a [page on Harvard Buisness Review](http://99u.com/workbook/24273/stop-brainstorming-start-brainswarming) with a video embedded that describes the process and the rationale. And here's a [more detailed description of it on BrainPlay.](http://brainplay.wikia.com/wiki/Brainswarming)
 
-I've (Aidan) never tried it, but been looking for an opportunity to try it out. Might be fun to try, and we might get something surprising/valuable out of it?
+I've (Aidan) never tried it, but been looking for an opportunity to try it out. However,
 
 Some ideas for how to start structuring the session could be:
 
