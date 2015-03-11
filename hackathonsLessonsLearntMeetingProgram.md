@@ -43,6 +43,9 @@ Let's vote on which of the following activities we do, and in what order (we can
 
 - 45 - 60 min of Lean Coffee to start us off exploring, very free-form, what we're interested in doing together, any pressing issues not yet discussed in what we percieve as enough detail
 - 60 min Project Point of Departure for us to draw up together and agree on a set of important features of the meeting (outcomes, goals, possible activities etc.)
+- 60 min of either/or/both Open Space Technology to start putting together ideas for specific projects, or more Lean Coffee, to identify the initial groups/teams and their goals for the work of the rest of the day
+
+i.e. leaving out the brainswarming as I have my doubts of it being useful in this context.
 
 #### [Lean Coffee](http://de.slideshare.net/SteveRogalsky/a-guide-to-lean-coffee) 
 
@@ -74,42 +77,23 @@ The text below is largely quoted from this "Hyper Island" description of the act
 
 ***Connections***: What projects are connected to this one? Are there any other documents or data sources that we need to take into account? (list the connections with hyperlinks to key documents)
 
-
 #### BrainSwarming
 
 BrainSwarming is an approach to generating a set of possible solutions to a problem that is a response to acknowledged inefficiencies of brainstorming. It also produces a map/network of a groups ideas about addressing a question or problem that can be useful documentation for future discussion, without time being spent organising and transcribing the results of a discussion.
 
 Here's a [page on Harvard Buisness Review](http://99u.com/workbook/24273/stop-brainstorming-start-brainswarming) with a video embedded that describes the process and the rationale. And here's a [more detailed description of it on BrainPlay.](http://brainplay.wikia.com/wiki/Brainswarming)
 
-I've (Aidan) never tried it, but been looking for an opportunity to try it out. However,
-
-Some ideas for how to start structuring the session could be:
-
-Problem:
+I've (Aidan) never tried it, but had thought it could be interesting. However I've tried it out with several gruops since proposing it last week, working with similarly abstract kinds of problems, and it clearly works best with "simple", "physical" problems/goals, things that have "solutions". They also need to be fairly focused - possible ideas could be:
 
 - "Help others deliver more effective efficient 'community' hackathons"
+- "Sharing what we learnt from our hackathons with the world"
+- "Building towards quantitative analysis of benefits/impact and successful features of hackathons"
 
-Possible approaches to addressing the problem (direct links to the problem):
-- Peer-review journal publication based on lessons learned
-- Dataset publication
-- ...?
-
-More detailed description of carrying out a particular solution (e.g. direct linked to "dataset publication"):
-
-- describe set of hypotheses of interest for testing with current (or possibly future-collected) data
-- write scripts to analyse hypothetical data
-
-Resources:
-
-- Survey results
-- Available literature
-- github logs
-- Twitter archives
-
+But even just choosing a "good" topic is difficult
 
 #### Pitch the sub-projects
 
-Possible sub-projects could include:
+Just a list of possible proejcts for us to attempt during the four days, to keep in mind/reserve for the discussions:
 
 - literature survey (peer-reviewed, and otherwise as is seen as particularly useful) of hackathons, including classification/categorisation into different types/styles of hackathon
 - description of the organisation and logistics of a typical NESCent hackathon
@@ -125,9 +109,6 @@ Possible sub-projects could include:
     - surveys
     - etc.
 
-#### Cluster around pitched sub-projects by interests, start working on them 
+#### Open Space Technology
 
-Very similar to Open Space Technology approaches (the [wikipedia article](http://en.wikipedia.org/wiki/Open_Space_Technology) on this gives a reasonable, quick intro to the idea), people free to move between projects as feels right to them.
-
-#### Regular updates on progress (midday, evening)
-   
+This approach [wikipedia article](http://en.wikipedia.org/wiki/Open_Space_Technology) gives a way for us to identify the projects we most want to get done during the four days, with us voting with our feet etc.
