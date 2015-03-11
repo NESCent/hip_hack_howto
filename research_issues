@@ -22,3 +22,21 @@ This doc is for planning the research track of the meeting, which aims to gather
 * What is the most effective way to manage team-formation? 
 * 
 
+## how to accomplish this 
+
+We  need some kind of database.  At minimum, a spreadsheet or set of them. 
+
+NEAD is operating at the wrong level of granularity.  The projects in NEAD probably are at the level of HIP (which sponsored multiple hackathons) or specific hackathons (e.g., phylotastic), but not specific hackathon team projects, which is the level of granularity that we want, ideally.   
+
+If we think of this as a relational database in normal form, the ideal would be something like
+* name with attributes person_id, name (so we can keep people anonymized) 
+* person with attributes person_id, along with professional status or whatever 
+* project with attributes project_id, narrative description, 
+* person-project participation linking person_id with project_id (many to 1)
+* tangible outcomes (code, docs, proposals, etc) in NEAD or other source
+* project-outcome link (1 to many, but sometimes many-to-many when >1 phylotastic teams contribute to paper)
+
+We can get the person stuff from NEAD.  This should have the data for everyone that matters to us.  
+
+what information do we need for each project?  Where do we get that?  Much information is on the NESCent web site.  
+
