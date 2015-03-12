@@ -69,3 +69,8 @@ This article gives a more detailed description of the relevant meetings than in 
 
 
 There are several other 'academic' articles that can be found by doing the same search in Web of Science - [this file](./titlesAbstractsNonPubMedHackathonAcademicArticles.txt) is a list of the titles and abstracts (where available) - this includes the "2006 NESCent Phyloinformatics Hackathon: A Field Report" article in Evolutionary Bioniformatics.
+
+8 [StitchFest: Diversifying a College Hackathon to Broaden Participation and Perceptions in Computing.](http://dl.acm.org/citation.cfm?doid=2676723.2677310) Proceeding SIGCSE '15 Proceedings of the 46th ACM Technical Symposium on Computer Science Education Pages 114-119. 	Gabriela T. Richard, Yasmin B. Kafai, Barrie M. Adleberg, Orkan Telhan
+
+Some interesting discussions about how to broaden participation and diversity.
+
