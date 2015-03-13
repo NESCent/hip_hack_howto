@@ -41,6 +41,7 @@ We’ve tried to do this using mailing lists, github discussions, etc. Generally
 
 #During the Hackathon
 
+##Schedule and Structure
 **Day 1:** The first day of the hackathon is the most unique in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, followed by very brief introductions from all the participants (who you are, why you’re there). This was generally followed by a series of technical presentations (“boot camps”), where key technologies or concepts important to the overall planned scope of the project, are introduced. These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of these presentations can vary quite a bit; sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
 
 The next major activity is an open brain-storming session where any participant can propose an idea or concept that they think would be interesting to pursue. This is a more general discussion, high-level and less technical. What would we like to do, not how will we do it? 
@@ -53,5 +54,13 @@ At this stage, with primary projects identified and teams self-assembled, the re
 
 At the end of the hackathon, a general assembly to wrap things up, discuss overall progress, future plans, etc.
 
+##Facilities
+*Note: this could go into a pre-hackathon planning section, rather than a during hackathon section*
+
+The hackathon requires a single large meeting room, particularly on the first day, where general discussion, introductions, bootcamp activities, and pitches can occur. The room should be large enough not only to seat everyone, but also to allow free movement and clustering during the pitch session. When possible, it is best if the structure of the seating is non-hierarchical; for example, in a smaller group setting, a single large table which only seats a subset of participants, with others arranged around it sets up a social structure which potentially drops participants into two tiers (with one, literally, "at the table"). 
+
+Beyond these full group activities, however, the large room does not have to serve as a primary workspace when the individual projects get going. In fact, smaller separate rooms are often preferred because it allows each individual group to work and discuss without disturbing other groups. Optimally, these rooms should be near enough the primary group room that people can easily check in with other groups, catch up for meals and breaks, group updates, etc.
+
+Generally, computer equipment is not expected to be provided and participants will be working on their own laptops. Because so much of the hackathon activities involve computers, it should be clear and understood that readily available WiFi access and numerous electrical outlets are absolutely necessary.
 
 #Post Hackathon Activities
