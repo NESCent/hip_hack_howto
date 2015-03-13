@@ -1,5 +1,6 @@
 digraph pert {
 	node [ shape = box, style = filled, fontname = "Verdana" ];
+	edge [ fontname = "Verdana" ];
 	
 	/* The following nodes are assumed to be the responsibility
 	of the "instigators", i.e. the core team that precedes, and
@@ -52,28 +53,43 @@ digraph pert {
 	each milestone in this graph would allow us to compute the actual
 	critical path and validate the following, subjective, assignments
 	to the critical path */
-	edge [color = red];
-	"Broad goals" -> "Hackathon initiative" -> "Initial scope and goals" ->
-	"Assembled LT" -> "Finalized scope and goals" -> "Defined target community" ->
-	"Call for participation" -> "Applications" -> "Applicant reviews and ranking" ->
-	"Invites" -> "Finalized roster" -> "Travel arrangements" -> "Event" ->
-	"Required reporting";
+	edge [color = red fontcolor = red];
+	
+	"Broad goals" -> "Hackathon initiative" [ label = "XXd" ];
+	"Hackathon initiative" -> "Initial scope and goals" [ label = "XXd" ];
+	"Initial scope and goals" -> "Assembled LT" [ label = "XXd" ];
+	"Assembled LT" -> "Finalized scope and goals" [ label = "XXd" ];
+	"Finalized scope and goals" -> "Defined target community" [ label = "XXd" ];
+	"Defined target community" -> "Call for participation" [ label = "XXd" ];
+	"Call for participation" -> "Applications" [ label = "XXd" ];
+	"Applications" -> "Applicant reviews and ranking" [ label = "XXd" ];
+	"Applicant reviews and ranking" -> "Invites" [ label = "XXd" ];
+	"Invites" -> "Finalized roster" [ label = "XXd" ];
+	"Finalized roster" -> "Travel arrangements" [ label = "XXd" ];
+	"Travel arrangements" -> "Event" [ label = "XXd" ];
+	"Event" -> "Required reporting" [ label = "XXd" ];
 	
 	/* These edges do not belong to the critical path. This doesn't mean
 	they're somehow less important, just that they don't participate in the
 	longest dependency chain. */
-	edge [color = black];
-	"Resources" -> "Hackathon initiative";
-	"Resources" -> "Additional funding" -> "Budget" -> "Logistics plan" -> 
-	"Travel arrangements";
-	"Finalized scope and goals" -> "Reserved seats" -> "Invites";
-	"Finalized scope and goals" -> "Review criteria" -> "Applicant reviews and ranking";
-	"Review criteria" -> "Call for participation";
-	"Finalized roster" -> "Pre-event engagement" -> "Event";
-	"Event" -> "Intangible outcomes";
-	"Event" -> "Accessible outcomes";
-	"Event" -> "Publicity";
-	"Assembled LT" -> "Additional funding";
-	"Assembled LT" -> "Budget";
-	"Assembled LT" -> "Logistics plan";
+	edge [color = black fontcolor = black];
+	
+	"Resources" -> "Hackathon initiative" [ label = "XXd" ];
+	"Resources" -> "Additional funding" [ label = "XXd" ];
+	"Additional funding" -> "Budget" [ label = "XXd" ];
+	"Budget" -> "Logistics plan" [ label = "XXd" ];
+	"Logistics plan" -> "Travel arrangements" [ label = "XXd" ];
+	"Finalized scope and goals" -> "Reserved seats" [ label = "XXd" ];
+	"Finalized scope and goals" -> "Review criteria" [ label = "XXd" ];
+	"Review criteria" -> "Applicant reviews and ranking" [ label = "XXd" ];	
+	"Review criteria" -> "Call for participation" [ label = "XXd" ];
+	"Reserved seats" -> "Invites" [ label = "XXd" ];
+	"Finalized roster" -> "Pre-event engagement" [ label = "XXd" ];
+	"Pre-event engagement" -> "Event" [ label = "XXd" ];
+	"Event" -> "Intangible outcomes" [ label = "XXd" ];
+	"Event" -> "Accessible outcomes" [ label = "XXd" ];
+	"Event" -> "Publicity" [ label = "XXd" ];
+	"Assembled LT" -> "Additional funding" [ label = "XXd" ];
+	"Assembled LT" -> "Budget" [ label = "XXd" ];
+	"Assembled LT" -> "Logistics plan" [ label = "XXd" ];
 }
