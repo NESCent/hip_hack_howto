@@ -1,0 +1,79 @@
+digraph pert {
+	node [ shape = box, style = filled, fontname = "Verdana" ];
+	
+	/* The following nodes are assumed to be the responsibility
+	of the "instigators", i.e. the core team that precedes, and
+	results in, a leadership team */
+	node [fillcolor = yellow];
+	
+	"Broad goals"; // e.g. the goals of a research project that provides core funding
+	"Resources"; // e.g. funding from a project under whose aegis the event is held
+	"Hackathon initiative"; // the decision taken by instigators to organize a hackathon
+	"Initial scope and goals"; // the scope and goals as perceived by the instigators
+	"Assembled LT"; // a more or less finalized Leadership Team to organize the hackathon
+	
+	/* The following nodes are assumed to be the responsibility
+	of the leadership team */
+	node [fillcolor = cyan];
+	
+	"Finalized scope and goals"; // the overarching scope and goals as perceived by the LT
+	"Additional funding"; // any additionally acquired funding
+	"Budget"; // the budget for the hackathon, potentially covering travel, catering, accommodation and venue
+	"Logistics plan"; // planning for location, date, venue, travel, catering, accommodation
+	"Required reporting"; // any reporting that is required by the funders
+	
+	/* The following nodes are concerned with the recruitment 
+	process. These are actually also the responsibility of the LT,
+	but for the team being they are marked up differently */
+	node [fillcolor = greenyellow];
+
+	"Reserved seats"; // a list of domain experts the LT want to invite
+	"Defined target community"; // a list of potential participant types
+	"Review criteria"; // set of criteria by which applicants are reviewed and ranked
+	"Call for participation"; // a widely circulated invitation to apply for participation
+	"Applications"; // a set of completed applications, e.g. forms / email responses
+	"Applicant reviews and ranking"; // reviews and ensuing ranking of applicants
+	"Invites"; // invitations to domain experts and positively reviewed applicants
+	"Finalized roster"; // the final list of participants
+	
+	/* The following nodes are the responsibility of all involved:
+	the LT and the participants */
+	node [fillcolor = orchid1];
+	
+	"Pre-event engagement"; // online interactions to refine scope and goals and expectation management
+	"Travel arrangements"; // participant travel and accommodation 
+	"Event"; // the hackathon itself
+	"Intangible outcomes"; // e.g. strengthened community, knowledge transfer
+	"Accessible outcomes"; // e.g. publications, proposals, code
+	"Publicity"; // e.g. social media, newsletters, hackathon proceedings
+	
+	/* The following edges are assumed to constitute the "critical 
+	path". As a TODO item, a specification of the time needed to achieve
+	each milestone in this graph would allow us to compute the actual
+	critical path and validate the following, subjective, assignments
+	to the critical path */
+	edge [color = red];
+	"Broad goals" -> "Hackathon initiative" -> "Initial scope and goals" ->
+	"Assembled LT" -> "Finalized scope and goals" -> "Defined target community" ->
+	"Call for participation" -> "Applications" -> "Applicant reviews and ranking" ->
+	"Invites" -> "Finalized roster" -> "Travel arrangements" -> "Event" ->
+	"Required reporting";
+	
+	/* These edges do not belong to the critical path. This doesn't mean
+	they're somehow less important, just that they don't participate in the
+	longest dependency chain. */
+	edge [color = black];
+	"Resources" -> "Hackathon initiative";
+	"Resources" -> "Additional funding" -> "Budget" -> "Logistics plan" -> 
+	"Travel arrangements";
+	"Finalized scope and goals" -> "Reserved seats" -> "Invites";
+	"Finalized scope and goals" -> "Review criteria" -> "Applicant reviews and ranking";
+	"Review criteria" -> "Call for participation";
+	"Finalized roster" -> "Pre-event engagement" -> "Event";
+	"Event" -> "Intangible outcomes";
+	"Event" -> "Accessible outcomes";
+	"Event" -> "Publicity";
+	"Assembled LT" -> "Additional funding";
+	"Assembled LT" -> "Budget";
+	"Assembled LT" -> "Logistics plan";
+}
