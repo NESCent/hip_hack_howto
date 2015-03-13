@@ -1,13 +1,10 @@
-Expertise can be overrated as a selection criterion
-
+* Expertise can be overrated as a selection criterion
 
 Need a timeline of the whole process: if the hackathon starts at day 0, T-minus X months/weeks for the advertising, T-minus Y months/weeks for the deadline, etc.
 
-For Phylotastic 2, Advertising was Oct 31 (-3 months), Deadline was Nov 16 (-2.5 months), invitations were (-2 months)
-
+* For Phylotastic 2, Advertising was Oct 31 (-3 months), Deadline was Nov 16 (-2.5 months), invitations were (-2 months)
 
 #Pre-Hackathon Activities
-
 
 ##Advertising for Participants
 Two basic models: invitation and open call (or a mix of both). The pros of the invitation model is that you ensure that you have the right expertise, you can better control diversity by careful invitation. The cons are that you necessarily restrict participation to those you know to invite, which may be a biased pool. The pros of the open call are that you potentially hit a wider audience, people who you may not have known of or considered; also shows a direct interest in engaging the community. The cons are that you may end up missing necessary expertise. You may find a lack of diversity in applicants. You may not get enough applicants.
@@ -20,12 +17,10 @@ Our advertising has been predominantly through popular mailing lists in the appr
 
 Figure/Appendix X: example of an hackathon advertisement
 
-
 ##The Application Process
 We have used a fairly simple application form (through Google Docs) for screening participants (Figure/Appendix X). Beyond obvious fields such as name and contact info, we were interested in the following major fields: (1) availability: can the person attend the entire event; (2) a general checklist of skills/expertise that were applicable to the hackathon theme; (3) personal goal for attending the hackathon: why do they want to attend and what do they want to get from it; (4) demographics. (Lesson learned: we did not ask for demographic info in earlier applications, but found that diversity suffered when we didn’t have information to help balance decisions); (5) where they are coming from (for budgeting purposes) and whether they have support to attend without our funding.
 
 At one point we asked for proof of expertise, but it was a bit awkward and didn’t work very well. 
-
 
 ##Criteria for Choosing Participants
 Choosing participants for a hackathon is more complicated than simply choosing expert programmers. A number of criteria need to be considered in trying to optimize productivity. These include (1) the ability to work with others. Some people may be great at working alone, but unable to work in a group setting, which makes them a poor choice for such a group project. (2) Balancing coders and users. Having people who will be using the product working directly with the people who are writing them can help each side better understand how the two halves go together: coders can learn about the way users will want to use a product and the ways in which they’ll be capable of using it (interface), while users will learn more about what is feasible for a product. (3) Diversity: if one of the main goals of a hackathon is to increase the community engagement in a product, system, or concept, it is important to recruit from the broader representative community. This is not always easy. In a general call for applications, one often finds that those who view themselves on the fringes of the “hacker” community will not apply or feel that they cannot contribute, so effort needs to be made to directly encourage and/or invite them. 
@@ -41,14 +36,12 @@ Generally, we have found that the entire leadership team does not have to partic
 ##Process for Choosing Participants
 Applications were divided among leadership team members in a staggered fashion such that each applicant was reviewed by three different people. Applications were scored on a 3 point scale (3 = top, 2 = solid, 1 = poor; half point intervals sometimes used), based on the criteria described above, with a textual explanation for the ranking. Applicants were then ranked from high to low, and a conference call used to choose participants. The ranking was used as a general guide, but not as an absolute decision making criterion, in order to allow the leadership team to best balance the needs of expertise, experience, and diversity. Alternates were identified in case slots opened up after invitations were extended. 
 
-
 ##Pre-hackathon Engagement
 We’ve tried to do this using mailing lists, github discussions, etc. Generally, there has not been much success in getting people to engage prior to the hackathon. (The following is a guess). Those who do engage prior to the hackathon are likely to engage during so; little can be predicted about the during-hackathon-engagement of those who do not engage prior to the hackathon, however.
 
-
 #During the Hackathon
 
-Day 1: The first day of the hackathon is the most unique in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, followed by very brief introductions from all the participants (who you are, why you’re there). This was generally followed by a series of technical presentations (“boot camps”), where key technologies or concepts important to the overall planned scope of the project, are introduced. These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of these presentations can vary quite a bit; sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
+**Day 1:** The first day of the hackathon is the most unique in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, followed by very brief introductions from all the participants (who you are, why you’re there). This was generally followed by a series of technical presentations (“boot camps”), where key technologies or concepts important to the overall planned scope of the project, are introduced. These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of these presentations can vary quite a bit; sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
 
 The next major activity is an open brain-storming session where any participant can propose an idea or concept that they think would be interesting to pursue. This is a more general discussion, high-level and less technical. What would we like to do, not how will we do it? 
 
@@ -56,12 +49,9 @@ Following the open brainstorming (and usually with a break or meal in between), 
 
 At this stage, with primary projects identified and teams self-assembled, the remainder of the day is left for teams to begin planning how they will attack their individual projects.
 
-Days 2-X: Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about once per day (to avoid wasting too much time on updates).
+**Days 2-X:** Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about once per day (to avoid wasting too much time on updates).
 
 At the end of the hackathon, a general assembly to wrap things up, discuss overall progress, future plans, etc.
-
-
-
 
 
 #Post Hackathon Activities
