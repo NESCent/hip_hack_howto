@@ -5,48 +5,56 @@ digraph pert {
 	/* The following nodes are assumed to be the responsibility
 	of the "instigators", i.e. the core team that precedes, and
 	results in, a leadership team */
-	node [fillcolor = yellow];
+	subgraph instigators {
+		node [fillcolor = yellow];
 	
-	"Broad goals"; // e.g. the goals of a research project that provides core funding
-	"Resources"; // e.g. funding from a project under whose aegis the event is held
-	"Hackathon initiative"; // the decision taken by instigators to organize a hackathon
-	"Initial scope and goals"; // the scope and goals as perceived by the instigators
-	"Assembled LT"; // a more or less finalized Leadership Team to organize the hackathon
+		"Broad goals"; // e.g. the goals of a research project that provides core funding
+		"Resources"; // e.g. funding from a project under whose aegis the event is held
+		"Hackathon initiative"; // the decision taken by instigators to organize a hackathon
+		"Initial scope and goals"; // the scope and goals as perceived by the instigators
+		"Assembled LT"; // a more or less finalized Leadership Team to organize the hackathon
+	}
 	
 	/* The following nodes are assumed to be the responsibility
 	of the leadership team */
-	node [fillcolor = cyan];
+	subgraph leadership_team {
+		node [fillcolor = cyan];
 	
-	"Finalized scope and goals"; // the overarching scope and goals as perceived by the LT
-	"Additional funding"; // any additionally acquired funding
-	"Budget"; // the budget for the hackathon, potentially covering travel, catering, accommodation and venue
-	"Logistics plan"; // planning for location, date, venue, travel, catering, accommodation
-	"Required reporting"; // any reporting that is required by the funders
+		"Finalized scope and goals"; // the overarching scope and goals as perceived by the LT
+		"Additional funding"; // any additionally acquired funding
+		"Budget"; // the budget for the hackathon, potentially covering travel, catering, accommodation and venue
+		"Logistics plan"; // planning for location, date, venue, travel, catering, accommodation
+		"Required reporting"; // any reporting that is required by the funders
+	}
 	
 	/* The following nodes are concerned with the recruitment 
 	process. These are actually also the responsibility of the LT,
 	but for the team being they are marked up differently */
-	node [fillcolor = greenyellow];
+	subgraph recruitment {
+		node [fillcolor = greenyellow];
 
-	"Reserved seats"; // a list of domain experts the LT want to invite
-	"Defined target community"; // a list of potential participant types
-	"Review criteria"; // set of criteria by which applicants are reviewed and ranked
-	"Call for participation"; // a widely circulated invitation to apply for participation
-	"Applications"; // a set of completed applications, e.g. forms / email responses
-	"Applicant reviews and ranking"; // reviews and ensuing ranking of applicants
-	"Invites"; // invitations to domain experts and positively reviewed applicants
-	"Finalized roster"; // the final list of participants
+		"Reserved seats"; // a list of domain experts the LT want to invite
+		"Defined target community"; // a list of potential participant types
+		"Review criteria"; // set of criteria by which applicants are reviewed and ranked
+		"Call for participation"; // a widely circulated invitation to apply for participation
+		"Applications"; // a set of completed applications, e.g. forms / email responses
+		"Applicant reviews and ranking"; // reviews and ensuing ranking of applicants
+		"Invites"; // invitations to domain experts and positively reviewed applicants
+		"Finalized roster"; // the final list of participants
+	}
 	
 	/* The following nodes are the responsibility of all involved:
 	the LT and the participants */
-	node [fillcolor = orchid1];
+	subgraph everyone {
+		node [fillcolor = orchid1];
 	
-	"Pre-event engagement"; // online interactions to refine scope and goals and expectation management
-	"Travel arrangements"; // participant travel and accommodation 
-	"Event"; // the hackathon itself
-	"Intangible outcomes"; // e.g. strengthened community, knowledge transfer
-	"Accessible outcomes"; // e.g. publications, proposals, code
-	"Publicity"; // e.g. social media, newsletters, hackathon proceedings
+		"Pre-event engagement"; // online interactions to refine scope and goals and expectation management
+		"Travel arrangements"; // participant travel and accommodation 
+		"Event"; // the hackathon itself
+		"Intangible outcomes"; // e.g. strengthened community, knowledge transfer
+		"Accessible outcomes"; // e.g. publications, proposals, code
+		"Publicity"; // e.g. social media, newsletters, hackathon proceedings
+	}
 	
 	/* The following edges are assumed to constitute the "critical 
 	path". As a TODO item, a specification of the time needed to achieve
