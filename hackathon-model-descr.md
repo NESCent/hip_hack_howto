@@ -67,20 +67,9 @@ leadership team is put in charge early on the process, and is
 assembled from people that are invested in the event's outcomes and
 that between them represent a wide umbrella of perspectives.
 
-**Open calls for participation.**
-
-**Explicit goal of diversity.**
-
-**All products are open-source, immediately.**
-
-Also "unique" (may not necessarily be distinct):
-
-Set up a process so decision making is done well with informed deliberation
-What composition of the leadership team facilitates this?
-Diversity
-More diverse tend to be more creative and more impactful products 
-Recruitment: Open call
-Biggest challenge is getting a diverse applicant pool (no diversity in applicants, no diversity in participants)
-Tried to increase diversity by expanding outreach (using networks/connections, social media)
-Tried to tweak message to make it more welcoming to broader audiences
-Approaching people directly in addition to an open call
+**All products are public and open-source, immediately.** This
+normally implies that all software tools or resources targeted by work
+at the hackathon must be open-source projects. While code produced at
+the event may be merged into a larger target codebase only with a
+delay, or after further modification, there is no embargo on any of
+the code produced at the hackathon.
