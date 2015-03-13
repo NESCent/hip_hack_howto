@@ -42,24 +42,39 @@ research staff. The model is potentially well applicable to non-profit
 and government settings as well, but in the industry realm in
 particular the duration will prevent most people from participating.
 
-NESCent Model: Distinctive Characteristics
- ~5 days long
- Can tackle larger scoped problems that you can't in a shorter amount of time
-More likely to achieve the goal of interoperability (and sustaining it)
-Allows harder, more complex discussions to happen to enable new solutions and bring solutions together
-Community engagement, discussion, and participation afterward is more likely (builds community cohesion)
-Longer than 5 is exhaustive and challenging
-Scope
-Scope not left to participants; participants know the scope before hand
-Specific objectives
+The following additional characteristics have also emerged as common
+across NESCent Model-hackathons, but they can be found frequently in other
+types of hackathon events as well.
 
+**Structured first day, unstructured rest.** Most of the first day of
+hackathons in this model is taken up by structured activities that
+start with welcoming everyone and end with participants breaking up
+into teams with self-chosen target projects. The rest of the time is
+largely unstructured, with teams determining their schedule on their
+own. The whole event concludes with show-and-tell of each team,
+followed by identifying actions the sponsor can take, or resources the
+sponsor could help establish, to aid post-hackathon completion and,
+ideally, sustainability of nascent products.
+
+**Leadership team for collaborative well-informed decision making.**
+There are many points in the planning phase of a NESCent
+Model-hackathon at which decisions have to be made that co-determine
+the direction and outcomes of the event, but for which right or wrong
+answers do not necessarily exist. To ensure that these decisions are
+made in a well-informed and deliberate manner, a leadership team
+rather than a single individual is responsible for them. The
+leadership team is put in charge early on the process, and is
+assembled from people that are invested in the event's outcomes and
+that between them represent a wide umbrella of perspectives.
+
+**Open calls for participation.**
+
+**Explicit goal of diversity.**
+
+**All products are open-source, immediately.**
 
 Also "unique" (may not necessarily be distinct):
-1st Day
-1st day is well structured
-[describe 1st day structure]
-Leadership team (need more discussion - doesn't stand out)
-Aim to spread the work and ensuring the decision making will be well informed by having different perspectives
+
 Set up a process so decision making is done well with informed deliberation
 What composition of the leadership team facilitates this?
 Diversity
@@ -67,7 +82,5 @@ More diverse tend to be more creative and more impactful products
 Recruitment: Open call
 Biggest challenge is getting a diverse applicant pool (no diversity in applicants, no diversity in participants)
 Tried to increase diversity by expanding outreach (using networks/connections, social media)
-Didn't work/not effective
 Tried to tweak message to make it more welcoming to broader audiences
-Didn't work
 Approaching people directly in addition to an open call
