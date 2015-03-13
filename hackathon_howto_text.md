@@ -63,4 +63,16 @@ Beyond these full group activities, however, the large room does not have to ser
 
 Generally, computer equipment is not expected to be provided and participants will be working on their own laptops. Because so much of the hackathon activities involve computers, it should be clear and understood that readily available WiFi access and numerous electrical outlets are absolutely necessary.
 
+##Communication Technology
+The nature of a hackathon makes heavy use of a variety of communication technologies likely. Experience indicates that the organizers should choose preferred technologies in advance and try to get users to stick with this set. Consistency among participants becomes very important, both for general communication and for archiving. In one hackathon involving remote participants, a particular group was using one communication technology before lunch and then switched, without announcement, to another technology after lunch. Remote participants had no way of knowing this and were left out of discussion until this was discovered. In general, we encourage technologies which are free, open, and multi-platform, although the needs of a particular project may preclude some of these. Major categories of communicaiton technology to consider include:
+
+###Version Control
+There are many types of version control available. Among the most popular, and the one we have used in recent years, is Git and Github. SVN is also very popular. An early hackathon used Google Code, but they recently announced this service is being shut down.
+
+###Document Editing
+google docs, github docs, etc.
+
+###Communication
+google hangout, skype, chats, etc.
+
 #Post Hackathon Activities
