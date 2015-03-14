@@ -1,31 +1,10 @@
 <title>
-# Using Hackathons to nurture informatics-literate collaborative
-communities of practice: Lessons learned from 10 years of NESCent
-hackathons
+# Using Hackathons to nurture informatics-literate collaborative communities of practice: Lessons learned from 10 years of NESCent hackathons
 </title>
 
 # Abstract
 
-Hackathons have become popular instruments to stimulate creative
-problem solving, and to engender engagement with a sponsor's
-objectives. The kinds of problems being targeted, the people whose
-engagement is being sought, and the types of objectives sponsors aim
-to promote all vary widely. So do the models, processes, and formats
-based on which hackathon events are run. Unfortunately, there is scant
-data, and even fewer scientific studies, on which way to conceive and
-execute a hackathon is most conducive to, or tends to preclude which
-kinds of outcomes. Here we report on the experience of planning and
-running a cumulative total of 9 hackathons aimed at fostering and
-nurturing a domain science community of practice, and its capacity to
-collaboratively develop and sustain its informatics resources. We
-define the model and process we used throughout these hackathons, and
-describe the motivations and goals that underlie them. To enable
-future more comprehensive studies, we present the data and evidence we
-collected, and discuss which conclusions about the effectiveness of the
-events they suggest. We end with recommendations on which data could
-be collected at future hackathons to eventually enable an
-evidence-based approach to the various decision-making points involved
-in planning and running a hackathon.
+Hackathons have become popular instruments to stimulate creative problem solving, and to engender engagement with a sponsor's objectives. The kinds of problems being targeted, the people whose engagement is being sought, and the types of objectives sponsors aim to promote all vary widely. So do the models, processes, and formats based on which hackathon events are run. Unfortunately, there is scant data, and even fewer scientific studies, on which way to conceive and execute a hackathon is most conducive to, or tends to preclude which kinds of outcomes. Here we report on the experience of planning and running a cumulative total of 9 hackathons aimed at fostering and nurturing a domain science community of practice, and its capacity to collaboratively develop and sustain its informatics resources. We define the model and process we used throughout these hackathons, and describe the motivations and goals that underlie them. To enable future more comprehensive studies, we present the data and evidence we collected, and discuss which conclusions about the effectiveness of the events they suggest. We end with recommendations on which data could be collected at future hackathons to eventually enable an evidence-based approach to the various decision-making points involved in planning and running a hackathon.
 
 <main>
 # Introduction
@@ -246,12 +225,15 @@ The nature of a hackathon makes heavy use of a variety of communication technolo
 #### Travel
 The presence of an organization (e.g., NESCent) that can handle the logistical aspects of the hackathon is strongly encouraged. Travel arrangements should be consistent with the duration of the hackathon, ensuring that participants are at the location on time for the beginning of Day 1 of the event (which is critical to the overall event). The travel arrangements should also emphasize that the participation to the complete event is strongly encouraged (as often the projects start shaping only after the first 2 days of the event). Locating all participants in the same residential venue (e.g., the same hotel) will also facilitate interactions outside of the daily hackathon activities and develop a social infrastructure to the hackathon.
 
-###Advertising for Participants
-Two basic models: invitation and open call (or a mix of both). The pros of the invitation model is that you ensure that you have the right expertise, you can better control diversity by careful invitation. The cons are that you necessarily restrict participation to those you know to invite, which may be a biased pool. The pros of the open call are that you potentially hit a wider audience, people who you may not have known of or considered; also shows a direct interest in engaging the community. The cons are that you may end up missing necessary expertise. You may find a lack of diversity in applicants. You may not get enough applicants.
+###Identifying Participants
 
-Generally, we have used a mixed model, where we target invitations to people who have particular expertise and as a means of increasing diversity, but always including an open application process to try go find broader members of the community who we may have missed. One needs to be careful in this model because if you target too many people with direct invitations, there may not be enough space for those responding to the open call. Generally, if you directly invite someone it’s hard to later not accept them.
+*Note: some of this section may be better moved to the discussion, but it's not entirely clearly which/where*
 
-Direct invitation is a powerful means of helping to improve diversity. Beyond directly targeting “minorities” (inc. women) for participation, you can target them as mentors who may have students, postdocs, or colleagues that they can suggest as participants. 
+There are two basic models for identifying participants: direct invitation or an open call (or a mix of both). The pros of the invitation model is that you ensure that you have the right expertise, and you can better control diversity by careful invitation. The cons are that you necessarily restrict participation to those you know to invite, which may be a biased pool. The pros of the open call model are that you potentially hit a wider audience, people who you may not have known of or considered; it also shows a direct interest in engaging the larger community. The cons of the open call model are that you may end up missing out on desired/necessary expertise. You will often find a lack of diversity in applicants through an open call. You also may not get enough applicants.
+
+Generally, we have used a mixed model, where we target invitations (1) to people who have particular domain expertise and (2) as a means of increasing diversity, but always including an open application process to try go find broader members of the community who we may have missed. One needs to be careful in this model because if you target too many people with direct invitations, there may not be enough space for those responding to the open call. Generally, if you directly invite someone to apply it is hard to later not accept them as an event participant.
+
+Direct invitation is a powerful means of helping to improve diversity. Beyond targeting “minorities” (inc. women) for direct participation, you can additionally target them as likely mentors for students, postdocs, or junior colleagues that they can suggest as participants.
 
 Our advertising has been predominantly through popular mailing lists in the appropriate academic discipline, as well as spreading word through emails to colleagues. Generally the first call for applications would go out about 3 weeks before the deadline, with a second call/reminder at 1 week. Direct invitations would go out at the time of the first call, but additional ones can be sent later as other names/suggestions come in.
 
@@ -372,7 +354,7 @@ A number of approaches have been explored to sustain the follow-up activities fo
 * Found that electing all participants by invitation is ineffective (ex. Japan hackathons needed more expectation management)
 
 ### Make people feel welcome; encourage people
-
+<!--
 Being welcoming during the event
 * provide bootcamps to address issues that might not be of knowledge to all participants
 * instruct pitchers to keep an open circle (don't turn back on others, don't get deep in a 1:1)
@@ -387,9 +369,11 @@ Being welcoming during the pre-event engagement period:
 * contact newbies individually by email with a welcome message (from an LT member)
 * invite each person to introduce themselves on group email list 
 * provide positive and encouraging feedback on ideas
+-->
+Actions taken during three different stages are critical to creating a  welcoming atmosphere. First, when crafting recruitment materials and  deciding where to target advertisements, remember that hackathons are not just for gurus. Dial back on the technical language (in the advertisement materials), and make the big picture clear. Specify non-programmer roles (e.g., "subject-matter expert", "use-case consultant"), and avoid implicitly equating participants with programmers (*e.g.*, don't refer to  participants as "programmers" or "coders").
 
-Actions taken during three different stages are critical to creating a  welcoming atmosphere. First, when crafting recruitment materials and  deciding where to target advertisements, remember that hackathons are not just for gurus. Dial back on the technical language (in the advertisement materials), and make the big picture clear. Specify non-programmer roles (e.g., "subject-matter expert", "use-case consultant"), and avoid implicitly equating participants with programmers (e.g., don't refer to  participants as "programmers" or "coders").
 Second, during pre-event  engagement, add everyone to an event- or project-specific email list and  ask them to introduce themselves to the list. Encourage all participants to develop possible ideas for the hackathon event and provide encouraging feedback on ideas discussed on the list. Send a personal, encouraging email to any newbies who seem to need it.
+
 Third and most importantly, be welcoming during the event, particularly on day 1. Use  bootcamps and technical talks to get everyone up to speed on core technologies for the event. Prior to pitching, instruct participants to  form an open circle around pitches, not a queue or a block—in particular, if the pitcher and a few others are having a highly technical discussion with their backs to everyone else, this is very unwelcoming, and the facilitators should step in and remind them to **keep the circle open.** Participants leading a pitch and subsequent team should encourage participation of all the team members (asking questions, positively encouraging inputs). A critical component is ensuring the formation of positive interactions  among participants, *e.g.*, through a whole-group social event to cap off the first day (solicit ideas from participants). 
 
 ## Diversifying community
@@ -398,8 +382,24 @@ Third and most importantly, be welcoming during the event, particularly on day 1
 * Ensure participant talent diversity is appropriate for hackathon goals.
 * Talent diversity can be an advantage.
 ** Ex: Phyloinformatics/R hackathons had a similar talent diversity profile to Phylotastic II, but didn't experience the same issues [why do we think this is?]
+* Diversification does not happen without a focused effort. Components that contribute to achieving this goal include
+** Recruitment: 
+*** Targeted selection of member of the LT (e.g., create role models, develop contacts with underrepresented subsets of the community)
+*** Targeted invitation of participants 
+** Management:
+*** Ensure that teams during the hackathon are open, welcoming, inclusive
+*** Identify participants that might be disengaged, inactive, reach out to them and actively engage them
+
 
 ## Technology awareness and knowledge exchange
+A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
+
+First of all, the hackathon event itself is an opportunity for members of a community to learn about upcoming technologies and experience them first-hand. The technologies can be either already in use by part of the community or are  inherited from other communities but valuable to the audience target by the hackathon. Examples of this include 
+* Promoting the use of GitHub and other code repositories
+* Focusing on the use of specific toolkits and expanding their reach (e.g., R, BioPerl)
+* Expanding the generality and applicability of existing tools (e.g., the generalization of Phylomatic achieved during the Phylotastic I hackathon).
+
+In addition to this, hackathons can be developed to create support for novel technologies and methodologies, that have been specifically developed to meet a perceived need of the target audience. An example of this is represented by the EvoIO stack, composed of an exchange data format (NeXML), an ontology (CDAO), and a web-service API (PhyloWS), and developed by a working group. Two hackathons contributed either to the development of tools supporting this infrastructure (the Database Interoperability hackathon) or to the deployment application of the stack (the Phylotastic I hackathon). 
 
 ## Achieving tangible working products
 
@@ -413,27 +413,14 @@ Third and most importantly, be welcoming during the event, particularly on day 1
 
 Thus to achieve tangible working products, one should consider whether (1) deliverables can be achieved in the time slotted for the hackathon, or (2) whether choosing participants who may lack certain skills or experience may serve the overall goal better by their likelihood of being able to dedicate extra time after the even to follow-up and complete the project.
 
-Another critical aspect in the achievement of tangible results and sustainable continuation of the projects is the ability to coalesce a community around the 
-
-Hypotheses/questions about ways of getting more post-event activity/sustainability:
-
-- what aspect of people involved in event lead to sustained effort?
+Another critical aspect in the achievement of tangible results and sustainable continuation of the projects is the ability to coalesce a community around the activities performed at that hackathon. The development of open data repositories and the contribution to widely accessed code repositories are aspects that facilitate the community "buy-in" and enable the long-term sustainability of the hackathon products. An example of this is represented by the contributions to the NeXML code base achieved during the Database Interoperability hackathon.
 
 
--  hypothesis:  the community "buys" into the activities of the hackathon  and are willing to embrace and continue (e.g., they become part of a  used codebase)
--  hypothesis:  projects with better code may be more likely to continue  and those  might come from people with software engineering experience
-
-generic thoughts/observations:
-
-- having time-post hackathon is only one aspect of sustainability
-
-- getting sustainable products out of hackathons is very difficult
-
-- Setting expectations about what will happen afterwards is important
 
 ## Allowing hard targets to be tackled
 
 ## Using face-to-face time productively
+
 
 ## and others...
 
