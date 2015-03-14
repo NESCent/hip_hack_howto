@@ -60,7 +60,7 @@ digraph pert {
 	
 		"Pre-event engagement"; // online interactions to refine scope and goals, and expectation management
 		"Travel arrangements"; // participant travel and accommodation 
-		"Event"; // the hackathon itself
+		"Hackathon event"; // the hackathon itself
 		"Intangible outcomes"; // e.g. strengthened community, broader impacts
 		"Accessible outcomes"; // e.g. publications, proposals, code
 		"Publicity"; // e.g. social media, newsletters, hackathon proceedings
