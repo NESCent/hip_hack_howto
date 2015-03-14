@@ -93,7 +93,7 @@ Measuring the impact of these outcomes can be very difficult. "How much code is 
 
 One clear lesson learned is that data and meta-data about a hackathon need to be collected more deliberately by the leadership team, both before, during, and after the event. This is discussed in more detail below.
 
-<--
+<!--
 List of possible outcomes:
 * increased diversity (demographic, and otherwise) of participants in  related software projects (developed from "early on, we wanted experts  to build tools, later we were more inclusive and more focused on  diversity")
 * community becomes aware of a particular problem and technologies to solve it (example of web services)
@@ -104,7 +104,7 @@ List of possible outcomes:
 * also what technical folks can learn about better social skills
 * tangible outputs via NEAD - pubs, proposals, software, data sets, data formats, presentations, newsletters
 -->
-<--
+<!--
 * tangible outputs not via NEAD
 ** lines of code committed, commits
 ** conference sessions organized
