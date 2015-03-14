@@ -6,15 +6,25 @@
 # NESCent model
 
 The NESCent Model for hackathons distinguishes itself in certain salient characteristics from the many other models being practiced. These characteristics are motivated by two foundational objectives: one, to allow tackling the often difficult problems of making existing tools and resources work together more seamlessly; and two, to foster sustained, cohesive communities of practice.
+
 The distinguishing characteristics designed to accomplish these objectives can be reduced to a combination of the following three.
-A participant group that balances diversity with homogenity, and that is about 20-30 people in size. The idea is a group small and homogeneous enough in size and composition that every participant will still interact with everyone else in at least a meaningful social capacity, yet large enough to allow for diversity in a variety of aspects, including perspectives, skills, career stage, field of study, and demographics.
-A well-defined scope that everyone buys into by virtue of participating. Such a definition gives functional as well as technological targets. It is also balanced between open enough to allow for emergent outcomes, and specific enough to define the event by requiring, and thus signifying buy-in from prospective participants to shared goals and desired outcomes.
-A duration of 4.5-5 days. This has shown to be still short enough to not preclude people from participating who are otherwise well suited for an event. It is also long enough to allow participants to attempt solutions to data and software interoperability issues, which are often challenging yet become tractable with the right set of collaborators in the room. And it is long enough to allow ample room for participant bonding over common obstacles and shared goals, which is key to fostering and sustaining community growth and cohesion.
+
+1. **A participant group that balances diversity with homogenity, and that is about 20-30 people in size.** The idea is a group small and homogeneous enough in size and composition that every participant will still interact with everyone else in at least a meaningful social capacity, yet large enough to allow for diversity in a variety of aspects, including perspectives, skills, career stage, field of study, and demographics.
+
+2. **A well-defined scope that everyone buys into by virtue of participating.** Such a definition gives functional as well as technological targets. It is also balanced between open enough to allow for emergent outcomes, and specific enough to define the event by requiring, and thus signifying buy-in from prospective participants to shared goals and desired outcomes.
+
+3. **A duration of 4.5-5 days.** This has shown to be still short enough to not preclude people from participating who are otherwise well suited for an event. It is also long enough to allow participants to attempt solutions to data and software interoperability issues, which are often challenging yet become tractable with the right set of collaborators in the room. And it is long enough to allow ample    room for participant bonding over common obstacles and shared goals, which is key to fostering and sustaining community growth and cohesion.
+
 We have used this model exclusively for hackathons in academia, for bringing together academic research projects, and to foster communities of practice that consist largely of scientists and research staff. The model is potentially well applicable to non-profit and government settings as well, but in the industry realm in particular the duration will prevent most people from participating.
+
 The following additional characteristics have also emerged as common across NESCent Model-hackathons, but they can be found frequently in other types of hackathon events as well.
-Structured first day, unstructured rest. Most of the first day of hackathons in this model is taken up by structured activities that start with welcoming everyone and end with participants breaking up into teams with self-chosen target projects. The rest of the time is largely unstructured, with teams determining their schedule on their own. The whole event concludes with show-and-tell of each team, followed by identifying actions the sponsor can take, or resources the sponsor could help establish, to aid post-hackathon completion and, ideally, sustainability of nascent products.
-Leadership team for collaborative well-informed decision making. There are many points in the planning phase of a NESCent Model-hackathon at which decisions have to be made that co-determine the direction and outcomes of the event, but for which right or wrong answers do not necessarily exist. To ensure that these decisions are made in a well-informed and deliberate manner, a leadership team rather than a single individual is responsible for them. The leadership team is put in charge early on the process, and is assembled from people that are invested in the event's outcomes and that between them represent a wide umbrella of perspectives.
-All products are public and open-source, immediately. This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
+
+**Structured first day, unstructured rest.** Most of the first day of hackathons in this model is taken up by structured activities that start with welcoming everyone and end with participants breaking up into teams with self-chosen target projects. The rest of the time is largely unstructured, with teams determining their schedule on their own. The whole event concludes with show-and-tell of each team, followed by identifying actions the sponsor can take, or resources the sponsor could help establish, to aid post-hackathon completion and,
+ideally, sustainability of nascent products.
+
+**Leadership team for collaborative well-informed decision making.** There are many points in the planning phase of a NESCent Model-hackathon at which decisions have to be made that co-determine the direction and outcomes of the event, but for which right or wrong answers do not necessarily exist. To ensure that these decisions are made in a well-informed and deliberate manner, a leadership team rather than a single individual is responsible for them. The leadership team is put in charge early on the process, and is assembled from people that are invested in the event's outcomes and that between them represent a wide umbrella of perspectives.
+
+**All products are public and open-source, immediately.** This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
 
 # Process model 
 
@@ -55,12 +65,16 @@ Generally, we have found that the entire leadership team does not have to partic
 Applications were divided among leadership team members in a staggered fashion such that each applicant was reviewed by three different people. Applications were scored on a 3 point scale (3 = top, 2 = solid, 1 = poor; half point intervals sometimes used), based on the criteria described above, with a textual explanation for the ranking. Applicants were then ranked from high to low, and a conference call used to choose participants. The ranking was used as a general guide, but not as an absolute decision making criterion, in order to allow the leadership team to best balance the needs of expertise, experience, and diversity. Alternates were identified in case slots opened up after invitations were extended. 
 
 ###Pre-hackathon Engagement
-We’ve tried to do this using mailing lists, github discussions, etc. Generally, there has not been much success in getting people to engage prior to the hackathon. (The following is a guess). Those who do engage prior to the hackathon are likely to engage during so; little can be predicted about the during-hackathon-engagement of those who do not engage prior to the hackathon, however.
+
+We’ve tried to do this using mailing lists, github discussions (ex OpenTree), etc. Generally, there has not been much success in getting people to engage prior to the hackathon. (The following is a guess). Those who do engage prior to the hackathon are likely to engage during so; little can be predicted about the during-hackathon-engagement of those who do not engage prior to the hackathon, however.
+
+Pre-event analysis and participant interviews can organically lead to the structuring and facilitation style of the hackathon.
 
 ##During the Hackathon
 
 ###Schedule and Structure
 **Day 1:** 
+Active facilitation, especially during the first day,  is critical to "keep true" to the scope and keep the event as a whole on-topic
 The first day of the hackathon is the most unique in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, followed by very brief introductions from all the participants (who you are, why you’re there). This was generally followed by a series of technical presentations (“boot camps”), where key technologies or concepts important to the overall planned scope of the project, are introduced. These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of these presentations can vary quite a bit; sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
 
 The next major activity is an open brain-storming session where any participant can propose an idea or concept that they think would be interesting to pursue. This is a more general discussion, high-level and less technical. What would we like to do, not how will we do it? 
@@ -101,6 +115,7 @@ google hangout, skype, chats, etc.
 ## Growing community
 
 ## Diversifying community
+
 
 ## Technology awareness and knowledge exchange
 
