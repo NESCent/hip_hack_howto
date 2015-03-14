@@ -49,7 +49,7 @@ digraph pert {
 		"Call for participation"; // a widely-circulated invitation to apply for participation
 		"Applications"; // a set of completed applications, e.g. forms / email responses
 		"Applicant reviews and ranking"; // reviews and ensuing ranking of applicants
-		"Invites"; // invitations to domain experts and positively-reviewed applicants
+		"Invitations sent"; // invitations to domain experts and positively-reviewed applicants
 		"Finalized roster"; // the final list of participants
 	}
 	
@@ -86,13 +86,13 @@ digraph pert {
 	"Broad goals" -> "Hackathon initiative"; // starting condition
 	"Hackathon initiative" -> "Initial scope and goals" [ label = "14d" ];
 	"Initial scope and goals" -> "Assembled LT" [ label = "21d" ]; // await multiple responses
-	"Assembled LT" -> "Finalized scope and goals" [ label = "28d" ]; // iterative debate
-	"Finalized scope and goals" -> "Defined target community" [ label = "14d" ];
-	"Defined target community" -> "Call for participation" [ label = "14d" ];
+	"Assembled LT" -> "Finalized scope and goals" [ label = "21d" ]; // iterative debate
+	"Finalized scope and goals" -> "Defined target community" [ label = "21d" ];
+	"Defined target community" -> "Call for participation" [ label = "21d" ];
 	"Call for participation" -> "Applications" [ label = "21d" ]; // await multiple responses
 	"Applications" -> "Applicant reviews and ranking" [ label = "14d" ];
-	"Applicant reviews and ranking" -> "Invites" [ label = "7d" ];
-	"Invites" -> "Finalized roster" [ label = "7d" ];
+	"Applicant reviews and ranking" -> "Invitations sent" [ label = "7d" ];
+	"Invitations sent" -> "Finalized roster" [ label = "7d" ];
 	"Finalized roster" -> "Travel arrangements" [ label = "14d" ];
 	"Travel arrangements" -> "Hackathon event" [ label = "21d" ]; // communicate with travel agents
 	"Hackathon event" -> "Required reporting" [ label = "28d" ]; // probably less time sensitive
@@ -107,11 +107,12 @@ digraph pert {
 	"Additional funding" -> "Budget" [ label = "14d" ];
 	"Budget" -> "Logistics plan" [ label = "7d" ];
 	"Logistics plan" -> "Travel arrangements" [ label = "14d" ];
+	"Logistics plan" -> "Call for participation";
 	"Finalized scope and goals" -> "Reserved seats" [ label = "14d" ];
 	"Finalized scope and goals" -> "Review criteria" [ label = "14d" ];
 	"Review criteria" -> "Applicant reviews and ranking" [ label = "14d" ];	
-	"Review criteria" -> "Call for participation" [ label = "14d" ];
-	"Reserved seats" -> "Invites" [ label = "7d" ];
+	"Review criteria" -> "Call for participation" [ label = "21d" ];
+	"Reserved seats" -> "Invitations sent" [ label = "7d" ];
 	"Finalized roster" -> "Pre-event engagement" [ label = "14d" ];
 	"Pre-event engagement" -> "Hackathon event" [ label = "14d" ];
 	"Assembled LT" -> "Additional funding" [ label = "14d" ];
