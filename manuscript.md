@@ -1,5 +1,5 @@
 <title>
-Using Hackathons to nurture informatics-literate collaborative
+# Using Hackathons to nurture informatics-literate collaborative
 communities of practice: Lessons learned from 10 years of NESCent
 hackathons
 </title>
@@ -32,8 +32,6 @@ in planning and running a hackathon.
 (Hilmar)
 
 ## Values/Objectives of Hackathons
-(Mike)
-
 There are many possible outcomes and impacts of a hackathon (table X): some of these are tangible (*e.g.*, code, publications, etc.) and some are intangible (*e.g.*, increased community diversity or community awareness of technologies or best practices). The procedures for holding a hackathon that we have developed were generated specifically based on the value we give to these outcomes. Decisions on participant pools, for example, may be heavily driven on the relative weight one gives to tangible vs. intangible impacts. Organizers need to make decisions based on maximizing the outcomes they value the most.
 
 <table>
@@ -142,10 +140,7 @@ Tensions between achieving particular kinds of output/benefit/impact
 -->
 
 
-
-
 # NESCent model
-
 The NESCent Model for hackathons distinguishes itself in certain salient characteristics from the many other models being practiced. These characteristics are motivated by two foundational objectives: one, to allow tackling the often difficult problems of making existing tools and resources work together more seamlessly; and two, to foster sustained, cohesive communities of practice.
 
 The distinguishing characteristics designed to accomplish these objectives can be reduced to a combination of the following three.
@@ -160,42 +155,13 @@ We have used this model exclusively for hackathons in academia, for bringing tog
 
 The following additional characteristics have also emerged as common across NESCent Model-hackathons, but they can be found frequently in other types of hackathon events as well.
 
-**Leadership team for collaborative well-informed decision making.**
-There are many points in the planning phase of a NESCent
-Model-hackathon at which decisions have to be made that co-determine
-the direction and outcomes of the event, but for which right or wrong
-answers do not necessarily exist. To ensure that these decisions are
-made in a well-informed and deliberate manner, a leadership team
-rather than a single individual is responsible for them. The
-leadership team is put in charge early on the process, and is
-assembled from people that are invested in the event's outcomes and
-that between them represent a wide umbrella of perspectives.
+**Leadership team for collaborative well-informed decision making.** There are many points in the planning phase of a NESCent Model-hackathon at which decisions have to be made that co-determine the direction and outcomes of the event, but for which right or wrong answers do not necessarily exist. To ensure that these decisions are made in a well-informed and deliberate manner, a leadership team rather than a single individual is responsible for them. The leadership team is put in charge early on the process, and is assembled from people that are invested in the event's outcomes and that between them represent a wide umbrella of perspectives. 
 
-**Structured first day, unstructured rest.** Most of the first day of
-hackathons in this model is taken up by structured activities that
-start with welcoming everyone and end with participants breaking up
-into teams with self-chosen target projects. The rest of the time is
-largely unstructured, with teams determining their schedule on their
-own. The whole event concludes with show-and-tell of each team,
-followed by identifying actions the sponsor can take, or resources the
-sponsor could help establish, to aid post-hackathon completion and,
-ideally, sustainability of nascent products.
+**Structured first day, unstructured rest.** Most of the first day of hackathons in this model is taken up by structured activities that start with welcoming everyone and end with participants breaking up into teams with self-chosen target projects. The rest of the time is largely unstructured, with teams determining their schedule on their own. The whole event concludes with show-and-tell of each team, followed by identifying actions the sponsor can take, or resources the sponsor could help establish, to aid post-hackathon completion and, ideally, sustainability of nascent products. 
 
-**Daily succinct and brief report-outs ("standups").** To ensure that
-related or dependent pieces of work across teams remain
-coordinated, each team briefly reports its status, plans for
-continuation, and current roadblocks once on each day after the
-first. This format is borrowed from the daily "standups" in agile
-software development methodologies. Including current roadblocks is
-intended to allow tapping into the collective expertise in the room to
-overcome these.
+**Daily succinct and brief report-outs ("standups").** To ensure that related or dependent pieces of work across teams remain coordinated, each team briefly reports its status, plans for continuation, and current roadblocks once on each day after the first. This format is borrowed from the daily "standups" in agile software development methodologies. Including current roadblocks is intended to allow tapping into the collective expertise in the room to overcome these. 
 
-**All products are public and open-source, immediately.** This
-normally implies that all software tools or resources targeted by work
-at the hackathon must be open-source projects. While code produced at
-the event may be merged into a larger target codebase only with a
-delay, or after further modification, there is no embargo on any of
-the code produced at the hackathon.
+**All products are public and open-source, immediately.** This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
 
 # Process Model 
 The following is a detailed description of the logistical model we have developed for running hackathons. This model has evolved over the 10 years and the description largely reflects the final model. Discussions of where and why the model has changed are used to illustrate the lessons learned.
@@ -253,10 +219,6 @@ It is also important to decide on the technologies used.  The Leadership Team mu
 Our practice is to encourage and enable, but not rigidly enforce, conformity to scope. In practice, projects that do not conform to the scope rarely  make it out of the pitching stage.  The scope is encouraged by the Leadership Team, first by the communicating within participant advertisements, and thereafter by interactions with participants.  The opening talks on Day 1 of the hackathon should reiterate the scope and explain what it signifies.   When a potentially out-of-scope idea arises, rather than asking a negatively framed question ("Isn't that out of scope?"), a more welcoming approach is simply to ask the proposer to flesh out possible ways in which the idea aligns with the thematic and technical scope of  the hackathon ("what are some ways that this project will . . .?").  This type of question should be asked both during pre-event engagement, and during pitching (by organizers present at the hackathon). 
 
 
-
-
-
-
 ## Pre-Hackathon Activities
 
 ###Logistical Aspects
@@ -275,14 +237,11 @@ An important part of the model rotate around the idea of open-spaces, where indi
 ####Communication Technology
 The nature of a hackathon makes heavy use of a variety of communication technologies likely. Experience indicates that the organizers should choose preferred technologies in advance and try to get users to stick with this set. Consistency among participants becomes very important, both for general communication and for archiving. In one hackathon involving remote participants, a particular group was using one communication technology before lunch and then switched, without announcement, to another technology after lunch. Remote participants had no way of knowing this and were left out of discussion until this was discovered. In general, we encourage technologies which are free, open, and multi-platform, although the needs of a particular project may preclude some of these factors. Major categories of communicaiton technology to consider include:
 
-**Version Control**
-There are many types of version control available. Among the most popular, and the one we have used in recent years, is Git and Github. SVN is also very popular. An early hackathon used Google Code, but they recently announced this service is being shut down.
+**Version Control:** There are many types of version control available. Among the most popular, and the one we have used in recent years, is Git and Github. SVN is also very popular. An early hackathon used Google Code, but they recently announced this service is being shut down.
 
-**Document Editing**
-Shared document editing capabilities is essential, whether for note taking, concept planning, documentation, etc. There are many such technologies, including wikis, Google Docs, Mozilla's Etherpad, Github documents, etc. The most important thing is that everyone use the same technologies, otherwise documents get scattered across too many systems in too many different formats.
+**Document Editing:** Shared document editing capabilities is essential, whether for note taking, concept planning, documentation, etc. There are many such technologies, including wikis, Google Docs, Mozilla's Etherpad, Github documents, etc. The most important thing is that everyone use the same technologies, otherwise documents get scattered across too many systems in too many different formats.
 
-**Communication**
-There are many systems for direct communication, including Skype, Google Hangouts, IRC, etc. Even telephones. These will be primarily used pre- and post-hackathon, but can be used during, either to communicate with remote participants or sometimes when teams are scattered throughout different rooms. Again, the most important thing is to decide in advance which protocols will be used and stick with them, otherwise some members may not know where or how to tune into important conversations.
+**Communication:** There are many systems for direct communication, including Skype, Google Hangouts, IRC, etc. Even telephones. These will be primarily used pre- and post-hackathon, but can be used during, either to communicate with remote participants or sometimes when teams are scattered throughout different rooms. Again, the most important thing is to decide in advance which protocols will be used and stick with them, otherwise some members may not know where or how to tune into important conversations.
 
 #### Travel
 The presence of an organization (e.g., NESCent) that can handle the logistical aspects of the hackathon is strongly encouraged. Travel arrangements should be consistent with the duration of the hackathon, ensuring that participants are at the location on time for the beginning of Day 1 of the event (which is critical to the overall event). The travel arrangements should also emphasize that the participation to the complete event is strongly encouraged (as often the projects start shaping only after the first 2 days of the event). Locating all participants in the same residential venue (e.g., the same hotel) will also facilitate interactions outside of the daily hackathon activities and develop a social infrastructure to the hackathon.
@@ -296,12 +255,12 @@ Direct invitation is a powerful means of helping to improve diversity. Beyond di
 
 Our advertising has been predominantly through popular mailing lists in the appropriate academic discipline, as well as spreading word through emails to colleagues. Generally the first call for applications would go out about 3 weeks before the deadline, with a second call/reminder at 1 week. Direct invitations would go out at the time of the first call, but additional ones can be sent later as other names/suggestions come in.
 
-Figure/Appendix X: example of an hackathon advertisement
+*Figure/Appendix X: example of an hackathon advertisement*
 
 ###The Application Process
-We have used a fairly simple application form (through Google Docs) for screening participants (Figure/Appendix X). Beyond obvious fields such as name and contact info, we were interested in the following major fields: (1) availability: can the person attend the entire event; (2) a general checklist of skills/expertise that were applicable to the hackathon theme; (3) personal goal for attending the hackathon: why do they want to attend and what do they want to get from it; (4) demographics. (Lesson learned: we did not ask for demographic info in earlier applications, but found that diversity suffered when we didn’t have information to help balance decisions); (5) where they are coming from (for budgeting purposes) and whether they have support to attend without our funding.
+We have used a fairly simple application form (through Google Docs) for screening participants (Figure/Appendix X). Beyond obvious fields such as name and contact info, we were interested in the following major fields: (1) availability: can the person attend the entire event; (2) a general checklist of skills/expertise that were applicable to the hackathon theme; (3) personal goal for attending the hackathon: why do they want to attend and what do they want to get from it; (4) demographics. (Lesson learned: we did not ask for demographic info in earlier applications, but found that diversity suffered when we did not have information to help balance decisions); (5) where they are coming from (for budgeting purposes) and whether they have support to attend without our funding.
 
-At one point we asked for proof of expertise, but it was a bit awkward and didn’t work very well. 
+At one point we asked for proof of expertise, but it was a bit awkward and did not work very well. 
 
 ###Criteria for Choosing Participants
 Choosing participants for a hackathon is more complicated than simply choosing expert programmers. A number of criteria need to be considered in trying to optimize productivity. These include (1) the ability to work with others. Some people may be great at working alone, but unable to work in a group setting, which makes them a poor choice for such a group project. (2) Balancing coders and users. Having people who will be using the product working directly with the people who are writing them can help each side better understand how the two halves go together: coders can learn about the way users will want to use a product and the ways in which they’ll be capable of using it (interface), while users will learn more about what is feasible for a product. (3) Diversity: if one of the main goals of a hackathon is to increase the community engagement in a product, system, or concept, it is important to recruit from the broader representative community. This is not always easy. In a general call for applications, one often finds that those who view themselves on the fringes of the “hacker” community will not apply or feel that they cannot contribute, so effort needs to be made to directly encourage and/or invite them. 
@@ -312,7 +271,7 @@ Generally, it is often good to mix participants of different career stages becau
 
 Diversity includes gender, ethnicity, experience, and research discipline.
 
-Generally, we have found that the entire leadership team does not have to participate in individual hackathons. A minimum number of members of the LT is critical to ensure that the discussion and activities of the hackathon are consistent with the original scope and that teams are formed and operate in a consistent and positive manner. 
+Generally, we have found that the entire leadership team does not have to participate in individual hackathons. A minimum number of members of the LT is critical to ensure that the discussion and activities of the hackathon are consistent with the original scope and that teams are formed and operate in a consistent and positive manner. It is our experience that participating LT members are actively contributing to individual teams, and occasionally they have provided pitches for projects. 
 
 ###Process for Choosing Participants
 Applications were divided among leadership team members in a staggered fashion such that each applicant was reviewed by three different people. Applications were scored on a 3 point scale (3 = top, 2 = solid, 1 = poor; half point intervals sometimes used), based on the criteria described above, with a textual explanation for the ranking. Applicants were then ranked from high to low, and a conference call used to choose participants. The ranking was used as a general guide, but not as an absolute decision making criterion, in order to allow the leadership team to best balance the needs of expertise, experience, and diversity. Alternates were identified in case slots opened up after invitations were extended. 
@@ -348,66 +307,62 @@ Pre-event analysis and participant interviews can organically lead to the struct
 
 - work with any on-site event coordinator regarding access, signage, powerstrips/outlets etc
 
-### what doesn't work well
-
-- use too many different technologies and changing tech between meetings (google docs vs etherpad, skype vs hangouts)
-
-- A hackathon is not necessarily the best place to test out the latest greatest technology
-
 ### decisions to make
 
 - whether or not to allow critique at the pitching stage
 
 ###Schedule and Structure
-**Day 1:** 
-* Active facilitation, especially during the first day,  is critical to "keep true" to the scope and keep the event as a whole on-topic.
+####Day 1
+*Active facilitation, especially during the first day, is critical to "keep true" to the scope and keep the event as a whole on-topic.*
 
-The first day of the hackathon is the most unique in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, followed by very brief introductions from all the participants (who you are, why you’re there). This was generally followed by a series of technical presentations (“boot camps”), where key technologies or concepts important to the overall planned scope of the project, are introduced. These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of these presentations can vary quite a bit; sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
+The first day of the hackathon is the most unique in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, typically aimed at reinforcing the scope of the hackathon.
+The initial opening is followed by very brief introductions from all the participants (who you are, why you’re there). 
 
-The next major activity is an open brain-storming session where any participant can propose an idea or concept that they think would be interesting to pursue. This is a more general discussion, high-level and less technical. What would we like to do, not how will we do it? 
+The next major activity is an open brain-storming session aimed at exploring the overall scope of the hackathon, clarify any aspect that might be unclear and refine the scope. This part of the event is typically not focused on technical discussions, unless these are necessary for the refinement and clarification of the scope.
 
-Following the open brainstorming (and usually with a break or meal in between), is an opportunity for individuals to make specific pitches about the project(s) they would like to work on. Each individual who wants to make a pitch is given a minute or two to explain their idea. Generally, each pitch is assigned a space in the meeting room where brief discussion and assembly will occur. After all pitches are made, the group as a whole are given an opportunity to wander around, discuss pitches more succinctly and specifically, and to generally self-assemble into potential teams. When the self-organization is complete, a re-evaluation of the pitches is made: the focus of some may have shifted as participants joined project ideas, other pitches may have insufficient support to continue, etc. A group evaluation, facilitated by the leadership team, may be important at this stage in order to prevent individual projects from drifting too far off scope, to prevent projects whose feasibility is unrealistic for the time allowed, and to identify potential holes or gaps in the overall structure that might need to be filled. 
+This was generally followed by a series of technical presentations (“boot camps”), where key technologies or concepts important to the overall planned scope of the project, are introduced. The bootcamps are often identified as part of the pre-engagement activities (e.g., through polls of participants) or are the result of the brain-storming sessions (e.g., they will select which bootcamps will be offered out of an initial set developed before the event). These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of these presentations can vary quite a bit; sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
+
+Following the open brainstorming and the bootcamps (and usually with a break or meal in between), is an opportunity for individuals to make specific pitches about the project(s) they would like to work on. Each individual who wants to make a pitch is given a minute or two to explain their idea. Generally, each pitch is assigned a space in the meeting room where brief discussion and assembly will occur. Each pitch typically articulates
+* The expected goals and deliverables
+* A possible approach to reach the goals
+* The pre-identified key challenges that will need to be addressed
+* The desired expertise and the possible partnerships with other projects; this last aspect should also somehow motivate how the project fits within the overall scope of the hackathon.
+
+After all pitches are made, the group as a whole are given an opportunity to wander around, discuss pitches more succinctly and specifically, and to generally self-assemble into potential teams. When the self-organization is complete, a re-evaluation of the pitches is made: the focus of some may have shifted as participants joined project ideas, other pitches may have insufficient support to continue, etc. A group evaluation, facilitated by the leadership team, may be important at this stage in order to prevent individual projects from drifting too far off scope, to prevent projects whose feasibility is unrealistic for the time allowed, and to identify potential holes or gaps in the overall structure that might need to be filled. 
 
 At this stage, with primary projects identified and teams self-assembled, the remainder of the day is left for teams to begin planning how they will attack their individual projects.
 
-**Days 2-X:**
-Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about once per day (to avoid wasting too much time on updates).
+####Days 2+
+Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about twice per day (to avoid wasting too much time on updates) - once before breaking for lunch and once at the end of the day.
 
-At the end of the hackathon, a general assembly to wrap things up, discuss overall progress, future plans, etc.
+####Last Day
+At the end of the hackathon, a general assembly to wrap things up, discuss overall progress, future plans, etc. takes place. Typical components of this final event include
+* Final reports (presentations) from the different teams
+* Identification of needed followups from each project
+* Identification of expected tangible products that can be achieved in a short time after the hackathon (e.g., publications, presentations at conferences, commitments to codebases)
+Hackathons have also included more general discussions about long-term followups (e.g., identification of potential funding sources that would enable scaling up some of the development efforts). It is recommended that participants assume responsibility for the completion of components of the various projects (e.g., see http://www.evoio.org/wiki/Phylotastic1#Projected_tangible_outcomes).
 
 
 ##Post Hackathon Activities
 
-what happens post-event:
+At the end of the hackathon, there are a number of activities that are either required or desirable. The most obvious *required* activities include:
+* **Logistical Activites:** wrapping up the event requires providing reimbursements to the participants for the expenses incurred during the event. This is typically handled through the sponsoring organization.
+* **Reports:** Sponsoring organizations will typically require the development of a final report that summarizes the activities and accomplishments achieved during the hackathon. The development of such report is typically main responsibility of the instigators of the event (even though other members of the LT may actively participate). 
 
-Things that must be done/required
-* Reimburse people for participating
-* Develop report to NESCent
+It is typically uncommon that tangible outcomes are completed within the 5-day period of the hackathon. In order to concretize and properly disseminate tangible deliverables, it is typically necessary to coordinate some follow-up activities that will take place after the end of the hackathon. This might include activities aimed at
+* Developing manuscripts and/or presentations that summarize the activities and deliverables
+* Completing code that can be made publicly available and/or committed to a public repository
+* Finalizing a schema or methodology and documenting it for others to use
+* Completing the development of a dataset that can be made publicly available.
 
-*  tangible outcomes usually cant be completed at event itself, requires post-hackathon work
-* things we tried/did:
-**  maintain contact with participants through the use of established  mailing list and continue populating wiki page for the event
-** follow up teleconferences among (a subset of) the participants
-** reserved a full-day for a follow-up distributed coding activity
-** teams work on papers/reports describing the outcomes of the hackathon (e.g., the Phylotastic manuscript)
-** teams organize follow up meetings/sessions (e.g., at relevant conferences)
-** teams work on proposals to secure funding for follow-up developments (e.g., hire professional programmers)
+A number of approaches have been explored to sustain the follow-up activities focused on tangible deliverables:
+* Mailing lists established during the pre-engagement phases are maintained alive and used to continue communication, solicit engagement and advertise results
+* Several hackathon relied on the use of wikis to track ideas, activities, deliverables; follow-up activities have often centered around continuing populating the wiki pages with results and accomplishments
+* In at least one hackathon, a follow-up distributed hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (e.g., through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.
+* It has been common practice for subsets of participants (typically led by the project leaders) to assemble the achievements of the hackathon project in a manuscript (e.g., the Phylotastic manuscript, which collected as authors the majority of the participants to the Phylotastic I hackathon) or in presentations/sessions at relevant conferences (e.g., the presentations about different aspects of the Phylotastic II hackathon at iEvoBio 2013).
+* Ideas for broader developments often arise as the result of the activities of the hackathon, leading to the development of grant proposals to support them (e.g., to hire graduate students or professional programmers to scale-up implementations and applications).
 
-Hypotheses/questions about ways of getting more post-event activity/sustainability:
 
-- what aspect of people involved in event lead to sustained effort?
-
--  hypothesis:  need people for who the product matters; not tenured  professors and not  technicians who are only paid for the event itself;  young academic
--  hypothesis:  the community "buys" into the activities of the hackathon  and are willing to embrace and continue (e.g., they become part of a  used codebase)
--  hypothesis:  projects with better code may be more likely to continue  and those  might come from people with software engineering experience
-
-generic thoughts/observations:
-
-- having time-post hackathon is only one aspect of sustainability
-
-- getting sustainable products out of hackathons is very difficult
-
-- Setting expectations about what will happen afterwards is important
 
 # Results and Discussion
 
@@ -433,7 +388,9 @@ Being welcoming during the pre-event engagement period:
 * invite each person to introduce themselves on group email list 
 * provide positive and encouraging feedback on ideas
 
-Actions  taken during three different stages are critical to creating a  welcoming atmosphere.  First, when crafting recruitment materials and  deciding where to target advertisements, remember that hackathons are  not just for gurus.  Dial back on the technical language (in the advertisement materials),  and make the big picture clear.  Specify non-programmer roles (e.g.,  "subject-matter expert", "use-case consultant"), and avoid implicitly  equating participants with programmers (e.g., don't refer to  participants as "programmers" or "coders").   Second, during  pre-event  engagement, add everyone to an event- or project-specific email list and  ask them to introduce themselves to the list.  Encourage all participants to develop possible ideas for the hackathon event and provide  encouraging feedback on ideas discussed on the list.  Send a personal,  encouraging email to any newbies who seem to need it.  Third and most  importantly, be welcoming during the event, particularly on day 1.  Use  bootcamps and technical talks to get everyone up to speed on core  technologies for the event.  Prior to pitching, instruct participants to  form an open circle around pitches, not a queue or a block— in  particular, if the pitcher and a few others are having a highly  technical discussion with their backs to everyone else, this is very  unwelcoming, and the facilitators should step in and remind them to keep the circle open. Participants  leading a pitch and subsequent team should encourage participation of  all the team members (asking questions, positively encouraging inputs). A critical component is ensuring the formation of positive interactions  among participants, e.g., through a whole-group social event to cap off he first day (solicit ideas from participants). 
+Actions taken during three different stages are critical to creating a  welcoming atmosphere. First, when crafting recruitment materials and  deciding where to target advertisements, remember that hackathons are not just for gurus. Dial back on the technical language (in the advertisement materials), and make the big picture clear. Specify non-programmer roles (e.g., "subject-matter expert", "use-case consultant"), and avoid implicitly equating participants with programmers (e.g., don't refer to  participants as "programmers" or "coders").
+Second, during pre-event  engagement, add everyone to an event- or project-specific email list and  ask them to introduce themselves to the list. Encourage all participants to develop possible ideas for the hackathon event and provide encouraging feedback on ideas discussed on the list. Send a personal, encouraging email to any newbies who seem to need it.
+Third and most importantly, be welcoming during the event, particularly on day 1. Use  bootcamps and technical talks to get everyone up to speed on core technologies for the event. Prior to pitching, instruct participants to  form an open circle around pitches, not a queue or a block—in particular, if the pitcher and a few others are having a highly technical discussion with their backs to everyone else, this is very unwelcoming, and the facilitators should step in and remind them to **keep the circle open.** Participants leading a pitch and subsequent team should encourage participation of all the team members (asking questions, positively encouraging inputs). A critical component is ensuring the formation of positive interactions  among participants, *e.g.*, through a whole-group social event to cap off the first day (solicit ideas from participants). 
 
 ## Diversifying community
 * Talent diversity can be a disadvantage if you don't manage expectations.
@@ -452,6 +409,28 @@ Actions  taken during three different stages are critical to creating a  welcomi
 ** Ex: R hackathon - very little source code available before the event, all code open-source after event 
 * Managing expectations with respect to deliverables is important 
 
+* **Career stage of participants:** An observation which comes from working groups at some of the national synthesis centers (NCEAS, NESCent, NIMBios) is that one driver of success of many working groups is having a good mix of junior and senior participants. While senior participants are essential for their experience and knowledge of problems and systems, their schedules are often busier post event and following up on a particular outcome for the event has less impact on their career. In contrast, a junior participant (graduate student, postdoc, untenured professor) may be much more driven to follow up and drive production after an event because the tangible product may have a large impact on progression to their next career stage. Hackathons are likely to follow this same pattern, with an even greater complication: research staff. Many of the hackathons we have conducted have included large numbers of research staff, often chosen for their programming/domain expertise. While invaluable during the hackathon, these participants may be the least likely to see a direct career benefit from continued production of a tangible product after the hackathon (the personal benefits to them may follow the intangible benefits) and, more importantly, they often lack the job flexibility in time and effort that someone in a more traditional academic position can devote to following up on details.
+
+Thus to achieve tangible working products, one should consider whether (1) deliverables can be achieved in the time slotted for the hackathon, or (2) whether choosing participants who may lack certain skills or experience may serve the overall goal better by their likelihood of being able to dedicate extra time after the even to follow-up and complete the project.
+
+Another critical aspect in the achievement of tangible results and sustainable continuation of the projects is the ability to coalesce a community around the 
+
+Hypotheses/questions about ways of getting more post-event activity/sustainability:
+
+- what aspect of people involved in event lead to sustained effort?
+
+
+-  hypothesis:  the community "buys" into the activities of the hackathon  and are willing to embrace and continue (e.g., they become part of a  used codebase)
+-  hypothesis:  projects with better code may be more likely to continue  and those  might come from people with software engineering experience
+
+generic thoughts/observations:
+
+- having time-post hackathon is only one aspect of sustainability
+
+- getting sustainable products out of hackathons is very difficult
+
+- Setting expectations about what will happen afterwards is important
+
 ## Allowing hard targets to be tackled
 
 ## Using face-to-face time productively
@@ -460,12 +439,21 @@ Actions  taken during three different stages are critical to creating a  welcomi
 
 ## Data we wish we had collected
 
-* Ask participants who they know beforehand, then who they know afterward = measurement of connection
+* Ask participants who they know beforehand (and who they've collaborated with beforehand), then who they know afterward = measurement of connection
+* Publications
+* Citations
+* New collaborations
+* Social media participation
+* Query participants on familiarity with key technologies of interest prior to hackathon (particularly those which form the core of the project or which are introduced in bootcamps). Quern afterwards to see how many use these technologies after the event has completed.
+* Keep track of who does what when. Which individuals make the pitches? Which pitches are chosen to move forward? 
+
 # Conclusions
+Hackathons rule!
 
 # Resources
 
- Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003903
--  Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organization, Jonathon N. Cummings, Management Science, Vol. 50, No. 3  (Mar., 2004), pp. 352-364
+Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003903
+
+Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organization, Jonathon N. Cummings, Management Science, Vol. 50, No. 3  (Mar., 2004), pp. 352-364
 
 </main>
