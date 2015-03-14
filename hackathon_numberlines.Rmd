@@ -1,0 +1,69 @@
+---
+title: "Hackathon timelines"
+author: "Arlin Stoltzfus"
+date: "March 13, 2015"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r plot_fct, echo=FALSE}
+# define a numberline function
+# this function (from other code) could be modified to better suit this purpose
+numberline_plot <- function(vals, labels, ylabel = "", date_unit, tick_ratio = 0.05, tail_ratio = 0.2, ax_expand = 0.1) {
+  # sort the values and their labels 
+  labels <- labels[order(vals, decreasing = TRUE)]
+  vals <- sort(vals, decreasing = TRUE)
+
+  # compute a prettier scale, then get y values for the labels (leg_y)
+  jigger <- ax_expand * (max(vals) - min(vals))
+  new_range <- c(min(vals) - jigger, max(vals) + jigger)
+  spread = new_range[2] - new_range[1]
+  leg_y = seq(new_range[2], new_range[1], length.out = length(vals))
+  
+  # make a blank plot field that will hold the legend and the number line
+  plot.new() 
+  plot.window(new_range, new_range)
+  
+  # add the axis; use dates if date_unit (year, month, day) is supplied
+  if (missing(date_unit)) {
+    axis(2, pos = new_range[1])
+    } else {
+      axis.Date(2, seq(new_range[1], new_range[2], by=date_unit), format="%Y", labels = TRUE)
+      }
+
+  mtext(ylabel, 2, line = 2)
+  
+  # plot the legend (have to compute tick_x first)
+  tick_x <- new_range[1] + tick_ratio * spread
+  leg_x <- tick_x + tail_ratio * spread
+  text(leg_x, leg_y, labels = labels, adj = c(0,0), cex = 0.5)
+  
+  # plot the ticks 
+  start <- new_range[1] 
+  irrelevant_ret_val <- sapply(X=1:length(vals), function(x) lines(c(start, tick_x), y = c(vals[x], vals[x])))
+  
+  # plot the tails 
+  tail_x <- leg_x - spread/100 # just to add a bit of space
+  irrelevant_ret_val <- sapply(X=1:length(vals), function(x) lines(c(tick_x, tail_x), y = c(vals[x], leg_y[x])))
+  }
+
+```
+
+
+```{r, mk_lines, echo = F}
+# work around bug due to "#" in input field 
+infile <- "milestones.tsv"
+milestones <- read.table(infile, header = T, sep = "\t", comment.char = "", stringsAsFactors = F)
+numberline_plot(milestones$week, milestones$milestone_desc, ylabel = "Week relative to event start")
+
+infile <- "events.tsv"
+events <- read.table(infile, header = T, sep = "\t", comment.char = "", stringsAsFactors = F)
+# remove the mini-hackathon 
+events <- events[!events$code == "minir", ]
+events$start_date <- as.Date(events$start_date, "%d/%m/%Y")
+numberline_plot(events$start_date, events$full_name, ylabel = "", date_unit = "year")
+```
+
