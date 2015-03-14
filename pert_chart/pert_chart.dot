@@ -33,7 +33,7 @@ digraph pert {
 		"Finalized scope and goals"; // the overarching scope and goals as perceived by the LT
 		"Additional funding"; // any additionally acquired funding
 		"Budget"; // the budget for the hackathon, potentially covering travel, catering, accommodation and venue
-		"Logistics plan"; // planning for location, date, venue, travel, catering, accommodation
+		"Logistics plan"; // commitment to location, date, venue
 		"Required reporting"; // any reporting that is required by the funders
 	}
 	
@@ -70,10 +70,10 @@ digraph pert {
 	take to accomplish the target milestone given the successful completion of the source
 	milestone(s). Most milestones are assumed to be accomplished by an experienced
 	leadership team with past experiences and artefacts to draw from. The turnaround time
-	between many of these milestones is therefore now penciled in as two weeks (e.g. the
-	time between conference calls). Tasks that include interactions with others, such
-	as funders, inexperienced participants, travel agents and so on are assumed to take
-	longer.
+	between many of these milestones is therefore now penciled in as two weeks or less 
+	(e.g. the time between conference calls, the time to get a reply to an email). Tasks 
+	that include interactions with others, such as funders, inexperienced participants, 
+	travel agents and so on are assumed to take longer.
 	*/	
 	
 	/* The following edges are assumed to constitute the "critical 
@@ -83,7 +83,7 @@ digraph pert {
 	to the critical path */
 	edge [color = red fontcolor = red];
 	
-	"Broad goals" -> "Hackathon initiative" [ label = "14d" ];
+	"Broad goals" -> "Hackathon initiative"; // starting condition
 	"Hackathon initiative" -> "Initial scope and goals" [ label = "14d" ];
 	"Initial scope and goals" -> "Assembled LT" [ label = "21d" ]; // multiple responses
 	"Assembled LT" -> "Finalized scope and goals" [ label = "28d" ]; // iterative debate
@@ -91,8 +91,8 @@ digraph pert {
 	"Defined target community" -> "Call for participation" [ label = "14d" ];
 	"Call for participation" -> "Applications" [ label = "21d" ]; // multiple responses
 	"Applications" -> "Applicant reviews and ranking" [ label = "14d" ];
-	"Applicant reviews and ranking" -> "Invites" [ label = "14d" ];
-	"Invites" -> "Finalized roster" [ label = "14d" ];
+	"Applicant reviews and ranking" -> "Invites" [ label = "7d" ];
+	"Invites" -> "Finalized roster" [ label = "7d" ];
 	"Finalized roster" -> "Travel arrangements" [ label = "14d" ];
 	"Travel arrangements" -> "Event" [ label = "21d" ]; // communicate with travel agents
 	"Event" -> "Required reporting" [ label = "28d" ]; // probably less time sensitive
@@ -102,21 +102,21 @@ digraph pert {
 	longest dependency chain. */
 	edge [color = black fontcolor = black];
 	
-	"Resources" -> "Hackathon initiative" [ label = "14d" ];
+	"Resources" -> "Hackathon initiative"; // starting condition
 	"Resources" -> "Additional funding" [ label = "35d" ];
 	"Additional funding" -> "Budget" [ label = "14d" ];
-	"Budget" -> "Logistics plan" [ label = "14d" ];
+	"Budget" -> "Logistics plan" [ label = "7d" ];
 	"Logistics plan" -> "Travel arrangements" [ label = "14d" ];
 	"Finalized scope and goals" -> "Reserved seats" [ label = "14d" ];
 	"Finalized scope and goals" -> "Review criteria" [ label = "14d" ];
 	"Review criteria" -> "Applicant reviews and ranking" [ label = "14d" ];	
 	"Review criteria" -> "Call for participation" [ label = "14d" ];
-	"Reserved seats" -> "Invites" [ label = "14d" ];
+	"Reserved seats" -> "Invites" [ label = "7d" ];
 	"Finalized roster" -> "Pre-event engagement" [ label = "14d" ];
 	"Pre-event engagement" -> "Event" [ label = "14d" ];
 	"Assembled LT" -> "Additional funding" [ label = "14d" ];
 	"Assembled LT" -> "Budget" [ label = "14d" ];
-	"Assembled LT" -> "Logistics plan" [ label = "14d" ];
+	"Assembled LT" -> "Logistics plan" [ label = "7d" ];
 	
 	// no real deadline on the below. 
 	"Event" -> "Intangible outcomes";
