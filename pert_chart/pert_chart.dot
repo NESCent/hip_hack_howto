@@ -1,9 +1,9 @@
 digraph pert {
-	/* This is a Program Evaluation and Review Technique (PERT chart: 
-	http://en.wikipedia.org/wiki/Program_evaluation_and_review_technique) encoded in the
+	/* This is a Program Evaluation and Review Technique (PERT) chart: 
+	http://en.wikipedia.org/wiki/Program_evaluation_and_review_technique encoded in the
 	"dot" graph drawing language. The graph can be visualized in a number of different 
 	programs, the default being GraphViz (http://www.graphviz.org/). Feel free to edit
-	this file at will. As a TO DO item it might be useful to visualize identify sets of
+	this file at will. As a TO DO item it might be useful to visually identify sets of
 	tasks and milestones that can be accomplished in parallel by team members between
 	conference calls to get an idea of the number of synchronized interactions and 
 	plenary decision points that are required.		
@@ -30,7 +30,7 @@ digraph pert {
 	subgraph leadership_team {
 		node [fillcolor = cyan];
 	
-		"Finalized scope and goals"; // the overarching scope and goals as perceived by the LT
+		"Finalized scope and goals"; // the hackathon scope and goals as perceived by the LT
 		"Additional funding"; // any additionally acquired funding
 		"Budget"; // the budget for the hackathon, potentially covering travel, catering, accommodation and venue
 		"Logistics plan"; // commitment to location, date, venue
@@ -39,17 +39,17 @@ digraph pert {
 	
 	/* The following nodes are concerned with the recruitment 
 	process. These are actually also the responsibility of the LT,
-	but for the team being they are marked up differently */
+	but they are marked up differently to make this process stand out */
 	subgraph recruitment {
 		node [fillcolor = greenyellow];
 
 		"Reserved seats"; // a list of domain experts the LT want to invite
 		"Defined target community"; // a list of potential participant types
 		"Review criteria"; // set of criteria by which applicants are reviewed and ranked
-		"Call for participation"; // a widely circulated invitation to apply for participation
+		"Call for participation"; // a widely-circulated invitation to apply for participation
 		"Applications"; // a set of completed applications, e.g. forms / email responses
 		"Applicant reviews and ranking"; // reviews and ensuing ranking of applicants
-		"Invites"; // invitations to domain experts and positively reviewed applicants
+		"Invites"; // invitations to domain experts and positively-reviewed applicants
 		"Finalized roster"; // the final list of participants
 	}
 	
@@ -58,10 +58,10 @@ digraph pert {
 	subgraph everyone {
 		node [fillcolor = orchid1];
 	
-		"Pre-event engagement"; // online interactions to refine scope and goals and expectation management
+		"Pre-event engagement"; // online interactions to refine scope and goals, and expectation management
 		"Travel arrangements"; // participant travel and accommodation 
 		"Event"; // the hackathon itself
-		"Intangible outcomes"; // e.g. strengthened community, knowledge transfer
+		"Intangible outcomes"; // e.g. strengthened community, broader impacts
 		"Accessible outcomes"; // e.g. publications, proposals, code
 		"Publicity"; // e.g. social media, newsletters, hackathon proceedings
 	}
@@ -85,11 +85,11 @@ digraph pert {
 	
 	"Broad goals" -> "Hackathon initiative"; // starting condition
 	"Hackathon initiative" -> "Initial scope and goals" [ label = "14d" ];
-	"Initial scope and goals" -> "Assembled LT" [ label = "21d" ]; // multiple responses
+	"Initial scope and goals" -> "Assembled LT" [ label = "21d" ]; // await multiple responses
 	"Assembled LT" -> "Finalized scope and goals" [ label = "28d" ]; // iterative debate
 	"Finalized scope and goals" -> "Defined target community" [ label = "14d" ];
 	"Defined target community" -> "Call for participation" [ label = "14d" ];
-	"Call for participation" -> "Applications" [ label = "21d" ]; // multiple responses
+	"Call for participation" -> "Applications" [ label = "21d" ]; // await multiple responses
 	"Applications" -> "Applicant reviews and ranking" [ label = "14d" ];
 	"Applicant reviews and ranking" -> "Invites" [ label = "7d" ];
 	"Invites" -> "Finalized roster" [ label = "7d" ];
@@ -103,7 +103,7 @@ digraph pert {
 	edge [color = black fontcolor = black];
 	
 	"Resources" -> "Hackathon initiative"; // starting condition
-	"Resources" -> "Additional funding" [ label = "35d" ];
+	"Resources" -> "Additional funding" [ label = "35d" ]; // await multiple responses
 	"Additional funding" -> "Budget" [ label = "14d" ];
 	"Budget" -> "Logistics plan" [ label = "7d" ];
 	"Logistics plan" -> "Travel arrangements" [ label = "14d" ];
