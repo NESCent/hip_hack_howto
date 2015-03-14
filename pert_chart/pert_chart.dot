@@ -1,4 +1,14 @@
 digraph pert {
+	/* This is a Program Evaluation and Review Technique (PERT chart: 
+	http://en.wikipedia.org/wiki/Program_evaluation_and_review_technique) encoded in the
+	"dot" graph drawing language. The graph can be visualized in a number of different 
+	programs, the default being GraphViz (http://www.graphviz.org/). Feel free to edit
+	this file at will. As a TO DO item it might be useful to visualize identify sets of
+	tasks and milestones that can be accomplished in parallel by team members between
+	conference calls to get an idea of the number of synchronized interactions and 
+	plenary decision points that are required.		
+	*/
+
 	node [ shape = box, style = filled, fontname = "Verdana" ];
 	edge [ fontname = "Verdana" ];
 	
@@ -56,6 +66,16 @@ digraph pert {
 		"Publicity"; // e.g. social media, newsletters, hackathon proceedings
 	}
 	
+	/* Edges are all annotated with	a naive estimate of the number of days it would
+	take to accomplish the target milestone given the successful completion of the source
+	milestone(s). Most milestones are assumed to be accomplished by an experienced
+	leadership team with past experiences and artefacts to draw from. The turnaround time
+	between many of these milestones is therefore now penciled in as two weeks (e.g. the
+	time between conference calls). Tasks that include interactions with others, such
+	as funders, inexperienced participants, travel agents and so on are assumed to take
+	longer.
+	*/	
+	
 	/* The following edges are assumed to constitute the "critical 
 	path". As a TODO item, a specification of the time needed to achieve
 	each milestone in this graph would allow us to compute the actual
@@ -63,41 +83,43 @@ digraph pert {
 	to the critical path */
 	edge [color = red fontcolor = red];
 	
-	"Broad goals" -> "Hackathon initiative" [ label = "XXd" ];
-	"Hackathon initiative" -> "Initial scope and goals" [ label = "XXd" ];
-	"Initial scope and goals" -> "Assembled LT" [ label = "XXd" ];
-	"Assembled LT" -> "Finalized scope and goals" [ label = "XXd" ];
-	"Finalized scope and goals" -> "Defined target community" [ label = "XXd" ];
-	"Defined target community" -> "Call for participation" [ label = "XXd" ];
-	"Call for participation" -> "Applications" [ label = "XXd" ];
-	"Applications" -> "Applicant reviews and ranking" [ label = "XXd" ];
-	"Applicant reviews and ranking" -> "Invites" [ label = "XXd" ];
-	"Invites" -> "Finalized roster" [ label = "XXd" ];
-	"Finalized roster" -> "Travel arrangements" [ label = "XXd" ];
-	"Travel arrangements" -> "Event" [ label = "XXd" ];
-	"Event" -> "Required reporting" [ label = "XXd" ];
+	"Broad goals" -> "Hackathon initiative" [ label = "14d" ];
+	"Hackathon initiative" -> "Initial scope and goals" [ label = "14d" ];
+	"Initial scope and goals" -> "Assembled LT" [ label = "21d" ]; // multiple responses
+	"Assembled LT" -> "Finalized scope and goals" [ label = "28d" ]; // iterative debate
+	"Finalized scope and goals" -> "Defined target community" [ label = "14d" ];
+	"Defined target community" -> "Call for participation" [ label = "14d" ];
+	"Call for participation" -> "Applications" [ label = "21d" ]; // multiple responses
+	"Applications" -> "Applicant reviews and ranking" [ label = "14d" ];
+	"Applicant reviews and ranking" -> "Invites" [ label = "14d" ];
+	"Invites" -> "Finalized roster" [ label = "14d" ];
+	"Finalized roster" -> "Travel arrangements" [ label = "14d" ];
+	"Travel arrangements" -> "Event" [ label = "21d" ]; // communicate with travel agents
+	"Event" -> "Required reporting" [ label = "28d" ]; // probably less time sensitive
 	
 	/* These edges do not belong to the critical path. This doesn't mean
 	they're somehow less important, just that they don't participate in the
 	longest dependency chain. */
 	edge [color = black fontcolor = black];
 	
-	"Resources" -> "Hackathon initiative" [ label = "XXd" ];
-	"Resources" -> "Additional funding" [ label = "XXd" ];
-	"Additional funding" -> "Budget" [ label = "XXd" ];
-	"Budget" -> "Logistics plan" [ label = "XXd" ];
-	"Logistics plan" -> "Travel arrangements" [ label = "XXd" ];
-	"Finalized scope and goals" -> "Reserved seats" [ label = "XXd" ];
-	"Finalized scope and goals" -> "Review criteria" [ label = "XXd" ];
-	"Review criteria" -> "Applicant reviews and ranking" [ label = "XXd" ];	
-	"Review criteria" -> "Call for participation" [ label = "XXd" ];
-	"Reserved seats" -> "Invites" [ label = "XXd" ];
-	"Finalized roster" -> "Pre-event engagement" [ label = "XXd" ];
-	"Pre-event engagement" -> "Event" [ label = "XXd" ];
-	"Event" -> "Intangible outcomes" [ label = "XXd" ];
-	"Event" -> "Accessible outcomes" [ label = "XXd" ];
-	"Event" -> "Publicity" [ label = "XXd" ];
-	"Assembled LT" -> "Additional funding" [ label = "XXd" ];
-	"Assembled LT" -> "Budget" [ label = "XXd" ];
-	"Assembled LT" -> "Logistics plan" [ label = "XXd" ];
+	"Resources" -> "Hackathon initiative" [ label = "14d" ];
+	"Resources" -> "Additional funding" [ label = "35d" ];
+	"Additional funding" -> "Budget" [ label = "14d" ];
+	"Budget" -> "Logistics plan" [ label = "14d" ];
+	"Logistics plan" -> "Travel arrangements" [ label = "14d" ];
+	"Finalized scope and goals" -> "Reserved seats" [ label = "14d" ];
+	"Finalized scope and goals" -> "Review criteria" [ label = "14d" ];
+	"Review criteria" -> "Applicant reviews and ranking" [ label = "14d" ];	
+	"Review criteria" -> "Call for participation" [ label = "14d" ];
+	"Reserved seats" -> "Invites" [ label = "14d" ];
+	"Finalized roster" -> "Pre-event engagement" [ label = "14d" ];
+	"Pre-event engagement" -> "Event" [ label = "14d" ];
+	"Assembled LT" -> "Additional funding" [ label = "14d" ];
+	"Assembled LT" -> "Budget" [ label = "14d" ];
+	"Assembled LT" -> "Logistics plan" [ label = "14d" ];
+	
+	// no real deadline on the below. 
+	"Event" -> "Intangible outcomes";
+	"Event" -> "Accessible outcomes";
+	"Event" -> "Publicity";	
 }
