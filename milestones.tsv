@@ -4,11 +4,11 @@ week	milestone_name	milestone_desc
 -2	engagement	Initiate pre-event engagement
 -3	travel_complete	Travel arrangements
 -4	finalize_invites	Finalized roster
--5.5	applicant_decisions	Invites
+-5	applicant_decisions	Invitations sent
 -6	review_deadline	Applicant reviews and ranking
--7	application_deadline	Deadline for application submission
--8	second_RFP	Second call for participation
+-8	application_deadline	Deadline for application submission
+-9	second_RFP	Second call for participation
 -11	issue_RFP	Call for participation
 -12	recruit_strategy	Recruitment materials and dissemination plan
--13	plan	Logistics plan
--14	final_scope	Finalized scope and goals
+-14	plan	Logistics plan
+-16	final_scope	Finalized scope and goals
