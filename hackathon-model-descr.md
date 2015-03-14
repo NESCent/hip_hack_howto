@@ -10,7 +10,7 @@ two, to foster sustained, cohesive communities of practice.
 The distinguishing characteristics designed to accomplish these
 objectives can be reduced to a combination of the following three.
 
-1. **A participant group that balances diversity with homogenity, and
+1. **A participant group that balances diversity with homogeneity, and
    that is about 20-30 people in size.** The idea is a group small and
    homogeneous enough in size and composition that every participant
    will still interact with everyone else in at least a meaningful
@@ -46,16 +46,6 @@ The following additional characteristics have also emerged as common
 across NESCent Model-hackathons, but they can be found frequently in other
 types of hackathon events as well.
 
-**Structured first day, unstructured rest.** Most of the first day of
-hackathons in this model is taken up by structured activities that
-start with welcoming everyone and end with participants breaking up
-into teams with self-chosen target projects. The rest of the time is
-largely unstructured, with teams determining their schedule on their
-own. The whole event concludes with show-and-tell of each team,
-followed by identifying actions the sponsor can take, or resources the
-sponsor could help establish, to aid post-hackathon completion and,
-ideally, sustainability of nascent products.
-
 **Leadership team for collaborative well-informed decision making.**
 There are many points in the planning phase of a NESCent
 Model-hackathon at which decisions have to be made that co-determine
@@ -66,6 +56,25 @@ rather than a single individual is responsible for them. The
 leadership team is put in charge early on the process, and is
 assembled from people that are invested in the event's outcomes and
 that between them represent a wide umbrella of perspectives.
+
+**Structured first day, unstructured rest.** Most of the first day of
+hackathons in this model is taken up by structured activities that
+start with welcoming everyone and end with participants breaking up
+into teams with self-chosen target projects. The rest of the time is
+largely unstructured, with teams determining their schedule on their
+own. The whole event concludes with show-and-tell of each team,
+followed by identifying actions the sponsor can take, or resources the
+sponsor could help establish, to aid post-hackathon completion and,
+ideally, sustainability of nascent products.
+
+**Daily succinct and brief report-outs ("standups").** To ensure that
+related or dependent pieces of work across teams remain
+coordinated, each team briefly reports its status, plans for
+continuation, and current roadblocks once on each day after the
+first. This format is borrowed from the daily "standups" in agile
+software development methodologies. Including current roadblocks is
+intended to allow tapping into the collective expertise in the room to
+overcome these.
 
 **All products are public and open-source, immediately.** This
 normally implies that all software tools or resources targeted by work
