@@ -36,21 +36,21 @@ Affiliations: blah blah blah
       *  Criteria for Choosing Participants
       *  Process for Choosing Participants
     *  Pre-hackathon Engagement
-  *  During the Hackathon
+  *  The Hackathon
     *  Day 1
-    *  Days 2 to end
+    *  Intermediate Days
     *  Last Day
   *  Post-Hackathon Wrap-Up
 *  Results and Discussion
   *  Challenges of building a leadership team
-  *  Growing community
+  *  Growing the community
     *  Make people feel welcome; encourage people
-  *  Diversifying community
+    *  Diversifying the community
   *  Technology awareness and knowledge exchange
   *  Achieving tangible working products
   *  Controlling Scope to Balance Flexibility and Specificity
   *  Remote participation in hackathons
-  *  Allowing hard targets to be tackled
+  *  Allowing hard targets to be tackled (???)
   *  Using face-to-face time productively
   *  Data we wish we had collected
 *  Conclusions
@@ -63,8 +63,12 @@ Affiliations: blah blah blah
 Hackathons have become popular instruments to stimulate creative problem solving, and to engender engagement with a sponsor's objectives. The kinds of problems being targeted, the people whose engagement is being sought, and the types of objectives sponsors aim to promote all vary widely. So do the models, processes, and formats based on which hackathon events are run. Unfortunately, there is scant data, and even fewer scientific studies, on which way to conceive and execute a hackathon is most conducive to, or tends to preclude which kinds of outcomes. Here we report on the experience of planning and running a cumulative total of 9 hackathons aimed at fostering and nurturing a domain science community of practice, and its capacity to collaboratively develop and sustain its informatics resources. We define the model and process we used throughout these hackathons, and describe the motivations and goals that underlie them. To enable future more comprehensive studies, we present the data and evidence we collected, and discuss which conclusions about the effectiveness of the events they suggest. We end with recommendations on which data could be collected at future hackathons to eventually enable an evidence-based approach to the various decision-making points involved in planning and running a hackathon.
 
 <main>
+
 # Introduction
-Hackathons, sometimes also called hackfest or codefest, are _DESCRIBE WHAT A HACKATHON IS_. Since the early 2000's, hackathons have become increasingly popular in both commercial and academic settings. They are most often deployed as instruments to foster community, and to stimulate creative uses of technology to address unsolved problems. Academic sponsors tend to design hackathons around community engagement and outreach goals, whereas company-run hackathons often focus on product improvement or innovation. Hackathon events can and do vary widely in important characteristics, such as length, size, participant recruitment, composition of participant group, amount of structure, competition between teams, sponsorship for participant costs, pre-event and post-event engagement and expectations, and others. The many choices one can make all have implications, not only for what happens (or doesn't) at the event itself, but also for outcomes, be they social, technical, or community-related. Most of these implications have not been scientifically studied, and therefore data that could inform decision making are scant. So are, unfortunately, data or studies about assessment of hackathon outcomes. 
+*Hackathons* (hackathon = code hacking marathons), sometimes also called *hackfest* or codefest, are focused code development events, that bring together a range of developers and users, to accelerate development, discover new points of collaboration, facilitate adoption, and involved a broader community. 
+
+
+_DESCRIBE WHAT A HACKATHON IS_. Since the early 2000's, hackathons have become increasingly popular in both commercial and academic settings. They are most often deployed as instruments to foster community, and to stimulate creative uses of technology to address unsolved problems. Academic sponsors tend to design hackathons around community engagement and outreach goals, whereas company-run hackathons often focus on product improvement or innovation. Hackathon events can and do vary widely in important characteristics, such as length, size, participant recruitment, composition of participant group, amount of structure, competition between teams, sponsorship for participant costs, pre-event and post-event engagement and expectations, and others. The many choices one can make all have implications, not only for what happens (or doesn't) at the event itself, but also for outcomes, be they social, technical, or community-related. Most of these implications have not been scientifically studied, and therefore data that could inform decision making are scant. So are, unfortunately, data or studies about assessment of hackathon outcomes. 
 
 This is particularly problematic for hackathons that try to strike a balance between community outreach and creating tangible products, because decisions made early in the process of organizing an event can shift the balance later in the process in a way that is unintended or undesired by the sponsors. Further complicating the problem is that scope, objectives, and priorities for a hackathon are not always determined _before_ the first decisions that influence them, and that many types of outcomes lack easy-to-measure metrics, and are thus difficult to assess. Hence, whether and to what degree a hackathon achieved its intended goals is typically a matter of subjective judgement, which itself is often rendered by those with obvious conflicts of interest, such as organizers and sponsors. A hackathon may be judged highly successful even when it failed to meet most of its intended goals, for example because it had unanticipated outcomes that have equal or greater impact than the intended ones would have had. 
 
@@ -76,7 +80,7 @@ In this paper, we present a thorough description of a hackathon model and proces
 2. Their target areas were all focused on the same domain science, evolutionary biology.
 3. Intangible outcomes, in particular building and nurturing a scientific community of practice, were of similar importance to the sponsor as tangible products. 
 
-At least one, and for six out of the nine events several of the co-organizers of these hackathons is among the authors. We note that we intentionally restrict ourselves to reporting and discussing the experience and evidence we have. This paper does therefore not attempt a comprehensive review of the hackathon models and processes that exist, nor do we try to compare the effectiveness of the model and process we describe to that of others. 
+At least one, and for six out of the nine events several of the co-organizers of these hackathons are among the authors. We note that we intentionally restrict ourselves to reporting and discussing the experience and evidence we have. This paper does therefore not attempt a comprehensive review of the hackathon models and processes that exist, nor do we try to compare the effectiveness of the model and process we describe to that of others. 
 
 ## Values/Objectives of Hackathons
 *Note: I feel like this section may fit more naturally into the discussion, but much of the explanation for why we do certain things depends on this, which seems to make it more sensible to put it at the top. Something to consider as overall structure is being evaluated.*
@@ -325,7 +329,7 @@ We have tried to engage invited participants in advance of the hackathon using m
 Generally, we have not experienced much success in participant engagement prior to the hackathon. We hypothesize that those who do engage prior to the hackathon are also likely to engage during the event. However, little can be predicted about the engagement during the hackathon of those who do not participate in pre-hackathon activities.
 
 
-## During the Hackathon
+## The Hackathon
 
 ### Day 1
 *Active facilitation, especially during the first day, is critical to "keep true" to the scope and keep the event as a whole on-topic.*
@@ -350,7 +354,7 @@ After all of the pitches are made, everyone is given an opportunity to wander ar
 
 At this stage, with primary projects identified and teams self-assembled, the remainder of the day is left for teams to begin planning and executing how they will attack their individual projects.
 
-### Days 2 to end
+### Intermediate Days
 Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a whole group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about twice per day (to avoid wasting too much time on updates) - once before breaking for lunch and once at the end of the day.
 
 ### Last Day
@@ -397,7 +401,7 @@ Some ideas:
 
 * Just as the initial success of the hackathon event is dependent on the time and effort dedicated by members of the LT, the members of the LT are also often the individuals that guide the post-hackathon activities, necessary to summarize results, guide follow-up efforts (e.g., development of manuscripts that present the achievements of the hackathon projects), and ensure that the hackathon outcomes are made fully available to the broad community.
 
-## Growing community
+## Growing the community
 As discussed elsewhere in this document, direct invitation serves an important function in targeting expertise and increasing diversity, but we find it is too community limiting as a general strategy. Choosing participants, at least in part, from an open pool is extremely important if one of the goals of the hackathon is to grow the community. Much like Gordon conferences, invitation-only hackathons (e.g., the Japan hackathons) have a danger of stratifying individuals into the invited in-crowd and the ignored out-crowd. 
 
 ### Make people feel welcome; encourage people
@@ -407,7 +411,7 @@ Second, during pre-event  engagement, add everyone to an event- or project-speci
 
 Third and most importantly, be welcoming during the event, particularly on day 1. Use  bootcamps and technical talks to get everyone up to speed on core technologies for the event. Prior to pitching, instruct participants to  form an open circle around pitches, not a queue or a block—in particular, if the pitcher and a few others are having a highly technical discussion with their backs to everyone else, this is very unwelcoming, and the facilitators should step in and remind them to **keep the circle open.** Participants leading a pitch and subsequent team should encourage participation of all the team members (asking questions, positively encouraging inputs). A critical component is ensuring the formation of positive interactions among participants, *e.g.*, through a whole-group social event to cap off the first day (solicit ideas from participants). 
 
-## Diversifying community
+### Diversifying the community
 <!--
 * Talent diversity can be a disadvantage if you don't manage expectations.
 ** Ex: Phylotastic II focused too much on diversity. Some participants didn't end up fitting into a group, which didn't advance goals.
@@ -474,7 +478,7 @@ Remote participation of a single individual has worked best when the individual 
 The remote participation of an entire team was experimented with during the Phylotastic I hackathon. The team was located at a remote site, with several researchers spending an equal amount of time as the on-site participants in a dedicated remote space (a lab reserved for the event). The remote team focused entirely on one of the hackathon projects, with no participation in such projects from the main site participants. The remote team did not require continuous video/audio connection to the main site, with interactions limited to the initial introductions and the regular stand-up meetings. While easier to implement than the individual remote participants, the remote team participation does not benefit from the knowledge exchanges that occur among participants at the main site; the infrequent connections and interactions remove many of the described benefits of the hackathon.
 
 
-## Allowing hard targets to be tackled
+## Allowing hard targets to be tackled (???)
 *I honestly am not sure what this topic is supposed to be*
 
 
@@ -503,5 +507,11 @@ Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.pl
 Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organization, Jonathon N. Cummings, Management Science, Vol. 50, No. 3  (Mar., 2004), pp. 352-364.
 
 StitchFest: Diversifying a College Hackathon to Broaden Participation and Perceptions in Computing. Gabriela T. Richard, Yasmin B. Kafai, Barrie M. Adleberg, Orkan Telhan. Proceedings of the 46th ACM Technical Symposium on Computer Science EducationProceedings of the 46th ACM Technical Symposium on Computer Science Education, 2015.
+
+*REFERENCES WE NEED TO SOMEHOW INCLUDE*
+
+Community-driven development for computational biology at Sprints, Hackathons and Codefests. Steffen Möller, Enis Afgan, Michael Banck, Raoul J. P. Bonnal, Timothy Booth, John Chilton, Peter J. A. Cock, Markus Gumbel, Nomi L. Harris, Richard C. G. Holland, Matús Kalas, László Kaján, Eri Kibukawa, David R. Powell, Pjotr Prins, Jacqueline Quinn, Olivier Sallou, Francesco Strozzi, Torsten Seemann, Clare Sloggett, Stian Soiland-Reyes, William Spooner, Sascha Steinbiss, Andreas Tille, Anthony J. Travis, Roman Guimera, Toshiaki Katayama, Brad A. Chapman. BMC Bioinformatics 15(S-14): S7 (2014).
+
+
 
 </main>
