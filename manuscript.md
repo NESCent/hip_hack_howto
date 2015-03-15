@@ -200,6 +200,11 @@ The following additional characteristics have also emerged as common across NESC
 
 **All products are public and open-source, immediately.** This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
 
+**No competition.** There are no prizes awarded at the end of the
+hackathon, and there is no judging panel. Supporting additional
+participants has remained a higher priority for using the sponsors'
+funding than awarding a prize.
+
 # Methods: The "NESCent Hackathon" Process Model 
 The following is a detailed description of the logistical model we have developed for executing hackathons. This model has evolved over 10 years and the description largely reflects the final model. Discussions of where and why the model has changed are used to illustrate the lessons learned.
 
