@@ -64,82 +64,19 @@ Hackathons have become popular instruments to stimulate creative problem solving
 
 <main>
 # Introduction
-(Hilmar)
+Hackathons, sometimes also called hackfest or codefest, are _DESCRIBE WHAT A HACKATHON IS_. Since the early 2000's, hackathons have become increasingly popular in both commercial and academic settings. They are most often deployed as instruments to foster community, and to stimulate creative uses of technology to address unsolved problems. Academic sponsors tend to design hackathons around community engagement and outreach goals, whereas company-run hackathons often focus on product improvement or innovation. Hackathon events can and do vary widely in important characteristics, such as length, size, participant recruitment, composition of participant group, amount of structure, competition between teams, sponsorship for participant costs, pre-event and post-event engagement and expectations, and others. The many choices one can make all have implications, not only for what happens (or doesn't) at the event itself, but also for outcomes, be they social, technical, or community-related. Most of these implications have not been scientifically studied, and therefore data that could inform decision making are scant. So are, unfortunately, data or studies about assessment of hackathon outcomes. 
 
-Hackathons, sometimes also called hackfest or codefest, are _DESCRIBE
-WHAT A HACKATHON IS_. Since the early 2000's, hackathons have become
-increasingly popular in both commercial and academic settings. They
-are most often deployed as instruments to foster community, and to
-stimulate creative uses of technology to address unsolved problems.
-Academic sponsors tend to design hackathons around community engagement
-and outreach goals, whereas company-run hackathons often focus on
-product improvement or innovation. Hackathon events can and do vary
-widely in important characteristics, such as length, size, participant
-recruitment, composition of participant group, amount of structure,
-competition between teams, sponsorship for participant costs,
-pre-event and post-event engagement and expectations, and others. The
-many choices one can make all have implications, not only for what
-happens (or doesn't) at the event itself, but also for outcomes, be
-they social, technical, or community-related. Most of these
-implications have not been scientifically studied, and therefore data
-that could inform decision making are scant. So are, unfortunately,
-data or studies about assessment of hackathon outcomes. 
+This is particularly problematic for hackathons that try to strike a balance between community outreach and creating tangible products, because decisions made early in the process of organizing an event can shift the balance later in the process in a way that is unintended or undesired by the sponsors. Further complicating the problem is that scope, objectives, and priorities for a hackathon are not always determined _before_ the first decisions that influence them, and that many types of outcomes lack easy-to-measure metrics, and are thus difficult to assess. Hence, whether and to what degree a hackathon achieved its intended goals is typically a matter of subjective judgement, which itself is often rendered by those with obvious conflicts of interest, such as organizers and sponsors. A hackathon may be judged highly successful even when it failed to meet most of its intended goals, for example because it had unanticipated outcomes that have equal or greater impact than the intended ones would have had. 
 
-This is particularly problematic for hackathons that try to strike a
-balance between community outreach and creating tangible products,
-because decisions made early in the process of organizing an event can
-shift the balance later in the process in a way that is unintended or
-undesired by the sponsors. Further complicating the problem is that
-scope, objectives, and priorities for a hackathon are not always
-determined _before_ the first decisions that influence them, and that
-many types of outcomes lack easy-to-measure metrics, and are thus
-difficult to assess. Hence, whether and to what degree a hackathon
-achieved its intended goals is typically a matter of subjective
-judgement, which itself is often rendered by those with obvious
-conflicts of interest, such as organizers and sponsors. A hackathon
-may be judged highly successful even when it failed to meet most of
-its intended goals, for example because it had unanticipated outcomes
-that have equal or greater impact than the intended ones would have
-had.
+Scientific studies on hackathon processes versus outcomes have started to be undertaken, but results from these will take years to become conclusive. However, what can be done now is thoroughly documenting the hackathon models and processes that have been used recurringly by the same or related sponsors, assuming that those are the ones that have been deemed successful at achieving objectives that are important to the sponsors. Such documentation should thus include what the objectives were, which ones were more important than others, and, to the extent possible, the extent to which they were achieved. Rigorous documentation of this kind is currently scarce and nearly absent from the scholarly record. Although many reports on hackathons, including tips for others and some lessons learned, can be found online, they are in the form of informal, often intentionally subjective blog posts, and typically reflect on a single event rather than a model and process that have been applied repeatedly. 
 
-Scientific studies on hackathon processes versus outcomes have started
-to be undertaken, but results from these will take years to become
-conclusive. However, what can be done now is thoroughly documenting
-the hackathon models and processes that have been used recurringly by
-the same or related sponsors, assuming that those are the ones that
-have been deemed successful at achieving objectives that are important
-to the sponsors. Such documentation should thus include what the
-objectives were, which ones were more important than others, and, to
-the extent possible, the extent to which they were achieved. Rigorous
-documentation of this kind is currently scarce and nearly absent from
-the scholarly record. Although many reports on hackathons, including
-tips for others and some lessons learned, can be found online, they
-are in the form of informal, often intentionally subjective blog
-posts, and typically reflect on a single event rather than a model and
-process that have been applied repeatedly.
+In this paper, we present a thorough description of a hackathon model and process that was used for organizing and running nine hackathons over a 10 year period. Although the target areas of these hackathons differ widely, they share a number of important properties that makes them a cohesive series for studying: 
 
-In this paper, we present a thorough description of a hackathon model
-and process that was used for organizing and running nine hackathons
-over a 10 year period. Although the target areas of these hackathons
-differ widely, they share a number of important properties that makes
-them a cohesive series for studying:
+1. They had the same primary sponsor, NESCent, an academic research center. (A few also had co-sponsors from other academic research entities.) 
+2. Their target areas were all focused on the same domain science, evolutionary biology.
+3. Intangible outcomes, in particular building and nurturing a scientific community of practice, were of similar importance to the sponsor as tangible products. 
 
-1. They had the same primary sponsor, NESCent, an academic research
-   center. (A few also had co-sponsors from other academic research
-   entities.)
-2. Their target areas were all focused on the same domain science,
-   evolutionary biology.
-3. Intangible outcomes, in particular building and nurturing a
-   scientific community of practice, were of similar importance to the
-   sponsor as tangible products.
-
-At least one, and for six out of the nine events several of the
-co-organizers of these hackathons is among the authors. We note that
-we intentionally restrict ourselves to reporting and discussing the
-experience and evidence we have. This paper does therefore not attempt
-a comprehensive review of the hackathon models and processes that
-exist, nor do we try to compare the effectiveness of the model and
-process we describe to that of others.
+At least one, and for six out of the nine events several of the co-organizers of these hackathons is among the authors. We note that we intentionally restrict ourselves to reporting and discussing the experience and evidence we have. This paper does therefore not attempt a comprehensive review of the hackathon models and processes that exist, nor do we try to compare the effectiveness of the model and process we describe to that of others. 
 
 ## Values/Objectives of Hackathons
 *Note: I feel like this section may fit more naturally into the discussion, but much of the explanation for why we do certain things depends on this, which seems to make it more sensible to put it at the top. Something to consider as overall structure is being evaluated.*
@@ -487,6 +424,7 @@ As a group, we made a conscious decision to declare that we valued community div
 * Ensure that teams and discussions during the hackathon are open, welcoming, and inclusive.
 * Identify participants that might be disengaged or inactive, and make an effort to reach out to them and actively engage them in the activity
 
+[see citation at end for a reference on power of hackathons to improve diversity]
 
 ## Technology awareness and knowledge exchange
 A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
@@ -564,10 +502,6 @@ Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.pl
 
 Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organization, Jonathon N. Cummings, Management Science, Vol. 50, No. 3  (Mar., 2004), pp. 352-364.
 
-StitchFest: Diversifying a College Hackathon to Broaden Participation and Perceptions in Computing. Gabriela T. Richard, Yasmin B. Kafai, Barrie M. Adleberg, Orkan Telhan.
-
-:
-. SIGCSE 2015: 114-119
-
+StitchFest: Diversifying a College Hackathon to Broaden Participation and Perceptions in Computing. Gabriela T. Richard, Yasmin B. Kafai, Barrie M. Adleberg, Orkan Telhan. Proceedings of the 46th ACM Technical Symposium on Computer Science EducationProceedings of the 46th ACM Technical Symposium on Computer Science Education, 2015.
 
 </main>
