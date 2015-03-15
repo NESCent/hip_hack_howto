@@ -9,6 +9,7 @@ Suggested titles so far:
 </title>
 
 Authors: blah blah blah
+
 Affiliations: blah blah blah
 
 <hr/>
@@ -51,7 +52,6 @@ Affiliations: blah blah blah
   *  Remote participation in hackathons
   *  Allowing hard targets to be tackled
   *  Using face-to-face time productively
-  *  and others...
   *  Data we wish we had collected
 *  Conclusions
 *  Resources
@@ -65,6 +65,81 @@ Hackathons have become popular instruments to stimulate creative problem solving
 <main>
 # Introduction
 (Hilmar)
+
+Hackathons, sometimes also called hackfest or codefest, are _DESCRIBE
+WHAT A HACKATHON IS_. Since the early 2000's, hackathons have become
+increasingly popular in both commercial and academic settings. They
+are most often deployed as instruments to foster community, and to
+stimulate creative uses of technology to address unsolved problems.
+Academic sponsors tend to design hackathons around community engagement
+and outreach goals, whereas company-run hackathons often focus on
+product improvement or innovation. Hackathon events can and do vary
+widely in important characteristics, such as length, size, participant
+recruitment, composition of participant group, amount of structure,
+competition between teams, sponsorship for participant costs,
+pre-event and post-event engagement and expectations, and others. The
+many choices one can make all have implications, not only for what
+happens (or doesn't) at the event itself, but also for outcomes, be
+they social, technical, or community-related. Most of these
+implications have not been scientifically studied, and therefore data
+that could inform decision making are scant. So are, unfortunately,
+data or studies about assessment of hackathon outcomes. 
+
+This is particularly problematic for hackathons that try to strike a
+balance between community outreach and creating tangible products,
+because decisions made early in the process of organizing an event can
+shift the balance later in the process in a way that is unintended or
+undesired by the sponsors. Further complicating the problem is that
+scope, objectives, and priorities for a hackathon are not always
+determined _before_ the first decisions that influence them, and that
+many types of outcomes lack easy-to-measure metrics, and are thus
+difficult to assess. Hence, whether and to what degree a hackathon
+achieved its intended goals is typically a matter of subjective
+judgement, which itself is often rendered by those with obvious
+conflicts of interest, such as organizers and sponsors. A hackathon
+may be judged highly successful even when it failed to meet most of
+its intended goals, for example because it had unanticipated outcomes
+that have equal or greater impact than the intended ones would have
+had.
+
+Scientific studies on hackathon processes versus outcomes have started
+to be undertaken, but results from these will take years to become
+conclusive. However, what can be done now is thoroughly documenting
+the hackathon models and processes that have been used recurringly by
+the same or related sponsors, assuming that those are the ones that
+have been deemed successful at achieving objectives that are important
+to the sponsors. Such documentation should thus include what the
+objectives were, which ones were more important than others, and, to
+the extent possible, the extent to which they were achieved. Rigorous
+documentation of this kind is currently scarce and nearly absent from
+the scholarly record. Although many reports on hackathons, including
+tips for others and some lessons learned, can be found online, they
+are in the form of informal, often intentionally subjective blog
+posts, and typically reflect on a single event rather than a model and
+process that have been applied repeatedly.
+
+In this paper, we present a thorough description of a hackathon model
+and process that was used for organizing and running nine hackathons
+over a 10 year period. Although the target areas of these hackathons
+differ widely, they share a number of important properties that makes
+them a cohesive series for studying:
+
+1. They had the same primary sponsor, NESCent, an academic research
+   center. (A few also had co-sponsors from other academic research
+   entities.)
+2. Their target areas were all focused on the same domain science,
+   evolutionary biology.
+3. Intangible outcomes, in particular building and nurturing a
+   scientific community of practice, were of similar importance to the
+   sponsor as tangible products.
+
+At least one, and for six out of the nine events several of the
+co-organizers of these hackathons is among the authors. We note that
+we intentionally restrict ourselves to reporting and discussing the
+experience and evidence we have. This paper does therefore not attempt
+a comprehensive review of the hackathon models and processes that
+exist, nor do we try to compare the effectiveness of the model and
+process we describe to that of others.
 
 ## Values/Objectives of Hackathons
 *Note: I feel like this section may fit more naturally into the discussion, but much of the explanation for why we do certain things depends on this, which seems to make it more sensible to put it at the top. Something to consider as overall structure is being evaluated.*
@@ -288,10 +363,10 @@ Direct invitation is a powerful means of helping to improve diversity. Beyond ta
 
 Our advertising has been predominantly through popular mailing lists in the appropriate academic discipline, as well as spreading word through emails to colleagues. Generally the first call for applications would be sent about 3 weeks before the deadline, with a second call/reminder sent at 1 week. Direct invitations would go out at the time of the first call, but additional invites can be sent later as other names/suggestions are found.
 
-*Figure/Appendix X: example of a hackathon advertisement*
+*Figure/Appendix X: example of a hackathon advertisement* [uploaded in the repository]
 
 #### The Application Process
-We have used a fairly simple application form created through Google Docs for screening participants (Figure/Appendix X). Beyond typical fields such as name and contact information, we were interested in the following major fields: (1) availability: can the person attend the entire event; (2) a general checklist of skills/expertise that were applicable to the hackathon theme; (3) personal goal for attending the hackathon: why do they want to attend and what do they want to get from it; (4) demographics (lesson learned: we did not ask for demographic info in earlier applications, but found that diversity suffered when we did not have information to help balance decisions); and (5) where they are coming from (for budgeting purposes) and whether they have support to attend without our funding.
+We have used a fairly simple application form created through Google Docs for screening participants (Figure/Appendix X [uploaded in the repository]). Beyond typical fields such as name and contact information, we were interested in the following major fields: (1) availability: can the person attend the entire event; (2) a general checklist of skills/expertise that were applicable to the hackathon theme; (3) personal goal for attending the hackathon: why do they want to attend and what do they want to get from it; (4) demographics (lesson learned: we did not ask for demographic info in earlier applications, but found that diversity suffered when we did not have information to help balance decisions); and (5) where they are coming from (for budgeting purposes) and whether they have support to attend without our funding.
 
 At one point we asked for proof of expertise, but it was a bit off-putting to participants and proved ineffective. 
 
@@ -324,7 +399,7 @@ The first day of the hackathon is the most unique in structure, because it serve
 
 The next major activity is an open brain-storming session aimed at exploring and refining the overall scope of the hackathon, and clarifying any aspect of the broad objectives that might be unclear. This part of the event is typically not focused on technical discussions, unless these are necessary for the refinement and clarification of the scope.
 
-The brainstorming session is generally followed by a series of technical presentations, called “boot camps”, where key technologies or concepts important to the overall planned scope of the project are introduced. The bootcamps are often identified as part of the pre-engagement activities (*e.g.*, through polls of participants) or are the result of the brain-storming sessions (*e.g.*, they will select which bootcamps will be offered out of an initial set developed before the event). These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of the bootcamps can vary quite a bit: sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them).
+The brainstorming session is generally followed by a series of technical presentations, called “bootcamps”, where key technologies or concepts important to the overall planned scope of the project are introduced. The bootcamps are often identified as part of the pre-engagement activities (*e.g.*, through polls of participants) or are the result of the brain-storming sessions (*e.g.*, they will select which bootcamps will be offered out of an initial set developed before the event). These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of the bootcamps can vary quite a bit: sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them). The need for boot camps may also arise *during* the hackathon itself, motivated by specific needs that have been raised by one or more projects. 
 
 Following the open brainstorming and the bootcamps (and usually with a break or meal in between), is an opportunity for individuals to make specific pitches about the project(s) they would like to pursue. Each individual who wants to make a pitch is given a minute or two to briefly explain their idea. Generally, each pitch is assigned a space in the meeting room where brief discussion and assembly will occur. Each pitch typically articulates:
 * The expected goals and deliverables
@@ -396,18 +471,21 @@ Second, during pre-event  engagement, add everyone to an event- or project-speci
 Third and most importantly, be welcoming during the event, particularly on day 1. Use  bootcamps and technical talks to get everyone up to speed on core technologies for the event. Prior to pitching, instruct participants to  form an open circle around pitches, not a queue or a block—in particular, if the pitcher and a few others are having a highly technical discussion with their backs to everyone else, this is very unwelcoming, and the facilitators should step in and remind them to **keep the circle open.** Participants leading a pitch and subsequent team should encourage participation of all the team members (asking questions, positively encouraging inputs). A critical component is ensuring the formation of positive interactions among participants, *e.g.*, through a whole-group social event to cap off the first day (solicit ideas from participants). 
 
 ## Diversifying community
+<!--
 * Talent diversity can be a disadvantage if you don't manage expectations.
 ** Ex: Phylotastic II focused too much on diversity. Some participants didn't end up fitting into a group, which didn't advance goals.
 * Ensure participant talent diversity is appropriate for hackathon goals.
 * Talent diversity can be an advantage.
 ** Ex: Phyloinformatics/R hackathons had a similar talent diversity profile to Phylotastic II, but didn't experience the same issues [why do we think this is?]
-* Diversification does not happen without a focused effort. Components that contribute to achieving this goal include
-** Recruitment: 
-*** Targeted selection of member of the LT (e.g., create role models, develop contacts with underrepresented subsets of the community)
-*** Targeted invitation of participants 
-** Management:
-*** Ensure that teams during the hackathon are open, welcoming, inclusive
-*** Identify participants that might be disengaged, inactive, reach out to them and actively engage them
+-->
+*Note: some of the discussion on diversity in the "criteria for choosing participants" section might be better moved here?*
+
+As a group, we made a conscious decision to declare that we valued community diversity and thus challenged ourselves to increase diversity when possible through the hackathons. Diversification does not happen without a focused effort; simply being demographically neutral when making participant decisions does not help if the pool of applicants lacks diversity, as we discovered in earlier hackathons (**good place for data**). To increase this pool, a number of strategies were implements. These include
+* Targeting selection of diverse members for the leadership team who will serve as role models for potential participants, as well as potentially having greater contacts or networks with underrepresented subsets of the community.
+* Targeting potential applicants through direct invitation
+* Targeting mentors or role models of potential applications who may themselves not wish to participate in the hackathon but who could suggest appropriate individuals to invite and/or encourage them to apply
+* Ensure that teams and discussions during the hackathon are open, welcoming, and inclusive.
+* Identify participants that might be disengaged or inactive, and make an effort to reach out to them and actively engage them in the activity
 
 
 ## Technology awareness and knowledge exchange
@@ -424,10 +502,9 @@ In addition to this, hackathons can be developed to create support for novel tec
 The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
 
 Generally, however, building sustainable products out of hackathons is very difficult.
-
-** Ex. Hacking medicine hackathons (http://hackingmedicine.mit.edu/): large events; specifically geared toward products that could become startups; commercially viable products; number of products is impressive but may not be a higher % than what we have
-* The less products are pre-conceived, the better they have tended to turn out
-** Ex: R hackathon - very little source code available before the event, all code open-source after event 
+* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
+* The fewer products that are pre-conceived, the better they have tended to turn out
+  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
 * Managing expectations with respect to deliverables is important 
 
 * **Career stage of participants:** An observation which comes from working groups at some of the national synthesis centers (NCEAS, NESCent, NIMBios) is that one driver of success of many working groups is having a good mix of junior and senior participants. While senior participants are essential for their experience and knowledge of problems and systems, their schedules are often busier post event and following up on a particular outcome for the event has less impact on their career. In contrast, a junior participant (graduate student, postdoc, untenured professor) may be much more driven to follow up and drive production after an event because the tangible product may have a large impact on progression to their next career stage. Hackathons are likely to follow this same pattern, with an even greater complication: research staff. Many of the hackathons we have conducted have included large numbers of research staff, often chosen for their programming/domain expertise. While invaluable during the hackathon, these participants may be the least likely to see a direct career benefit from continued production of a tangible product after the hackathon (the personal benefits to them may follow the intangible benefits) and, more importantly, they often lack the job flexibility in time and effort that someone in a more traditional academic position can devote to following up on details.
@@ -443,12 +520,11 @@ For example, NESCent's Phylotastic II hackathon had a very open-scope with the g
 
 As a result, there may exist a tension between the goals of producing tangible products and increasing talent diversity. We have found that having two disparate goals of producing large amounts of useful code while also focusing on community building is challenging, particularly during application evaluation and facilitation of the actual hackathon.
 
-It is also important to decide on the technologies used. The Leadership Team must specify the technological and thematic limits to ensure that conformant projects advance the goals of the sponsors, while giving maximum flexibility to participants to leverage their own unique technology skills. NESCent hackathons typically have technology limitations (or technological focus) as part of the scope. For Comparative Methods in R, the technology limit was to use R, and the thematic limit was the academically defined area of comparative evolutionary methods. For the Database Interoperability Hackathon, we encouraged users to apply a specific interoperability "stack" developed by the EvoInfo working group (NeXML  file format, PhyloWS web service schema, and CDAO, the comparative data analysis ontology) to the problem of building links between data resources, or linking resources to users. For the TreeForAll hackathon, the technology limitation was to make use of OpenTree's web services API, and there was no restriction on themes. For Phylotastic I and II the thematic limit was the development of a workflow system to facilitate extraction and use of parts of large trees; we encouraged participants to explore the components of the workflow, the underlying architectural variations to make the workflow feasible, and possible applications of the system.
+It is also important to decide on the technologies used. The LT must specify the technological and thematic limits to ensure that conformant projects advance the goals of the sponsors, while giving maximum flexibility to participants to leverage their own unique technology skills. NESCent hackathons typically have technology limitations (or technological focus) as part of the scope. For Comparative Methods in R, the technology limit was to use R, and the thematic limit was the academically defined area of comparative evolutionary methods. For the Database Interoperability Hackathon, we encouraged users to apply a specific interoperability "stack" developed by the EvoInfo working group (NeXML  file format, PhyloWS web service schema, and CDAO, the comparative data analysis ontology) to the problem of building links between data resources, or linking resources to users. For the TreeForAll hackathon, the technology limitation was to make use of OpenTree's web services API, and there was no restriction on themes. For Phylotastic I and II the thematic limit was the development of a workflow system to facilitate extraction and use of parts of large trees; we encouraged participants to explore the components of the workflow, the underlying architectural variations to make the workflow feasible, and possible applications of the system.
 
-Our practice is to encourage and enable, but not rigidly enforce, conformity to scope. In practice, projects that do not conform to the scope rarely make it out of the pitching stage. The scope is encouraged by the Leadership Team, first by the communicating within participant advertisements, and thereafter by interactions with participants. The opening talks on Day 1 of the hackathon should reiterate the scope and explain what it signifies. When a potentially out-of-scope idea arises, rather than asking a negatively framed question ("Isn't that out of scope?"), a more welcoming approach is simply to ask the proposer to flesh out possible ways in which the idea aligns with the thematic and technical scope of  the hackathon ("what are some ways that this project will . . .?"). This type of question should be asked both during pre-event engagement, and during pitching (by organizers present at the hackathon).
+Our practice is to encourage and enable, but not rigidly enforce, conformity to scope. In practice, projects that do not conform to the scope rarely make it out of the pitching stage. The scope is encouraged by the LT, first by the communicating within participant advertisements, and thereafter by interactions with participants. The opening talks on Day 1 of the hackathon should reiterate the scope and explain what it signifies. When a potentially out-of-scope idea arises, rather than asking a negatively framed question ("Isn't that out of scope?"), a more welcoming approach is simply to ask the proposer to flesh out possible ways in which the idea aligns with the thematic and technical scope of  the hackathon ("what are some ways that this project will . . .?"). This type of question should be asked both during pre-event engagement, and during pitching (by organizers present at the hackathon).
 
 ## Remote participation in hackathons
-
 While the main focus of the hackathons has been on bringing people together for face-to-face interactions over the entire length of the event, we have also explored the use of remote participation. Remote participation has been restricted to a small number of participants, interacting with the main group that is on-site. 
 Remote participation requires individuals or groups at remote sites to reserve and dedicate to the hackathon the same amount of time as on-site participants. It also requires remote participants to be actively involved in the various interaction stages of the hackathon, e.g., project discussions, stand-ups, bootcamps.
 
@@ -461,15 +537,12 @@ The remote participation of an entire team was experimented with during the Phyl
 
 
 ## Allowing hard targets to be tackled
-
+*I honestly am not sure what this topic is supposed to be*
 
 
 ## Using face-to-face time productively
+The hackathon event has a limited time window. This face-to-face time should be managed such that it maximizes activities which benefit from direct interaction and minimizes activities which can be performed alone outside of the event. A large portion of the hackathon will, necessarily be individuals working, and writing code is necessarily an individualized process for many, but the purpose of the event is to work collaboratively and thus time and effort should be facilitated to take advantage of the group setting whenever possible. The serial nature of out-of-step communications (*e.g.*, email) make efficient discussion difficult; hard discussions and questions should be prioritized for the face-to-face setting where time-lags are minimized and in-person consensus can be reached. This also motivates the introduction of a structure in the activities of each team at the hackathon, where team discussions are frequent and the face-to-face time is positively used to achieve consensus on shared goals and resolve design challenges.
 
-
-## and others...
-
-* 
 
 ## Data we wish we had collected
 
@@ -485,9 +558,16 @@ The remote participation of an entire team was experimented with during the Phyl
 Hackathons rule!
 
 # Resources
+*Is this just for us, should it be a section of the manuscript, or perhaps supplemental material?*
 
 Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003903
 
-Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organization, Jonathon N. Cummings, Management Science, Vol. 50, No. 3  (Mar., 2004), pp. 352-364
+Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organization, Jonathon N. Cummings, Management Science, Vol. 50, No. 3  (Mar., 2004), pp. 352-364.
+
+StitchFest: Diversifying a College Hackathon to Broaden Participation and Perceptions in Computing. Gabriela T. Richard, Yasmin B. Kafai, Barrie M. Adleberg, Orkan Telhan.
+
+:
+. SIGCSE 2015: 114-119
+
 
 </main>
