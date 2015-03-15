@@ -648,12 +648,12 @@ The hackathon event has a limited time window. This face-to-face time should be 
 
 * Ask participants who they know beforehand (and who they've collaborated with beforehand), then who they know afterward = measurement of connection and assess new collaborations
 * Publications
-** if they have a complete publication list, ask them for that (or maybe insist they give it to us)
-** if they have a curated ORCID account, ask them for that - or maybe insist they create one before coming
+ * if they have a complete publication list, ask them for that (or maybe insist they give it to us)
+ * if they have a curated ORCID account, ask them for that - or maybe insist they create one before coming
 * Citations
 * Social media participation:
-** Determine a unique HashTag before the meeting that can be used to trace event-specific Twitter interaction
-** collect their Twitter handles, LinkedIn URLs, Facebook things (whatever they are, I'm not on Facebook), github handles
+ * Determine a unique HashTag before the meeting that can be used to trace event-specific Twitter interaction
+ * collect their Twitter handles, LinkedIn URLs, Facebook things (whatever they are, I'm not on Facebook), github handles
 * Query participants on familiarity with key technologies of interest prior to hackathon (particularly those which form the core of the project or which are introduced in bootcamps). Query them afterwards to see how many use these technologies after the event has completed.
 * Keep track of who does what when. Which individuals make the pitches? Which pitches are chosen to move forward? 
 
