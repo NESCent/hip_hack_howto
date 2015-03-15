@@ -65,10 +65,7 @@ Hackathons have become popular instruments to stimulate creative problem solving
 <main>
 
 # Introduction
-*Hackathons* (hackathon = code hacking marathons), sometimes also called *hackfest* or codefest, are focused code development events, that bring together a range of developers and users, to accelerate development, discover new points of collaboration, facilitate adoption, and involved a broader community. 
-
-
-_DESCRIBE WHAT A HACKATHON IS_. Since the early 2000's, hackathons have become increasingly popular in both commercial and academic settings. They are most often deployed as instruments to foster community, and to stimulate creative uses of technology to address unsolved problems. Academic sponsors tend to design hackathons around community engagement and outreach goals, whereas company-run hackathons often focus on product improvement or innovation. Hackathon events can and do vary widely in important characteristics, such as length, size, participant recruitment, composition of participant group, amount of structure, competition between teams, sponsorship for participant costs, pre-event and post-event engagement and expectations, and others. The many choices one can make all have implications, not only for what happens (or doesn't) at the event itself, but also for outcomes, be they social, technical, or community-related. Most of these implications have not been scientifically studied, and therefore data that could inform decision making are scant. So are, unfortunately, data or studies about assessment of hackathon outcomes. 
+*Hackathons* (hackathon = code hacking marathons), sometimes also called *hackfests* or *codefests*, are focused code development events, that bring together a range of developers and users, to accelerate development, discover new points of collaboration, facilitate adoption, and involved a broader community. Since the early 2000's, hackathons have become increasingly popular in both commercial and academic settings. They are most often deployed as instruments to foster community, and to stimulate creative uses of technology to address unsolved problems. Academic sponsors tend to design hackathons around community engagement and outreach goals, whereas company-run hackathons often focus on product improvement or innovation. Hackathon events can and do vary widely in important characteristics, such as length, size, participant recruitment, composition of participant group, amount of structure, competition between teams, sponsorship for participant costs, pre-event and post-event engagement and expectations, and others. The many choices one can make all have implications, not only for what happens (or doesn't) at the event itself, but also for outcomes, be they social, technical, or community-related. Most of these implications have not been scientifically studied, and therefore data that could inform decision making are scant. So are, unfortunately, data or studies about assessment of hackathon outcomes. 
 
 This is particularly problematic for hackathons that try to strike a balance between community outreach and creating tangible products, because decisions made early in the process of organizing an event can shift the balance later in the process in a way that is unintended or undesired by the sponsors. Further complicating the problem is that scope, objectives, and priorities for a hackathon are not always determined _before_ the first decisions that influence them, and that many types of outcomes lack easy-to-measure metrics, and are thus difficult to assess. Hence, whether and to what degree a hackathon achieved its intended goals is typically a matter of subjective judgement, which itself is often rendered by those with obvious conflicts of interest, such as organizers and sponsors. A hackathon may be judged highly successful even when it failed to meet most of its intended goals, for example because it had unanticipated outcomes that have equal or greater impact than the intended ones would have had. 
 
@@ -216,10 +213,7 @@ The following additional characteristics have also emerged as common across NESC
 
 **All products are public and open-source, immediately.** This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
 
-**No competition.** There are no prizes awarded at the end of the
-hackathon, and there is no judging panel. Supporting additional
-participants has remained a higher priority for using the sponsors'
-funding than awarding a prize.
+**No competition.** There are no prizes awarded at the end of the hackathon, and there is no judging panel. Supporting additional participants has remained a higher priority for using the sponsors' funding than awarding a prize. The removal of a competition aspect is also motivated by the desire of creating a spirit of collaboration and enabling the inclusion of participants with different skill levels. 
 
 # Methods: The "NESCent Hackathon" Process Model 
 The following is a detailed description of the logistical model we have developed for executing hackathons. This model has evolved over 10 years and the description largely reflects the final model. Discussions of where and why the model has changed are used to illustrate the lessons learned.
@@ -229,9 +223,128 @@ Figure X illustrates the overall structure of our logistical model. Certain elem
 
 (figure)
 
-Figure X2 illustrates an estimated time line of events, to allow for better planning. While certain planning activities can be accelerated, one might view these as minimal estimates to allow proper preparation.
+Table X2 illustrates an estimated time line of events, to allow for better planning. While certain planning activities can be accelerated, one might view these as minimal estimates to allow proper preparation.
 
-(figure)
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2"
+cellspacing="2">
+<tbody>
+<tr>
+<td style="vertical-align: top; font-weight: bold;">Week<br>
+</td>
+<td style="vertical-align: top; font-weight: bold;">Milestone Name<br>
+</td>
+<td style="vertical-align: top; font-weight: bold;">Milestone
+Description<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">3<br>
+</td>
+<td style="vertical-align: top;">Report<br>
+</td>
+<td style="vertical-align: top;">Develop a report to the
+sponsoring organization<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">0<br>
+</td>
+<td style="vertical-align: top;">Hackathon Start<br>
+</td>
+<td style="vertical-align: top;">Begin the actual hackathon event<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-2<br>
+</td>
+<td style="vertical-align: top;">Engagement<br>
+</td>
+<td style="vertical-align: top;">Initiate pre-event engagement
+with participants<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-3<br>
+</td>
+<td style="vertical-align: top;">Travel Complete<br>
+</td>
+<td style="vertical-align: top;">Finalize travel plans for all
+participants<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-4<br>
+</td>
+<td style="vertical-align: top;">Finalize Invites<br>
+</td>
+<td style="vertical-align: top;">Finalize invitations<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-5.5<br>
+</td>
+<td style="vertical-align: top;">Applicant Decisions<br>
+</td>
+<td style="vertical-align: top;">Finalize decision on whom to
+invite<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-6<br>
+</td>
+<td style="vertical-align: top;">Review Deadline<br>
+</td>
+<td style="vertical-align: top;">Reviewers to finish all
+applicant reviews<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-7<br>
+</td>
+<td style="vertical-align: top;">Application Deadline<br>
+</td>
+<td style="vertical-align: top;">Deadline for applicants to apply<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-8<br>
+</td>
+<td style="vertical-align: top;">Second RFP<br>
+</td>
+<td style="vertical-align: top;">Re-issue the solicitation for
+applicants<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-11<br>
+</td>
+<td style="vertical-align: top;">Issue RFP<br>
+</td>
+<td style="vertical-align: top;">Disseminate the solicitation for
+applicants<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-12<br>
+</td>
+<td style="vertical-align: top;">Recruit Strategy<br>
+</td>
+<td style="vertical-align: top;">LT finalizes its recruitment
+materials and timeline<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">-14<br>
+</td>
+<td style="vertical-align: top;">Final Scope<br>
+</td>
+<td style="vertical-align: top;">LT finalizes scope and goals of
+hackathon<br>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Design Stages
 The design stage activities are planned and implemented by a group of people, referred to as *instigators*. The instigators represent the core team, which inspires the overall activities and are responsible for the final outcomes. In our experience, the instigators are often part of a working group or a community that is trying to accomplish some pre-conceived broad goals. For example, the Database Interoperability hackathon is a product of the activities of the NESCent EvoInfo working group, with the broad aim to achieve goals of interoperability among data repositories and tools in evolutionary biology. These broad goals should be driven by a set of values that are achievable through the structure of the hackathon. Major potential outcomes and impacts have been described above, but goals most often include:
@@ -246,7 +359,7 @@ Identifying resources is a critical phase of the process and involves identifyin
 * Organizations that are dedicated to support working group initiatives (*e.g.*, NESCent)
 * Organizations that support the community of interest (*e.g.*, the Society of Molecular Biology and Evolution expressed interest in supporting a hackathon as a satellite meeting)
 * Non-profit or for-profit organizations that have an interest in the broad scope of the activity (*e.g.*, iPlant)
-* Other stakeholders (*e.g.*, universities)
+* Other stakeholders (*e.g.*, universities, research labs)
 
 
 ### Assembling the Leadership Team
@@ -389,8 +502,6 @@ See also the discussion below ("Achieving tangible working products") on partici
 # Results and Discussion
 
 ## Challenges of building a leadership team
-Arlin?
-
 Some ideas:
 
 * Leadership team members are often selected among more established and senior researchers. The benefit is that they have a greater level of awareness of the community and may provide better guidance in the scoping of the problem and in the identification of effective participants. On the other hand, more senior researchers tend to have an extensive agenda of commitments, which detracts from the necessary dedication required by the organization of an hackathon event - which is highly focused, intense over an extended period of time, and guided by rigid deadlines. LT members need to provide availability in their schedules for regular meetings (e.g., weekly or bi-weekly teleconferences) and for participation in the preparatory activities (e.g., attend pre-hackathon working group meetings; prepare, disseminate and evaluate applications). 
@@ -464,7 +575,7 @@ As a result, there may exist a tension between the goals of producing tangible p
 
 It is also important to decide on the technologies used. The LT must specify the technological and thematic limits to ensure that conformant projects advance the goals of the sponsors, while giving maximum flexibility to participants to leverage their own unique technology skills. NESCent hackathons typically have technology limitations (or technological focus) as part of the scope. For Comparative Methods in R, the technology limit was to use R, and the thematic limit was the academically defined area of comparative evolutionary methods. For the Database Interoperability Hackathon, we encouraged users to apply a specific interoperability "stack" developed by the EvoInfo working group (NeXML  file format, PhyloWS web service schema, and CDAO, the comparative data analysis ontology) to the problem of building links between data resources, or linking resources to users. For the TreeForAll hackathon, the technology limitation was to make use of OpenTree's web services API, and there was no restriction on themes. For Phylotastic I and II the thematic limit was the development of a workflow system to facilitate extraction and use of parts of large trees; we encouraged participants to explore the components of the workflow, the underlying architectural variations to make the workflow feasible, and possible applications of the system.
 
-Our practice is to encourage and enable, but not rigidly enforce, conformity to scope. In practice, projects that do not conform to the scope rarely make it out of the pitching stage. The scope is encouraged by the LT, first by the communicating within participant advertisements, and thereafter by interactions with participants. The opening talks on Day 1 of the hackathon should reiterate the scope and explain what it signifies. When a potentially out-of-scope idea arises, rather than asking a negatively framed question ("Isn't that out of scope?"), a more welcoming approach is simply to ask the proposer to flesh out possible ways in which the idea aligns with the thematic and technical scope of  the hackathon ("what are some ways that this project will . . .?"). This type of question should be asked both during pre-event engagement, and during pitching (by organizers present at the hackathon).
+Our practice is to encourage and enable, but not rigidly enforce, conformity to scope. In practice, projects that do not conform to the scope rarely make it out of the pitching stage. The scope is encouraged by the LT, first by the communicating within participant advertisements, and thereafter by interactions with participants. The opening talks on Day 1 of the hackathon should reiterate the scope and explain what it signifies. When a potentially out-of-scope idea arises, rather than asking a negatively framed question ("Isn't that out of scope?"), a more welcoming approach is simply to ask the proposer to flesh out possible ways in which the idea aligns with the thematic and technical scope of  the hackathon ("what are some ways that this project will . . .?"). This type of question should be asked both during pre-event engagement, and during pitching (by member of the LT present at the hackathon).
 
 ## Remote participation in hackathons
 While the main focus of the hackathons has been on bringing people together for face-to-face interactions over the entire length of the event, we have also explored the use of remote participation. Remote participation has been restricted to a small number of participants, interacting with the main group that is on-site. 
@@ -488,12 +599,15 @@ The hackathon event has a limited time window. This face-to-face time should be 
 
 ## Data we wish we had collected
 
-* Ask participants who they know beforehand (and who they've collaborated with beforehand), then who they know afterward = measurement of connection
+* Ask participants who they know beforehand (and who they've collaborated with beforehand), then who they know afterward = measurement of connection and assess new collaborations
 * Publications
+** if they have a complete publication list, ask them for that (or maybe insist they give it to us)
+** if they have a curated ORCID account, ask them for that - or maybe insist they create one before coming
 * Citations
-* New collaborations
-* Social media participation
-* Query participants on familiarity with key technologies of interest prior to hackathon (particularly those which form the core of the project or which are introduced in bootcamps). Quern afterwards to see how many use these technologies after the event has completed.
+* Social media participation:
+** Determine a unique HashTag before the meeting that can be used to trace event-specific Twitter interaction
+** collect their Twitter handles, LinkedIn URLs, Facebook things (whatever they are, I'm not on Facebook), github handles
+* Query participants on familiarity with key technologies of interest prior to hackathon (particularly those which form the core of the project or which are introduced in bootcamps). Query them afterwards to see how many use these technologies after the event has completed.
 * Keep track of who does what when. Which individuals make the pitches? Which pitches are chosen to move forward? 
 
 # Conclusions
@@ -512,6 +626,19 @@ StitchFest: Diversifying a College Hackathon to Broaden Participation and Percep
 
 Community-driven development for computational biology at Sprints, Hackathons and Codefests. Steffen Möller, Enis Afgan, Michael Banck, Raoul J. P. Bonnal, Timothy Booth, John Chilton, Peter J. A. Cock, Markus Gumbel, Nomi L. Harris, Richard C. G. Holland, Matús Kalas, László Kaján, Eri Kibukawa, David R. Powell, Pjotr Prins, Jacqueline Quinn, Olivier Sallou, Francesco Strozzi, Torsten Seemann, Clare Sloggett, Stian Soiland-Reyes, William Spooner, Sascha Steinbiss, Andreas Tille, Anthony J. Travis, Roman Guimera, Toshiaki Katayama, Brad A. Chapman. BMC Bioinformatics 15(S-14): S7 (2014).
 
+*PAPERS describing individual events*
+
+Meeting Report: Hackathon-Workshop on Darwin Core and MIxS Standards Alignment. Éamonn Ó Tuama, John Deck, Gabriel Dröge, Markus Döring, Dawn Field, Renzo Kottmann, Juncai Ma, Hiroshi Mori, Norman Morrison, Peter Sterk, Hideaki Sugawara, John Wieczorek, Linhuan Wu, Pelin Yilmaz. Standards in Genomic Sciences (2012) 7:166-170.
+
+Enriched biodiversity data as a resource and service. Rutger Aldo Vos, Jordan Valkov Biserkov, Bachir Balech, Niall Beard, Matthew Blissett, Christian Brenninkmeijer, Tom van Dooren, David Eades, George Gosline, Quentin John Groom, Thomas D. Hamann, Hannes Hettling, Robert Hoehndorf, Ayco Holleman, Peter Hovenkamp, Patricia Kelbert, David King, Don Kirkup, Youri Lammers, Thibaut DeMeulemeester, Daniel Mietchen, Jeremy A. Miller, Ross Mounce, Nicola Nicolson, Rod Page, Aleksandra Pawlik, Serrano Pereira, Lyubomir Penev, Kevin Richards, Guido Sautter, David Peter Shorthouse, Marko Tähtinen, Claus Weiland, Alan R. Williams, Soraya Sierra. Biodiversity Data Journal 2: e1125 (2014).
+
+OCData Hackathon @ CSCW 2014: online communities data hackathon. Sean P. Goggins, Andrea Wiggins, Susan Winter, Brian Butler. Computer Supported Cooperative Work, CSCW '14, ACM Press (2014).
+
+TUIO Hackathon. Martin Kaltenbrunner, Florian Echtler. Proceedings of the Ninth ACM International Conference on Interactive Tabletops and Surfaces (2014). 
+
+Industrial Experiences of Organizing a Hackathon to Assess a Device-centric Cloud Ecosystem. Mikko Raatikainen, Marko Komssi, Vittorio dal Bianco, Klas Kindstom, Janne Järvinen. 37th Annual IEEE Computer Software and Applications Conference (2013).
+
+BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains. Toshiaki Katayama, Mark D Wilkinson, Kiyoko F Aoki-Kinoshita, Shuichi Kawashima, Yasunori Yamamoto, Atsuko Yamaguchi, Shinobu Okamoto, Shin Kawano, Jin-Dong Kim, Yue Wang, Hongyan Wu, Yoshinobu Kano, Hiromasa Ono, Hidemasa Bono, Simon Kocbek, Jan Aerts, Yukie Akune, Erick Antezana, Kazuharu Arakawa, Bruno Aranda, Joachim Baran, Jerven Bolleman, Raoul JP Bonnal, Pier Luigi Buttigieg, Matthew P Campbell, Yi-an Chen, Hirokazu Chiba, Peter JA Cock, K Bretonnel Cohen, Alexandru Constantin, Geraint Duck, Michel Dumontier, Takatomo Fujisawa, Toyofumi Fujiwara, Naohisa Goto, Robert Hoehndorf, Yoshinobu Igarashi, Hidetoshi Itaya, Maori Ito, Wataru Iwasaki, Matúš Kalaš, Takeo Katoda, Taehong Kim, Anna Kokubu, Yusuke Komiyama, Masaaki Kotera, Camille Laibe, Hilmar Lapp, Thomas Lütteke, M Scott Marshall, Takaaki Mori, Hiroshi Mori, Mizuki Morita, Katsuhiko Murakami, Mitsuteru Nakao, Hisashi Narimatsu, Hiroyo Nishide, Yosuke Nishimura, Johan Nystrom-Persson, Soichi Ogishima, Yasunobu Okamura, Shujiro Okuda, Kazuki Oshita, Nicki H Packer, Pjotr Prins, Rene Ranzinger, Philippe Rocca-Serra, Susanna Sansone, Hiromichi Sawaki, Sung-Ho Shin, Andrea Splendiani, Francesco Strozzi, Shu Tadaka, Philip Toukach, Ikuo Uchiyama, Masahito Umezaki, Rutger Vos, Patricia L Whetzel, Issaku Yamada, Chisato Yamasaki, Riu Yamashita, William S York, Christian M Zmasek, Shoko Kawamoto and Toshihisa Takag. Journal of Biomedical Semantics 2014, 5:5 
 
 
 </main>
