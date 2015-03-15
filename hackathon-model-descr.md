@@ -82,3 +82,8 @@ at the hackathon must be open-source projects. While code produced at
 the event may be merged into a larger target codebase only with a
 delay, or after further modification, there is no embargo on any of
 the code produced at the hackathon.
+
+**No competition.** There are no prizes awarded at the end of the
+hackathon, and there is no judging panel. Supporting additional
+participants has remained a higher priority for using the sponsors'
+funding than awarding a prize.
