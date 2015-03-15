@@ -6,6 +6,9 @@ Suggested titles so far:
 **Using Hackathons to nurture informatics-literate collaborative communities of practice: Lessons learned from 10 years of NESCent hackathons**
 
 **A guide to the NESCent model for software development hackathons**
+
+**Lessons learnt from a series of 9 NESCent-sponsored software develpment hackathons**
+
 </title>
 
 Authors: blah blah blah
