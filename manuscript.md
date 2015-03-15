@@ -1,11 +1,11 @@
 <title>
 Suggested titles so far:
 
-# Community Building through Coding: Lessons Learned from 10 Years of NESCent Hackathons
+**Community Building through Coding: Lessons Learned from 10 Years of NESCent Hackathons**
 
-# Using Hackathons to nurture informatics-literate collaborative communities of practice: Lessons learned from 10 years of NESCent hackathons
+**Using Hackathons to nurture informatics-literate collaborative communities of practice: Lessons learned from 10 years of NESCent hackathons**
 
-# A guide to the NESCent model for software development hackathons
+**A guide to the NESCent model for software development hackathons**
 </title>
 
 Authors: blah blah blah
@@ -15,46 +15,46 @@ Affiliations: blah blah blah
 
 **Table of Contents**
 
-* Abstract
-* Introduction
-  * Values/Objectives of Hackathons
-  * NESCent model
-* Methods: The "NESCent Hackathon" Process Model
-  * Overall Structure
-  * Design Stages
-    * Resources
-    * Assembling the Leadership Team
-    * Setting Scope and Goals
-  * Pre-Hackathon Planning
-    * ogistical Considerations
-      * acilities
-      * Communication Technology
-      * Travel
-    * Identifying Participants
-      * The Application Process
-      * Criteria for Choosing Participants
-      * Process for Choosing Participants
-    * Pre-hackathon Engagement
-  * During the Hackathon
-    * Day 1
-    * Days 2 to end
-    * Last Day
-  * Post-Hackathon Wrap-Up
-* Results and Discussion
-  * Challenges of building a leadership team
-  * Growing community
-    * Make people feel welcome; encourage people
-  * Diversifying community
-  * Technology awareness and knowledge exchange
-  * Achieving tangible working products
-  * Controlling Scope to Balance Flexibility and Specificity
-  * Remote participation in hackathons
-  * Allowing hard targets to be tackled
-  * Using face-to-face time productively
-  * and others...
-  * Data we wish we had collected
-* Conclusions
-* Resources
+*  Abstract
+*  Introduction
+  *  Values/Objectives of Hackathons
+  *  NESCent model
+*  Methods: The "NESCent Hackathon" Process Model
+  *  Overall Structure
+  *  Design Stages
+    *  Resources
+    *  Assembling the Leadership Team
+    *  Setting Scope and Goals
+  *  Pre-Hackathon Planning
+    *  Logistical Considerations
+      *  Facilities
+      *  Communication Technology
+      *  Travel
+    *  Identifying Participants
+      *  The Application Process
+      *  Criteria for Choosing Participants
+      *  Process for Choosing Participants
+    *  Pre-hackathon Engagement
+  *  During the Hackathon
+    *  Day 1
+    *  Days 2 to end
+    *  Last Day
+  *  Post-Hackathon Wrap-Up
+*  Results and Discussion
+  *  Challenges of building a leadership team
+  *  Growing community
+    *  Make people feel welcome; encourage people
+  *  Diversifying community
+  *  Technology awareness and knowledge exchange
+  *  Achieving tangible working products
+  *  Controlling Scope to Balance Flexibility and Specificity
+  *  Remote participation in hackathons
+  *  Allowing hard targets to be tackled
+  *  Using face-to-face time productively
+  *  and others...
+  *  Data we wish we had collected
+*  Conclusions
+*  Resources
 
 <hr/>
 
@@ -244,9 +244,9 @@ See "Controlling Scope to Balance Flexibility and Specificity" in the discussion
 
 ## Pre-Hackathon Planning
 
-###Logistical Considerations
+### Logistical Considerations
 
-####Facilities
+#### Facilities
 The hackathon requires a single large meeting room, particularly on the first day, where general discussion, introductions, bootcamp activities, and pitches can occur. The room should be large enough not only to seat everyone, but also to allow free movement and clustering during the pitch session. When possible, it is best if the structure of the seating is non-hierarchical. For example, in a smaller group setting, a single large table which only seats a subset of participants, with others arranged around it sets up a social structure which potentially drops participants into two tiers (with one, literally, "at the table"). 
 
 *Anecdote: during the opening session of one hackathon of about 30 participants, the room was arranged with chairs in standard rows. It was observed that, with the exception of a single person who was on the leadership team, every woman at the hackathon had chosen a seat in the back two rows of the room. The LT noticed this and made a point of ensuring that this lack of integration did not continue throughout the meeting (it did not).*
@@ -308,7 +308,6 @@ We have tried to engage invited participants in advance of the hackathon using m
 Generally, we have not experienced much success in participant engagement prior to the hackathon. We hypothesize that those who do engage prior to the hackathon are also likely to engage during the event. However, little can be predicted about the engagement during the hackathon of those who do not participate in pre-hackathon activities.
 
 
-===shannon ended here===
 ## During the Hackathon
 
 ### Day 1
