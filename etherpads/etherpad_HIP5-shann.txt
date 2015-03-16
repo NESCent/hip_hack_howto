@@ -1,0 +1,130 @@
+# Broad Goals
+ * Make sure a hackathon is the best strategy to reach your goals
+   * Ex: Phylotastic II objectives may not have been best executed by a hackathon.
+ * Decide on goals (sponsor will need before scoping)
+
+# Hackathon Initiative
+ * There are diminishing returns when you have a repeat event (phylotastic I vs II) ie. if you have an event that works really well, don't do it again!
+   * [expand on why we think so]
+ * How to pritorize effort during pre-hackathon organization phase
+ * How far ahead should I begin planning? (ie. time for advertising, application, event planning)
+ * What are the different hackathon targets?
+   * Ex: [What works and what doesn't? Why should I have a hackthon]
+ * Is the NESCent model a good fit for your hackathon?
+
+# Resources
+
+# Initial scope and goals
+ * Enumerate competing goals
+   * Ex: tension between code outputs and community outputs
+   * goal of writing code + goal of building community; makes it a challenge when planning (writing / evaluating applications; facilitation)
+     * Ex: [need specific examples]
+
+# Assembled LT
+ * Why and how to get an organizer team
+   * Ex: WHY - spread out effort, get feedback on scope [examples on how]
+   * 
+
+
+# Finalized scope and goals
+ * Well-defined, well-communicated scopes
+   * Ex: VoCamp: Not well scoped led  to people working on their own individually rather than in groups.
+   * Ex: Phylotastic II was open-scoped with the greatest diversity, but loose structure led to less results
+   * Ex: phylotastic I was open-scoped and phylotastic II probably should have been tighter-scoped [why the differences in scope? What were the consequences?]
+ * 
+
+# Additional funding
+ * What kinds of organizations would sponsor a hackathon?
+ * How to request/ make the case for a hackathon
+   * Ex: [what are specific challenges we've faced getting sponsorship/partnership buy-in
+
+# Budget
+ * What is the cost of the "NESCent model" of a hackathon
+   * Where can I save? What factors can add or reduct cost?
+
+# Reserved seats
+ * Reserve seats for sponsor's staff or project team
+
+# Defined target community
+ * Need people for whom the product matters
+ * Having some connection to the project helps
+ * Answer the question: what aspect of people involved lead to greater sustained effort?
+   * Ex: originally wanted experts to build tools, but later focused on diversity [expand on why and what happened]
+ * We found that electing all participants by invitation is ineffective
+   * Ex: Japan hackathons needed more expectation management
+ * Talent diversity can be a disadvantage if you don't manage expectations.
+   * Ex: Phylotastic II focusted too much on diversity. Some people in Phylotastic II didn’t end up fitting into a group, which didn’t advance goals.
+ * Ensure participant diversity is appropriate for hackathon goals
+ * Talent diversity can be an advantage:
+   * Ex: Phyloinformatics/R hackathons had similar diversity to Phylo II (see below), but diversity was advantageous [why do we think?]
+
+
+# Review criteria
+
+# Logistics plan
+ * Pay attention to the building/room (security/hours). Work with any on-site even coordinators eearly.
+   * Ex: VoCamp: Poor room with parallel conference sessions [expand]
+ * Used too many different technologies and changing tech between meetings (google docs vs etherpad, skype vs hangouts)
+   * [examples of this? what were the consequences]
+ * Time (relative to work schedules, vacations)
+ * Location (geographic, transportation, proximity to lodging and food
+ * Signage, powerstrips/outlets, equipment, and supplies
+ * Daily schedules
+
+# Call for Participation
+ * How can I get the best people to come to my event? How do I advertise and generate excitement?
+ * Experience shows that electing all participants by invitation is ineffective
+   * Ex: Japan hackathons needed more expectation management
+ * Be explicit about goals up front.
+
+# Applications
+ * How will I know I can get enough people?
+ * What should I ask in an application in order to review applicants?
+ * What is the "NESCent model" for application?
+
+# Applicant reviews and ranking
+ * What is the "NESCent model" for application review?
+ * How does the organizing team review applicants and make decisions?
+ * How long does it take?
+ * People who are the 
+
+# Invites
+
+# Finalized roster
+
+# Pre-event engagement
+ * Pre-event analysis and participant interview to facilitate structuring event
+ * Engage people beforehand, especially new people
+   * Ex: Have done this via one-on-one, mailing lists, GitHub issues (OpenTree), teleconferences
+
+# Travel arrangements
+
+# Event
+ * More active facilitation, especially of first day; can't just decide on scope and then abandon scope or allow things to get off-topic
+   * [examples of effective and ineffective facilitation? What's the "NESCent" process?]
+ * Whether or not to allow critique at pitching stage
+ * Managing expectations especially with respect to deliverables
+   * [examples of how we did or did not manage expectations]
+
+# Intangible outcomes
+ * Post-event engagement and sustainability [in our experience, what's successful, unsuccessful, and what challenges did we face?]
+ * Phyotastic II was unsuccessful with respect to tangible outcomes but may have succeeded in terms of community engagement
+ * To build community, want to bring in less-experienced or less well-connected participants, which slows progress
+
+# Accessible outcomes
+ * Hackathons are hands-on events, not just talking; therefore tend to focus on tangible outcomes 
+ * Getting sustainable products out of hackathons is very difficult
+ * Hacking medicine hackathons (http://hackingmedicine.mit.edu/): large events; specifically geared toward products that could become startups; commercially viable products; number of products is impressive but may not be a higher % than what we have
+ * "Game companies" that takes a week for all employees to work on new things; pitch ideas, make demos
+   * are these corporate hackathons completely different from ours? differences in direct output, personal benefit but could link to our outputs
+ * If we know who has attended hackathons can look at collaboration networks post-event?
+ * Hypothesis: the less the products are pre-conceived, the better they turn out 
+ * Ex: R hackathon - very little source code available before event, all code open-source after event
+
+# Required reporting
+
+# Publicity
+
+
+
+

@@ -1,0 +1,189 @@
+Friday, March 13
+Suggestions on how to proceed this morning: 
+ * Difficult questions that need to be addressed in whole group with critical feedback 
+ * How do we not just do what is easy (10 simple) and miss the hard stuff
+ * What are all the things we think we want to say 
+   * prioritize, document, illustrate with anecdotes
+ * Start collecting data!
+   * Will inform manuscript
+ * Start putting together sections / ideas and not worry about journal / format now
+ * What does audience need to hear (rather than what we want to say)?  What questions do inexperienced organizers have? 
+   * time, funding, 
+
+Break-outs: what do we want to say? (need to say, can say)
+
+==Arlin & Shannon==
+What inexperienced organizers need to know
+ * sponsorship
+   * what kinds of organizations would sponsor a hackathon?
+   * how to request, how to make the case for a hackathon?
+     * reserve seats for sponsor's staff or project team
+   * what challenges have we faced getting sponsorship? 
+   * is NESCent model a good fit? 
+ * budget
+   * what is cost for NESCent model of hackathon
+   * can I save on that?  what factors add or reduce cost?  
+ * scoping and planning - what should I consider?
+   * decide on goals and sponsor needs before scoping
+   * how to prioritize effort during pre-hackathon organizing phase
+     * how much time do we need for advertising, application, event planning
+     * how far ahead should I start planning?  
+   * why and how to get an organizer team (spread out effort, get feedback on scope)
+   * what are the different types of hackathon targets?  what works and what doesn't? Why should I have a hackathon?
+     * integrating parts  (e.g., back end and front end)
+     * adding to production code 
+     * open-ended within a particular technology umbrella
+   * is NESCent model a good fit? 
+ * logistics
+   * time (relative to work schedules, vacations) 
+   * location - geographic, transportation, proximity to lodging and food
+   * building and room (security, hours) - work with any on-site event coordinator regarding access, signage, powerstrips/outlets etc
+   * equipment and supplies
+   * daily schedules
+ * recruitment
+   * how can I get the best people to come to my event? 
+   * how do I advertise and generate excitement? 
+   * How will I know I can get enough people? 
+   * 
+ * what is the NESCent model for application and review? 
+   * what should I ask in an application in order to review applicants?  
+   * how does the organizing team review applicants?  How long does it take?  
+   * how decide?  invite? 
+   * 
+ * travel planning 
+ * event management 
+ * reimbursements
+ * followup
+
+
+==Topic/concept ideas for a paper (Rutger, Enrico, Mike)==
+ * Idea:  hackathons are about building things, that experts will get together  and great things will come out, but that isn't really the case.  Expectation management: it's more about networking and learning new  ideas and creating concepts rather than products
+ * It's more squishy and social than technological
+ * Building  the teams is hard: many people will feel inadequate and not know  where/how they'll contribute. How to chose the right model for  organizing teams
+ * People who are the best programmers, by themselves, are not necessarily the best hackathon participants
+ * Expertise can be overrated as a selection criterion
+ * To  pitch to a funding agency, it's more about the outreach (community  engagement) and broader impacts section than about a plan on how to  build a product
+ * Leave the goals of the hackathon open; it's not too good to be overly specific
+ * Don't repeat the same hackathon twice
+ * Creating a leadership team, which potentially differs from the hackathon participants itself, is important
+ * Setting expectations about what will happen afterwards is important
+ * Keeping communication channels simple, and choosing them in advance
+ * A hackathon is not necessarily the best place to test out the latest greatest technology
+ * Communication is much more key than people are likely realize
+ * "No plan survives contact with the enemy" : be flexible, don't overplan
+ * Diversity  improves community and network building and is arguably more important  than expertise, particularly when expectations are set correctly
+ * Recruiting diversity takes active effort; diversity is not just demographic, but also about expertise, research area, etc.
+ * Make people feel welcome; encourage people
+ * Facilitation is very important, particularly social facilitation
+ * If  a hackathon is part of a grant proposal, probably best to plan on  holding it early in the grant cycle, so that the followup can be  continued by the grant staff rather than relying on the more ephemeral  team
+
+==Break out: What do we want to say? (Group B)==
+Karen, Aidan, Hilmar
+Audience: "the person who wrote 'we will do a hackathon' into their grant, and now we have to do one" (i.e., the audience is already motivated to do one, and doesn't need to be convinced why this might be a good thing to do)
+
+ * Which decisions get made before the organizing team is in charge, and which get made after.
+   * Decisions made before may lack feel of ownership by the organizing team.
+   * For people joining the organizing team it is not necessarily clear which are the decisions that have already been made.
+   * Transparency can be used as a trust-building exercise.
+ * How to put together the organizing team.
+ * Deciding on goals early is really important
+   * Decisions on which goals are most important may strongly influence later stages.
+   * Pre-empting what the products should be by way of setting goals has consequences.
+ * Deciding on scope early is very important
+   * Which projects would and which ones would not be welcome projects to emerge at the hackathons?
+   * Guides many subsequent things:
+     * how to write the description of and application form for the event
+     * how to rate applicants
+     * how to facilitate pitches
+ * Deciding on timeline
+   * How much time should be left for which step?
+   * How much lead time is generally needed?
+ * How to recruit and determine participants
+   * Inviting participants versus open call for participation
+ * How much structure to impose on the event
+ * Openness about process, goals to both organizers and participants
+ * Ensure all logistics - are the resources you will need there at the time you will need them
+
+Post break-out discussion
+ * Key question: What is the NESCent model and how is it distinct from other models? should devote time to defining the NESCent model
+   * leadership team
+   * open call to community
+   * merit review of applications
+   * specific 5-day structure
+   * scope well-defined up front
+
+=="NESCent Model": Distinctive Characteristics== (Hilmar, Shann, Aidan)
+   *  ~5 days long
+     * Can tackle larger scoped problems that you can't in a shorter amount of time
+     * More likely to achieve the goal of interoperability (and sustaining it)
+       * Allows harder, more complex discussions to happen to enable new solutions and bring solutions together
+     * Community engagement, discussion, and participation afterward is more likely (builds community cohesion)
+     * Length influences the participants that can attend
+     * Longer than 5 is exhaustive and logistically challenging
+   * Unique goals?
+     * unique balance of product vs community goals
+     * networking (connecting existing communities) vs bringing in new community members
+     * forming a community around shared goals and values
+   * Scope
+     * Scope not left to participants; participants know the scope before hand
+     * Specific objectives
+       * Balanced to ensure cohesiveness while not being too specific (give the right amount of structure)
+
+Also "unique" (may not necessarily be distinct):
+ * 1st Day
+   * 1st day is well structured
+   * [describe 1st day structure]
+ * Leadership team (need more discussion - doesn't stand out)
+   * Aim to spread the work and ensuring the decision making will be well informed by having different perspectives
+   * Set up a process so decision making is done well with informed deliberation
+     * What composition of the leadership team facilitates this?
+ * Academic
+   * Majority of participants and LT members are from an academic environment (grad students, postdocs, PIs, research programmers)
+   * Funding from grant-funded organizations
+ * Diversity
+   * More diverse tend to be more creative and more impactful products 
+   * Recruitment: Open call
+     * Biggest challenge is getting a diverse applicant pool (no diversity in applicants, no diversity in participants)
+     * Tried to increase diversity by expanding outreach (using networks/connections, social media)
+       * Didn't work/not effective
+     * Tried to tweak message to make it more welcoming to broader audiences
+       * Didn't work
+     * Approaching people directly in addition to an open call
+
+Biohackathons (Japan)
+ * scope not tightly defined
+ * participants all invited
+
+
+Who is our audience?
+ * someone who has committed to organize a hackathon
+ * someone writing a grant that could include a hackathon
+ * someone reviewing a grant that include hackathons
+ * someone trying to convince other people about the effectiveness of hackathons
+ * someone looking for funding for a hackathon
+
+Who is NOT our audience?
+ * people who don't know what a hackathon is
+ * potential participants of a hackathon
+
+==LUNCH==
+
+More audience discussion 
+
+Pitches
+ * Figures - timeline and flowchart
+ * NESCent model description (Hilmar)
+ * what we need from NEAD data (Karen)
+ * application process (Mike) - adverts, dissemination, criteria and procedures for choosing participants 
+ * write an intro (Aidan)
+
+other ideas
+ * day 1 logistics 
+ * pre-meeting planning
+ * data to collect for post-hackathon evaluation
+ * budgeting
+ * meeting space requirements
+ * communication technologies (code, collaborative writing, chat, video / teleconference)
+
+
+

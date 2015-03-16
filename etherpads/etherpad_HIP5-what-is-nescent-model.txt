@@ -1,0 +1,35 @@
+This information is now on github: 
+https://github.com/arlin/hip_hack_howto/blob/master/hackathon-model-descr.md
+
+## The NESCent model of hackathons
+
+NESCent Model: Distinctive Characteristics
+   *  ~5 days long
+     *  Can tackle larger scoped problems that you can't in a shorter amount of time
+     * More likely to achieve the goal of interoperability (and sustaining it)
+       * Allows harder, more complex discussions to happen to enable new solutions and bring solutions together
+     * Community engagement, discussion, and participation afterward is more likely (builds community cohesion)
+     * Longer than 5 is exhaustive and challenging
+   * Scope
+     * Scope not left to participants; participants know the scope before hand
+     * Specific objectives
+       * Balanced to ensure cohesiveness while not being too specific (give the right amount of structure)
+
+Also "unique" (may not necessarily be distinct):
+ * 1st Day
+   * 1st day is well structured
+   * [describe 1st day structure]
+ * Leadership team (need more discussion - doesn't stand out)
+   * Aim to spread the work and ensuring the decision making will be well informed by having different perspectives
+   * Set up a process so decision making is done well with informed deliberation
+     * What composition of the leadership team facilitates this?
+ * Diversity
+   * More diverse tend to be more creative and more impactful products 
+   * Recruitment: Open call
+     * Biggest challenge is getting a diverse applicant pool (no diversity in applicants, no diversity in participants)
+     * Tried to increase diversity by expanding outreach (using networks/connections, social media)
+       * Didn't work/not effective
+     * Tried to tweak message to make it more welcoming to broader audiences
+       * Didn't work
+     * Approaching people directly in addition to an open call
+

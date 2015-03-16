@@ -1,0 +1,350 @@
+Notes from Day 1 of the 5th and final HIP WG meeting
+
+Resources 
+ * Meeting notes 
+   * Day 1 notes (this): https://etherpad.mozilla.org/HIP5-day1
+   * Day 2 notes: https://etherpad.mozilla.org/HIP5-day2
+   * Day 3 notes: https://etherpad.mozilla.org/HIP5-day3 
+   * Day 4 notes: https://etherpad.mozilla.org/HIP5-day4 
+ * Documents and writing in process
+   * lessons learned: https://etherpad.mozilla.org/HIP5-lessons-learned 
+   * nescent model: https://etherpad.mozilla.org/HIP5-what-is-nescent-model
+   * Outline aligned w/ Rutger's figures: https://etherpad.mozilla.org/HIP5-shann
+   * Outline of document: https://etherpad.mozilla.org/HIP5-writing-team
+   * Master document (simultaneously-edited version of manuscript): https://etherpad.mozilla.org/HIP5-master-document
+ * repositories for code, data and references
+   * public github repo: https://github.com/arlin/hip_hack_howto
+   * private repo for data: https://github.com/NESCent/hackathon_data
+   * Mendeley group: https://www.mendeley.com/groups/6731181/hip-hack-howto/
+   * 
+Intro to history of this group (Arlin)
+* HIP WG formation and series of hackathons, preceded by one planning meeting
+* HIP hackathons all around interoperability and phylogenetics
+* Has led to an NSF proposal (PIs Stoltzfus, O'Meara, Pontelli) that has now been recommended for funding.
+* Applied to 5th meeting proposal solicitation from NESCent, got approved.
+* The HIP hackathons specifically comprise of the Phyloinformatics (2006), Evolutionary Database Interoperability (2009), Phylo-VoCamp (2009), Phylotastic I (2011), Phylotastic II (2012), and Tree-for-all (2014) hackathons.
+* There were (and in fact are) other hackathons run at NESCent (Comparative Methods in R - 2007, Population Genetics in R - 2015).
+* Distinct format. 
+* Build community. Foster thinking about and implementing interoperability.
+* Call for participation in extended leadership team was new for Phylotastic series (HIP WG).
+* Phylotastic 1, Phylotastic II and Tree-for-all had remote participation.
+
+Lean Coffee
+
+1. Aspects of participants that lead to successful and sustainable outcomes
+ * talking about tangible products (code, paper); usually cant be completed at event itself, requires post-hackathon work
+ * what aspect of people involved in event lead to sustained effort
+ * hypothesis: need people for who the product matters; not tenured professors and not technicians who are only paid for the event itself; young academic
+ * also PIs / managers (maybe not at event) need to allocate post-event time
+ * we changed this dramatically between early and later hackathons; how we selected participants so possible to identify differences
+ * having time-post hackathon is only one aspect of sustainability
+ * early on, we wanted experts to build tools, later we were more inclusive and more focused on diversity
+ * having some connection to project probably helps
+ * obvious link to "what is success of an event"
+ * differences between events - building from scratch (phylotastic) and adding to existing code (opentree)
+ * might be able to divide hackathon by projects to test
+ * hypothesis: projects with better code may be more likely to continue and those might come from people with software engineering experience
+
+2. How do quantify and compare outcomes between hackathons and other meetings?
+ * need impacts that pointy-headed bosses can understand / appreciate
+ * would like to be able to justify using budget for hackathons vs meetings; do hackathons lead to something worth funding
+ * how do we recognize value of hackathons? traditional outputs (pubs) and other outputs (code, etc)
+ * do hackathon papers get sufficient citations
+ * difficult to quantify impact well; there are research groups working on software communities and software impact
+ * list of potential outcomes and ways to measure
+ * given limited resources, what outputs to focus on?
+ * what was highest value product from each event?
+ * not just publications, also project proposals
+ * useful middle ground between how happy we were with hackathons and hard data on effectiveness (anecdotes vs data)
+ * community becomes aware of a particular problem and technologies to solve it (example of web services)
+ * should generate list of potential outputs and ways to determine how to measure
+
+3. What was the worst hackathon and why?
+ * biohackathon in Okinawa (great location, scope was really bad); sessions too broad and writing proceedings was really hard; too much discussion
+ * if you can get people in room working on something that they care about, get best outcomes
+ * VoCamp: not well-scoped; outside of regular expertise of organizers; ended up with people working on own rather than in groups; perhaps also structural reasons (poor room, parallel with conference sessions); but also lead to grant proposal on phyloreferencing
+ * all Japan hackathons are poorly facilitated and organized; difficult to be productive; everyone selected by invitation; some participants do find them very productive
+ * +1 for VoCamp: especially structural reasons
+ * Phylotastic II: some people didn't end up fitting into a group; didn't advance goals and perhaps hackathon wasn't the right method to reach goals
+
+4. Can we identify features of structure / process that increase impact?
+ * want description of things that deliver a hackathon as productive as possible
+ * phylotastic I was open-scoped and phylotastic II probably should have been tighter-scoped
+ * use too many different technologies and changing tech between meetings (google docs vs etherpad, skype vs hangouts)
+ * more active facilitation, especially of first day; can't just decide on scope and then abandon scope or allow things to get off-topic
+ * whether or not to allow critique at the pitching stage
+ * managing expectations especially with respect to deliverables
+ * Phylotastic II: too much focus on diversity of participants; people who are unfamiliar with process; but phyloinformatics/ R hackathons had similar diversity but did not have this problem
+ * pre-event analysis; interview participants in advance and use to set structure of event
+ * OpenTree: engagement via GitHub issues before event; did that impact success?
+ * are there diminishing returns when you have a repeat event? (phylotastic I vs II); yes, this is important
+ * if you have an event that works really well, don't do it again!
+ * always try to engage people beforehand, especially new people; have done this one-on-one for some events; also through mailing lists, github issues, teleconferences
+ * note that Phyotastic II was unsuccessful with respect to tangible outcomes but may have succeeded in terms of community engagement
+ * don't need to sacrifice diversity to get outcomes; important to manage expectations
+
+5. Tension between code outputs and community outputs
+ * goal of writing code + goal of building community; makes it a challenge when planning (writing / evaluating applications; facilitation)
+ * be explicit about goals up front
+ * hackathons are hands-on events, not just talking; therefore tend to focus on tangible outcomes
+ * getting sustainable products out of hackathons is very difficult
+ * hacking medicine hackathons (http://hackingmedicine.mit.edu/): large events; specifically geared toward products that could become startups; commercially viable products; number of products is impressive but may not be a higher % than what we have
+ * game company that takes a week for all employees to work on new things; pitch ideas, make demos
+ * are these corporate hackathons completely different from ours? differences in direct output, personal benefit but could link to our outputs
+ * would like to enumerate competing goals
+ * if we know who has attended hackathons can look at collaboration networks post-event?
+ * hypothesis: the less the products are pre-conceived, the better they turn out 
+ * to build community, want to bring in less-experienced or less well-connected participants, which slows progress
+
+6. What specific deliverables would we like to get from this meeting?
+ * understand what we want from these discussions and work backwards to make efficient use of time
+ * want to think about what success and failure would look like for this event
+ * what outcomes are we all energized about producing (noting that not everyone here is an academic)
+ * publications valuable, contains concrete information that can be extracted for future events
+ * learn more about experiences (anecdotal) from these events
+ * lessons for how to apply these experiences to different areas
+ * world needs more community-driven participatory events, spreading the word to show people how they can effectively run these events and learn for own future work
+ * peer-reviewed article - can get good feedback from peer-review (as opposed to blog post, other non-peer-reviewed)
+ * lobbying tool - peer-reviewed pub easier to bring to management
+ * data set about events - useful for future meta-analyses of hackathon outcomes
+ * 10-simple rules paper
+ * deeper paper 
+ * publication that will drive a 10-simple rules publication and other products
+ * should start writing stuff this week that could do into a publication
+ * templates and examples - application forms, description of how to facilitate pitches, sample schedules
+ * list of data that would be helpful for a hackathon to collect to facilitate future research
+ * think about what enabled meta-analysis in ecology (papers that include sample sizes, methods, etc)
+ * guidelines for what should you record before / during / after event to enable meta-analysis
+
+7. How does hackathon participation change people?
+ * one of goals is community capacity building; informatics and open source literacy
+ * example from R hackathon - very little source code available before event, all code open-source after event
+ * people using version control after event
+ * introduction to other open source and collaboration tools
+ * can we measure github activity of participants or co-publication?
+ * a goal of "learning git" might help incentivize participation from people who might not otherwise go
+ * super techy introverted types - highlight benefit of being part of community
+ * raise awareness of being part of a community and of community-building activities
+ * bridge gap between coder culture and user culture
+ * also what technical folks can learn about better software engineering
+ * also what technical folks can learn about better social skills
+
+List of things we didn't discuss
+ * what factors affect post-hackathon product development
+ * how have we promoted open source dev?
+ * hackathon fondling - how can we help people get funding for hackathons?
+ * remote participation
+ * how have we built community?
+ * increasing diversity of participants at hackathons
+ * hackathons at outreach - how do they fall short?
+
+LUNCH
+
+Focus of break-outs: 
+ * 1-sentence purpose
+ * Tangible outcomes
+ * Success or failure criteria
+
+Outcome of break-outs 
+1. Purpose: 
+Draw on our experience and data to inform organizers, funders, participants on how hackathons can be used to further software development and community-building goals
+
+2. Tangible outcomes
+ * Draft of a publishable manuscript (10 simple or other)
+ * Framework of a data set with metadata to enable future analyses
+ * A list of important & potentially answerable questions, with suggestions how to address (address early?)
+ * User-friendly instructional materials & templates etc. for organizers 
+   * Discussion & list or plan (higher priority for this week)
+   * Execute plan (lower priority)
+
+3.  Success and failure criteria for this meeting
+ * f: unremarkable or superficial guidance (big risk)
+ * f: not enough product to carry forward and finish up 
+ * f: get stuck on research (or on docs) 
+ * f: people not committed to shared tangible outcomes
+ * f: failing to complete the hard decisions while we are together
+ * f: leave Sunday without detailed action plan
+ * s: first draft of docs, data
+ * s: 10 rules with bullets and anecdotes
+
+Continued discussion on developing strategy and action plan 
+Break-outs, part 2
+
+MANUSCRIPT
+ * Make figures (e.g., timeline, flowchart of decision points)
+ * Choose type of pub & venue early in process & discuss + and - (see github)
+ * Which is best way to reach intended audience
+ * Decide on what kinds of things will make it stand out
+ * Critical evaluation of whether ms stands out 
+ * What do we want to say about our experiences?
+
+ANALYSIS 
+ * Why do we run hackathons? What should a hackathon try and accomplish / what are potential impacts of hackathon
+ * Finding ways of describing hackathons
+ * Misconceptions about hackathons
+ * Listing hackathons impacts and metrics for them
+ * List of hypotheses about factors affecting success
+ * Itemize challenges in organizing hackathon (what do you spend the most time on?) 
+ * What are the things that can go wrong?
+ * What are the decision points when planning an event?, e.g. prioritizing technical expertise over  diversity; call for participation or direct invite
+ * List ways to increase diversity
+
+DATA
+ * What questions can we answer with the data we have?
+ * What data should we have collected?
+ * List the data that we actually have
+ * Make a list of types of data we need (and can get)
+ * Questionnaire for participants (fill gaps, get systematic data) 
+ * Consolidate data resources (find schedules, rosters, photos, etc)
+ * Data entry - hackathon projects and membership 
+ * Figure out what is in NEAD and what isn't
+ * Decide on database platform and data schema 
+ * Integrate NEAD and non-NEAD data
+
+Action plan ideas
+ * List of instructional materials and templates to share
+
+Strategy notes
+ * Prioritize items that *need* all 7 working together 
+ * Instructional materials are lower priority
+ * How much data do we need now for ms? 
+ * Strategy: tracking our progress toward milestones
+
+
+Breakout: Outcomes / impacts of hackathons
+ * Code
+   * Draft vs working quality
+   * Sustained development activity
+   * Attention received ("#stars", "#watchers")
+   * Adoption by non-participants
+     * #forks
+     * #downloads
+   * Sloc and #commits: not useful measures
+ * Publication(s)
+   * Number of articles
+   * Number of citations of these articles
+ * Other products: data sets, standards, ontologies, etc.
+ * Documentation
+   * Number of docs
+   * Number of words/pages
+ * Collaboration(s)
+   * Co-developed software packages
+   * Number of co-authored publications post-hackathon?
+ * Grant proposal(s) or funding
+   * Number
+   * Dollars
+ * Team camaraderie
+ * People network connections
+   * (Includes concepts such as increasing community/diversity)
+   * Twitter (GitHub, Google+, Mendeley) connections before vs after (but not everyone uses Twitter; also RTs, favourites, co-mentions; could also look at how this changes with time; measuring RTs of tweets using an event hashtag)
+   * Surveys
+   * Charting how these have changed through time
+ * Technology awareness
+   * New users of a technology (e.g, active git accounts)
+ * Training through exchange of knowledge and know-how
+ * Publicity for project or brand
+   * News releases and where they are picked up
+   * Conference presentations, posters
+   * Social media impressions
+ * Broadening perspective
+   * Survey to get data
+   * Idea inspiration (for projects/work unrelated to hackathon)
+
+
+Ways hackathons can fail:
+ * Participants' expectations remain unfulfilled
+ * Participants are unengaged
+ * Having goals (of organizers, or of participants) that are incompatible
+ * Having unachievable goals
+ * Organizer goals differ from participant goals
+ * Scope infeasible in allotted time, or due to participant composition
+ * Poor facilitation
+ * Poor facilities
+
+We'll need a list of all the projects and their repo
+
+Data break-out 
+
+events (8)
+ *  funding - which sponsors
+ *  affiliation 
+ *  roster - 
+ *  project list 
+ *  date and location
+ *  pitches (sometimes) - not vs. practical for analysis?  
+   *  was_accepted?
+   *  number
+ *  schedule or agenda (sometimes)
+   *  length
+   *  true OpenSpace? 
+ *  participant 
+   *  pre-approved vs. applied
+ *  applicant pool
+   *  demographics
+   *  accepted? 
+ *  application form - not useful for analysis? 
+   *  location (link)
+   * content
+ * leadership team 
+   * roster
+   * is_participant? 
+ * record of organizing team
+
+projects (~50)
+ * source code - github and other repos
+ * team roster
+ * description of project
+ * programming language
+ * connection to existing codebases
+ * team report (sometimes)
+
+people (~200)
+ * names - NEAD
+ * email address - NEAD
+ * cvs - NEAD
+ * institutional affiliation - NEAD
+ * demographic information - NEAD 
+ * geographic location - NEAD 
+ * application - organizing team 
+ * career stage - w application, or w cv
+ * social media accounts (GitHub, Twitter, G+, Mendeley, etc.)
+
+outcomes
+ * tangible outputs via NEAD - pubs, proposals, software, data sets, data formats, presentations, newsletters
+ *  tangible outputs not via NEAD
+   * lines of code committed, commits
+   * conference sessions organized
+   * educational or training materials
+   * live demos
+   * screencasts
+   * web sites 
+   * mailing lists
+   * web analytics, github analytics
+   * blog posts - Holly; Arlin
+   * internet buzz
+   * report submitted to NESCent 
+   * co-authoring of pubs, proposals - don't have
+   * collaborations - don't have
+   * technologies adopted (e.g., github)
+   * concepts learned - 
+   * doors opened - 
+   * progression of involvement in community activities
+   * sharing of resources 
+
+questionnaire
+ * doors opened
+ * things learned 
+
+If we think of this as a relational database in normal form (e.g. as text files on private git repo: https://github.com/NESCent/hackathon_data), the ideal would be something like
+ * Name with attributes person_id, name (so we can keep people anonymized) 
+ * Person with attributes person_id, along with professional status or whatever 
+ * Project with attributes project_id, narrative description, 
+ * Person_project participation linking person_id with project_id (many to 1)
+ * Tangible outcomes (code, docs, proposals, etc) in NEAD or other source
+ * project_outcome link (1 to many, but sometimes many-to-many when >1 phylotastic teams contribute to paper)
+ * Based on https://docs.google.com/spreadsheets/d/14xazR7sey4ekxvfepKRa7_JpJDhZmZuJsmK87vTVOJk/edit#gid=0 
+
+Day 2 notes here:
+https://etherpad.mozilla.org/HIP5-day2
+
+

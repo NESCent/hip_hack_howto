@@ -1,0 +1,96 @@
+
+
+## Day 4 ideas for followup discussion: 
+* data set plan
+* manuscript plan
+* keeping evoio content alive
+* EvoIO network and related ideas
+* hackathon evangelism? 
+* any important questions that remain
+* importance of saving event information
+* how can we measure community or network impact? 
+
+
+
+## Post-lunch discussion day 4:
+
+### Manuscript - we all want to go for:
+
+* an initial unornamented dataset to go e.g. in Dryad, to be part of the "main paper"
+* Dataset (archivable, to go with the data) will be led by Karen
+    * also Arlin, Enrico, Aidan (Mike, Shann as feasible)
+
+
+### Data
+
+#### DATA
+* events
+* people - we still need to add:
+    * github handles
+    * fixes/data cleaning
+* projects - we still need to add:
+    * more entries i.e. we need to add descriptions, github etc. handles for some rows
+    * split out repos into products
+    * check the data
+* products - need to:
+    * decide how to complete we want to make this
+    * we'll be systematic about:
+        * team reports
+        * repos
+
+Demographic info will only be published in summary form.
+
+#### METADATA
+* descriptions of terms...
+
+#### SCRIPTS
+
+#### Aspirational data
+* github activity
+* remote participants (we don't yet record this)
+
+#### Planning to finish off the data stuff
+
+We want to have a teleconference about this to plan what to do, who, by when, etc.
+
+We can repeat teleconferences if we need, until we're finished: Karen will set up the first teleconference
+
+Student assistance via NESCent is time-limited - then the earlier we make the case for that the better.
+
+* Arlin commits 12 hours to finish stuff, and for a teleconfernece
+* Enrico is fine
+* Shann is there to support 
+* Aidan too
+
+Authorship on the Dryad data-package can be different/different order from that on the paper. We will order authors by effort as judged in terms of hours.
+
+We'll try and decide within the next month if we want to do an extra data paper, particularly as this would impact on decisions about where to send the "main" paper.
+
+### Manuscript
+
+to do:
+* Karen, Arlin, Aidan read it soon! WE HAVE TO DO THIS ASAP - we want to answer the questions:
+    * what do I see missing?
+    * is there anything in there outright wrong?
+    * do people who've been working with data, can you see data we can quikly/easily plug in
+    * this "READ THROUGH" will be done within 2 weeks
+* transfer all etherpad documents - PLEASE DON'T MAKE ANY CHANGES TO ETHERPAD ONCE WE LEAVE HERE TODAY, INSTRUCTION ABOUT THIS WILL BE DELIVERED BY MANUDCRIPT LEAD - and make all the changes to github
+* multi-author model
+    * begin doing it wikipedia style, then move to lead author (sending comments to them, they integrate them)
+        * We'll handle comments by writing them into the GoogleDoc using the <!-- INITIALS --> for short comments ('atomic'), while "issues" should be done in an issue trackdoing 
+        * people check that there's nothing important missing
+        * teleconference will be used to decide when to swtich from wikipedia to lead-author style
+* Mike is (thank you Mike... or is it Brian?) will manage the process
+    * No more edits to the etherpad once we leave the room!
+* All 7 of us commit to being involved in this until the next milestone i.e. for the next 2 weeks, then we'll re-assess - Mike will assign us to stuff after that e.g. organising teleconferences
+* A weak majority preference for going with group authorship, but we will revisit this and aim to build consensus on it later
+
+The data group will decide at teleconference what to do about asking for NESCent student support
+
+Venue suggestions - we'll aim to decide about this in the first teleconernece:
+* Journal of Open Research Software http://openresearchsoftware.metajnl.com/ (100 UK Pounds) we reckon they'll agree to accept something like this quickly, and 
+* PLoS Biology community section
+* PLoS Comptutationl Biology eduction section
+
+Arlin and NESCent can cover publication costs
+

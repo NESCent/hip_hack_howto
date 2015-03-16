@@ -1,0 +1,33 @@
+This is the list of etherpads taken from the top-level notes (top pad in the list below).
+
+Resources 
+
+    Meeting notes 
+
+    Day 1 notes (this): https://etherpad.mozilla.org/HIP5-day1
+
+    Day 2 notes: https://etherpad.mozilla.org/HIP5-day2
+
+    Day 3 notes: https://etherpad.mozilla.org/HIP5-day3 
+
+    Day 4 notes: https://etherpad.mozilla.org/HIP5-day4 
+
+    Documents and writing in process
+
+    lessons learned: https://etherpad.mozilla.org/HIP5-lessons-learned 
+
+    nescent model: https://etherpad.mozilla.org/HIP5-what-is-nescent-model
+
+    Outline aligned w/ Rutger's figures: https://etherpad.mozilla.org/HIP5-shann
+
+    Outline of document: https://etherpad.mozilla.org/HIP5-writing-team
+
+    Master document (simultaneously-edited version of manuscript): https://etherpad.mozilla.org/HIP5-master-document
+
+    repositories for code, data and references
+
+    public github repo: https://github.com/arlin/hip_hack_howto
+
+    private repo for data: https://github.com/NESCent/hackathon_data
+
+    Mendeley group: https://www.mendeley.com/groups/6731181/hip-hack-howto/
