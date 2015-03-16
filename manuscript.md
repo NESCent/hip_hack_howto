@@ -84,6 +84,8 @@ In this paper, we present a thorough description of a hackathon model and proces
 
 At least one, and for six out of the nine events several of the co-organizers of these hackathons are among the authors. We note that we intentionally restrict ourselves to reporting and discussing the experience and evidence we have. This paper does therefore not attempt a comprehensive review of the hackathon models and processes that exist, nor do we try to compare the effectiveness of the model and process we describe to that of others. 
 
+<-- Hilmar, thanks for that, I like the introduction a lot, very glad you spent so much time crafting it, I think with more references and a bit of polishing it's ready AESB -->
+
 # Why hold a hackathon: The spectrum of values and objectives
 
 By design, hackathons are generally motivated by bringing together
