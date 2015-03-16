@@ -512,7 +512,7 @@ Generally, we have not experienced much success in participant engagement prior 
 
 **We should have a figure highlighting the major events scheduled for the first day*
 
-The first day of the hackathon is the most unique <!-- I'm brought up to consider than one can't have gradations of uniquness - something either is or isn't unique - do we here mean..? that it is something that makes these hackathons different from most others? AESB --> in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, typically aimed at reinforcing the scope of the hackathon. Generally, the initial opening is followed by very brief introductions from all the participants (who you are, why you are there).
+The first day of the hackathon is the most unique <!-- I'm brought up to consider than one can't have gradations of uniqueness - something either is or isn't unique - do we here mean..? that it is something that makes these hackathons different from most others? hm, reading it again, I think what's meant here is "The first day is very different from the others as it serves to etc. " AESB --> in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, typically aimed at reinforcing the scope of the hackathon. Generally, the initial opening is followed by very brief introductions from all the participants (who you are, why you are there).
 
 The next major activity is an open brain-storming session aimed at exploring and refining the overall scope of the hackathon, and clarifying any aspect of the broad objectives that might be unclear. This part of the event is typically not focused on technical discussions, unless these are necessary for the refinement and clarification of the scope.
 
@@ -524,7 +524,7 @@ Following the open brainstorming and the bootcamps (and usually with a break or 
 * The pre-identified key challenges that will need to be addressed
 * The desired expertise and the possible partnerships with other projects; this last aspect should also somehow motivate how the project fits within the overall scope of the hackathon.
 
-It should be emphasized that anyone can make a pitch; in fact, the LT might be discouraged from making pitches in order to engage participants in ownership of the event.
+It should be emphasized that anyone can make a pitch; in fact, the LT might be <!-- if that is indeed the case i.e. if for several of the events you did this, I'd be explicit about that here AESB--> discouraged from making pitches in order to engage participants in ownership of the event.
 
 After all of the pitches are made, everyone is given an opportunity to wander around the room, discuss pitches more succinctly and specifically with the pitchee, and to generally self-assemble into potential teams. When the self-organization is complete, a re-evaluation of the pitches is made: the focus of some may have shifted as participants joined project ideas, other pitches may have insufficient support to continue, etc. A group evaluation, facilitated by the leadership team, may be important at this stage in order to (1) prevent individual projects from drifting too far off scope; (2) prevent projects whose feasibility is unrealistic for the time allowed; (3) identify potential holes or gaps in the overall structure that might need to be filled in order to meet the objectives of the hackathon; and (4) ensure everyone is working as part of a group/team rather than on their own.
 
@@ -554,8 +554,8 @@ It is typically uncommon that tangible outcomes are completed within the 5-day p
 
 A number of approaches have been explored to sustain the follow-up activities focused on tangible deliverables:
 * Mailing lists established during the pre-engagement phases are maintained alive and used to continue communication, solicit engagement and advertise results
-* Several hackathon relied on the use of wikis to track ideas, activities, deliverables; follow-up activities have often centered around continuing populating the wiki pages with results and accomplishments
-* In at least one hackathon, a follow-up distributed hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (*e.g.*, through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.
+* Several hackathon relied on the use of wikis to track ideas, activities, deliverables; follow-up activities have often centered around continuing populating the wiki pages with results and accomplishments <!-- can we report with data that some of these have continued being used, or are all of them silent after a few months? Is further useful data for describing the impact of the events AESB -->
+* In at least one hackathon, a follow-up distributed hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (*e.g.*, through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.<!-- Is this one of the 9 hackathons discussed in this paper? if so, would be good to name it here AESB-->
 * It has been common practice for subsets of participants (typically led by the project leaders) to assemble the achievements of the hackathon project in a manuscript (*e.g.*, the Phylotastic manuscript, which collected as authors the majority of the participants to the Phylotastic I hackathon) or in presentations/sessions at relevant conferences (*e.g.*, the presentations about different aspects of the Phylotastic II hackathon at iEvoBio 2013).
 * Ideas for broader developments often arise as the result of the activities of the hackathon, leading to the development of grant proposals to support them (*e.g.*, to hire graduate students or professional programmers to scale-up implementations and applications).
 
@@ -569,7 +569,7 @@ Some ideas:
 
 * Leadership team members are often selected among more established and senior researchers. The benefit is that they have a greater level of awareness of the community and may provide better guidance in the scoping of the problem and in the identification of effective participants. On the other hand, more senior researchers tend to have an extensive agenda of commitments, which detracts from the necessary dedication required by the organization of an hackathon event - which is highly focused, intense over an extended period of time, and guided by rigid deadlines. LT members need to provide availability in their schedules for regular meetings (e.g., weekly or bi-weekly teleconferences) and for participation in the preparatory activities (e.g., attend pre-hackathon working group meetings; prepare, disseminate and evaluate applications). 
 
-* Commitments of LT members tend to change rapidly, leading to shift in focus and in the level of engagement. There have been instances where LT members had to abandon the LT due to sudden lack of time and availability; shift in the LT composition may endanger the success of the event (and possibly lead to the cancelation of a hackathon before its start).
+* Commitments of LT members tend to change rapidly, leading to shift in focus and in the level of engagement. There have been instances where LT members had to abandon the LT due to sudden lack of time and availability; shift in the LT composition may endanger the success of the event (and possibly lead to the cancelation of a hackathon before its start). <!-- Did this ever happen? If so, some details on it might be interesting here AESB -->
 
 * LT members need to be fully engaged and invested in the event, fully appreciating the value for the contributions that may arise from the hackathon and embracing such contributions for their importance and the benefit they may accomplish. The lack of conviction in the benefits and values of the hackathon can be causes that lead to the failure of the event.
 
@@ -675,6 +675,8 @@ The hackathon event has a limited time window. This face-to-face time should be 
 
 # Conclusions
 Hackathons rule!
+
+A key conclusion is that there is a particular set of data that we encourage people to collect associaated with Hackathons to enable them to much more easily be assessed for impact. Using basic analyses of some of this kind of data, we've been able to demonstrate xxxx.
 
 # Resources
 *Is this just for us, should it be a section of the manuscript, or perhaps supplemental material?*
