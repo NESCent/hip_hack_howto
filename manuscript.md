@@ -92,15 +92,15 @@ By design, hackathons are generally motivated by bringing together
 people who would otherwise not meet, to collaboratively tackle goals
 or problems they would otherwise not have enough opportunity to work
 on, or for which it would be much more difficult to succeed on their
-own. The types of outcomes that can emerge from this cover a wide
-spectrum from intangible to tangible, and the impacts that these
-outcomes can have towards a sponsor's larger objectives can also vary
-widely, including in how well they are measurable.
+own, and for which direct face-to-face interaction (rather than remote collaboration) is percieved as being particularly important for achieving the goals. The types of outcomes that can emerge from this cover a wide spectrum from intangible to tangible, and the impacts that these
+outcomes can have towards a sponsor's larger objectives can also vary widely, including in how accurately they can be measured or estimated.
 
 To better understand the values and objectives that motivated the
 event and process model we present here, Table X gives a sample of
 potential hackathon outcomes, divided into tangible and intangible
 ones, to illustrate the spectrum.
+
+
 
 <table>
 <tr>
@@ -109,8 +109,8 @@ ones, to illustrate the spectrum.
   <th>Challenges</th></tr>
 <tr>
   <td>Source code</td>
-  <td>Draft versus working quality; sustained post-hackathon
-  development activity; community interest gathered; adoption by
+  <td>Draft versus working quality <-- any ideas for possible metrics for this? even if they're expected to be very inacurate/poor estimators, I'd be interested to see that here, as a way of making the 'tangible outcome' more tangible AESB -->; sustained post-hackathon
+  development activity, which could be assessed by tracking the extent of commit and other activitiy associated with a repo post-hackathon; community interest gathered, for example counting shares of a repo link via social media; adoption by
   non-participants (forks, downloads, citations)</td>
   <td>Metrics for code writing productivity (lines of code, number of
   commits) are often confounded and not useful. The specific impact of
@@ -161,23 +161,28 @@ ones, to illustrate the spectrum.
 </tr>
 <tr>
   <td>Increased Collaboration</td>
-  <td># of novel collaborators (software/publications) from participants post-hackathon</td>
+  <td># of novel collaborators (e.g. contributors to same github or other repo/co-publications publications) from participants post-hackathon</td>
+  <td>Tracking co-authorships without using unique author identifiers such as ORCIDs can be highly innacurate. Yet such tools are not used by all researchers, and are themselves still being developed and could be considered in their infancy. Changing handle-names, multiple handle-names can make tracking software collaboration difficult.</td>
 </tr>
 <tr>
  <td>Broadening Communities/Networks</td>
  <td>Increased participation/friends/followers of mailing lists, social networks, etc.</td>
+ <td>None of the social networks is used by everyone, and some people don't use them at all, so such analyses can (and indeed are likely) to miss interactions.</td>
 </tr>
 <tr>
  <td>Community Awareness/Training in Technologies, Standards, or Best Practices</td>
  <td># new users of a technology</td>
+ <td>Challenges...</td>
 </tr>
 <tr>
  <td>Increased Diversity</td>
  <td>Diversity includes demographic concepts (gender, ethnicity, experience) and disciplinary concepts</td>
+ <td>Such data is sensitive, comes with  many legal constraints on its collection, storage, and sharing.</td>
 </tr>
 <tr>
  <td>Publicity/Brand Awareness</td>
  <td>Conference presentations/posters, Press releases (and where they are picked up), Social media impressions</td>
+ <td>Challenges...</td>
 </tr>
 <tr>
  <td>Broadening Perspectives</td>
