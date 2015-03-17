@@ -671,7 +671,8 @@ The hackathon event has a limited time window. This face-to-face time should be 
  * Determine a unique HashTag before the meeting that can be used to trace event-specific Twitter interaction
  * collect their Twitter handles, LinkedIn URLs, Facebook things (whatever they are, I'm not on Facebook), github handles
 * Query participants on familiarity with key technologies of interest prior to hackathon (particularly those which form the core of the project or which are introduced in bootcamps). Query them afterwards to see how many use these technologies after the event has completed.
-* Keep track of who does what when. Which individuals make the pitches? Which pitches are chosen to move forward? 
+* Keep track of who does what when. Which individuals make the pitches? Which pitches are chosen to move forward?
+* Feedback forms from all paritcipants after each event, with the same set of questions asked in all of them (or at least that all forms contained the same set of core questions), allowing us to track subjective measures of success of the hackathons direct from participants e.g. by answers to the question "how useful was this event for you for building your professional network, on a scale of 1-5" etc.
 
 # Conclusions
 Hackathons rule!
@@ -739,7 +740,11 @@ We could also show forks, maybe in a differnet colour.
 
 ## Impact of hackathons on building community and collaborations
 
-This depends on collecting as many Twitter handles 
+Motivation is to use unique identifiers for people who participated in hackathons, and to demonstrate that (Twitter handles, github handles)
+
+
+
+Include here also something based on the data Jonathon used in his description of network/community impact on the basis of detailed quesionarires returned by all participants from one of the hackathons.
 
 # Resources
 *Is this just for us, should it be a section of the manuscript, or perhaps supplemental material?*
@@ -750,11 +755,38 @@ Work Groups, Structural Diversity, and Knowledge Sharing in a Global  Organizati
 
 StitchFest: Diversifying a College Hackathon to Broaden Participation and Perceptions in Computing. Gabriela T. Richard, Yasmin B. Kafai, Barrie M. Adleberg, Orkan Telhan. Proceedings of the 46th ACM Technical Symposium on Computer Science EducationProceedings of the 46th ACM Technical Symposium on Computer Science Education, 2015.
 
+Ones directly based on NESCent hackathons:
+
+[Phylotastic! Making tree-of-life knowledge accessible, reusable and convenient.](http://www.biomedcentral.com/1471-2105/14/158) BMC Bioinformatics. 2013 May 13;14:158. doi: 10.1186/1471-2105-14-158.
+Stoltzfus A, Lapp H, Matasci N, Deus H, Sidlauskas B, Zmasek CM, Vaidya G, Pontelli E, Cranston K, Vos R, Webb CO, Harmon LJ, Pirrung M, O'Meara B, Pennell MW, Mirarab S, Rosenberg MS, Balhoff JP, Bik HM, Heath TA, Midford PE, Brown JW, McTavish EJ, Sukumaran J, Westneat M, Alfaro ME, Steele A, Jordan G.
+
+
 *REFERENCES WE NEED TO SOMEHOW INCLUDE*
 
 Community-driven development for computational biology at Sprints, Hackathons and Codefests. Steffen Möller, Enis Afgan, Michael Banck, Raoul J. P. Bonnal, Timothy Booth, John Chilton, Peter J. A. Cock, Markus Gumbel, Nomi L. Harris, Richard C. G. Holland, Matús Kalas, László Kaján, Eri Kibukawa, David R. Powell, Pjotr Prins, Jacqueline Quinn, Olivier Sallou, Francesco Strozzi, Torsten Seemann, Clare Sloggett, Stian Soiland-Reyes, William Spooner, Sascha Steinbiss, Andreas Tille, Anthony J. Travis, Roman Guimera, Toshiaki Katayama, Brad A. Chapman. BMC Bioinformatics 15(S-14): S7 (2014).
 
 *PAPERS describing individual events*
+
+[Meeting report from the first meetings of the Computational Modeling in Biology Network (COMBINE).](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3235518/) Stand Genomic Sci. 2011 Nov 30;5(2):230-42. doi: 10.4056/sigs.2034671. Le Novère N, Hucka M, Anwar N, Bader GD, Demir E, Moodie S, Sorokin A. 
+
+This article gives a more detailed description of the relevant meetings than in "Meeting Report: Hackathon-Workshop on Darwin Core and MIxS Standards Alignment", and also follows up some more reflective sections on 
+
+- "What could have been done differently?" 
+- "What worked well and should be repeated?"
+
+[Crowdsourcing knowledge discovery and innovations in medicine.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4180345/) J Med Internet Res. 2014 Sep 19;16(9):e216. doi: 10.2196/jmir.3761.
+Celi LA, Ippolito A, Montgomery RA, Moses C, Stone DJ.
+
+As the title suggests, it's a discussion of application of ways of opening up discovery in medicine outside of clinicians. The authors have been involved in organising several hackathons, as described in the quote below
+
+> The authors of this article have helped organize numerous hackathons and data marathons that have brought together engineers, data scientists, and clinicians (including nurses, pharmacists, and other allied health personnel) to address problems and questions identified during routine clinical practice, including the Critical Data Marathon held at the Massachusetts Institute of Technology (MIT) in January 2014 (see Multimedia Appendix 1). To date, the MIT Hacking Medicine has organized 17 events in the United States, India, Uganda, and Spain
+
+There then follow some anecdotal examples of successes/benefits of such hackathons, but no detailed description of what makes them work particularly well
+
+[Less noise, more hacking: how to deploy principles from MIT's hacking medicine to accelerate health care.](http://www.mghcgh.org/assets/files/news/Less_Noise_More_Hacking._IJTAHC.2014Olson.pdf)
+Int J Technol Assess Health Care. 2014 Jul;30(3):260-4. doi: 10.1017/S0266462314000324. Epub 2014 Aug 6. DePasse JW, Carroll R, Ippolito A, Yost A, Santorino D, Chu Z, Olson KR.
+
+A more detailed description of the format and results of the hackathons described in the "Crowdsourcing knowledge discovery and innovations in medicine" article mentioned above.
 
 Meeting Report: Hackathon-Workshop on Darwin Core and MIxS Standards Alignment. Éamonn Ó Tuama, John Deck, Gabriel Dröge, Markus Döring, Dawn Field, Renzo Kottmann, Juncai Ma, Hiroshi Mori, Norman Morrison, Peter Sterk, Hideaki Sugawara, John Wieczorek, Linhuan Wu, Pelin Yilmaz. Standards in Genomic Sciences (2012) 7:166-170.
 
@@ -767,6 +799,7 @@ TUIO Hackathon. Martin Kaltenbrunner, Florian Echtler. Proceedings of the Ninth 
 Industrial Experiences of Organizing a Hackathon to Assess a Device-centric Cloud Ecosystem. Mikko Raatikainen, Marko Komssi, Vittorio dal Bianco, Klas Kindstom, Janne Järvinen. 37th Annual IEEE Computer Software and Applications Conference (2013).
 
 BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains. Toshiaki Katayama, Mark D Wilkinson, Kiyoko F Aoki-Kinoshita, Shuichi Kawashima, Yasunori Yamamoto, Atsuko Yamaguchi, Shinobu Okamoto, Shin Kawano, Jin-Dong Kim, Yue Wang, Hongyan Wu, Yoshinobu Kano, Hiromasa Ono, Hidemasa Bono, Simon Kocbek, Jan Aerts, Yukie Akune, Erick Antezana, Kazuharu Arakawa, Bruno Aranda, Joachim Baran, Jerven Bolleman, Raoul JP Bonnal, Pier Luigi Buttigieg, Matthew P Campbell, Yi-an Chen, Hirokazu Chiba, Peter JA Cock, K Bretonnel Cohen, Alexandru Constantin, Geraint Duck, Michel Dumontier, Takatomo Fujisawa, Toyofumi Fujiwara, Naohisa Goto, Robert Hoehndorf, Yoshinobu Igarashi, Hidetoshi Itaya, Maori Ito, Wataru Iwasaki, Matúš Kalaš, Takeo Katoda, Taehong Kim, Anna Kokubu, Yusuke Komiyama, Masaaki Kotera, Camille Laibe, Hilmar Lapp, Thomas Lütteke, M Scott Marshall, Takaaki Mori, Hiroshi Mori, Mizuki Morita, Katsuhiko Murakami, Mitsuteru Nakao, Hisashi Narimatsu, Hiroyo Nishide, Yosuke Nishimura, Johan Nystrom-Persson, Soichi Ogishima, Yasunobu Okamura, Shujiro Okuda, Kazuki Oshita, Nicki H Packer, Pjotr Prins, Rene Ranzinger, Philippe Rocca-Serra, Susanna Sansone, Hiromichi Sawaki, Sung-Ho Shin, Andrea Splendiani, Francesco Strozzi, Shu Tadaka, Philip Toukach, Ikuo Uchiyama, Masahito Umezaki, Rutger Vos, Patricia L Whetzel, Issaku Yamada, Chisato Yamasaki, Riu Yamashita, William S York, Christian M Zmasek, Shoko Kawamoto and Toshihisa Takag. Journal of Biomedical Semantics 2014, 5:5 
+
 
 
 </main>
