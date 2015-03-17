@@ -740,9 +740,13 @@ We could also show forks, maybe in a differnet colour.
 
 ## Impact of hackathons on building community and collaborations
 
-Motivation is to use unique identifiers for people who participated in hackathons, and to demonstrate that (Twitter handles, github handles)
+Motivation is to check to see the extent to which participating in hackathons develops longer-term interaction and collaboration amongst people within the hackathon (perhaps also within the same team?)
 
+We would like to collect, for this, an as-complete-as-possible list of Twitter and github handles for all participants of all hackathons.
 
+We could, for each hackathon (perhaps for each team also) count the number of twitter interactions (RTs, favourites, mentions) each person in that team made via Twitter before, during, and after the hackathon. We could break "after" down into 2 weeks after hackathon, and then 6 months and a year afterwards, to see if/whether itneractions were sustatined over a long time.
+
+We could do the same thing with github handles, looking for the occurance of two people who met at a hackathon making commits to the same repos as others form the same one, both before, during,a nd after, the hackathons.
 
 Include here also something based on the data Jonathon used in his description of network/community impact on the basis of detailed quesionarires returned by all participants from one of the hackathons.
 
