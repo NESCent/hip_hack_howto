@@ -729,6 +729,17 @@ With this, we could ask the following questions:
 
 We could plot these on a chart with x axis the github-focused hackathons in order of occurance, and for each of them the numbers described above on the y axis (number of people using github for the first time in that meeting, number of those still using it after 6 months, still using it after 12 months)
 
+## Sustainability of projects initiated during hackathons
+
+Motivation is to come up with some kind of measure of the extent to which projects initiated during the hackathon have continued to be developed, and used, and of interest to the wider community, after the hackathon ends. I'm suggesting we do that focused on github given the (I hope) relative ease of interacting with it to collect this kind of information programatically. I suggest we only focus on those projects that are initiated specifically for the hackathon, rather than those that incorporate code into existing repos, as it is then easier to trace actigvity specifically to the hackathon.
+
+For each github repo created new for a project in the hackathon, we could collect the date of each commit since the repo was created. We could plot the distribution of these commits through time, lining up the charts like this from all such projects on the 5 days of the hackathon, then we see how this varies between the different hackathons, and we see easily which ones have been further developed, which not.
+
+We could also show forks, maybe in a differnet colour.
+
+## Impact of hackathons on building community and collaborations
+
+This depends on collecting as many Twitter handles 
 
 # Resources
 *Is this just for us, should it be a section of the manuscript, or perhaps supplemental material?*
