@@ -678,6 +678,28 @@ Hackathons rule!
 
 A key conclusion is that there is a particular set of data that we encourage people to collect associaated with Hackathons to enable them to much more easily be assessed for impact. Using basic analyses of some of this kind of data, we've been able to demonstrate xxxx.
 
+# Possible data figures/tables
+
+## Diversity variation between meetings
+
+Graphs plotting diversity measure (% of some category e.g. females) on y axis against hackathons ordered by time on the x axis. Enrico <!-- I had first typed Antonio?! AESB --> did a quick draft of this figure already.
+
+However, I would be interested in plotting on the same graph the value for several different categories of people. e.g. when plotting gender diversity, we could look at it in:
+
+- applicants
+- participants
+- leadership team
+- pitchers
+- accepted pitches
+
+Other diversity measures could be:
+
+- proportion of minorities
+- proportion of people holding an academic position at the time of the hackathon
+- proportion of senior career-stagers (junior professor and up...?)
+
+
+
 # Resources
 *Is this just for us, should it be a section of the manuscript, or perhaps supplemental material?*
 
