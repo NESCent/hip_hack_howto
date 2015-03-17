@@ -700,6 +700,8 @@ Other diversity measures could be:
 - proportion of people holding an academic position at the time of the hackathon
 - proportion of senior career-stagers (junior professor and up...?)
 
+We could also look to see the extent of correlation between some of these diversity measures, and other measures of different kinds of impact (development of repos that continue to be worked on, for example).
+
 ## Variation in hackathon parameters
 
 Motivation is just to provide a graphical impressions of variation (I expect, but am not sure, it will rather be a story of relative stability) of various features of the hackathon series. 
@@ -716,6 +718,16 @@ against hackathons ordered by time on the x axis.
 
 ## Sustainability of technology adoption
 
+Motivation is to assess the impact of the hackathons in terms of encouraging participants both to try out for the first time, and to adopt for use in later work/projects, "important" tools, for which I suggest we focus on github.
+
+To do this, I suggest we collect via the github API a set of all commits for all particiapants witha github handle. If possible, this would be the total list of all commits these people have ever made on all public github repos (some people will have many 1000s, others 0 or 1), recording the date of the commit, the repo name, whether or not they are owners of the repo, and the date of creation of their github account.
+
+With this, we could ask the following questions:
+
+- for the hackathons where all development was done using github, how many participants made their first commit, how many created their github account, within e.g. the event itself and maybe 2 weeks before it; this is a count of the people who were actively introducted to this new technology as a result of participating in the hackathon
+- how many of the people who started using github as a result of the hackathon are still using it 6 months, and 12 months after the event (i.e. who have incorporated it as part of their working life)
+
+We could plot these on a chart with x axis the github-focused hackathons in order of occurance, and for each of them the numbers described above on the y axis (number of people using github for the first time in that meeting, number of those still using it after 6 months, still using it after 12 months)
 
 
 # Resources
