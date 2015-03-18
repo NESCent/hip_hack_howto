@@ -1,0 +1,68 @@
+digraph ENIER {
+// file types
+	NeXML [shape=note];
+	Newick [shape=note];
+	eNewick [shape=note];
+	NHX [shape=note];
+	NEXUS [shape=note];
+	NEKZS [shape=note];
+	NEGSUX [shape=note];
+	BEASTXML [shape=note];
+
+// data resources
+// shape=polygon, sides=8
+	TreeBASE [shape=folder];  
+
+// applications
+subgraph { 
+rank=same;
+label="phyloviz";
+    Phylowidget [shape=box3d];
+    Archaeopteryx [shape=box3d];
+	jsPhyloSVG  [shape=box3d];
+	FigTree [shape=box3d];
+	PhyloBox [shape=box3d];
+}	
+	
+subgraph { 
+rank=same; 
+label="phyloinference"; 
+	PAUP [shape=oval];
+	PHYLIP [shape=oval];
+    MrBayes [shape=oval];
+    BEAST [shape=oval];
+	Mesquite [shape=oval];
+}	
+	
+    "Bio::Phylo" [shape=component];
+    "Bio::NEXUS" [shape=component];
+	
+// automatic link via PhyloWS
+// label=PhyloWS, 
+	TreeBASE -> Phylowidget [color=blue]
+	TreeBASE -> jsPhyloSVG [color=blue]
+	TreeBASE -> "Bio::Phylo" [color=blue]
+
+// input or output capacity
+    NEXUS -> TreeBASE [color=green]; // label=submit, 
+    TreeBASE -> NeXML [color=green];
+    MrBayes -> NEKZS [color=green];
+	PAUP -> NEXUS [color=green];
+	NEXUS -> PAUP [color=green];
+	Newick -> FigTree [color=green]; 
+	NeXML -> jsPhyloSVG [color=green]; 
+	NeXML -> PhyloBox [color=green];
+	BEAST -> NEXUS [color=green];
+	BEASTXML -> BEAST [color=green];
+	NEXUS -> Mesquite [color=green];
+	Mesquite -> NEXUS [color=green];
+	NHX -> Archaeopteryx [color=green];
+	PHYLIP -> Newick [color=green];
+	Newick -> Phylowidget [color=green];
+	Phylowidget -> NHX [color=green];
+	
+// shim services 
+	NEXUS -> NeXML [label="Bio::Phylo", color=red];
+	Newick -> NEXUS [label="Bio::NEXUS", color=red];
+	
+// subgraphs 
