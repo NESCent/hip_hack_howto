@@ -584,7 +584,7 @@ As discussed elsewhere in this document, direct invitation serves an important f
 
 <!-- possible data/analysis to include here: the results of analysis of co-contribution of people to github repos via their github handles, and if we do it, then also of the Twitter analysis. At the time of writing this comment, these possible analysies are described below in the section "## Impact of hackathons on building community and collaborations". Perhaps include also references to Jono Bacon's "The art of communinty" and Millington's "Buzzing Communities"? AESB -->
 
-## Drawing conclusinos from measures of hackathon impact
+## Drawing conclusions from measures of hackathon impact
 
 ### Challenges of building a leadership team
 Some ideas:
