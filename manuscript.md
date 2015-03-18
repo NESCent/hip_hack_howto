@@ -564,6 +564,20 @@ See also the discussion below ("Achieving tangible working products") on partici
 
 # Results and Discussion
 
+We would like to be able to use a range of different metrics to assess the impact of these hackathons, as we feel it would be useful for:
+
+- pointy-head bosses seeing that sending/supporting their people to participate in them are getting benefits
+- funders see that they're getting good stuff from them
+- for us as organisers to inform our decisions abotu how to run events based on evidence
+
+As discussed above, this is difficult to do. However, we have carried out some such analyses using the data we have available. In most cases these analyses do not allow us to draw strong conclusions, but we include them anyway as examples of analyses that could become more powerful in the face of more complete data, and from data from more events.
+
+We have thus begun the results and discussion session with a discussion of our analyes to attempt to measure/quantify impact, and then followed it up by using this data to explore several specific questions we have about effectiveness of certain features of hackathons.
+
+
+## Assessing hackathon impact
+
+
 ## Challenges of building a leadership team
 Some ideas:
 
@@ -576,7 +590,9 @@ Some ideas:
 * Just as the initial success of the hackathon event is dependent on the time and effort dedicated by members of the LT, the members of the LT are also often the individuals that guide the post-hackathon activities, necessary to summarize results, guide follow-up efforts (e.g., development of manuscripts that present the achievements of the hackathon projects), and ensure that the hackathon outcomes are made fully available to the broad community.
 
 ## Growing the community
-As discussed elsewhere in this document, direct invitation serves an important function in targeting expertise and increasing diversity, but we find it is too community limiting as a general strategy. Choosing participants, at least in part, from an open pool is extremely important if one of the goals of the hackathon is to grow the community. Much like Gordon conferences, invitation-only hackathons (e.g., the Japan hackathons) have a danger of stratifying individuals into the invited in-crowd and the ignored out-crowd. 
+As discussed elsewhere in this document, direct invitation serves an important function in targeting expertise and increasing diversity, but we find it is too community limiting as a general strategy. Choosing participants, at least in part, from an open pool is extremely important if one of the goals of the hackathon is to grow the community. Much like Gordon conferences, invitation-only hackathons (e.g., the Japan hackathons) have a danger of stratifying individuals into the invited in-crowd and the ignored out-crowd.
+
+<!-- possible data/analysis to include here: the results of analysis of co-contribution of people to github repos via their github handles, and if we do it, then also of the Twitter analysis. At the time of writing this comment, these possible analysies are described below in the section "## Impact of hackathons on building community and collaborations". Perhaps include also references to Jono Bacon's "The art of communinty" and Millington's "Buzzing Communities"? AESB -->
 
 ### Make people feel welcome; encourage people
 Actions taken during three different stages are critical to creating a  welcoming atmosphere. First, when crafting recruitment materials and  deciding where to target advertisements, remember that hackathons are not just for gurus. Dial back on the technical language (in the advertisement materials), and make the big picture clear. Specify non-programmer roles (e.g., "subject-matter expert", "use-case consultant"), and avoid implicitly equating participants with programmers (*e.g.*, don't refer to  participants as "programmers" or "coders").
@@ -604,6 +620,8 @@ As a group, we made a conscious decision to declare that we valued community div
 
 [see citation at end for a reference on power of hackathons to improve diversity]
 
+<!--possible data/analysis to include: described below in the section "## Diversity variation between meetings" AESB -->
+
 ## Technology awareness and knowledge exchange
 A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
 
@@ -614,6 +632,8 @@ First of all, the hackathon event itself is an opportunity for members of a comm
 
 In addition to this, hackathons can be developed to create support for novel technologies and methodologies, that have been specifically developed to meet a perceived need of the target audience. An example of this is represented by the EvoIO stack, composed of an exchange data format (NeXML), an ontology (CDAO), and a web-service API (PhyloWS), and developed by a working group. Two hackathons contributed either to the development of tools supporting this infrastructure (the Database Interoperability hackathon) or to the deployment application of the stack (the Phylotastic I hackathon). 
 
+<!--possible data/analysis to include: described below in the section "## Sustainability of technology adoption" AESB -->
+
 ## Achieving tangible working products
 The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
 
@@ -623,11 +643,16 @@ Generally, however, building sustainable products out of hackathons is very diff
   * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
 * Managing expectations with respect to deliverables is important 
 
+<!--possible data/analysis to include: described below in the section "## Sustainability of projects initiated during hackathons" AESB -->
+
+
 * **Career stage of participants:** An observation which comes from working groups at some of the national synthesis centers (NCEAS, NESCent, NIMBios) is that one driver of success of many working groups is having a good mix of junior and senior participants. While senior participants are essential for their experience and knowledge of problems and systems, their schedules are often busier post event and following up on a particular outcome for the event has less impact on their career. In contrast, a junior participant (graduate student, postdoc, untenured professor) may be much more driven to follow up and drive production after an event because the tangible product may have a large impact on progression to their next career stage. Hackathons are likely to follow this same pattern, with an even greater complication: research staff. Many of the hackathons we have conducted have included large numbers of research staff, often chosen for their programming/domain expertise. While invaluable during the hackathon, these participants may be the least likely to see a direct career benefit from continued production of a tangible product after the hackathon (the personal benefits to them may follow the intangible benefits) and, more importantly, they often lack the job flexibility in time and effort that someone in a more traditional academic position can devote to following up on details.
 
 Thus to achieve tangible working products, one should consider whether (1) deliverables can be achieved in the time slotted for the hackathon, or (2) whether choosing participants who may lack certain skills or experience may serve the overall goal better by their likelihood of being able to dedicate extra time after the even to follow-up and complete the project.
 
 Another critical aspect in the achievement of tangible results and sustainable continuation of the projects is the ability to coalesce a community around the activities performed at that hackathon. The development of open data repositories and the contribution to widely accessed code repositories are aspects that facilitate the community "buy-in" and enable the long-term sustainability of the hackathon products. An example of this is represented by the contributions to the NeXML code base achieved during the Database Interoperability hackathon.
+
+<!--possible data/analysis to include: described below in the section "## Diversity variation between meetings"; note that I already refer to that piece of possible data/analysis above in the section on "Diversifying the community" AESB -->
 
 ## Controlling Scope to Balance Flexibility and Specificity
 As already mentioned, controlling the scope of a hackathon is a balancing act between being flexible enough to allow participants the freedom to pursue their own interests and creativity, but focused enough to meet the broad objectives as determined by the LT.
@@ -651,6 +676,7 @@ Remote participation of a single individual has worked best when the individual 
 
 The remote participation of an entire team was experimented with during the Phylotastic I hackathon. The team was located at a remote site, with several researchers spending an equal amount of time as the on-site participants in a dedicated remote space (a lab reserved for the event). The remote team focused entirely on one of the hackathon projects, with no participation in such projects from the main site participants. The remote team did not require continuous video/audio connection to the main site, with interactions limited to the initial introductions and the regular stand-up meetings. While easier to implement than the individual remote participants, the remote team participation does not benefit from the knowledge exchanges that occur among participants at the main site; the infrequent connections and interactions remove many of the described benefits of the hackathon.
 
+<!-- I've suggested ways of including data on this in the "## Variation in hackathon parameters" section below; perhaps it would be possible to explore success of teams/hacktahons incorporating remote particiapntion and compare those to the success as examined elsehwere in this manuscript of them cf: those without any remote particiaption - I exepct there's no obvious difference acording to these different outcomes, this is where a set of feedback forms from everyone might have helped, I bet the answers to these from remote participants cf on-site ones about "opportunity to build new professionsal relationships" and "impact on career" would be lower  AESB -->
 
 ## Allowing hard targets to be tackled (???)
 *I honestly am not sure what this topic is supposed to be*
