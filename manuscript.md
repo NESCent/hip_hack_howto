@@ -584,6 +584,31 @@ As discussed elsewhere in this document, direct invitation serves an important f
 
 <!-- possible data/analysis to include here: the results of analysis of co-contribution of people to github repos via their github handles, and if we do it, then also of the Twitter analysis. At the time of writing this comment, these possible analysies are described below in the section "## Impact of hackathons on building community and collaborations". Perhaps include also references to Jono Bacon's "The art of communinty" and Millington's "Buzzing Communities"? AESB -->
 
+### Technology awareness and knowledge exchange
+A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
+
+First of all, the hackathon event itself is an opportunity for members of a community to learn about upcoming technologies and experience them first-hand. The technologies can be either already in use by part of the community or are  inherited from other communities but valuable to the audience target by the hackathon. Examples of this include 
+* Promoting the use of GitHub and other code repositories
+* Focusing on the use of specific toolkits and expanding their reach (e.g., R, BioPerl)
+* Expanding the generality and applicability of existing tools (e.g., the generalization of Phylomatic achieved during the Phylotastic I hackathon).
+
+In addition to this, hackathons can be developed to create support for novel technologies and methodologies, that have been specifically developed to meet a perceived need of the target audience. An example of this is represented by the EvoIO stack, composed of an exchange data format (NeXML), an ontology (CDAO), and a web-service API (PhyloWS), and developed by a working group. Two hackathons contributed either to the development of tools supporting this infrastructure (the Database Interoperability hackathon) or to the deployment application of the stack (the Phylotastic I hackathon). 
+
+<!--possible data/analysis to include: described below in the section "## Sustainability of technology adoption" AESB -->
+
+### Achieving tangible working products
+The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
+
+Generally, however, building sustainable products out of hackathons is very difficult.
+* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
+* The fewer products that are pre-conceived, the better they have tended to turn out
+  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
+* Managing expectations with respect to deliverables is important 
+
+<!--possible data/analysis to include: described below in the section "## Sustainability of projects initiated during hackathons" AESB -->
+
+
+
 ## Drawing conclusions from measures of hackathon impact
 
 ### Challenges of building a leadership team
@@ -624,29 +649,6 @@ As a group, we made a conscious decision to declare that we valued community div
 [see citation at end for a reference on power of hackathons to improve diversity]
 
 <!--possible data/analysis to include: described below in the section "## Diversity variation between meetings" AESB -->
-
-## Technology awareness and knowledge exchange
-A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
-
-First of all, the hackathon event itself is an opportunity for members of a community to learn about upcoming technologies and experience them first-hand. The technologies can be either already in use by part of the community or are  inherited from other communities but valuable to the audience target by the hackathon. Examples of this include 
-* Promoting the use of GitHub and other code repositories
-* Focusing on the use of specific toolkits and expanding their reach (e.g., R, BioPerl)
-* Expanding the generality and applicability of existing tools (e.g., the generalization of Phylomatic achieved during the Phylotastic I hackathon).
-
-In addition to this, hackathons can be developed to create support for novel technologies and methodologies, that have been specifically developed to meet a perceived need of the target audience. An example of this is represented by the EvoIO stack, composed of an exchange data format (NeXML), an ontology (CDAO), and a web-service API (PhyloWS), and developed by a working group. Two hackathons contributed either to the development of tools supporting this infrastructure (the Database Interoperability hackathon) or to the deployment application of the stack (the Phylotastic I hackathon). 
-
-<!--possible data/analysis to include: described below in the section "## Sustainability of technology adoption" AESB -->
-
-## Achieving tangible working products
-The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
-
-Generally, however, building sustainable products out of hackathons is very difficult.
-* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
-* The fewer products that are pre-conceived, the better they have tended to turn out
-  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
-* Managing expectations with respect to deliverables is important 
-
-<!--possible data/analysis to include: described below in the section "## Sustainability of projects initiated during hackathons" AESB -->
 
 
 * **Career stage of participants:** An observation which comes from working groups at some of the national synthesis centers (NCEAS, NESCent, NIMBios) is that one driver of success of many working groups is having a good mix of junior and senior participants. While senior participants are essential for their experience and knowledge of problems and systems, their schedules are often busier post event and following up on a particular outcome for the event has less impact on their career. In contrast, a junior participant (graduate student, postdoc, untenured professor) may be much more driven to follow up and drive production after an event because the tangible product may have a large impact on progression to their next career stage. Hackathons are likely to follow this same pattern, with an even greater complication: research staff. Many of the hackathons we have conducted have included large numbers of research staff, often chosen for their programming/domain expertise. While invaluable during the hackathon, these participants may be the least likely to see a direct career benefit from continued production of a tangible product after the hackathon (the personal benefits to them may follow the intangible benefits) and, more importantly, they often lack the job flexibility in time and effort that someone in a more traditional academic position can devote to following up on details.
