@@ -577,6 +577,7 @@ We have thus begun the results and discussion session with a discussion of our a
 
 ## Assessing hackathon impact
 
+This can be done at the level of the whole hackathon, or at the level of the indivdiual team.
 
 ## Challenges of building a leadership team
 Some ideas:
