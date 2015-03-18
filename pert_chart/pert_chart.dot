@@ -94,8 +94,8 @@ digraph pert {
 	"Applicant reviews and ranking" -> "Invites" [ label = "7d" ];
 	"Invites" -> "Finalized roster" [ label = "7d" ];
 	"Finalized roster" -> "Travel arrangements" [ label = "14d" ];
-	"Travel arrangements" -> "Event" [ label = "21d" ]; // communicate with travel agents
-	"Event" -> "Required reporting" [ label = "28d" ]; // probably less time sensitive
+	"Travel arrangements" -> "Hackathon event" [ label = "21d" ]; // communicate with travel agents
+	"Hackathon event" -> "Required reporting" [ label = "28d" ]; // probably less time sensitive
 	
 	/* These edges do not belong to the critical path. This doesn't mean
 	they're somehow less important, just that they don't participate in the
@@ -113,13 +113,13 @@ digraph pert {
 	"Review criteria" -> "Call for participation" [ label = "14d" ];
 	"Reserved seats" -> "Invites" [ label = "7d" ];
 	"Finalized roster" -> "Pre-event engagement" [ label = "14d" ];
-	"Pre-event engagement" -> "Event" [ label = "14d" ];
+	"Pre-event engagement" -> "Hackathon event" [ label = "14d" ];
 	"Assembled LT" -> "Additional funding" [ label = "14d" ];
 	"Assembled LT" -> "Budget" [ label = "14d" ];
 	"Assembled LT" -> "Logistics plan" [ label = "7d" ];
 	
 	// no real deadline on the below. 
-	"Event" -> "Intangible outcomes";
-	"Event" -> "Accessible outcomes";
-	"Event" -> "Publicity";	
+	"Hackathon event" -> "Intangible outcomes";
+	"Hackathon event" -> "Accessible outcomes";
+	"Hackathon event" -> "Publicity";	
 }
