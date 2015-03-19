@@ -17,54 +17,64 @@ Affiliations: blah blah blah
 
 <hr/>
 
-**Table of Contents**
-
-*  Abstract
-*  Introduction
-  *  Values/Objectives of Hackathons
-  *  NESCent model
-*  Methods: The "NESCent Hackathon" Process Model
-  *  Overall Structure
-  *  Design Stages
-    *  Resources
-    *  Assembling the Leadership Team
-    *  Setting Scope and Goals
-  *  Pre-Hackathon Planning
-    *  Logistical Considerations
-      *  Facilities
-      *  Communication Technology
-      *  Travel
-    *  Identifying Participants
-      *  The Application Process
-      *  Criteria for Choosing Participants
-      *  Process for Choosing Participants
-    *  Pre-hackathon Engagement
-  *  The Hackathon
-    *  Day 1
-    *  Intermediate Days
-    *  Last Day
-  *  Post-Hackathon Wrap-Up
-*  Results and Discussion
-  *  Challenges of building a leadership team
-  *  Growing the community
-    *  Make people feel welcome; encourage people
-    *  Diversifying the community
-  *  Technology awareness and knowledge exchange
-  *  Achieving tangible working products
-  *  Controlling Scope to Balance Flexibility and Specificity
-  *  Remote participation in hackathons
-  *  Allowing hard targets to be tackled (???)
-  *  Using face-to-face time productively
-  *  Data we wish we had collected
-*  Conclusions
-*  Resources
+# Table of Contents 
+* Abstract
+* Introduction
+* Methods: The "NESCent Hackathon" Process Model 
+    * Overall Structure
+    * Design Stages
+        * Resources
+        * Assembling the Leadership Team
+        * Setting Scope and Goals
+    * Pre-Hackathon Planning
+        * Logistical Considerations
+            * Facilities
+            * Communication Technology
+            * Travel
+        * Identifying Participants
+            * The Application Process
+            * Criteria for Choosing Participants
+            * Process for Choosing Participants
+        * Pre-hackathon Engagement
+    * The Hackathon
+        * Day 1
+        * Intermediate Days
+        * Last Day
+    * Post-Hackathon Wrap-Up
+* Methods: Data collection and analysis
+* Results and Discussion
+    * Understanding and assessing hackathon impacts 
+        * Tangible products
+        * Technology awareness and knowledge exchange
+        * Growing the community
+    * Lessons learned
+        * Challenges of building a leadership team
+        * Make people feel welcome; encourage people
+        * Remember that the captive audience is double-edged sword
+        * Managing expectations for follow-up
+        * Diversifying the community
+        * Scoping to Balance Flexibility and Specificity
+        * Remote participation in hackathons
+        * Using face-to-face time productively
+    * Going further
+        * What makes the NESCent model different? 
+        * Career stage of participants
+        * Data we wish we had collected
+* Conclusions
+* Possible data figures/tables
+    * Diversity variation between meetings
+    * Variation in hackathon parameters
+    * Sustainability of technology adoption
+    * Sustainability of projects initiated during hackathons
+    * Impact of hackathons on building community and collaborations
+* Resources
 
 <hr/>
-
 
 # Abstract
 Hackathons have become popular instruments to stimulate creative problem solving, engender engagement with a sponsor's objectives, and build and develop communities and social networks. The kinds of problems being targeted, the people whose engagement is being sought, and the types of objectives sponsors aim to promote all vary widely. Models, processes, and formats based on which hackathon events are run also vary widely. Unfortunately, there is scant data, and even fewer scientific studies, on which way to conceive and execute a hackathon is most conducive to, or tends to preclude which kinds of outcomes. Here we report on the experience of planning and running a cumulative total of 9 hackathons aimed at fostering and nurturing a domain science community of practice, and its capacity to collaboratively develop and sustain its informatics resources. We define the model and process we used throughout these hackathons, and describe the motivations and goals that underlie them. To enable future more comprehensive studies, we present the data and evidence we collected, and discuss which conclusions about the effectiveness of the events they suggest. We end with recommendations on which data could be collected at future hackathons to eventually enable an evidence-based approach to the various decision-making points involved in planning and running a hackathon.
 
+<hr/>
 <main>
 
 # Introduction
@@ -73,9 +83,9 @@ Since the early 2000's, *hackathons* (also called *hackfests* or *codefests*) ha
 
 <!-- Add here a short literature review of the relatively small i.e. 12-15 academic articles we've found that make any discussion/description of hackathons? Can't do it at the moment as I'm offline and haven't yet downloaded them all locally on this machine. Will put that on a personal to-do! AESB --> <!--Instead of doing a more detailed literature survey as suggested above, we could just refence the full set of the articles described above here, with a note that the list is complete as far as we are aware? AESB -->
 
-Thus, prospective organizers face an array of choices when considering how best to organize and execute a hackathon event.  Such choices presumably shape the technical, social and community impacts of the hackathon.  Yet, it is difficult to see how best to make such choices.  Strangely, in spite of the growing enthusiasm for hackathons-- which suggests that they have valuable impacts--, there is no consensus on *precisely why* hackathons are valuable.  For instance, the most obvious impact of hackathons is to produce code, but a common complaint of organizers is that hackathon-generated software tends to remain at the level of prototypes that are unused after the hackathon ends { ref }.  Apparently hackathons may be considered worthwhile, even when they often fail to deliver on their most frequently stated goal. 
+Thus, prospective organizers face an array of choices when considering how best to organize and execute a hackathon event.  Such choices presumably shape the technical, social and community impacts of the hackathon.  Yet, it is difficult to see how best to make such choices.  Strangely, in spite of the growing enthusiasm for hackathons-- which suggests that they have valuable impacts--, there is no clear consensus on *precisely why* hackathons are valuable.  For instance, the most obvious impact of hackathons is to produce useful code, but a common complaint of organizers is that hackathon teams typically generate prototype software that remains unused after the hackathon ends { ref }.  Apparently hackathons may be considered worthwhile, even when they often fail to deliver on their most frequently stated goal. 
 
-Of course, hackathons have many other potential impacts.  For instance, when a hackathon focuses on utilizing a sponsor's newly released API, the event may reveal bugs and bring valuable exposure even if it doesn't yield sustained code products. There are many benefits to participants.  Even if a team of hackers abandons a prototype, team members leave the event with a unique experience that enables them to team up with others and build a related-but-better prototype, e.g., for a different platform.  They benefit from specific technical skills picked up during the event, from sharing best practices, from making personal connections with colleagues, from being part of a larger group that (through group discussion and interaction) gains awareness of domain-specific challenges and opportunities, and so on.  Is the main strategic objective of a hackathon to produce working code, to have the enabling experience of producing working code, to augment participants' technical skills, to grow community, to practice teamwork, or something else?  Is it all of these things together? 
+Of course, hackathons have many other potential impacts.  For instance, when a hackathon  is focused on utilizing a sponsor's newly released API, the event may reveal bugs and bring valuable exposure to the sponsor, even if it doesn't yield sustainable client software. There are many benefits to participants.  Even if a team of hackers abandons a prototype, team members leave the event with a unique experience that enables them to team up with others and build a related-but-better prototype, e.g., for a different platform.  They benefit from specific technical skills picked up during the event, from sharing best practices, from making personal connections with colleagues, from being part of a larger group that (through group discussion and interaction) gains awareness of domain-specific challenges and opportunities, and so on.  Is the main strategic objective of a hackathon to produce working code, to have the enabling experience of producing working code, to augment participants' technical skills, to grow community, to practice teamwork, or something else?  Is it all of these things together? 
 
 This uncertainty regarding the actual source of the perceived value of hackathons adds an extra layer of difficulty to planning and executing an event in such a way as to advance the goals of the organizers (or the sponsors backing them).  For instance, one wishes to know, not only how important is teamwork, but whether there are particular practices (e.g., regarding scoping, seating arrangements, or meeting format) that tend to reduce the prospects for effective teamwork.  
 
@@ -93,200 +103,7 @@ Below, we begin with a detailed guide to the NESCent hackathon model, describing
 
 <!-- Hilmar, thanks for that, I like the introduction a lot, very glad you spent so much time crafting it, I think with more references and a bit of polishing it's ready AESB -->
 
-# Why hold a hackathon: The spectrum of values and objectives
-
-By design, hackathons are generally motivated by bringing together
-people who would otherwise not meet, to collaboratively tackle goals
-or problems they would otherwise not have enough opportunity to work
-on, or for which it would be much more difficult to succeed on their
-own, and for which direct face-to-face interaction (rather than remote collaboration) is percieved as being particularly important for achieving the goals. The types of outcomes that can emerge from this cover a wide spectrum from intangible to tangible, and the impacts that these
-outcomes can have towards a sponsor's larger objectives can also vary widely, including in how accurately they can be measured or estimated.
-
-To better understand the values and objectives that motivated the
-event and process model we present here, Table X gives a sample of
-potential hackathon outcomes, divided into tangible and intangible
-ones, to illustrate the spectrum.
-
-
-
-<table>
-<tr>
-  <th>Tangible Outcome</th>
-  <th>Possible Measures</th>
-  <th>Challenges</th></tr>
-<tr>
-  <td>Source code</td>
-  <td>Draft versus working quality
-  <!-- any ideas for possible metrics for this? even if they're expected to be very inacurate/poor estimators, I'd be interested to see that here, as a way of making the 'tangible outcome' more tangible AESB-->
-  sustained post-hackathon
-  development activity, which could be assessed by tracking the extent of commit and other activitiy associated with a repo post-hackathon; community interest gathered, for example counting shares of a repo link via social media; adoption by
-  non-participants (forks, downloads, citations)</td>
-  <td>Metrics for code writing productivity (lines of code, number of
-  commits) are often confounded and not useful. The specific impact of
-  contributions to larger projects is nearly impossible to track. The
-  academic attribution system falls short for unpublished software.</td>
-</tr>
-<tr>
-  <td>Publications</td>
-  <td>Number of and impact metrics for publications (citations,
-  altmetrics);</td>
-  <td>Impact and value of non-scholarly publications can be significant
-  yet difficult to quantify.</td>
-</tr>
-<tr>
-  <td>Fund raising, Grant funding</td>
-  <td>Number of proposals; amount funded; increased funding rate</td>
-  <td>Measuring change of funding rate requires long time windows and
-  disentanglement of the many confounding factors. The value of
-  unfunded proposals is hard to quantify but likely non-zero.</td>
-</tr>
-<tr>
-  <td>Documentation</td>
-  <td>Amoung of text written; number of tools or methods
-  documented; access and citation statistics for online documentation</td>
-  <td>Quality, comprehensiveness, and being up-to-date can be difficult
-  to measure. Metrics for offline documentation are few and inadequate
-  (e.g., downloads).</td>
-</tr>
-<tr>
-  <td>Data products (data, ontologies, benchmarks, etc)</td>
-  <td>Size, number of and impact metrics for data products (citations,
-  downloads, altmetrics);</td>
-  <td>The specific impact of contributions to larger datasets is
-  nearly impossible to track. Tracking of scholarly attribution and
-  impact is still in its infancy, and nearly impossible for
-  unpublished products.</td>
-</tr>
-<tr>
-  <td>Community standards and best practices</td>
-  <td>As publications if published, and as documentation otherwise.</td>
-  <td>Tracking of scholarly attribution and impact is still in its
-  infancy, and nearly impossible for unpublished products.</td>
-</tr>
-<tr>
-  <th>Intangible Outcome</th>
-  <th>Possible Measures</th>
-  <th>Challenges</th></tr>
-</tr>
-<tr>
-  <td>Increased Collaboration</td>
-  <td># of novel collaborators (e.g. contributors to same github or other repo/co-publications publications) from participants post-hackathon</td>
-  <td>Tracking co-authorships without using unique author identifiers such as ORCIDs can be highly innacurate. Yet such tools are not used by all researchers, and are themselves still being developed and could be considered in their infancy. Changing handle-names, multiple handle-names can make tracking software collaboration difficult.</td>
-</tr>
-<tr>
- <td>Broadening Communities/Networks</td>
- <td>Increased participation/friends/followers of mailing lists, social networks, etc.</td>
- <td>None of the social networks is used by everyone, and some people don't use them at all, so such analyses can (and indeed are likely) to miss interactions.</td>
-</tr>
-<tr>
- <td>Community Awareness/Training in Technologies, Standards, or Best Practices</td>
- <td># new users of a technology</td>
- <td>Challenges...</td>
-</tr>
-<tr>
- <td>Increased Diversity</td>
- <td>Diversity includes demographic concepts (gender, ethnicity, experience) and disciplinary concepts</td>
- <td>Such data is sensitive, comes with  many legal constraints on its collection, storage, and sharing.</td>
-</tr>
-<tr>
- <td>Publicity/Brand Awareness</td>
- <td>Conference presentations/posters, Press releases (and where they are picked up), Social media impressions</td>
- <td>Challenges...</td>
-</tr>
-<tr>
- <td>Broadening Perspectives</td>
- <td>Idea inspiration for projects/work unrelated to hackathon</td>
-</tr>
-<tr>
- <td>Connecting Cultures</td>
- <td>Bridging the culture gap between "coders" and "users"</td>
-</tr>
-</table>
-
-There are many possible outcomes and impacts of a hackathon (table X): some of these are tangible (*e.g.*, code, publications, etc.) and some are intangible (*e.g.*, increased community diversity or community awareness of technologies or best practices). The procedures for holding a hackathon that we have developed were generated specifically based on the value we give to these outcomes. Decisions on participant pools, for example, may be heavily driven on the relative weight one gives to tangible vs. intangible impacts. Organizers need to make decisions based on maximizing the outcomes they value the most.
-
-Measuring the impact of these outcomes can be very difficult. Measuring the number of lines of code or number of commits as a metric can be meaningless since these counts are very fungible based on the style and language in which individuals write code. Number of programs or scripts produced is barely better; is the code rough draft or a polished product? How error-free does it need to be? Does it need to work at all or can it be conceptual? Does what happens to the code after the hackathon matter? Is code that is used widely by the community (download counts? citations? github forks?) count the same as code that is completely ignored? There are no simple answers to these questions and the matter is even more challenging for intangible outcomes where direct measurement may be more difficult.
-
-One clear lesson learned is that hackathon data and meta-data need to be collected more deliberately by the Leadership Team, both before, during, and after the event. This is discussed in more detail below.
-
-<!--
-List of possible outcomes:
-* increased diversity (demographic, and otherwise) of participants in  related software projects (developed from "early on, we wanted experts  to build tools, later we were more inclusive and more focused on  diversity")
-* community becomes aware of a particular problem and technologies to solve it (example of web services)
-* one of goals is community capacity building; informatics and open source literacy
-* introduction to other open source and collaboration tools
-* bridge gap between coder culture and user culture
-* also what technical folks can learn about better software engineering
-* also what technical folks can learn about better social skills
-* tangible outputs via NEAD - pubs, proposals, software, data sets, data formats, presentations, newsletters
--->
-<!--
-* tangible outputs not via NEAD
-** lines of code committed, commits
-** conference sessions organized
-** educational or training materials
-** live demos
-** screencasts
-** web sites 
-** mailing lists
-** web analytics, github analytics
-** blog posts - Holly; Arlin
-** internet buzz
-** report submitted to NESCent 
-** co-authoring of pubs, proposals - don't have
-** collaborations - don't have
-** technologies adopted (e.g., github)
-** concepts learned - 
-** doors opened - 
-** progression of involvement in community activities
-** sharing of resources 
-
-Why collect/measure them:
-* need impacts that pointy-headed bosses can understand / appreciate
-* would like to be able to justify using budget for hackathons vs meetings; do hackathons lead to something worth funding
-
-Generic thoughts/observations:
-* do hackathon papers get sufficient citations?
-* difficult to quantify impact well; there are research groups working on software communities and software impact
-* given limited resources, what outputs to focus on?
-* getting sustainable products out of hackathons is very difficult
-* hacking medicine hackathons (http://hackingmedicine.mit.edu/):   large events; specifically geared toward products that could become   startups; commercially viable products; number of products is  impressive  but may not be a higher % than what we have
-* hypothesis: the less the products are pre-conceived, the better they turn out 
-
-Tensions between achieving particular kinds of output/benefit/impact
-* goal   of writing code + goal of building community; makes it a challenge  when  planning (writing / evaluating applications; facilitation)
--->
-
-
-## NESCent model
-The NESCent Model for hackathons distinguishes itself in certain salient characteristics from the many other models being practiced. These characteristics are motivated by two foundational objectives: (1) to allow tackling the often difficult problems of making existing tools and resources work together more seamlessly; and (2) to foster sustained, cohesive communities of practice 
-<!-- Here are some references for the idea of 'communities of practice' - I hadn't heard of these until writing our community-focused paper, so I suggest useful to reference them again here: Smith MK (2003) Jean Lave, Etienne Wenger and communities of practice. Encyclopedia of Informal Education Available: http://infed.org/mobi/jean-lave- etienne-wenger-and-communities-of-practice/ via the Internet; Wenger E (2009) Communities of Practice: A Brief Introduction. Available: http://wenger-trayner.com/theory/ via the Internet; Lave J, Wenger E (1991) Situated Learning: Legitimate Peripheral Participation. Cambridge, UK: CUP. 138 p.-->
-
-Include here a quick discussion and reference to a table/figure describing variatoin of what we see as relevant parameters between the 9 hackathons e.g. as described in the section at the end of this document 'Variation in hackathon parameters'.
-
-The distinguishing characteristics designed to accomplish these objectives can be reduced to a combination of the following three.
-
-1. **A participant group that balances diversity with homogeneity, and that is approximately 20-30 people in size.** The idea is a group small and homogeneous enough in size and composition that every participant will still interact with everyone else in at least a meaningful social capacity, yet large enough to allow for diversity in a variety of aspects, including perspectives, skills, career stage, field of study, and demographics.<!-- *maybe* we can find somewhere a reference with evidence for there being a size of group above which the nymber of people one is likely to get to know starts to decline e.g. with a group of 20 people spending a week together, you get to know usually 18 people fairly well, but in a group of 200 people, this is reduced to 5 people, or something like that...? AESB -->
-
-2. **A well-defined scope that everyone buys into by virtue of participating.** Such a definition gives functional as well as technological targets. <!-- I don't understand what's meant by 'targets' in the preceding sentence AESB--> It <!-- does "it" here refer to the scope? not clear to me AESB--> is also balanced between open enough to allow for emergent outcomes, and specific enough to define the event by requiring, and thus signifying buy-in from prospective participants to shared goals and desired outcomes. <!-- I don't understand this sentence AESB -->
-
-3. **A duration of 4.5-5 days.** This has shown to be still short enough to not preclude people from participating who are otherwise well suited for an event i.e. it is demonstrably not too long that it prevents the people we want to attend from showing up, i.e. such people are prepared to accept the absence from home, and removal from their daily work, that is linked to travelling to attend the event. It is also long enough to allow participants to attempt solutions to data and software interoperability issues, which are often challenging yet become tractable with the right set of collaborators in the room. And it is long enough to allow ample room for participant bonding over common obstacles and shared goals, which is key to fostering and sustaining community growth and cohesion.
-
-4. **A 'destination' event.*** With one exception, NESCent hackathons have been stand-alone events not tied to a conference or other event.  Each hackathon has a minority of local participants, but the majority travel to the site of the hackathon to be present at the hackathon, and for no other reason.  
-
-We have used this model exclusively for hackathons in academia, for bringing together academic research projects, and to foster communities of practice that consist largely of scientists and research staff. The model is potentially well applicable to non-profit and government settings as well, but in the industry realm in particular the duration will prevent most people from participating.
-
-The following additional characteristics have also emerged as common across NESCent Model-hackathons, but they can be found frequently in other types of hackathon events as well.
-
-**Leadership team for collaborative well-informed decision making.** There are many points in the planning phase of a NESCent Model-hackathon at which decisions have to be made that co-determine the direction and outcomes of the event, but for which right or wrong answers do not necessarily exist. To ensure that these decisions are made in a well-informed and deliberate manner, a leadership team rather than a single individual is responsible for them. The leadership team is put in charge early on the process, and is assembled from people that are invested in the event's outcomes and that between them represent a wide umbrella of perspectives. 
-
-**Structured first day, unstructured rest.** Most of the first day of hackathons in this model is taken up by structured activities that start with welcoming everyone and end with participants breaking up into teams with self-chosen target projects. The rest of the time is largely unstructured, with teams determining their schedule on their own. The whole event concludes with show-and-tell of each team, followed by identifying actions the sponsor can take, or resources the sponsor could help establish, to aid post-hackathon completion and, ideally, sustainability of nascent products. 
-
-**Daily succinct and brief report-outs ("standups").** To ensure that related or dependent pieces of work across teams remain coordinated, each team briefly reports its status, plans for continuation, and current roadblocks once on each day after the first. This format is borrowed from the daily "standups" in agile software development methodologies. Asking participants to include in these standups a description of current roadblocks is intended to allow tapping into the collective expertise in the room to overcome these. 
-
-**All products are public and open-source, immediately.** This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
-
-**No competition.** There are no prizes awarded at the end of the hackathon, and there is no judging panel. Supporting additional participants has remained a higher priority for using the sponsors' funding than awarding a prize. The removal of a competition aspect is also motivated by the desire of creating a spirit of collaboration and enabling the inclusion of participants with different skill levels. 
+<hr/>
 
 # Methods: The "NESCent Hackathon" Process Model 
 The following is a detailed description of the logistical model we have developed for executing hackathons. This model has evolved over 10 years and the description below largely reflects the final model. Discussions of where and why the model has changed are used to illustrate the lessons learned.
@@ -418,7 +235,6 @@ hackathon<br>
 </tbody>
 </table>
 
-
 ## Design Stages
 The design stage activities are planned and implemented by a group of people, referred to as *instigators*. The instigators represent the core team, which inspires the overall activities and are responsible for the final outcomes. In our experience, the instigators are often part of a working group or a community that is trying to accomplish some pre-conceived broad goals. For example, the Database Interoperability hackathon is a product of the activities of the NESCent EvoInfo working group, with the broad aim to achieve goals of interoperability among data repositories and tools in evolutionary biology. These broad goals should be driven by a set of values that are achievable through the structure of the hackathon. Major potential outcomes and impacts have been described above, but goals most often include:
 * Facilitation of development of a tight community of individuals that share the common interest of creating solutions for a problem that is shared by a broader community (e.g., integration and reuse of data and resources)
@@ -433,7 +249,6 @@ Identifying resources is a critical phase of the process and involves identifyin
 * Organizations that support the community of interest (*e.g.*, the Society of Molecular Biology and Evolution expressed interest in supporting a hackathon as a satellite meeting)
 * Non-profit or for-profit organizations that have an interest in the broad scope of the activity (*e.g.*, iPlant)
 * Other stakeholders (*e.g.*, universities, research labs)
-
 
 ### Assembling the Leadership Team
 An important step in the process is the formation of a leadership team (LT) that will guide all the following activities. The role of the LT is to refine the goals and scope of the hackathon event, design the recruitment process, and supervise the execution of the event. A lesson we learned is the importance and value of creating a LT that is diverse and inclusive, and not necessarily composed exclusively of the instigators. The selection of a LT team is informed by principles such as:
@@ -594,8 +409,14 @@ A number of approaches have been explored to sustain the follow-up activities fo
 
 See also the discussion below ("Achieving tangible working products") on participant composition and its potential to affect post-hackathon momentum and output.
 
-
+<hr/>
+# Methods: Data collection and analysis
+<hr/>
 # Results and Discussion
+
+## Understanding and assessing hackathon impacts 
+
+<!-- was "Why hold a hackathon: The spectrum of values and objectives" (AS) -->
 
 We would like to be able to use a range of different metrics to assess the impact of these hackathons, as we feel it would be useful for:
 
@@ -603,19 +424,173 @@ We would like to be able to use a range of different metrics to assess the impac
 - funders see that they're getting good stuff from them
 - for us as organisers to inform our decisions abotu how to run events based on evidence
 
-As discussed above, this is difficult to do. However, we have carried out some such analyses using the data we have available. In most cases these analyses do not allow us to draw strong conclusions, but we include them anyway as examples of analyses that could become more powerful in the face of more complete data, and from data from more events.
+This is difficult to do. However, we have carried out some such analyses using the data we have available. In most cases these analyses do not allow us to draw strong conclusions, but we include them anyway as examples of analyses that could become more powerful in the face of more complete data, and from data from more events.
 
 We have thus begun the results and discussion session with a discussion of our analyes to attempt to measure/quantify impact, and then followed it up by using this data to explore several specific questions we have about effectiveness of certain features of hackathons.
 
 
-## Assessing hackathon impact
+Table X gives a sample of
+potential hackathon outcomes, divided into tangible and intangible
+ones, to illustrate the spectrum.
 
-This can be done at the level of the whole hackathon, or at the level of the indivdiual team.
+<table>
+<tr>
+  <th>Tangible Outcome</th>
+  <th>Possible Measures</th>
+  <th>Challenges</th></tr>
+<tr>
+  <td>Source code</td>
+  <td>Draft versus working quality
+  <!-- any ideas for possible metrics for this? even if they're expected to be very inacurate/poor estimators, I'd be interested to see that here, as a way of making the 'tangible outcome' more tangible AESB-->
+  sustained post-hackathon
+  development activity, which could be assessed by tracking the extent of commit and other activitiy associated with a repo post-hackathon; community interest gathered, for example counting shares of a repo link via social media; adoption by
+  non-participants (forks, downloads, citations)</td>
+  <td>Metrics for code writing productivity (lines of code, number of
+  commits) are often confounded and not useful. The specific impact of
+  contributions to larger projects is nearly impossible to track. The
+  academic attribution system falls short for unpublished software.</td>
+</tr>
+<tr>
+  <td>Publications</td>
+  <td>Number of and impact metrics for publications (citations,
+  altmetrics);</td>
+  <td>Impact and value of non-scholarly publications can be significant
+  yet difficult to quantify.</td>
+</tr>
+<tr>
+  <td>Fund raising, Grant funding</td>
+  <td>Number of proposals; amount funded; increased funding rate</td>
+  <td>Measuring change of funding rate requires long time windows and
+  disentanglement of the many confounding factors. The value of
+  unfunded proposals is hard to quantify but likely non-zero.</td>
+</tr>
+<tr>
+  <td>Documentation</td>
+  <td>Amoung of text written; number of tools or methods
+  documented; access and citation statistics for online documentation</td>
+  <td>Quality, comprehensiveness, and being up-to-date can be difficult
+  to measure. Metrics for offline documentation are few and inadequate
+  (e.g., downloads).</td>
+</tr>
+<tr>
+  <td>Data products (data, ontologies, benchmarks, etc)</td>
+  <td>Size, number of and impact metrics for data products (citations,
+  downloads, altmetrics);</td>
+  <td>The specific impact of contributions to larger datasets is
+  nearly impossible to track. Tracking of scholarly attribution and
+  impact is still in its infancy, and nearly impossible for
+  unpublished products.</td>
+</tr>
+<tr>
+  <td>Community standards and best practices</td>
+  <td>As publications if published, and as documentation otherwise.</td>
+  <td>Tracking of scholarly attribution and impact is still in its
+  infancy, and nearly impossible for unpublished products.</td>
+</tr>
+<tr>
+  <th>Intangible Outcome</th>
+  <th>Possible Measures</th>
+  <th>Challenges</th></tr>
+</tr>
+<tr>
+  <td>Increased Collaboration</td>
+  <td># of novel collaborators (e.g. contributors to same github or other repo/co-publications publications) from participants post-hackathon</td>
+  <td>Tracking co-authorships without using unique author identifiers such as ORCIDs can be highly innacurate. Yet such tools are not used by all researchers, and are themselves still being developed and could be considered in their infancy. Changing handle-names, multiple handle-names can make tracking software collaboration difficult.</td>
+</tr>
+<tr>
+ <td>Broadening Communities/Networks</td>
+ <td>Increased participation/friends/followers of mailing lists, social networks, etc.</td>
+ <td>None of the social networks is used by everyone, and some people don't use them at all, so such analyses can (and indeed are likely) to miss interactions.</td>
+</tr>
+<tr>
+ <td>Community Awareness/Training in Technologies, Standards, or Best Practices</td>
+ <td># new users of a technology</td>
+ <td>Challenges...</td>
+</tr>
+<tr>
+ <td>Increased Diversity</td>
+ <td>Diversity includes demographic concepts (gender, ethnicity, experience) and disciplinary concepts</td>
+ <td>Such data is sensitive, comes with  many legal constraints on its collection, storage, and sharing.</td>
+</tr>
+<tr>
+ <td>Publicity/Brand Awareness</td>
+ <td>Conference presentations/posters, Press releases (and where they are picked up), Social media impressions</td>
+ <td>Challenges...</td>
+</tr>
+<tr>
+ <td>Broadening Perspectives</td>
+ <td>Idea inspiration for projects/work unrelated to hackathon</td>
+</tr>
+<tr>
+ <td>Connecting Cultures</td>
+ <td>Bridging the culture gap between "coders" and "users"</td>
+</tr>
+</table>
 
-### Growing the community
-As discussed elsewhere in this document, direct invitation serves an important function in targeting expertise and increasing diversity, but we find it is too community limiting as a general strategy. Choosing participants, at least in part, from an open pool is extremely important if one of the goals of the hackathon is to grow the community. Much like Gordon conferences, invitation-only hackathons (e.g., the Japan hackathons) have a danger of stratifying individuals into the invited in-crowd and the ignored out-crowd.
+There are many possible outcomes and impacts of a hackathon (table X): some of these are tangible (*e.g.*, code, publications, etc.) and some are intangible (*e.g.*, increased community diversity or community awareness of technologies or best practices). The procedures for holding a hackathon that we have developed were generated specifically based on the value we give to these outcomes. Decisions on participant pools, for example, may be heavily driven on the relative weight one gives to tangible vs. intangible impacts. Organizers need to make decisions based on maximizing the outcomes they value the most.
 
-<!-- possible data/analysis to include here: the results of analysis of co-contribution of people to github repos via their github handles, and if we do it, then also of the Twitter analysis. At the time of writing this comment, these possible analysies are described below in the section "## Impact of hackathons on building community and collaborations". Perhaps include also references to Jono Bacon's "The art of communinty" and Millington's "Buzzing Communities"? AESB -->
+Measuring the impact of these outcomes can be very difficult. Measuring the number of lines of code or number of commits as a metric can be meaningless since these counts are very fungible based on the style and language in which individuals write code. Number of programs or scripts produced is barely better; is the code rough draft or a polished product? How error-free does it need to be? Does it need to work at all or can it be conceptual? Does what happens to the code after the hackathon matter? Is code that is used widely by the community (download counts? citations? github forks?) count the same as code that is completely ignored? There are no simple answers to these questions and the matter is even more challenging for intangible outcomes where direct measurement may be more difficult.
+
+One clear lesson learned is that hackathon data and meta-data need to be collected more deliberately by the Leadership Team, both before, during, and after the event. This is discussed in more detail below.
+
+<!--
+List of possible outcomes:
+* increased diversity (demographic, and otherwise) of participants in  related software projects (developed from "early on, we wanted experts  to build tools, later we were more inclusive and more focused on  diversity")
+* community becomes aware of a particular problem and technologies to solve it (example of web services)
+* one of goals is community capacity building; informatics and open source literacy
+* introduction to other open source and collaboration tools
+* bridge gap between coder culture and user culture
+* also what technical folks can learn about better software engineering
+* also what technical folks can learn about better social skills
+* tangible outputs via NEAD - pubs, proposals, software, data sets, data formats, presentations, newsletters
+-->
+<!--
+* tangible outputs not via NEAD
+** lines of code committed, commits
+** conference sessions organized
+** educational or training materials
+** live demos
+** screencasts
+** web sites 
+** mailing lists
+** web analytics, github analytics
+** blog posts - Holly; Arlin
+** internet buzz
+** report submitted to NESCent 
+** co-authoring of pubs, proposals - don't have
+** collaborations - don't have
+** technologies adopted (e.g., github)
+** concepts learned - 
+** doors opened - 
+** progression of involvement in community activities
+** sharing of resources 
+
+Why collect/measure them:
+* need impacts that pointy-headed bosses can understand / appreciate
+* would like to be able to justify using budget for hackathons vs meetings; do hackathons lead to something worth funding
+
+Generic thoughts/observations:
+* do hackathon papers get sufficient citations?
+* difficult to quantify impact well; there are research groups working on software communities and software impact
+* given limited resources, what outputs to focus on?
+* getting sustainable products out of hackathons is very difficult
+* hacking medicine hackathons (http://hackingmedicine.mit.edu/):   large events; specifically geared toward products that could become   startups; commercially viable products; number of products is  impressive  but may not be a higher % than what we have
+* hypothesis: the less the products are pre-conceived, the better they turn out 
+
+Tensions between achieving particular kinds of output/benefit/impact
+* goal   of writing code + goal of building community; makes it a challenge  when  planning (writing / evaluating applications; facilitation)
+-->
+
+### Tangible products
+The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
+
+Generally, however, building sustainable products out of hackathons is very difficult.
+* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
+* The fewer products that are pre-conceived, the better they have tended to turn out
+  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
+* Managing expectations with respect to deliverables is important 
+
+<!--possible data/analysis to include: described below in the section "## Sustainability of projects initiated during hackathons" AESB -->
 
 ### Technology awareness and knowledge exchange
 A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
@@ -629,19 +604,12 @@ In addition to this, hackathons can be developed to create support for novel tec
 
 <!--possible data/analysis to include: described below in the section "## Sustainability of technology adoption" AESB -->
 
-### Achieving tangible working products
-The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
+### Growing the community
+As discussed elsewhere in this document, direct invitation serves an important function in targeting expertise and increasing diversity, but we find it is too community limiting as a general strategy. Choosing participants, at least in part, from an open pool is extremely important if one of the goals of the hackathon is to grow the community. Much like Gordon conferences, invitation-only hackathons (e.g., the Japan hackathons) have a danger of stratifying individuals into the invited in-crowd and the ignored out-crowd.
 
-Generally, however, building sustainable products out of hackathons is very difficult.
-* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
-* The fewer products that are pre-conceived, the better they have tended to turn out
-  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
-* Managing expectations with respect to deliverables is important 
+<!-- possible data/analysis to include here: the results of analysis of co-contribution of people to github repos via their github handles, and if we do it, then also of the Twitter analysis. At the time of writing this comment, these possible analysies are described below in the section "## Impact of hackathons on building community and collaborations". Perhaps include also references to Jono Bacon's "The art of communinty" and Millington's "Buzzing Communities"? AESB -->
 
-<!--possible data/analysis to include: described below in the section "## Sustainability of projects initiated during hackathons" AESB -->
-
-
-## Drawing conclusions from measures of hackathon impact
+## Lessons learned
 
 ### Challenges of building a leadership team
 Some ideas:
@@ -703,18 +671,7 @@ As a group, we made a conscious decision to declare that we valued community div
 
 <!--possible data/analysis to include: described below in the section "## Diversity variation between meetings", would then look at this variation and look to see if there is any kind of a possible/suggested link between diversity variation and impact measures AESB -->
 
-
-### Career stage of participants
-
-An observation which comes from working groups at some of the national synthesis centers (NCEAS, NESCent, NIMBios) is that one driver of success of many working groups is having a good mix of junior and senior participants. While senior participants are essential for their experience and knowledge of problems and systems, their schedules are often busier post event and following up on a particular outcome for the event has less impact on their career. In contrast, a junior participant (graduate student, postdoc, untenured professor) may be much more driven to follow up and drive production after an event because the tangible product may have a large impact on progression to their next career stage. Hackathons are likely to follow this same pattern, with an even greater complication: research staff. Many of the hackathons we have conducted have included large numbers of research staff, often chosen for their programming/domain expertise. While invaluable during the hackathon, these participants may be the least likely to see a direct career benefit from continued production of a tangible product after the hackathon (the personal benefits to them may follow the intangible benefits) and, more importantly, they often lack the job flexibility in time and effort that someone in a more traditional academic position can devote to following up on details.
-
-Thus to achieve tangible working products, one should consider whether (1) deliverables can be achieved in the time slotted for the hackathon, or (2) whether choosing participants who may lack certain skills or experience may serve the overall goal better by their likelihood of being able to dedicate extra time after the even to follow-up and complete the project.
-
-Another critical aspect in the achievement of tangible results and sustainable continuation of the projects is the ability to coalesce a community around the activities performed at that hackathon. The development of open data repositories and the contribution to widely accessed code repositories are aspects that facilitate the community "buy-in" and enable the long-term sustainability of the hackathon products. An example of this is represented by the contributions to the NeXML code base achieved during the Database Interoperability hackathon.
-
-<!--possible data/analysis to include: described below in the section "## Diversity variation between meetings", would then look at this variation and look to see if there is any kind of a possible/suggested link between diversity variation and impact measures; note that I already refer to that piece of possible data/analysis above in the section currently directly above on "Diversifying the community" AESB -->
-
-## Controlling Scope to Balance Flexibility and Specificity
+### Scoping to Balance Flexibility and Specificity
 As already mentioned, controlling the scope of a hackathon is a balancing act between being flexible enough to allow participants the freedom to pursue their own interests and creativity, but focused enough to meet the broad objectives as determined by the LT.
 
 For example, NESCent's Phylotastic II hackathon had a very open-scope with the greatest talent diversity. However, it produced fewer tangible products than typical which may be due to its loose structure. In contrast, Phylotastic I was also open-scoped however with far less talent diversity, but had stronger tangible results. On the other hand, a loosely-defined scope can also lead people to work increasingly on their own rather than in groups, which was seen in the VoCamp hackathon.
@@ -727,7 +684,7 @@ Our practice is to encourage and enable, but not rigidly enforce, conformity to 
 
 <!-- Can we codify the extent to which differnet technologies were used in differnet events? e.g. ones where everyone used github for storing code compared to others where this was more diverse? or where differnet documentation tools were used by differnet teams? maybe some link to variations in impact between teams and/or hackathons? AESB-->
 
-## Remote participation in hackathons
+### Remote participation in hackathons
 While the main focus of the hackathons has been on bringing people together for face-to-face interactions over the entire length of the event, we have also explored the use of remote participation. Remote participation has been restricted to a small number of participants, interacting with the main group that is on-site. 
 Remote participation requires individuals or groups at remote sites to reserve and dedicate to the hackathon the same amount of time as on-site participants. It also requires remote participants to be actively involved in the various interaction stages of the hackathon, e.g., project discussions, stand-ups, bootcamps.
 
@@ -740,15 +697,59 @@ The remote participation of an entire team was experimented with during the Phyl
 
 <!-- I've suggested ways of including data on this in the "## Variation in hackathon parameters" section below; perhaps it would be possible to explore success of teams/hacktahons incorporating remote particiapntion and compare those to the success as examined elsehwere in this manuscript of them cf: those without any remote particiaption - I exepct there's no obvious difference acording to these different outcomes, this is where a set of feedback forms from everyone might have helped, I bet the answers to these from remote participants cf on-site ones about "opportunity to build new professionsal relationships" and "impact on career" would be lower  AESB -->
 
-## Allowing hard targets to be tackled (???)
-*I honestly am not sure what this topic is supposed to be*
 
-
-## Using face-to-face time productively
+### Using face-to-face time productively
 The hackathon event has a limited time window. This face-to-face time should be managed such that it maximizes activities which benefit from direct interaction and minimizes activities which can be performed alone outside of the event. A large portion of the hackathon will, necessarily be individuals working, and writing code is necessarily an individualized process for many, but the purpose of the event is to work collaboratively and thus time and effort should be facilitated to take advantage of the group setting whenever possible. The serial nature of out-of-step communications (*e.g.*, email) make efficient discussion difficult; hard discussions and questions should be prioritized for the face-to-face setting where time-lags are minimized and in-person consensus can be reached. This also motivates the introduction of a structure in the activities of each team at the hackathon, where team discussions are frequent and the face-to-face time is positively used to achieve consensus on shared goals and resolve design challenges.
 
+## Going further
 
-## Data we wish we had collected
+This is the section for 
+* suggestions for how to move forward with research on hackathons
+* ideas, speculation, new hypotheses
+* other stuff? 
+
+### What makes the NESCent model different? 
+
+The NESCent Model for hackathons distinguishes itself in certain salient characteristics from the many other models being practiced. These characteristics are motivated by two foundational objectives: (1) to allow tackling the often difficult problems of making existing tools and resources work together more seamlessly; and (2) to foster sustained, cohesive communities of practice 
+<!-- Here are some references for the idea of 'communities of practice' - I hadn't heard of these until writing our community-focused paper, so I suggest useful to reference them again here: Smith MK (2003) Jean Lave, Etienne Wenger and communities of practice. Encyclopedia of Informal Education Available: http://infed.org/mobi/jean-lave- etienne-wenger-and-communities-of-practice/ via the Internet; Wenger E (2009) Communities of Practice: A Brief Introduction. Available: http://wenger-trayner.com/theory/ via the Internet; Lave J, Wenger E (1991) Situated Learning: Legitimate Peripheral Participation. Cambridge, UK: CUP. 138 p.-->
+
+Include here a quick discussion and reference to a table/figure describing variatoin of what we see as relevant parameters between the 9 hackathons e.g. as described in the section at the end of this document 'Variation in hackathon parameters'.
+
+The distinguishing characteristics designed to accomplish these objectives can be reduced to a combination of the following three.
+
+1. **A participant group that balances diversity with homogeneity, and that is approximately 20-30 people in size.** The idea is a group small and homogeneous enough in size and composition that every participant will still interact with everyone else in at least a meaningful social capacity, yet large enough to allow for diversity in a variety of aspects, including perspectives, skills, career stage, field of study, and demographics.<!-- *maybe* we can find somewhere a reference with evidence for there being a size of group above which the nymber of people one is likely to get to know starts to decline e.g. with a group of 20 people spending a week together, you get to know usually 18 people fairly well, but in a group of 200 people, this is reduced to 5 people, or something like that...? AESB -->
+
+2. **A well-defined scope that everyone buys into by virtue of participating.** Such a definition gives functional as well as technological targets. <!-- I don't understand what's meant by 'targets' in the preceding sentence AESB--> It <!-- does "it" here refer to the scope? not clear to me AESB--> is also balanced between open enough to allow for emergent outcomes, and specific enough to define the event by requiring, and thus signifying buy-in from prospective participants to shared goals and desired outcomes. <!-- I don't understand this sentence AESB -->
+
+3. **A duration of 4.5-5 days.** This has shown to be still short enough to not preclude people from participating who are otherwise well suited for an event i.e. it is demonstrably not too long that it prevents the people we want to attend from showing up, i.e. such people are prepared to accept the absence from home, and removal from their daily work, that is linked to travelling to attend the event. It is also long enough to allow participants to attempt solutions to data and software interoperability issues, which are often challenging yet become tractable with the right set of collaborators in the room. And it is long enough to allow ample room for participant bonding over common obstacles and shared goals, which is key to fostering and sustaining community growth and cohesion.
+
+We have used this model exclusively for hackathons in academia, for bringing together academic research projects, and to foster communities of practice that consist largely of scientists and research staff. The model is potentially well applicable to non-profit and government settings as well, but in the industry realm in particular the duration will prevent most people from participating.
+
+The following additional characteristics have also emerged as common across NESCent Model-hackathons, but they can be found frequently in other types of hackathon events as well.
+
+**A 'destination' event.** With one exception, NESCent hackathons have been stand-alone events not tied to a conference or other event.  Each hackathon has a minority of local participants, but the majority travel to the site of the hackathon to be present at the hackathon, and for no other reason.  
+
+**Leadership team for collaborative well-informed decision making.** There are many points in the planning phase of a NESCent Model-hackathon at which decisions have to be made that co-determine the direction and outcomes of the event, but for which right or wrong answers do not necessarily exist. To ensure that these decisions are made in a well-informed and deliberate manner, a leadership team rather than a single individual is responsible for them. The leadership team is put in charge early on the process, and is assembled from people that are invested in the event's outcomes and that between them represent a wide umbrella of perspectives. 
+
+**Structured first day, unstructured rest.** Most of the first day of hackathons in this model is taken up by structured activities that start with welcoming everyone and end with participants breaking up into teams with self-chosen target projects. The rest of the time is largely unstructured, with teams determining their schedule on their own. The whole event concludes with show-and-tell of each team, followed by identifying actions the sponsor can take, or resources the sponsor could help establish, to aid post-hackathon completion and, ideally, sustainability of nascent products. 
+
+**Daily succinct and brief report-outs ("standups").** To ensure that related or dependent pieces of work across teams remain coordinated, each team briefly reports its status, plans for continuation, and current roadblocks once on each day after the first. This format is borrowed from the daily "standups" in agile software development methodologies. Asking participants to include in these standups a description of current roadblocks is intended to allow tapping into the collective expertise in the room to overcome these. 
+
+**All products are public and open-source, immediately.** This normally implies that all software tools or resources targeted by work at the hackathon must be open-source projects. While code produced at the event may be merged into a larger target codebase only with a delay, or after further modification, there is no embargo on any of the code produced at the hackathon.
+
+**No competition.** There are no prizes awarded at the end of the hackathon, and there is no judging panel. Supporting additional participants has remained a higher priority for using the sponsors' funding than awarding a prize. The removal of a competition aspect is also motivated by the desire of creating a spirit of collaboration and enabling the inclusion of participants with different skill levels. 
+
+### Career stage of participants
+
+An observation which comes from working groups at some of the national synthesis centers (NCEAS, NESCent, NIMBios) is that one driver of success of many working groups is having a good mix of junior and senior participants. While senior participants are essential for their experience and knowledge of problems and systems, their schedules are often busier post event and following up on a particular outcome for the event has less impact on their career. In contrast, a junior participant (graduate student, postdoc, untenured professor) may be much more driven to follow up and drive production after an event because the tangible product may have a large impact on progression to their next career stage. Hackathons are likely to follow this same pattern, with an even greater complication: research staff. Many of the hackathons we have conducted have included large numbers of research staff, often chosen for their programming/domain expertise. While invaluable during the hackathon, these participants may be the least likely to see a direct career benefit from continued production of a tangible product after the hackathon (the personal benefits to them may follow the intangible benefits) and, more importantly, they often lack the job flexibility in time and effort that someone in a more traditional academic position can devote to following up on details.
+
+Thus to achieve tangible working products, one should consider whether (1) deliverables can be achieved in the time slotted for the hackathon, or (2) whether choosing participants who may lack certain skills or experience may serve the overall goal better by their likelihood of being able to dedicate extra time after the even to follow-up and complete the project.
+
+Another critical aspect in the achievement of tangible results and sustainable continuation of the projects is the ability to coalesce a community around the activities performed at that hackathon. The development of open data repositories and the contribution to widely accessed code repositories are aspects that facilitate the community "buy-in" and enable the long-term sustainability of the hackathon products. An example of this is represented by the contributions to the NeXML code base achieved during the Database Interoperability hackathon.
+
+<!--possible data/analysis to include: described below in the section "## Diversity variation between meetings", would then look at this variation and look to see if there is any kind of a possible/suggested link between diversity variation and impact measures; note that I already refer to that piece of possible data/analysis above in the section currently directly above on "Diversifying the community" AESB -->
+
+### Data we wish we had collected
 
 * Ask participants who they know beforehand (and who they've collaborated with beforehand), then who they know afterward = measurement of connection and assess new collaborations
 * Publications
@@ -762,11 +763,12 @@ The hackathon event has a limited time window. This face-to-face time should be 
 * Keep track of who does what when. Which individuals make the pitches? Which pitches are chosen to move forward?
 * Feedback forms from all paritcipants after each event, with the same set of questions asked in all of them (or at least that all forms contained the same set of core questions), allowing us to track subjective measures of success of the hackathons direct from participants e.g. by answers to the question "how useful was this event for you for building your professional network, on a scale of 1-5" etc.
 
+<hr/>
 # Conclusions
 Hackathons rule!
 
 A key conclusion is that there is a particular set of data that we encourage people to collect associaated with Hackathons to enable them to much more easily be assessed for impact. Using basic analyses of some of this kind of data, we've been able to demonstrate xxxx.
-
+<hr/>
 # Possible data figures/tables
 
 ## Diversity variation between meetings
@@ -838,6 +840,7 @@ We could do the same thing with github handles, looking for the occurance of two
 
 Include here also something based on the data Jonathon used in his description of network/community impact on the basis of detailed quesionarires returned by all participants from one of the hackathons.
 
+<hr/>
 # Resources
 *Is this just for us, should it be a section of the manuscript, or perhaps supplemental material?*
 
