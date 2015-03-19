@@ -665,6 +665,23 @@ Third and most importantly, be welcoming during the event, particularly on day 1
 
 <!-- Was there any varationa in these features between differnet hackathons in the series? If there were, can we codifiy them and include them in tables/figures that are used to compare features of the differnet hackathons? If so, we could use the data we get on outcomes/impact to see whether there is any suggestion that this varation leads to variation in differnent kinds of outcome AESB -->
 
+
+### Remember that the captive audience is double-edged sword
+
+A critical aspect of the hackathon model described here is to bring talented people together in the same space at the same time.  Participants are physically present and lack the usual distractions of their office or laboratory.  They are able to focus exclusively on the hackathon.  If a participant misses a day, or spends half his time writing a manuscript, this would impair a team's ability to be effective.  By contrast, when the hackathon is over, the team members are dispersed, they return to their "day jobs", and further work is unlikely (see Follow-up).  For these reasons, our application forms always ask explicitly whether individuals are available for the entire meeting, and we rarely invite an applicant who wishes to arrive late or leave early.  For the same reasons, remote participation in a hackathon— tempting because of the low cost— is usually far less effective than direct participation (see Remote Participation).  
+
+### Managing expectations for follow-up
+
+A common complaint of hackathon organizers is that there is little followup on projects after the hackathon ends.  Indeed, when hackathon teams are working energetically, organizers and team members may have enthusiastic discussions of follow-ups, yet, when the hackathon ends, the team dynamics and the energy typically dissipate rapidly, and team members return to other responsibilities. 
+
+Yet, this thinking is unreasonable.  The nature of hackathons is that we steal talented people from their day jobs for a limited time.  We should not expect a team dynamic to persist beyond the face-to-face conditions that fostered the team.  We should not expect participants to work toward hackathon goals when we are no longer supporting them to do it. 
+
+This situation encourages 2 strategies to manage expectations.  Because of the low prospects for follow-up, organizers should instruct participants, especially pitch-makers, to focus on producing tangible products *within the space of the hackathon*.  Participants should focus efforts with the expectation that tasks unfinished on the last day will never be finished.  No team should commit to a goal that depends on the cooperation of outside parties or that cannot be completed within the space of the hackathon.  
+
+Yet, follow-up projects are possible.  In 2 cases, hackathon projects have provided proof-of-concept and specifications that were important for obtaining funding for further development.  In 2 cases, hackathons resulted directly in a publication.  
+
+Because the cases of successful follow-up are small in number, it is hard to make generalizations.  However, it seems obvious that the potential for follow-up increases when a hackathon project aligns with interests of participants, particularly when it aligns with a project that has funding, and with a leader who has the time to manage a follow-up effort.   
+
 ### Diversifying the community
 <!--
 * Talent diversity can be a disadvantage if you don't manage expectations.
