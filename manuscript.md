@@ -20,7 +20,7 @@ Affiliations: blah blah blah
 # Table of Contents 
 * Abstract
 * Introduction: what do hackathons accomplish? 
-* Methods: The "NESCent Hackathon" Process Model 
+* Approach I: The "NESCent Hackathon" Process Model 
     * Overall Structure and Roles
     * Pre-planning
         * Resources
@@ -41,7 +41,7 @@ Affiliations: blah blah blah
         * Intermediate Days
         * Last Day
     * Post-hackathon Wrap-Up
-* Methods: Data collection and analysis
+* Approach II: Data collection and analysis
 * Results and Discussion
     * Understanding and assessing hackathon impacts 
         * Immediate tangible products
@@ -110,7 +110,7 @@ Below, we begin with a detailed guide to the NESCent hackathon model, describing
 
 <hr/>
 
-# Methods: The "NESCent Hackathon" Process Model 
+# Approach I: The NESCent model for extended, carefully scoped hackathons
 
 The following is a step-by-step description of our approach to instigating, planning, executing and following up a hackathon.  This approach has evolved over 10 years.  The description below largely reflects the final model, which incorporates some lessons learned over the years (see Discussion). 
 
@@ -446,7 +446,9 @@ After the hackathon, there are a number of activities that are either required o
 * **Reports:** Sponsoring organizations will typically require the development of a final report that summarizes the activities and accomplishments achieved during the hackathon. The development of such report is typically main responsibility of the instigators of the event (even though other members of the LT may actively participate).
 
 <hr/>
-# Methods: Data collection and analysis
+# Approach II: Data collection and analysis
+
+this section simply describes our data set. it does not have to be long. 
 <hr/>
 # Results and Discussion
 
