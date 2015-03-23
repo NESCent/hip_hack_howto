@@ -371,41 +371,66 @@ Several remote technologies are available for pre-event engagement.  We have use
 
 Generally, we focus on just getting people to communicate, and we keep expectations low. With repeated reminders, organizers can get nearly everyone to make an online introduction on an email list (and this is much easier at a live telecon).  However, pre-event discussions are likely to involve only a subset of participants.  In our most extreme efforts at pre-event engagement (dbhack1 and phylotastic), we had a mailing list and organized several telecons, with the result of engaging the majority of participants.  
 
-For organizers, pre-event engagement is highly useful to identify gaps, and to get a sense of opportunities and challenges presented by a specific group of participants.  However, we have no data on whether pre-event engagement is beneficial to participants. 
+We are confident that pre-event engagement is highly useful *for organizers* to identify gaps, and to get a sense of the opportunities and challenges presented by a specific group of participants.  We are less sure about whether pre-event engagement is beneficial to participants or to project teams. 
 
 <!-- we have a similar expereience with the unconference/unseminar series we've been running - we used to make lots of effort to try and collect pre-event participation, but by now we consider it already a lot of participation if people sign up to a doodle poll indicating that they may want to come along, any more than that has only come about through lots of time-intensive face-to-face cajolling AESB -->
 
 ## The Hackathon
 
 ### Day 1
-*Active facilitation, especially during the first day, is critical to "keep true" to the scope and keep the event as a whole on-topic.*
-
 **We should have a figure highlighting the major events scheduled for the first day*
 
-The first day of the hackathon is the most unique 
-<!-- I'm brought up to consider than one can't have gradations of uniqueness - something either is or isn't unique - do we here mean..? that it is something that makes these hackathons different from most others? hm, reading it again, I think what's meant here is "The first day is very different from the others as it serves to etc. " AESB --> 
-in structure, because it serves to create the process that will carry through the remaining days. The first activity in the morning is usually a brief introduction by the organizers, typically aimed at reinforcing the scope of the hackathon. Generally, the initial opening is followed by very brief introductions from all the participants (who you are, why you are there).
+The goal of the first day is to organize a set of teams, where each team has a membership of 3 to 7 participants committed to a clearly defined set of goals that will result in tangible products ("deliverables") by the end of the hackathon.  Achieving this goal is critical for the success of the hackathon, and requires active facilitation.  
 
-The next major activity is an open brain-storming session aimed at exploring and refining the overall scope of the hackathon, and clarifying any aspect of the broad objectives that might be unclear. This part of the event is typically not focused on technical discussions, unless these are necessary for the refinement and clarification of the scope.
+#### Welcome and introductions 
 
-The brainstorming session is generally followed by a series of technical presentations, called “bootcamps”, where key technologies or concepts important to the overall planned scope of the project are introduced. The bootcamps are often identified as part of the pre-engagement activities (*e.g.*, through polls of participants) or are the result of the brain-storming sessions (*e.g.*, they will select which bootcamps will be offered out of an initial set developed before the event). These presentations may be from the leadership team, or may be from participants with particular expertise (arranged in advance). (Note: the timing of the bootcamps can vary quite a bit: sometimes they are before pitches, sometimes afterwards, sometimes they are optional sessions run simultaneously with work projects on other days. Which scenario works best depends a lot on the nature of the presentations and who will most benefit from them). The need for boot camps may also arise *during* the hackathon itself, motivated by specific needs that have been raised by one or more projects. 
+The first activity is usually a brief introduction by the organizers, typically aimed at explaining the scope and goals of the hackathon.  This may be followed by a chance for participants to introduce themselves (e.g., 3 sentences on background, reasons for attending, hopes and expectations).  
 
-Following the open brainstorming and the bootcamps (and usually with a break or meal in between), is an opportunity for individuals to make specific pitches about the project(s) they would like to pursue. Each individual who wants to make a pitch is given a minute or two to briefly explain their idea. Generally, each pitch is assigned a space in the meeting room where brief discussion and assembly will occur. Each pitch typically articulates:
-* The expected goals and deliverables
-* A possible approach to reach the goals
-* The pre-identified key challenges that will need to be addressed
-* The desired expertise and the possible partnerships with other projects; this last aspect should also somehow motivate how the project fits within the overall scope of the hackathon.
+#### Technical presentations 
 
-It should be emphasized that anyone can make a pitch; in fact, the LT might be 
-<!-- if that is indeed the case i.e. if for several of the events you did this, I'd be explicit about that here AESB--> 
-discouraged from making pitches in order to engage participants in ownership of the event.
+In advance of the hackathon, the organizers will have identified speakers and arranged for technical talks (sometimes called "bootcamps") to address gaps exposed during pre-event engagement activities. For instance, at dbhack1, there was a talk on a relatively new and unfamiliar file format called NeXML that was an emerging standard for data exchange.  The set of technical talks may take from as little as 90 minutes to several hours. 
 
-After all of the pitches are made, everyone is given an opportunity to wander around the room, discuss pitches more succinctly and specifically with the pitchee, and to generally self-assemble into potential teams. When the self-organization is complete, a re-evaluation of the pitches is made: the focus of some may have shifted as participants joined project ideas, other pitches may have insufficient support to continue, etc. A group evaluation, facilitated by the leadership team, may be important at this stage in order to (1) prevent individual projects from drifting too far off scope; (2) prevent projects whose feasibility is unrealistic for the time allowed; (3) identify potential holes or gaps in the overall structure that might need to be filled in order to meet the objectives of the hackathon; and (4) ensure everyone is working as part of a group/team rather than on their own.
+Some flexibility is useful.  In some cases, it is helpful to arrange for a technical talk that may or may not be delivered, depending on needs expressed at the event.  In a few cases, an unanticipated need has arisen during the hackathon.  Typically these are of interest only to a subset of participants and can be arranged on an ad hoc basis.  
 
-At this stage, with primary projects identified and teams self-assembled, the remainder of the day is left for teams to begin planning and executing how they will attack their individual projects.
+#### Open discussion 
+
+The next major activity is a relatively open discussion about how to interpret the scope of the hackathon, what kinds of opportunities exist to address goals of the hackathon, and what technologies are available to address key challenges. Also, pre-event engagement (above) may have exposed specific topics of uncertainty or confusion that would benefit from discussion at this time.  The organizers should allow at least an hour.  The facilitator of the discussion should solicit questions and take other steps to ensure that there is broad participation.  
+
+At this stage, initial ideas for pitches will emerge.  The facilitators should encourage  discussions of scope, goals and technical approaches of specific pitches.  Attention to relevance (scope) is important at this stage.  However, detailed technical discussions should be discouraged unless they are critical to establish feasibility.  If a participant knows that a technical challenge can be solved, the exact solution does not need to be discussed at this time. 
+
+The appropriate time to end the discussion is when participants are ready to proceed to the next stage, which is pitching (e.g., the facilitator may ask if anyone would like more time before going on to pitches). 
+
+#### Initial pitches and feedback 
+
+To "pitch" an idea is to propose it for wider adoption.  Proposed hackathon projects are called "pitches", and the proposers are pitch-makers or champions.  Anyone can make a pitch, but in practice, they tend to be made by more senior people with a more confident sense of what projects would have an impact.  In our hackathons, there are often a few pitches from organizer-participants, but this is not necessary. 
+
+In the first stage of pitching, anyone who wants to make a pitch is given a minute or two to make a proposal, ideally with: 
+* goals linked to deliverables or tangible products
+* an approach to reach the goals (and likely challenges)
+* what expertise or knowledge is needed to fill out the team
+
+Each pitch is followed by an opportunity for questions.  Questions should focus on clarifying what the project aims to do, and how it aligns with the scope.  
+
+Champions may decide to drop their pitch (e.g., if feedback suggests it is infeasible, or if the champion finds another pitch more attractive).  The facilitator should ask if any pitches will be dropped.  If a large number of pitches (> 1/3 the number of participants) remain in contention, the facilitators may wish to start a discussion about how different pitches could be combined. 
+ 
+#### Team formation and pitch refinement
+
+What follows is a spontaneous process of team-formation and pitch-refinement, the goal of which is to end with a set of teams (each with 3 to 7 participants), each with an exciting, tractable, well scoped project.  This stage typically takes an hour.  
+
+First, participants should be given materials to post a sketch of a pitch (e.g., on an easel or whiteboard) in a room large enough for each pitch to be posted separately with space for people to gather around it.  Pitches that might be combined should be clustered.  Large adhesive notes (stuck to walls) work best for this process, because they are easy to move, and can be supplemented with further notes as needed. 
+
+Then, participants are free to wander around the room, discussing pitches, offering suggestions, and deciding how to fit in.  This is a spontaneous, interactive process.  The fit of participant to proposed project is not like the fit of a key to a pre-built lock, because the definition of the project is still in flux.  Instead, it is an "induced fit", e.g., the interaction of participant and champion may result in a modified plan that incorporates the participant's unique skills and interests.  
+
+A champion may abandon a pitch to join another team: the pitch will be abandoned if no one else steps in to champion it.  
+
+At this stage, facilitators may wish to intervene to ensure that (1) newbies and relative outsiders are actively engaged in creating-finding a place for themselves; (2) projects remain aligned with the scope; (3) experienced individuals are finding a place on a team rather than planning a project on their own (this occasionally happens, and our experience is that it is not productive).  
+
+#### Solidification of team plans
+
+If there is any time left in the day, participants may use it to refine their plans or begin execution. 
 
 ### Intermediate Days
-Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a whole group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about twice per day (to avoid wasting too much time on updates) - once before breaking for lunch and once at the end of the day.
+Most of the rest of the days of the hackathon are spent with teams working on their individual projects, with occasional time taken to reassemble as a whole group to update progress. These stand-ups are generally meant to be short and, we have found, generally only need to be performed about twice per day (to avoid wasting too much time on updates) - once before breaking for lunch and once at the end of the day.  Stand-ups are an opportunity for projects to crow about their accomplishments, and to share challenges in the hopes of receiving useful suggestions.  
 
 ### Last Day
 At the end of the hackathon, a general assembly to wrap things up, discuss overall progress, future plans, etc., takes place. Typical components of this final event include
