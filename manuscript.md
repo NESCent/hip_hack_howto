@@ -259,7 +259,7 @@ Major potential outcomes and impacts have been described above, but goals most o
 -->
 
 ### Resources
-Identifying resources is a critical phase of the process and involves identifying funding entities that are willing to provide the funds necessary to realize a hackathon event. There are a number of possible funding sources for a hackathon. These include:
+Identifying resources (money and facilities) is a critical phase of the process and involves identifying funding entities that are willing to provide the funds necessary to realize a hackathon event. There are a number of possible funding sources for a hackathon. These include:
 * Major funding agencies, where a hackathon could be either part of a larger project (*e.g.*, as part of outreach for an NSF or EU grant) or the main focus of the funding request
 * Organizations that are dedicated to support working group initiatives (*e.g.*, NESCent)
 * Organizations that support the community of interest (*e.g.*, the Society of Molecular Biology and Evolution expressed interest in supporting a hackathon as a satellite meeting)
@@ -600,12 +600,16 @@ The broad objective of many hackathons fall into two general categories: those t
 Here are some tangible products 
 * **code** 
     * examples: see list in products 
+    * data: number of repos in products table, % projects with repo
 * **docs**
     * examples: comp methods in R
+    * systematic data: reports in products table, % project with report
+    * systematic data: stand-alone docs in products table
     * also, all the team reports.  useful for followup
     * still used
 * **schemata**, **specifications**
     * phyloreferencing 
+    * 
 * **live demos**
     * examples: datelife, phylotastic
     * can be used to inform and inspire others about project 
@@ -635,7 +639,7 @@ As discussed elsewhere in this document, direct invitation serves an important f
 
 ### Follow-on products and activities
 
-Here we discuss hackathon products that emerge, or that continue to be used, after the hackathon has ended, i.e., these are exceptions to the general rule that hackathon products are dead ends, not useful products picked up and used by the targeted community.  
+Here we discuss hackathon products that emerge, or that continue to be used, after the hackathon has ended, i.e., these are exceptions to the general rule that hackathon products are not picked up and used by the community.  
 
 * **sustained code**  The most common exception to this is when a hackathon team augments an existing codebase.  NeXML java.  R comparative methods.  
 * **sustained docs**  
@@ -656,10 +660,7 @@ Here we discuss hackathon products that emerge, or that continue to be used, aft
     * Arlin's, Emily Jane's
 * Several hackathon relied on the use of wikis to track ideas, activities, deliverables; follow-up activities have often centered around continuing populating the wiki pages with results and accomplishments 
 <!-- can we report with data that some of these have continued being used, or are all of them silent after a few months? Is further useful data for describing the impact of the events AESB -->
-* In at least one hackathon, a follow-up distributed hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (*e.g.*, through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.
-<!-- Is this one of the 9 hackathons discussed in this paper? if so, would be good to name it here AESB-->
-
-See also the discussion below ("Achieving tangible working products") on participant composition and its potential to affect post-hackathon momentum and output.
+* for the comp methods in R hackathon, a follow-up remote mini-hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (*e.g.*, through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.
 
 ## Lessons learned
 
@@ -698,7 +699,7 @@ Yet, this thinking is unreasonable.  The nature of hackathons is that we steal t
 
 This situation encourages 2 strategies to manage expectations.  Because of the low prospects for follow-up, organizers should instruct participants, especially pitch-makers, to focus on producing tangible products *within the space of the hackathon*.  Participants should focus efforts with the expectation that tasks unfinished on the last day will never be finished.  No team should commit to a goal that depends on the cooperation of outside parties or that cannot be completed within the space of the hackathon.  
 
-Yet, follow-up projects are possible.  In 2 cases, hackathon projects have provided proof-of-concept and specifications that were important for obtaining funding for further development.  In 2 cases, hackathons resulted directly in a publication.  
+Yet, follow-on projects are possible.  In 2 cases, hackathon projects have provided proof-of-concept and specifications that were important for obtaining funding for further development.  In 2 cases, hackathons resulted directly in a publication.  
 
 Because the cases of successful follow-up are small in number, it is hard to make generalizations.  However, it seems obvious that the potential for follow-up increases when a hackathon project aligns with interests of participants, particularly when it aligns with a project that has funding, and with a leader who has the time to manage a follow-up effort.   
 
@@ -741,15 +742,18 @@ Our practice is to encourage and enable, but not rigidly enforce, conformity to 
 <!-- Can we codify the extent to which differnet technologies were used in differnet events? e.g. ones where everyone used github for storing code compared to others where this was more diverse? or where differnet documentation tools were used by differnet teams? maybe some link to variations in impact between teams and/or hackathons? AESB-->
 
 ### Remote participation in hackathons
-While the main focus of the hackathons has been on bringing people together for face-to-face interactions over the entire length of the event, we have also explored the use of remote participation. Remote participation has been restricted to a small number of participants, interacting with the main group that is on-site. 
-Remote participation requires individuals or groups at remote sites to reserve and dedicate to the hackathon the same amount of time as on-site participants. It also requires remote participants to be actively involved in the various interaction stages of the hackathon, e.g., project discussions, stand-ups, bootcamps.
 
+Though we believe that face-to-face interaction is crucial, we also have explored the use of remote methods.  In each case, remote participation was restricted to a small number of participants, interacting with the main group on-site.
+ 
 We explored two forms of remote participation. The first form is focused on the remote participation of one particular individual (e.g., a strong participant that could not abandon the institution for the period of the hackathon). The second form is represented by an entire team that develops one of the projects associated to the hackathon at a different site. 
 
 The remote participation of a single individual is challenging. The individual needs to be included in one of the teams, which requires the extended use of communication technology (e.g., Google Hangouts) for the entire duration of the hackathon and in a continuing manner. The interaction through cameras and microphones is not ideal, and makes it challenging to share documents (e.g., written notes, drawings on a whiteboard) and brainstorm. Further challenges to remote participation (and continuous interaction) are the possible differences in timezones, which makes it hard to schedule stand-ups and breaks, and the unavoidable distractions caused by the daily activities of the remote participants (e.g., receiving phone calls in their home office). 
+
 Remote participation of a single individual has worked best when the individual serves as the project lead and the project is amenable of being clearly partitioned in loosely related components. For example, in the Phylotastic I hackathon, this was the model that successfuly led to the development of the DateLife project.
 
 The remote participation of an entire team was experimented with during the Phylotastic I hackathon. The team was located at a remote site, with several researchers spending an equal amount of time as the on-site participants in a dedicated remote space (a lab reserved for the event). The remote team focused entirely on one of the hackathon projects, with no participation in such projects from the main site participants. The remote team did not require continuous video/audio connection to the main site, with interactions limited to the initial introductions and the regular stand-up meetings. While easier to implement than the individual remote participants, the remote team participation does not benefit from the knowledge exchanges that occur among participants at the main site; the infrequent connections and interactions remove many of the described benefits of the hackathon.
+
+The challenge with remote participation is not just remoteness, but maintaining aligned schedules.  This can be practically impossible if remote participants are more than 3 time zones away.  Even if remote participants are in the same time zone, it is necessary to ensure that they are aware of schedule modifications and agenda changes.  Using generalized VTC technology, and ensuring that important on-site activities are always viewable and hearable via the VTC system, is almost never feasible as it would require 5 to 6 VTC rooms when participants are split into teams.  We find that a better strategy is to identify an on-site participate who will agree to maintain continuous video contact with a remote participant.  The remote participant may then ask questions about what is happening, and receive clarification (via text chat), without disrupting the meeting.  If a separate "avatar laptop" is available for each remote participant, the avatar can simply sit at the table with the rest of the team, maintaining constant video and audio contact.  
 
 <!-- I've suggested ways of including data on this in the "## Variation in hackathon parameters" section below; perhaps it would be possible to explore success of teams/hacktahons incorporating remote particiapntion and compare those to the success as examined elsehwere in this manuscript of them cf: those without any remote particiaption - I exepct there's no obvious difference acording to these different outcomes, this is where a set of feedback forms from everyone might have helped, I bet the answers to these from remote participants cf on-site ones about "opportunity to build new professionsal relationships" and "impact on career" would be lower  AESB -->
 
