@@ -757,7 +757,6 @@ The challenge with remote participation is not just remoteness, but maintaining 
 
 <!-- I've suggested ways of including data on this in the "## Variation in hackathon parameters" section below; perhaps it would be possible to explore success of teams/hacktahons incorporating remote particiapntion and compare those to the success as examined elsehwere in this manuscript of them cf: those without any remote particiaption - I exepct there's no obvious difference acording to these different outcomes, this is where a set of feedback forms from everyone might have helped, I bet the answers to these from remote participants cf on-site ones about "opportunity to build new professionsal relationships" and "impact on career" would be lower  AESB -->
 
-
 ### Using face-to-face time productively
 The hackathon event has a limited time window. This face-to-face time should be managed such that it maximizes activities which benefit from direct interaction and minimizes activities which can be performed alone outside of the event. A large portion of the hackathon will, necessarily be individuals working, and writing code is necessarily an individualized process for many, but the purpose of the event is to work collaboratively and thus time and effort should be facilitated to take advantage of the group setting whenever possible. The serial nature of out-of-step communications (*e.g.*, email) make efficient discussion difficult; hard discussions and questions should be prioritized for the face-to-face setting where time-lags are minimized and in-person consensus can be reached. This also motivates the introduction of a structure in the activities of each team at the hackathon, where team discussions are frequent and the face-to-face time is positively used to achieve consensus on shared goals and resolve design challenges.
 
@@ -780,6 +779,14 @@ Generally, however, building sustainable products out of hackathons is very diff
 
 #### issue trackers and email lists vs. wikis
 wikis tend to get ignored or taken over by a few people editing them.  email lists keep everyone involved.  issue trackers with notification are more specific and customizable ways to keep everyone involved post-hackathon.  have we learned that using issue-trackers is better?  
+
+### How do we quantify the impact of code?  
+
+Computer code has a direct impact when it is used in a production environment.  For scientific programming, this means that the code is used to generate or analyze results for publications, presentations, and grant proposals.  A similar standard could be applied to artifacts other than code, i.e., data sets and schemata have an impact when they are used in a production environment.  
+
+We suspect that most hackathon code is not used in a production environment.  However, it may be used by the authors, without anyone else knowing it.  
+
+The best prospects for direct code impact is when a hackathon team adds to an existing scientific software package that continues to be used (ape, brownie, NeXML, etc).  However, it is difficult to track the importance of individual lines of code generated at a hackathon for 3 reasons.  First, use of the package in a production environment may not be documented.  Second, even if package use is documented (e.g., by citations), we may not be able to tell how much it depends on specific lines of code.  Third, even if we could assign a usage value to each part of the code, it may be difficult to tell which parts (in an evolving body of code) came from a hackathon.  
 
 ### What makes the NESCent model different? 
 
