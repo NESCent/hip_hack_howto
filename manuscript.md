@@ -19,16 +19,16 @@ Affiliations: blah blah blah
 
 # Table of Contents 
 * Abstract
-* Introduction
+* Introduction: what do hackathons accomplish? 
 * Methods: The "NESCent Hackathon" Process Model 
-    * Overall Structure
+    * Overall Structure and Roles
     * Pre-planning
         * Resources
         * Assembling the Leadership Team
         * Setting Scope and Goals
     * Planning
         * Logistical Considerations
-            * Facilities
+            * Facilities and equipment
             * Communication Technology
             * Travel
         * Identifying Participants
@@ -40,13 +40,14 @@ Affiliations: blah blah blah
         * Day 1
         * Intermediate Days
         * Last Day
-    * Post-Hackathon Wrap-Up
+    * Post-hackathon Wrap-Up
 * Methods: Data collection and analysis
 * Results and Discussion
     * Understanding and assessing hackathon impacts 
-        * Tangible products
+        * Immediate tangible products
         * Technology awareness and knowledge exchange
         * Growing the community
+        * Follow-on products and activities
     * Lessons learned
         * Challenges of building a leadership team
         * Make people feel welcome; encourage people
@@ -57,6 +58,10 @@ Affiliations: blah blah blah
         * Remote participation in hackathons
         * Using face-to-face time productively
     * Going further
+        * unclassified stuff for "going further" 
+            * hacking med example
+            * less preconception 
+            * issue trackers and email lists vs. wikis
         * What makes the NESCent model different? 
         * Career stage of participants
         * Data we wish we had collected
@@ -93,11 +98,11 @@ This uncertainty regarding the actual source of the perceived value of hackathon
 
 A systematic study of the organizational practices of hackathons, and their effect on measures of impact, would be valuable as a source of guidance to organizers.  However, in spite of some initial work on hackathon impacts { trainer, et al }, no such systematic study is available. 
 
-To address the need for evidence-based guidance, and to lay the foundations for more systematic studies in the future, we offer here a intensive case-analysis of hackathon practices and impacts, based on a series of well documented hackathons that followed what we call "the NESCent model", referring to the National Evolutionary Synthesis Center, an academic research center.  Over an 8-year period from 2006 to 2014, NESCent organized 8 hackathons, each hosting ~30 participants for ~5 days.  Each event was focused on scientific software development in the domain of evolutionary biology (comparative analysis, phylogenies, evolutionary modeling, population analysis, etc).  Each event was planned by a different leadership team whose membership intersects with the set of authors of this work (i.e., each leadership team included at least one of us, and most included several of us).  Due to the nature of the sponsoring organization, intangible outcomes such as promoting diversity and building a "community of practice" were as important as producing code. 
+To address the need for evidence-based guidance, and to lay the foundations for more systematic studies in the future, we offer here an intensive case-analysis of hackathon practices and impacts, based on a series of well documented hackathons that followed what we call the "NESCent model", referring to the National Evolutionary Synthesis Center, an academic research center.  Over an 8-year period from 2006 to 2014, NESCent organized 8 hackathons, each hosting ~30 participants for ~5 days.  Each event was focused on scientific software development in the domain of evolutionary biology (comparative analysis, phylogenies, evolutionary modeling, population analysis, etc).  Each event was planned by a different leadership team whose membership intersects with the set of authors of this work (i.e., each leadership team included at least one of us, and most included several of us).  Due to the nature of the sponsoring organization, intangible outcomes such as promoting diversity and building a "community of practice" were as important as producing code. 
 
-Because the organizers made an early commitment to public sharing of resources online, the NESCent hackathons are well (albeit inconsistently) documented, with a trail of wikis and other resources that provide participant lists, pitches, team reports, code repositories, bootcamp presentations, and even notes from leadership team meetings.  From these sources, we have gathered a systematic set of data on NESCent hackathons (8 events, 48 teams, XXX participants, and XXX products) that aims to provide a foundation for systematic research on hackathon impacts that may be undertaken in the future.  
+Because the organizers made an early commitment to public sharing of resources online, the NESCent hackathons are well (albeit inconsistently) documented, with a trail of wikis and other resources that provide participant lists, bootcamp presentations, pitches, code repositories, team reports, and even notes from leadership team meetings.  From these sources, we have gathered a systematic set of data on NESCent hackathons (8 events, 48 teams, 206 participants, and XXX products) that aims to provide a foundation for systematic research on hackathon impacts that may be undertaken in the future.  
 
-Below, we begin with a detailed guide to the NESCent hackathon model, describing key steps and in planning and execution, illustrating key points by referring to past hackathons, and explaining the motivations behind chosen practices.  Then we summarize the documented impacts of 8 hackathons that follow the NESCent model, and reflect on some of the lessons we have learned as organizers and participants.  Note that, because we have studied only one type of hackathon, we cannot draw conclusions about which kinds of hackathons are best.  However, we can provide evidence on the impacts of the NESCent model, and in some cases we can provide evidence for the effectiveness of specific practices within that model. 
+Below, we begin with a detailed guide to the NESCent hackathon model, describing key steps in planning and execution, illustrating key points by referring to past hackathons, and explaining the motivations behind chosen practices.  Then we summarize the documented impacts of 8 hackathons that follow the NESCent model, and reflect on some of the lessons we have learned as organizers and participants.  Note that, because we have studied only one type of hackathon, we cannot draw conclusions about which kinds of hackathons are best.  However, we can provide evidence on the impacts of the NESCent model, and in some cases, we can provide evidence for the effectiveness of specific practices. 
 
 <!--Add here perhaps also the importance, and our enthusisasm, of sharing that data in an as-open-and-reusable-as-possible given legal constraints way? AESB--> 
 
@@ -107,13 +112,13 @@ Below, we begin with a detailed guide to the NESCent hackathon model, describing
 
 # Methods: The "NESCent Hackathon" Process Model 
 
-The following is a detailed description of the logistical model we have developed for executing hackathons. This model has evolved over 10 years and the description below largely reflects the final model. Discussions of where and why the model has changed are used to illustrate the lessons learned.
+The following is a step-by-step description of our approach to instigating, planning, executing and following up a hackathon.  This approach has evolved over 10 years.  The description below largely reflects the final model, which incorporates some lessons learned over the years (see Discussion). 
 
 ## Overall Structure and Roles
 
-The process of planning and executing a hackathon makes reference to 5 roles.  Planning typically begins with an **instigator** who solicits support from one or more **sponsors** and assembles a Leadership Team or **LT** consisting of **organizers**, who carry forward the planning process and eventually recruit **participants**.  The roles may overlap.  The instigator may be an agent of the sponsor; organizers often attend the hackathon as participants.  
+The process below makes reference to a number of roles.  Planning typically begins with **instigators** (or a single instigator) who solicit support from **sponsors**, and then assemble a Leadership Team (**LT**) of **organizers** who carry forward the planning process and eventually recruit **participants**.  Hackathon activities are managed by **facilitators**.  The roles may overlap.  The instigator may be an agent of the sponsor; organizers often attend the hackathon as participants.  In our hackathons, the facilitators are almost always members of the LT. 
 
-For participants, the main focus of a hackathon is the event itself.  For organizers, the hackathon is the culmination of a planning process that begins months before the event, in which a scope is determined, the event is advertised, participants are recruited, and preparations are made to ensure a successful event. Table X2 illustrates an estimated time line of events, to allow for better planning. While certain planning activities can be accelerated, one might view these as minimal estimates to allow proper preparation.
+For participants, the week-long hackathon event is the main focus of activities.  For organizers, the hackathon is the culmination of a planning process that begins months before the event, in which a scope is determined, the event is advertised, participants are recruited, and preparations are made to ensure a successful event.  Table X2 illustrates an estimated time line of events, to allow for better planning. While certain planning activities can be accelerated, one might view these as minimal estimates to allow proper preparation.
 
 <table style="text-align: left; width: 100%;" border="1" cellpadding="2"
 cellspacing="2">
@@ -241,7 +246,7 @@ Figure X illustrates in greater detail the flow of the planning process.  Certai
 
 ## Pre-planning
 
-Instigators typically begin with an idea that they think will inspire broader participation.  This idea may become a formal proposal for funding, authored by the instigators.  In the case of NESCent hackathons, the instigators came from NESCent's bioinformatics staff, or from two working groups focused on evolution-related bioinformatics, the EvoInfo (evolutionary informatics) and HIP (hackathons, interoperability, phylogenies) working groups, which organized 3 hackathons.  These groups all shared broad goals such as facilitating the sharing and re-use of data, and facilitating interoperability among resources.  
+Instigators typically begin with an idea that they think will inspire broader participation.  This idea may become a formal proposal for funding, authored by the instigators.  In the case of NESCent hackathons, the instigators came from NESCent's bioinformatics staff, or from two working groups focused on evolution-related bioinformatics, the EvoInfo (evolutionary informatics) and HIP (hackathons, interoperability, phylogenies) working groups, which organized 3 hackathons.  The goals of the instigators overlap on themes such as facilitating the sharing and re-use of data, and facilitating interoperability among resources.  
 
 <!-- there is some extra text here that belongs under scoping (AS): 
 
@@ -261,21 +266,21 @@ Identifying resources is a critical phase of the process and involves identifyin
 * Non-profit or for-profit organizations that have an interest in the broad scope of the activity (*e.g.*, iPlant)
 * Other stakeholders (*e.g.*, universities, research labs)
 
-In the case of NESCent hackathons, the events were funded overwhelmingly by NESCent.  However, other sponsors were involved in several cases, e.g., the 2009 VoCamp was sponsord partly by TDWG; the HIP working group obtained support from 2 other sponsors (iPlant and BioSync) in order to expand its budget sufficiently to run 3 hackathons.  It was understood that well qualified applicants from the sponsor organizations would be included in the hackathons, either by direct invitation or through the application-and-review process.  A key part of the agreement between iPlant and HIP was that one of the hackathons would be held at the academic home of the iPlant project, to facilitate participation of iPlant personnel.  Some of the authors also obtained funding from a professional society for a hackathon that never took place, due to the inability to establish a functioning LT (see Lessons Learned). 
+In the case of NESCent hackathons, the main sponsor was NESCent.  However, other sponsors were involved in several cases, e.g., the 2009 VoCamp was sponsord partly by TDWG; the HIP working group obtained support from 2 other sponsors (iPlant and BioSync) in order to expand its budget sufficiently to run 3 hackathons.  It was understood that well qualified applicants from the sponsor organizations would be included in the hackathons, either by direct invitation or through the application-and-review process.  A key part of the agreement between iPlant and HIP was that one of the hackathons would be held at the academic home of the iPlant project, to facilitate participation of iPlant personnel.  Some of the authors also obtained funding from a professional society for a hackathon that never took place due to the inability to establish a functioning LT (see Lessons Learned). 
 
 ### Assembling the Leadership Team
-An important step in the process is the formation of a leadership team (LT) that will have authority for planning and executing the hackathon.  For this process to be legitimate, i.e., for the LT to take ownership, the LT must be allowed to re-think the scope and goals (see below).  Difficulty in assembling an LT, or in getting an LT to reach closure on scope and goals, is an indication that the instigators' plan may be flawed or premature (see Lessons Learned). 
+An important step in the process is the formation of a leadership team (LT) that will have authority for planning and executing the hackathon.  For this process to be legitimate, i.e., for the LT to take ownership, the LT must be allowed to re-think the scope and goals (see below).  Thus, in assembling the LT, the instigators make a deliberate and strategic attempt to diversify the sources of authority and responsibility.  Difficulty in assembling a committed LT, or in getting an LT to reach closure on scope and goals, is an indication that the instigators' plan may be flawed or premature (see Lessons Learned). 
 
-Thus, in assembling the LT, the instigators make a deliberate and strategic attempt diversify the sources of authority and responsibility.  In recruiting organizers, the instigators may consider:
+In recruiting organizers, the instigators may consider:
 * *Expertise:* the broad topic of the hackathon will inform a set of expertise <!-- I don't understand 'inform' in this context AESB--> that are necessary to formulate the appropriate scope of the event; that expertise will also facilitate the identification of potential participants to invite to the event.
 * *Diversity:* diversity in the LT is critical to provide the connections and the perspectives necessary to facilitate the recruitment of a diverse group of participants.
 * *Vision:* members of the LT are in charge of establishing the scope of the hackathon. As such, they need to be capable of providing a general vision that is both realistic/feasible as well as groundbreaking.
 * *Management Experience:* the members of the LT will provide the overall supervision and management of the hackathon event. Over several months, LT members will be relied on to accomplish various milestones, and must be reliable performers.  Experience in team management, group formation, event management, and other relevant management skills.
 
-Note that the mandate of LT members is limited and lasts for about 4 months, whereas instigators may begin the process of securing resources years before the event (in the case where a hackathon is part of a long-term grant).  During their tenure, the organizers will participate in perhaps 5 to 8 LT meetings (typically teleconferences).  For every hour of meeting time, LT members can expect to spend 1 to 2 hours executing the LT's plan (e.g., reviewing applications, reserving meeting rooms).  Thus the total time commitment is roughly 1 to 2 hours per week over 4 months. 
+When recruiting, we ask prospective LT members to make an explicit time commitment and to be available during the crucial period of application review.  During their tenure, the organizers will participate in perhaps 5 to 8 LT meetings (typically teleconferences).  For every hour of meeting time, LT members can expect to spend 1 to 2 hours executing the LT's plan (e.g., reviewing applications, reserving meeting rooms).  Thus, the total time commitment is roughly 1 to 2 hours per week over 4 months.  
 
 ### Setting Scope and Goals
-A critical aspect of the hackathon event is the early establishment of the scope and goals for the activities that will take place during the actual event. The choice of the hackathon theme should reflect (1) the overall objective of the project, aligned with the commitment to the funding entities; (2) the feasibility of accomplishing the objectives within the timeframe of the hackathon; (3) the needs of a community; 
+A critical aspect of the hackathon event is a decision on its precise scope and goals. The choice of the hackathon theme should reflect (1) the overall objective of the project, aligned with the commitment to the funding entities; (2) the feasibility of accomplishing the objectives within the timeframe of the hackathon; (3) the needs of a community; 
 <!-- by this do you mean 'the fact that there are others not involved in the hackthon who could be interested in using the code generated during/after the hackathon? AESB -->
 and (4) be general enough to enable participants to recognize themselves, feel engaged, and see a value for their participation in the event.
 
@@ -306,7 +311,7 @@ Some alternative space configurations are inadvisable.  A room with fixed stadiu
 Hackathons do not require much in the way of equipment or supplies. Participants are expected to bring their own laptops or tablets.  The meeting rooms must have excellent wireless access, numerous electrical outlets, and extension cords. For the pitching session, there must be marking pens, along with a suitable number of easels or whiteboards, or a suitable amount of accessible (and flat) wall space to post adhesive notes.  
 
 #### Communication Technology
-The nature of a hackathon usually makes heavy use of a variety of communication technologies. Experience indicates that organizers should choose the preferred technologies in advance and encourage all participants to use this set. **Consistency among participants is extremely important,** both for general communication and for archiving. As an example, in one hackathon involving remote participants, a particular subgroup was using one communication technology before lunch and then switched, without announcement, to another technology after lunch. Remote participants had no way of knowing this and were left out of discussion until this was discovered. In general, we encourage technologies which are free, open, and multi-platform, although the needs of a particular project may preclude some of these factors. Again, consistency across hackathon participants is key. Major categories of communication technology to consider include:
+The nature of a hackathon usually makes heavy use of a variety of communication technologies.  We recommend for organizers to designate a set of preferred technologies in advance and encourage all participants to use this set. **Consistency among participants is extremely important,** both for general communication and for archiving. As an example, in one hackathon involving remote participants, a particular subgroup was using one communication technology before lunch and then switched, without announcement, to another technology after lunch. Remote participants had no way of knowing this and were left out of discussion until this was discovered. In general, we encourage technologies which are free, open, and multi-platform, although the needs of a particular project may preclude some of these factors. Again, consistency across hackathon participants is key. Major categories of communication technology to consider include:
 
 **Version Control:** There are many types of version control available. Among the most popular, and the one we have used in recent years, is Git and Github. SVN is also very popular. Earlier hackathons used GoogleCode and SourceForge. What is most important is that everyone at a particular hackathon use the same system, because it is critical to tracking production and outputs and helps no one if the data and output is spread across multiple systems. The last three hackathons focused on github, for the following reasons.... INSERT REASONS. An additional benefit of using github is that it is easy, via the github API, to assess information about contributions to code of  indidviuals involved (e.g. their extent of usage of github before, during, and after the event), and in the devleopment of the repos worked on (the history of commits to the repos before, during, and after commits), and collaborations (looking at degree to which hackathon participants worked in github on the same repos before, during, and after the event) making assesment of some kinds of impact easier and easy to be collected in a systematic automated way.
 
@@ -324,16 +329,11 @@ The presence of a central organization (e.g., NESCent) that can handle the logis
 
 *Note: some of this section may be better moved to the discussion, but it's not entirely clearly which/where*
 
-There are two basic approaches to attracting participants: direct invitation or an open call (or a mix of both). The pros of the invitation model is that you ensure you recruit the expertise you perceive as necessary to acheive the coding aims of the project, you can better control diversity by careful invitation, and you can also bring in people you expect will support possible community-building aspects of the event (people who are well-connected within the community, and are known to be active community-builders and interactive and welcoming). The cons are that you necessarily restrict participation to those you know to invite, which will restrict the opportunity to build new professional relationships as participants are more likely to know some or all paritciapnts. The pros of the open call model are that you potentially hit a wider audience, including people who you may not have known or considered. This also demonstrates 
-<!-- who demonstrates this? the hackathon organisers? or the people who apply like this? AESB--> 
-a direct interest in engaging the larger community. The cons of the open call model are that you may end up missing out on specific desired/necessary expertise. You will often find a lack of diversity in applicants through an open call. You also may not receive enough applicants.
+The basic approaches to recruiting participants are (1) directly inviting from a list of named individuals, (2) issuing an open call for applications, or (3) a mixture of the two.  Direct invitations are useful to ensure that the hackathon participant pool covers essential expertise, e.g., if the scope names a particular data resource, the organizers may wish to invite experts on that resource.  The danger with direct invitations is that it will perpetuate privileged relationships and limit the opportunities to build new professional relationships among participants.  An open call is better for community-building and outreach.  Also, those who respond to an open call and fill out an application clearly are motivated to participate.  The danger here is not receiving enough applications (though our experience did not include this problem).
 
-Generally, we have used a mixed model, where we target invitations (1) to people who have particular domain expertise and (2) as a means of increasing diversity, but always including an open application process to try and discover broader members of the community who we may have missed. One needs to be careful in this model because if you target too many people with direct invitations, there may not be enough space for those responding to the open call. Generally, if you directly invite someone to apply it is difficult to later not accept them as an event participant.
+Generally, we have used a mixed model, where we target invitations (1) to people who have particular domain expertise and (2) as a means of increasing diversity, but always including an open application process to reach out more broadly and engage unexpected members of the targeted community. One needs to be careful in this model because if you target too many people with direct invitations, there may not be enough space for those responding to the open call. Generally, if you directly invite someone to apply it is difficult to later not accept them as an event participant.
 
-Direct invitation is a powerful means of helping to improve diversity. Beyond targeting “minorities” (including women) for direct participation, you can additionally target those who may suggest participants, such as mentors for students, postdocs, or junior colleagues. 
-<!-- Reference this and maybe also other similar articles/blog posts here? Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003903-->
-
-Our advertising has been predominantly through popular mailing lists in the appropriate academic discipline, as well as spreading word through emails to colleagues. Generally the first call for applications would be sent about 3 weeks before the deadline, with a second call/reminder sent at 1 week. Direct invitations would go out at the time of the first call, but additional invites can be sent later as other names/suggestions are found.
+<!-- I moved a bit of text here in to the diversity section of lessons learned (AS)--> Our advertising has been predominantly through popular mailing lists in the appropriate academic discipline, as well as spreading word through emails to colleagues. Generally the first call for applications would be sent about 3 weeks before the deadline, with a second call/reminder sent at 1 week. Direct invitations would go out at the time of the first call, but additional invites can be sent later as other names/suggestions are found.
 
 *Figure/Appendix X: example of a hackathon advertisement* [uploaded in the repository]
 
@@ -360,14 +360,20 @@ Applications were divided among LT members in a staggered fashion such that each
 Applicants were then ranked from high to low, and participants were chosen during a conference call. In order to allow the LT to best balance the needs of expertise, experience, and diversity, the ranking was used as a general guide, but not as an absolute decision making criterion. Alternates were identified in case participant slots became available after invitations were extended. 
 
 ### Pre-hackathon Engagement
-We have tried to engage invited participants in advance of the hackathon using mailing lists, GitHub discussions (which was used during the OpenTree hackathon), collaborative wikis, etc. There are multiple objectives associated with pre-hackathon engagement. First, to identify technologies and methodologies that will be critical for the hackathon event and whose knowledge might not be shared by all participants. This can lead to the creation of bootcamp events 
-<!-- I'm not familiar with the idea of a bootcamp in this contxt, given my awareness of what it means in other contexts, I wish there were a less authoritaian and exploitative term one coudl use here - I would certainly never want to sign up for something that describes itself as a bootcamp, it implies to me many days of being shouted at by a group of shaved-head milatary types --> 
-for the first day of the hackathon. Second, to encourage participants to think about possible projects that can be developed during the hackathon events, and possibly develop an initial set of pitches for such projects. Executing a pre-event analysis and participant interviews can also organically lead to the structuring and facilitation style of the hackathon.
+Pre-event engagement is an opportunity for  
+* participants to overcome initial shyness and begin communicating 
+* organizers to identify gaps in domain knowledge or technical expertise 
+* participants to begin discussing possible projects
 
-Generally, we have not experienced much success in participant engagement prior to the hackathon. We hypothesize that those who do engage prior to the hackathon are also likely to engage during the event. However, little can be predicted about the engagement during the hackathon of those who do not participate in pre-hackathon activities.
+The identification of gaps in technologies and methodologies can lead to a plan for technical talks (aka "bootcamps") on hackathon day 1.  
+
+Several remote technologies are available for pre-event engagement.  We have used email lists, teleconferences, issue trackers (OpenTree hackathon), and collaborative wikis.  To use project-specific issue trackers, it is necessary to cajole everyone into joining the project (e.g., via github).  
+
+Generally, we focus on just getting people to communicate, and we keep expectations low. With repeated reminders, organizers can get nearly everyone to make an online introduction on an email list (and this is much easier at a live telecon).  However, pre-event discussions are likely to involve only a subset of participants.  In our most extreme efforts at pre-event engagement (dbhack1 and phylotastic), we had a mailing list and organized several telecons, with the result of engaging the majority of participants.  
+
+For organizers, pre-event engagement is highly useful to identify gaps, and to get a sense of opportunities and challenges presented by a specific group of participants.  However, we have no data on whether pre-event engagement is beneficial to participants. 
 
 <!-- we have a similar expereience with the unconference/unseminar series we've been running - we used to make lots of effort to try and collect pre-event participation, but by now we consider it already a lot of participation if people sign up to a doodle poll indicating that they may want to come along, any more than that has only come about through lots of time-intensive face-to-face cajolling AESB -->
-
 
 ## The Hackathon
 
@@ -409,27 +415,10 @@ At the end of the hackathon, a general assembly to wrap things up, discuss overa
 Hackathons have also included more general discussions about long-term followups (*e.g.*, identification of potential funding sources that would enable scaling up some of the development efforts). It is recommended that participants assume responsibility for the completion of components of the various projects (*e.g.*, see http://www.evoio.org/wiki/Phylotastic1#Projected_tangible_outcomes as an example).
 
 
-## Post-Hackathon Wrap-Up
-After the hackathon, there are a number of activities that are either required or desirable. The most obvious *required* activities include:
+## Post-hackathon Wrap-Up
+After the hackathon, there are a number of activities that are either required or desirable (we address follow-on projects separately below). The most obvious *required* activities include:
 * **Logistical Activities:** wrapping up the event requires providing reimbursements to the participants for the expenses incurred during the event. This is typically handled through the sponsoring organization.
 * **Reports:** Sponsoring organizations will typically require the development of a final report that summarizes the activities and accomplishments achieved during the hackathon. The development of such report is typically main responsibility of the instigators of the event (even though other members of the LT may actively participate).
-
-It is typically uncommon that tangible outcomes are completed within the 5-day period of the hackathon. In order to concretize and properly disseminate tangible deliverables, it is typically necessary to coordinate some follow-up activities that will take place after the end of the hackathon. This might include activities aimed at
-* Developing manuscripts and/or presentations that summarize the activities and deliverables.
-* Completing code that can be made publicly available and/or committed to a public repository.
-* Finalizing a schema or methodology and documenting it for others to use.
-* Completing the development of a dataset that can be made publicly available.
-
-A number of approaches have been explored to sustain the follow-up activities focused on tangible deliverables:
-* Mailing lists established during the pre-engagement phases are maintained alive and used to continue communication, solicit engagement and advertise results
-* Several hackathon relied on the use of wikis to track ideas, activities, deliverables; follow-up activities have often centered around continuing populating the wiki pages with results and accomplishments 
-<!-- can we report with data that some of these have continued being used, or are all of them silent after a few months? Is further useful data for describing the impact of the events AESB -->
-* In at least one hackathon, a follow-up distributed hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (*e.g.*, through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.
-<!-- Is this one of the 9 hackathons discussed in this paper? if so, would be good to name it here AESB-->
-* It has been common practice for subsets of participants (typically led by the project leaders) to assemble the achievements of the hackathon project in a manuscript (*e.g.*, the Phylotastic manuscript, which collected as authors the majority of the participants to the Phylotastic I hackathon) or in presentations/sessions at relevant conferences (*e.g.*, the presentations about different aspects of the Phylotastic II hackathon at iEvoBio 2013).
-* Ideas for broader developments often arise as the result of the activities of the hackathon, leading to the development of grant proposals to support them (*e.g.*, to hire graduate students or professional programmers to scale-up implementations and applications).
-
-See also the discussion below ("Achieving tangible working products") on participant composition and its potential to affect post-hackathon momentum and output.
 
 <hr/>
 # Methods: Data collection and analysis
@@ -603,16 +592,29 @@ Tensions between achieving particular kinds of output/benefit/impact
 * goal   of writing code + goal of building community; makes it a challenge  when  planning (writing / evaluating applications; facilitation)
 -->
 
-### Tangible products
+### Immediate tangible products
+<!-- I propose that we focus here on the tangible products that are done on day 5 --> 
+
 The broad objective of many hackathons fall into two general categories: those that aim to enhance an existing product or codebase (*e.g.*, the R-???? hackathon was designed to enhance the XXXX in R, while the TreeForAll Hackathon was designed to build integration with the Open Tree of Life API), while others may be focused more on the creation of novel technologies (e.g., Phylotastic I and II). Those that connect to existing technologies are a little more likely to have products carry forward because the existing community of the technology may be more likely to pick up on hackathon projects, even when the primary participants do not.
 
-Generally, however, building sustainable products out of hackathons is very difficult.
-* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
-* The fewer products that are pre-conceived, the better they have tended to turn out
-  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
-* Managing expectations with respect to deliverables is important 
-
-<!--possible data/analysis to include: described below in the section "## Sustainability of projects initiated during hackathons" AESB -->
+Here are some tangible products 
+* **code** 
+    * examples: see list in products 
+* **docs**
+    * examples: comp methods in R
+    * also, all the team reports.  useful for followup
+    * still used
+* **schemata**, **specifications**
+    * phyloreferencing 
+* **live demos**
+    * examples: datelife, phylotastic
+    * can be used to inform and inspire others about project 
+* **data sets** 
+    * e.g., NEXUS test files 
+* **cases** 
+    * trees annotated at phylotastic II 
+* **blogs** 
+    * Holly's
 
 ### Technology awareness and knowledge exchange
 A critical contribution of hackathons is represented by raising awareness of existing and new technologies/methodologies. There are several aspects and examples of this.
@@ -630,6 +632,34 @@ In addition to this, hackathons can be developed to create support for novel tec
 As discussed elsewhere in this document, direct invitation serves an important function in targeting expertise and increasing diversity, but we find it is too community limiting as a general strategy. Choosing participants, at least in part, from an open pool is extremely important if one of the goals of the hackathon is to grow the community. Much like Gordon conferences, invitation-only hackathons (e.g., the Japan hackathons) have a danger of stratifying individuals into the invited in-crowd and the ignored out-crowd.
 
 <!-- possible data/analysis to include here: the results of analysis of co-contribution of people to github repos via their github handles, and if we do it, then also of the Twitter analysis. At the time of writing this comment, these possible analysies are described below in the section "## Impact of hackathons on building community and collaborations". Perhaps include also references to Jono Bacon's "The art of communinty" and Millington's "Buzzing Communities"? AESB -->
+
+### Follow-on products and activities
+
+Here we discuss hackathon products that emerge, or that continue to be used, after the hackathon has ended, i.e., these are exceptions to the general rule that hackathon products are dead ends, not useful products picked up and used by the targeted community.  
+
+* **sustained code**  The most common exception to this is when a hackathon team augments an existing codebase.  NeXML java.  R comparative methods.  
+* **sustained docs**  
+    * comp. methods in R
+* **manuscripts** 
+    * examples: phyloinformatics; phylotastic; 
+    * requires a sustained effort, strong leaders 
+    * subsets of participants (typically led by the project leaders) assemble the achievements of the hackathon project in a manuscript (*e.g.*, the Phylotastic manuscript) 
+* **posters and conference presentations** 
+    * or in presentations/sessions at relevant conferences (*e.g.*, the presentations about different aspects of the Phylotastic II hackathon at iEvoBio 2013).
+* **mailing lists** 
+    * example: phyloinformatics, r-sig-phylo
+    * an active mailing list on topic X is a tangible sign that an "X community" exists
+    * takes very little effort to set up, then lives or dies on its own
+* **funding proposals**
+    * phyloreferencing 
+* **blogs** 
+    * Arlin's, Emily Jane's
+* Several hackathon relied on the use of wikis to track ideas, activities, deliverables; follow-up activities have often centered around continuing populating the wiki pages with results and accomplishments 
+<!-- can we report with data that some of these have continued being used, or are all of them silent after a few months? Is further useful data for describing the impact of the events AESB -->
+* In at least one hackathon, a follow-up distributed hackathon was organized, where participants committed one entire day to work on the project remotely (at their home institutions), with regular scheduled interactions (*e.g.*, through Google Hangouts). The goal was to encourage continued development of the artifacts started during the hackathon.
+<!-- Is this one of the 9 hackathons discussed in this paper? if so, would be good to name it here AESB-->
+
+See also the discussion below ("Achieving tangible working products") on participant composition and its potential to affect post-hackathon momentum and output.
 
 ## Lessons learned
 
@@ -682,6 +712,10 @@ Because the cases of successful follow-up are small in number, it is hard to mak
 -->
 *Note: some of the discussion on diversity in the "criteria for choosing participants" section might be better moved here?*
 
+<!-- some text from earlier: Direct invitation is a powerful means of helping to improve diversity. Beyond targeting “minorities” (including women) for direct participation, you can additionally target those who may suggest participants, such as mentors for students, postdocs, or junior colleagues. --> 
+
+<!-- Reference this and maybe also other similar articles/blog posts here? Ten Simple Rules to Achieve Conference Speaker Gender Balance http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003903-->
+
 As a group, we made a conscious decision to declare that we valued community diversity and thus challenged ourselves to increase diversity when possible through the hackathons. Diversification does not happen without a focused effort; simply being demographically neutral when making participant decisions does not help if the pool of applicants lacks diversity, as we discovered in earlier hackathons (**good place for data**). To increase this pool, a number of strategies were implements. These include
 * Targeting selection of diverse members for the leadership team who will serve as role models for potential participants, as well as potentially having greater contacts or networks with underrepresented subsets of the community.
 * Targeting potential applicants through direct invitation
@@ -729,6 +763,19 @@ This is the section for
 * suggestions for how to move forward with research on hackathons
 * ideas, speculation, new hypotheses
 * other stuff? 
+
+### unclassified stuff for "going further" 
+
+#### hacking med example
+Generally, however, building sustainable products out of hackathons is very difficult.
+* Example: Hacking medicine hackathons (http://hackingmedicine.mit.edu/) are large events, specifically geared toward products that could become startups. The focus is on commercially viable products. While the raw number of products is impressive, the success % may not be higher than we have achieved.
+
+#### less preconception 
+* The fewer products that are pre-conceived, the better they have tended to turn out
+  * Ex: R hackathon: very little source code was available before the event, all code open-source after event 
+
+#### issue trackers and email lists vs. wikis
+wikis tend to get ignored or taken over by a few people editing them.  email lists keep everyone involved.  issue trackers with notification are more specific and customizable ways to keep everyone involved post-hackathon.  have we learned that using issue-trackers is better?  
 
 ### What makes the NESCent model different? 
 
