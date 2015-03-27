@@ -124,7 +124,7 @@ The following is a step-by-step description of our approach to instigating, plan
 
 ## Overall Structure and Roles
 
-The process below makes reference to a number of roles.  Planning typically begins with **instigators** (or a single instigator) who solicit support from **sponsors**, and then assemble a Leadership Team (**LT**) of **organizers** who carry forward the planning process and eventually recruit **participants**.  Hackathon activities are managed by **facilitators**.  The roles may overlap.  The instigator may be an agent of the sponsor; organizers often attend the hackathon as participants.  In our hackathons, the facilitators are almost always members of the LT. 
+The process below makes reference to a number of roles.  Planning typically begins with **instigators** (or a single instigator) who solicit support from **sponsors**, and then assemble a Leadership Team (**LT**) of **organizers** who carry forward the planning process and eventually recruit **participants**.  Hackathon activities are managed by **facilitators**.  The roles may overlap.  The instigator may be an agent of the sponsor; organizers often attend the hackathon as facilitators and participants. 
 
 For participants, the week-long hackathon event is the main focus of activities.  For organizers, the hackathon is the culmination of a planning process that begins months before the event, in which a scope is determined, the event is advertised, participants are recruited, and preparations are made to ensure a successful event.  Table X2 illustrates an estimated time line of events, to allow for better planning. While certain planning activities can be accelerated, one might view these as minimal estimates to allow proper preparation.
 
@@ -277,13 +277,14 @@ Identifying resources is a critical phase of the process and involves identifyin
 In the case of NESCent hackathons, the main sponsor was NESCent.  However, other sponsors were involved in several cases, e.g., the 2009 VoCamp was sponsord partly by TDWG; the HIP working group obtained support from 2 other sponsors (iPlant and BioSync) in order to expand its budget sufficiently to run 3 hackathons.  It was understood that well qualified applicants from the sponsor organizations would be included in the hackathons, either by direct invitation or through the application-and-review process.  A key part of the agreement between iPlant and HIP was that one of the hackathons would be held at the academic home of the iPlant project, to facilitate participation of iPlant personnel.  Some of the authors also obtained funding from a professional society for a hackathon that never took place due to the inability to establish a functioning LT (see Lessons Learned). 
 
 ### Assembling the Leadership Team
-An important step in the process is the formation of a leadership team (LT) that will have authority for planning and executing the hackathon.  For this process to be legitimate, i.e., for the LT to take ownership, the LT must be allowed to re-think the scope and goals (see below).  Thus, in assembling the LT, the instigators make a deliberate and strategic attempt to diversify the sources of authority and responsibility.  Difficulty in assembling a committed LT, or in getting an LT to reach closure on scope and goals, is an indication that the instigators' plan may be flawed or premature (see Lessons Learned). 
+The use of a leadership team (LT) to plan and execute the hackathon arises in part due to the desire to broaden decision-making authority, and in part due to the lack staff to carry out plans (with the exception of travel arrangements, for which we traditionally have had administrative support, as described below).  The LT makes a plan, and also enacts its plan.  For the LT to take true ownership of the project, it must be allowed to re-think the scope and goals (see below).  Therefore, assembling the LT is a critical step in which the instigators attempt to diversify the sources of authority and responsibility.  Difficulty in assembling a committed LT, or in getting an LT to reach closure on scope and goals, is an indication that the instigators' plan may be flawed or premature (see Lessons Learned). 
 
 In recruiting organizers, the instigators may consider:
 * *Expertise:* the broad topic of the hackathon will inform a set of expertise <!-- I don't understand 'inform' in this context AESB--> <!-- if you read for "inform", "give a general idea of..." it should make sense RAV --> that is necessary to formulate the appropriate scope of the event; that expertise will also facilitate the identification of potential participants to invite to the event.
 * *Diversity:* diversity in the LT is critical to provide the connections and the perspectives necessary to facilitate the recruitment of a diverse group of participants.
 * *Vision:* members of the LT are in charge of establishing the scope of the hackathon. As such, they need to be capable of providing a general vision that is both realistic/feasible as well as groundbreaking.
 * *Management Experience:* the members of the LT will provide the overall supervision and management of the hackathon event. Over several months, LT members will be relied on to accomplish various milestones, and must be reliable performers.  Experience in team management, group formation, event management, and other relevant management skills.
+* *Cultivating new leaders:* the instigators periodically recruit individuals who are young or inexperienced, but show promise as organizers.
 
 When recruiting, we ask prospective LT members to make an explicit time commitment and to be available during the crucial period of application review.  During their tenure, the organizers will participate in perhaps 5 to 8 LT meetings (typically teleconferences).  For every hour of meeting time, LT members can expect to spend 1 to 2 hours executing the LT's plan (e.g., reviewing applications, making meeting arrangements.  Thus, the total time commitment is roughly 1 to 2 hours per week over 4 months.  
 
@@ -571,10 +572,12 @@ ones, to illustrate the spectrum.
 <tr>
  <td>Broadening Perspectives</td>
  <td>Idea inspiration for projects/work unrelated to hackathon</td>
+ <td>Challenges...</td>
 </tr>
 <tr>
  <td>Connecting Cultures</td>
  <td>Bridging the culture gap between "coders" and "users"</td>
+ <td>Challenges...</td>
 </tr>
 </table>
 
@@ -640,7 +643,9 @@ The broad objective of many hackathons fall into two general categories: those t
 Here are some tangible products 
 * **code** 
     * examples: see list in products 
-    * data: number of repos in products table, % projects with repo
+    * data: 
+        * number of repos in products table, % projects with repo
+        * lines of code in repo where possible to count
 * **docs**
     * examples: comp methods in R
     * systematic data: reports in products table, % project with report
@@ -648,14 +653,14 @@ Here are some tangible products
     * also, all the team reports.  useful for followup
     * still used
 * **schemata**, **specifications**
-    * phyloreferencing 
+    * phyloreferencing schema
     * examples: NeXML, PhyloWS, CDAO
 * **live demos**
     * examples: datelife, phylotastic
     * can be used to inform and inspire others about project 
 * **data sets** 
     * e.g., NEXUS test files, NeXML example files
-* **cases** 
+* **case analysis** 
     * trees annotated at phylotastic II 
 * **blogs** 
     * Holly's
@@ -729,9 +734,9 @@ Procedures and strategies to create a more welcoming environment were revised ov
 
 Second, as the hackathons progressed, we developed a strategy for increasing the diversity of the applicant pool.  Soon after the open call is distributed, each organizer contacts a few qualified women or minority candidates and urges them to apply.  Whereas only a tiny fraction of people respond to the open call, roughly half of people (in our experience) apply when they are encouraged to do so personally by an organizer.  The applicants recruited in this manner are roughly similar in qualifications as other applicants, and have roughly the same chance of being accepted.  
 
-The impact of these steps on the diversity of participants is apparent in Fig. X (diversity figure) and Fig Y (photo of phylotastic 2). 
+The impact of these steps on the diversity of participants is apparent in Fig. X (diversity figure such as https://github.com/NESCent/hackathon_data/blob/master/Graphics/counts.gif) and Fig Y (photo of phylotastic 2). 
 
-Finally, we take steps to be welcoming during the event, particularly on day 1, which typically ends with a group dinner that includes everyone.  The facilitators pay attention to whether everyone is participating in discussion.  The practice of instructing participants that they always should be "either learning or doing" makes the event more welcoming to novices who sometimes have a hard time finding a fit.  During team formation, facilitators may intervene to discourage teams from unintentionally closing ranks around a pitch (some participants will commit early to a pitch and begin a deep technical discussions, sometimes with their backs to everyone else, which discourages others from approaching or getting involved).     
+Finally, we take steps to be welcoming during the event, particularly on day 1, which typically ends with a group dinner (which, to be welcoming, should not be priced so as to discourage anyone).  The facilitators pay attention to whether everyone is participating in discussion.  The practice of instructing participants that they always should be "eiher learning or doing" makes the event more welcoming to novices who sometimes have a hard time finding a fit.  During team formation, facilitators may intervene to discourage teams from unintentionally closing ranks around a pitch (some participants will commit early to a pitch and begin a deep technical discussions, sometimes with their backs to everyone else, which discourages others from approaching or getting involved). 
 
 <!-- Was there any variation in these features between differnet hackathons in the series? If there were, can we codifiy them and include them in tables/figures that are used to compare features of the differnet hackathons? If so, we could use the data we get on outcomes/impact to see whether there is any suggestion that this varation leads to variation in differnent kinds of outcome AESB -->
 
