@@ -916,6 +916,9 @@ A key conclusion is that there is a particular set of data that we encourage peo
 <hr/>
 # Possible data figures/tables
 
+## Trends in "hackathon"
+I (MSR) manually extracted data from a Google trends search for "hackathon". The data can be found in hackathon_google_search_trends.tsv. A temporary plot of this is now in the intro of the document, illustrating how interest in hackathons has skyrocketed over the last six years.
+
 ## Diversity variation between meetings
 
 Motivation of including this figure is as a way of visualising impact in terms of various differnet kinds of diversity, while also giving some information of the extent to which overall changes in diversity were reflected in diversity of arguably more 'influential' roles (leadership team, pitchers, accepted pitchers).
