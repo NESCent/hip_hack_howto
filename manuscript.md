@@ -89,7 +89,8 @@ Hackathons have become popular instruments to stimulate creative problem solving
 Since the early 2000's, *hackathons* (also called *hackfests* or *codefests*) have become increasingly popular in academic, non-profit, corporate, and government sectors (Figure 1). Hackathons are software development events that emphasize spontaneity and collaboration, bringing together developers (sometimes also users) with the goal of achieving innovation in software development, often coupled with other objectives such as fostering community or drawing attention to a sponsor's data or services. Despite the increasing interest in hackathons, there has been minimal formal literature about these events: a Web of Science search for "hackathon", "hackfest", and "codefest" reveals only 11 papers through 2014 (1 each from 2007, 2012, and 2013, with the remaining 8 from 2014).
 
 <img src="fig1_tmp.png" \>
-**FIGURE 1**
+
+**FIGURE 1:**
 *Google trends results for the term "hackathon" from January 2004 through February 2015. Values are relative to the highest point on the chart, thus the month with the greatest search interest in the term receives 100% and other months are scaled accordingly.*
 
 As currently practised, hackathons vary in many ways, including duration (1 to 5 days), size (from dozens to thousands), criteria for admission (from invitation-only to completely open), goals, incentives, and meeting structure. Some of them are planned for months in advance, and others emerge much more spontaneously. A variety of brief guides and "how to" documents describing hackathons can be found online { link to a list }, and there are several peer-reviewed publications that represent reports on a hackathon or its products { e.g., Lapp, et al 2007, phylotastic }.
