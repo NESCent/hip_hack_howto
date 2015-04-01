@@ -465,7 +465,31 @@ After the hackathon, there are a number of activities that are either required o
 <hr/>
 # Approach II: Data collection and analysis
 
-this section simply describes our data set. it does not have to be long. 
+As noted in the Introduction, an early commitment by the organizers to open science has led to the persistence of a large amount of public information on NESCent hackathons and their products.  For instance, agendas and other documents were developed and shared on NESCent's public wikis; event rosters were shared publicly, so the composition of all the teams is public knowledge; teams composed reports using public wikis, and were encouraged to share code in public source-code repositories (SourceForge, Google Code, GitHub, BitBucket).  From these sources, we have gathered a systematic set of data on NESCent hackathons, including 
+* **events**: names dates, and locations for hackathon events  
+* **projects**: names and descriptions of hackathon team projects
+* **products**: outcomes or products of hackathons and follow-up activities
+* **participants**: names and affiliations of participants
+
+## Data collection and encoding 
+
+Because the set of authors of this manuscript overlaps with the organizers of each of the NESCent hackathons, we began this project knowing exactly how many events were held, and where to look for information.  Most of the NESCent hackathon information is discoverable by following links outward from the hackathon page of NESCent's bioinformatics division (need URL).  We also had access to NESCent's NEAD database of participants, programs, and outcomes (though this is only a small subset of outcomes reported here).  The majority of information on team projects (roster, goals, repositories, team reports) is readily available from these resources.  
+
+In several cases, gathering data required other methods than simply following links and copying content.  
+* In a number of cases in which teams did not provide a succinct and easily readable statement of purpose or goals, we constructed a statement based on the materials provided.  
+* To determine the involvement of remote participants in 3 of the hackathons, in the context of poor documentation of remote involvement, we consulted our memories and provided this information to the best of our recollection. 
+* To find github handles (which were requested only for 3 hackathons) for all participants, we searched github using names or email addresses (because names are not always unique, we only accepted a name-based match in the case of confirmatory evidence such as a matching affiliation, or involvement in a known hackathon repository).
+
+The collection of information on products (outcomes) was the most haphazard.  While code repositories and reports generated at the hackathon typically are linked into the hackathon web page at the time of the hackathon, and thus are easily discoverable, it would not be easy for an outside observer to identify outcomes that emerged after the event, e.g., conference presentations, blogs, or grant proposals.  In this case we simply relied on the NEAD database and our familiarity with the hackathons and their outcomes.  However, we cannot make a claim to be complete.  Our data on persons, teams and hackathon projects is relatively complete, but the information on subsequent impacts and outcomes is not complete.  
+
+## Format and availability 
+
+All data are stored as tables in flat files (either commma-separated values, or tab-separated values).  For each data file such as participants.tsv, there is a corresponding metadata file (participants_meta.tsv) providing a description and a data type (text, integer, etc) for each data column.  
+
+The files are structured in such a way as to be human-readable, and to allow for a normalized relational schema. For instance, there are tables for "event", "participant", and "project", each with unique ids for each row.  Because each team project took place at a specific event, the project table has a column for the event id.  Because participants may attend multiple hackathons, there is a separate participant-event table for the 1-to-many link between participants and events, consisting of rows that have a participant id and an event id.  For human-readability, labels sometimes are used redundantly with ids, but these can be eliminated easily to achieve true normalization.  
+
+All of the data, with the exception of diversity data collected by NESCent and stored in NEAD (which must be kept private), is available at (repository).  
+
 <hr/>
 # Results and Discussion
 
