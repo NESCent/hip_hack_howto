@@ -1,23 +1,24 @@
 # Scoping statements and RFPs 
 
-## Methods 
+## to do 
 
-The point here is to get a sample of the open call for participation for each hackathon, when available.  For the first hackathon, we did not have an open call.  
-
-The wg-phyloinformatics mailing list was created for the first hackathon and maintained ever since.  The yearly digest from 2006 to 2015 was downloaded and searched for subsequent hackathon announcements.  Where such announcements could be found, they were copied and pasted into a stand-alone text document.  
-
-The "release date" noted below is the date of the first appearance of an announcement. 
-
-Other information is available from the hackathon page from the NESCent bioinformatics program.  
+See the issue tracker.  Other information useful for filling out this document is available from the hackathon page from the NESCent bioinformatics program.  
 
   http://informatics.nescent.org/wiki/Main_Page#Hackathons
+  
+## Methods 
+
+The point here is to get a sample of the open call for participation for each hackathon.  For the first hackathon, the "open call" was a request for comment with a final sentence inviting people who wanted to participate to contact the organizers.    
+
+These open calls were obtained from 2 mailing lists.  The wg-phyloinformatics mailing list was created for the first hackathon and maintained ever since.  The yearly digest from 2006 to 2015 was downloaded and searched for subsequent hackathon announcements.  If no announcement could be found, the evoldir archives were searched instead.  Announcements were copied and pasted into a stand-alone text documents referenced below by filename.  The "release date" noted below is the date of the first appearance of an announcement. 
 
 ## Phyloinformatics 
 
+* instigator: NESCent informatics
 * release date: November, 2006 (evoldir)
 * proposal: http://informatics.nescent.org/wiki/Phylohackathon_1/Proposal 
 * open call: phyloinformatics_evoldir_opencall.txt
-* report: published hackathon report ()
+* report: published hackathon report (Lapp, et al, 2007)
 * goals statement: from the above proposal, "The goal of the proposed hackathon is to create interfaces (APIs) and implementations in widely used toolkit libraries so that by using those toolkits, researchers and developers of analysis pipelines can effectively execute important evolutionary analysis programs, pass input to those programs, parse their output back into the toolkit's object model, and possibly store the results of that parse for later retrieval.
 More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, Biopython, Bioruby, Bioprolog), which includes the most widely used programming toolkits in the life sciences in several programming languages. The Bio* framework also already defines BioSQL as its interoperable persistence model and interface for storing objects."
 
@@ -63,7 +64,7 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * release date: 20 Feb 2012 (wg-phyloinformatics)
 * proposal: 
 * open call: ptastic_wg-phylo_opencall.txt
-* report: 
+* report: published hackathon report (Stoltzfus, et al., 2013)
 * goals statement: 
 
 ## Phylotastic 2
