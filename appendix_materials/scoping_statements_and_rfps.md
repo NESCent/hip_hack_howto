@@ -10,6 +10,8 @@ The "release date" noted below is the date of the first appearance of an announc
 
 ## Files 
 * "announcements" contains messages announcing the events and requesting comments or inviting applications 
+* "form_letters" contains examples of form letters to be sent to applicants (invite with or without support or face-to-face, decline)
+* "sample_applications" contains examples of application forms 
 
 ## Phyloinformatics 
 
