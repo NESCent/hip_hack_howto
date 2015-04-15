@@ -45,7 +45,7 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * release date: late August or early Sept, 2009
 * proposal: http://www.evoio.org/wiki/VoCamp1/Proposal
 * open call: vocamp_evoldir_opencall.txt
-* report: 
+* report: http://www.evoio.org/wiki/VoCamp1
 * goals statement: see the open call 
 
 ## GMOD tools 
