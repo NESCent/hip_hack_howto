@@ -1,16 +1,15 @@
-# Scoping statements and RFPs 
+# README file for appendix materials
 
 ## to do 
 
 See the issue tracker.  Other information useful for filling out this document is available from the hackathon page from the NESCent bioinformatics program.  
 
   http://informatics.nescent.org/wiki/Main_Page#Hackathons
-  
-## Methods 
 
-The point here is to get a sample of the open call for participation for each hackathon.  For the first hackathon, the "open call" was a request for comment with a final sentence inviting people who wanted to participate to contact the organizers.    
+The "release date" noted below is the date of the first appearance of an announcement in the indicated mailing list.
 
-These open calls were obtained from 2 mailing lists.  The wg-phyloinformatics mailing list was created for the first hackathon and maintained ever since.  The yearly digest from 2006 to 2015 was downloaded and searched for subsequent hackathon announcements.  If no announcement could be found, the evoldir archives were searched instead.  Announcements were copied and pasted into a stand-alone text documents referenced below by filename.  The "release date" noted below is the date of the first appearance of an announcement. 
+## Files 
+* "announcements" contains messages announcing the events and requesting comments or inviting applications 
 
 ## Phyloinformatics 
 
@@ -24,21 +23,21 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 
 ## Comp Methods in R
 
-* release date: soon after Oct 3, 2007 (wg-phyloinformatics)
 * instigator: NESCent informatics
+* release date: soon after Oct 3, 2007 (wg-phyloinformatics)
 * proposal: http://informatics.nescent.org/wiki/R_Hackathon_1/Proposal
 * open call: comp_R_evoldir_opencall.txt
 * report: 
-* goals statement: 
+* goals statement: see the "motivation" and "specific objectives" section of http://informatics.nescent.org/wiki/R_Hackathon_1
 
 ## Database Interop
 
-* release date: Jan 26, 2009 (wg-phyloinformatics)
 * instigator: Evolutionary informatics (NESCent working group)
+* release date: Jan 26, 2009 (wg-phyloinformatics)
 * proposal: 
 * open call: db_interop_wg-phylo_opencall.txt
 * report: https://www.nescent.org/wg_evoinfo/Hackathon_Report
-* goals statement: https://www.nescent.org/wg_evoinfo/Hackathon_Report#Goals_for_the_hackathon
+* goals statement: see the open call, or https://www.nescent.org/wg/evoinfo/index.php?title=Database_Interop_Hackathon#Motivation
 
 ## Vocamp
 
@@ -47,7 +46,7 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * proposal: http://www.evoio.org/wiki/VoCamp1/Proposal
 * open call: vocamp_evoldir_opencall.txt
 * report: 
-* goals statement: 
+* goals statement: see the open call 
 
 ## GMOD tools 
 
@@ -56,7 +55,7 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * proposal: 
 * open call: gmod_tools_wg-phylo_opencall.txt
 * report: 
-* goals statement: 
+* goals statement: see the open call 
 
 ## Phylotastic 1
 
@@ -65,7 +64,7 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * proposal: 
 * open call: ptastic_wg-phylo_opencall.txt
 * report: published hackathon report (Stoltzfus, et al., 2013)
-* goals statement: 
+* goals statement: see the open call
 
 ## Phylotastic 2
 
@@ -73,8 +72,8 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * release date 30 Oct 2012 (wg-phyloinformatics)
 * proposal: 
 * open call: ptastic2_wg-phylo_opencall.txt
-* report: 
-* goals statement: 
+* report: there is no comprehensive report
+* goals statement: see the open call
 
 ## Tree-for-All
 
@@ -82,8 +81,8 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * release date: 9 June 2014 (wg-phyloinformatics)
 * proposal: 
 * open call: treeforall_wg-phylo_opencall.txt
-* report: 
-* goals statement: 
+* report: there is no comprehensive report (see blogs by Stoltzfus for a partial report)
+* goals statement: see the open call
 
 ## R PopGen
 
@@ -92,4 +91,4 @@ More specifically, we choose the Bio* framework of toolkits (BioPerl, Biojava, B
 * proposal: 
 * open call: popgen_r_evoldir_opencall.txt
 * report: 
-* goals statement: 
+* goals statement: see the open call
