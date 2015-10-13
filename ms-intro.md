@@ -68,68 +68,137 @@ them a cohesive series for studying:
    sponsor as tangible products.
 
 At least one, and for six out of the nine events several of the
-co-organizers of these hackathons is among the authors. We note that
+co-organizers of these hackathons are among the authors. We note that
 we intentionally restrict ourselves to reporting and discussing the
 experience and evidence we have. This paper does therefore not attempt
 a comprehensive review of the hackathon models and processes that
 exist, nor do we try to compare the effectiveness of the model and
 process we describe to that of others.
 
-## Values/Objectives of Hackathons
-There are many possible outcomes and impacts of a hackathon (table X): some of these are tangible (*e.g.*, code, publications, etc.) and some are intangible (*e.g.*, increased community diversity or community awareness of technologies or best practices). The procedures for holding a hackathon that we have developed were generated specifically based on the value we give to these outcomes. Decisions on participant pools, for example, may be heavily driven on the relative weight one gives to tangible vs. intangible impacts. Organizers need to make decisions based on maximizing the outcomes they value the most.
+# Why hold a hackathon: The spectrum of values and objectives
+
+By design, hackathons are generally motivated by bringing together
+people who would otherwise not meet, to collaboratively tackle goals
+or problems they would otherwise not have enough opportunity to work
+on, or for which it would be much more difficult to succeed on their
+own. The types of outcomes that can emerge from this cover a wide
+spectrum from intangible to tangible, and the impacts that these
+outcomes can have towards a sponsor's larger objectives can also vary
+widely, including in how well they are measurable.
+
+To better understand the values and objectives that motivated the
+event and process model we present here, Table X gives a sample of
+potential hackathon outcomes, divided into tangible and intangible
+ones, to illustrate the spectrum.
 
 <table>
-<tr><th>Tangible Outcome</th><th>Measures &amp; Complications</th></tr>
 <tr>
- <td>Code</td>
- <td>Draft vs working quality, Sustained development activity, Attention received ("#stars", "#watchers"), Adoption by non-participants (forks, downloads, citations). Lines of code and # of commits are not useful measures.</td>
+  <th>Tangible Outcome</th>
+  <th>Possible Measures</th>
+  <th>Challenges</th></tr>
+<tr>
+  <td>Source code</td>
+  <td>Draft versus working quality; sustained post-hackathon
+  development activity; community interest gathered; adoption by
+  non-participants (forks, downloads, citations)</td>
+  <td>Metrics for code writing productivity (lines of code, number of
+  commits) are often confounded and not useful. The specific impact of
+  contributions to larger projects is nearly impossible to track. The
+  academic attribution system falls short for unpublished software.</td>
 </tr>
 <tr>
- <td>Publications</td>
- <td># publications, # citations</td>
+  <td>Publications</td>
+  <td>Number of and impact metrics for publications (citations,
+  altmetrics);</td>
+  <td>Impact and value of non-scholarly publications can be significant
+  yet difficult to quantify.</td>
 </tr>
 <tr>
- <td>Grant Proposals and Funding</td>
- <td># of proposals, $ amount</td>
+  <td>Fund raising, Grant funding</td>
+  <td>Number of proposals; amount funded; increased funding rate</td>
+  <td>Measuring change of funding rate requires long time windows and
+  disentanglement of the many confounding factors. The value of
+  unfunded proposals is hard to quantify but likely non-zero.</td>
 </tr>
 <tr>
- <td>Documentation</td>
- <td># of documents, # of words or pages</td>
+  <td>Documentation</td>
+  <td>Amoung of text written; number of tools or methods
+  documented; access and citation statistics for online documentation</td>
+  <td>Quality, comprehensiveness, and being up-to-date can be difficult
+  to measure. Metrics for offline documentation are few and inadequate
+  (e.g., downloads).</td>
 </tr>
 <tr>
- <td>Other Products</td>
- <td>Data Sets, Standards, Ontologies, etc.</td>
+  <td>Data products (data, ontologies, benchmarks, etc)</td>
+  <td>Size, number of and impact metrics for data products (citations,
+  downloads, altmetrics);</td>
+  <td>The specific impact of contributions to larger datasets is
+  nearly impossible to track. Tracking of scholarly attribution and
+  impact is still in its infancy, and nearly impossible for
+  unpublished products.</td>
 </tr>
-<tr><th>Intangible Outcome</th><th>Measure(s)</th></tr>
 <tr>
- <td>Increased Collaboration</td>
- <td># of novel collaborators (software/publications) from participants post-hackathon</td>
+  <td>Community standards and best practices</td>
+  <td>As publications if published, and as documentation otherwise.</td>
+  <td>Tracking of scholarly attribution and impact is still in its
+  infancy, and nearly impossible for unpublished products.</td>
+</tr>
+<tr>
+  <th>Intangible Outcome</th>
+  <th>Possible Measures</th>
+  <th>Challenges</th></tr>
+</tr>
+<tr>
+  <td>Growing or building community</td>
+  <td>Size of community; existence and degree of adoption
+  and active utilization of community interaction resources</td>
+  <td>Technologies that "work" are  </td>
+</tr>
+<tr>
+  <td>Growing or building community</td>
+  <td># of novel collaborators (software/publications) from
+  participants post-hackathon</td>
+  <td></td>
+</tr>
+<tr>
+  <td>Culture change towards openness and collaboration</td>
+  <td># of novel collaborators (software/publications) from participants post-hackathon</td>
+  <td></td>
 </tr>
 <tr>
  <td>Broadening Communities/Networks</td>
  <td>Increased participation/friends/followers of mailing lists, social networks, etc.</td>
+  <td></td>
 </tr>
 <tr>
  <td>Community Awareness/Training in Technologies, Standards, or Best Practices</td>
  <td># new users of a technology</td>
+  <td></td>
 </tr>
 <tr>
  <td>Increased Diversity</td>
  <td>Diversity includes demographic concepts (gender, ethnicity, experience) and disciplinary concepts</td>
+  <td></td>
 </tr>
 <tr>
  <td>Publicity/Brand Awareness</td>
  <td>Conference presentations/posters, Press releases (and where they are picked up), Social media impressions</td>
+  <td></td>
 </tr>
 <tr>
  <td>Broadening Perspectives</td>
  <td>Idea inspiration for projects/work unrelated to hackathon</td>
+  <td></td>
 </tr>
 <tr>
  <td>Connecting Cultures</td>
  <td>Bridging the culture gap between "coders" and "users"</td>
+  <td></td>
 </tr>
 </table>
+
+There are many possible outcomes and impacts of a hackathon (table X): some of these are tangible (*e.g.*, code, publications, etc.) and some are intangible (*e.g.*, increased community diversity or community awareness of technologies or best practices). The procedures for holding a hackathon that we have developed were generated specifically based on the value we give to these outcomes. Decisions on participant pools, for example, may be heavily driven on the relative weight one gives to tangible vs. intangible impacts. Organizers need to make decisions based on maximizing the outcomes they value the most.
+
 
 Measuring the impact of these outcomes can be very difficult. "How much code is generated by a hackathon?" Measures such as number of lines of code or number of commits can be meaningless since these counts are very fungible based on the style in which individuals write code. Number of programs or scripts produced is barely better: is the code rough draft or a polished product? How bug-free does it need to be? Does it need to work at all or can it be conceptual? Does what happens to the code after the hackathon matter? Is code that is used widely by the community (download counts? citations? github forks?) count the same as code that is completely ignored? There are no simple answers to these questions and the matter is even worse for intangible outcomes where direct measurement may be more difficult.
 
