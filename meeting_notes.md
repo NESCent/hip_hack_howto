@@ -1,5 +1,59 @@
 # Meeting notes 
 
+## Hangout, 23 Oct 2015
+
+present: Karen, Enrico, Hilmar, Aidan, Arlin
+
+We discussed scope, purpose, conclusions and significance, based on strawman draft below. 
+
+Rapid agreement that the draft scope, purpose, and conclusions are accurate and complete. The only significant comment was the need to stress (throughout) the dual goals of technology production and community building, and that NESCent hackathons were designed with community-building in mind. 
+
+This led to a discussion of what are the tangible things we can say about community building?
+* increase in diversity
+* R-sig-phylo
+* Collaborations post-event? 
+   * Don’t have the data for this. Can look at people working together, but don’t have baseline for pre-event work that lets us point to hackathons as the starting point
+list of github handles could be used for this (are we allowed to do this? and would there be enough power?)
+* intangible outcomes have long-term impacts
+
+IRB diversion
+* Duke will require IRB approval for this
+* if we are publishing personally-identifiable data, we need a waiver unless we plan to get permission from participants
+   * will also include plans to publish summary stats of demographic data
+   * Karen will move this issue ahead (thanks!)
+   
+Significance - Why will people read this?  How does it stand out? On what grounds would you recommend it to someone? 
+* what to expect from this kind of hackathon, e.g. don’t expect production code
+detailed guidance about HOW to run this kind of event
+   * "If you want to do a hackathon, here is one way to do it, and what to expect".    
+* a commitment to open, transparent, respectful communication; with one major example the open call for participation and mandatory application process (no direct invites without review)
+* getting the balance right between community-driven and organizer-driven processes; organizers provide scope but not specific projects; organizers provide clear instructions to teams (e.g. tangible products, not simply discussions; scope projects to length of the events)
+* pre-event interactions: facilitated as brainstorming, not pre-empting what is going to happen at event; cautious about not letting people feel left out / outsiders before event even starts; not going to get pre-event engagement from everyone, so plan for this
+
+
+### Strawman draft
+* Scope
+   * anything we want to say about the 9 NESCent hackathons based on our experience and analysis of them (where "analysis" is not going to involve much further work).  
+* Purposes 
+   * document the NESCent model, 
+   * provide evidence of impact (useful for organizers to sell hackathons to sponsors)
+   * convey lessons learned from our experience
+   * lay a foundation for future research (including a data framework and our suggestions about research methods and questions).  
+* Conclusions
+   * NESCent hackathons produce tangible products (code, designs, etc) that have downstream impacts including
+      * material for communications (papers, posters) that disseminate news of hackathon outcomes to a wide audience (frequent)
+      * incremental additions of code and docs to production codebases that remain in use (frequent)
+      * draft designs, standards, or proofs-of-concept that contribute importantly to further work (occasional)
+      * working prototypes that lead to downstream investment (rare)
+   * NESCent hackathons seem to have intangible impacts on individuals, including
+      * providing valuable training experiences in coding, problem-solving and teamwork
+      * improving knowledge of best practices and available resources
+      * personal networking
+   * NESCent hackathons seem to build community by creating
+      * excitement and a common focus of attention
+      * cohesion and awareness in regard to best practices and grand challenges
+      * a web of operational links between resources that share data or services
+      * a web of personal connections based on shared experiences
 
 
 ## Hangout, 25 Feb 2015
