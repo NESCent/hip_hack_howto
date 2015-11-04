@@ -1,5 +1,52 @@
 # Meeting notes 
 
+## next scheduled Hangout, 18 Nov 2015
+
+## Hangout, 4 Nov 2015
+
+present: Karen, Rutger, Hilmar, Mike, Arlin
+
+### Action items
+* all: mark your calendars for Wed, Nov 18 at 10:00 am EST
+* all: use the tracker (https://waffle.io/arlin/hip_hack_howto)
+* Arlin: write up notes
+* Arlin: write up tickets
+* Arlin: put links into README 
+* Karen: talk to IRB
+* Mike: clean up public repo 
+
+### Agenda :
+* IRB update if necessary (Karen)
+* Decide on significance (see below)
+* Start planning how to get this study finished and submitted
+
+### Meeting notes: 
+No update on IRB.  
+
+There was broad agreement on the draft statements of significance (note that these are written in a conversational tone, not for print), with comments as follows
+
+* (1) Choosing among many styles of hackathons is difficult because of an absence of information on expected outcomes.  This paper stands out because we provide detailed instructions for one particular kind of hackathon, and we document the kinds of outcomes one can expect.
+* (2) Hackathons are often criticized for being closed and non-diverse.  If you are concerned about that, you should read this paper, because we explain how to maintain an open process and recruit diverse participants even when the target community is not diverse.
+   * note that we do not have a basis to make claims of cause and effect
+   * we know what worked in one community, it may not work in others 
+* (3) A common complaint is that hackathons mainly produce dead ends.  Do hackathons really advance software development?  We draw lessons from a series of 10 hackathons to argue that (1) tangible products are often dead ends, but rare winners can have big pay-offs, and (2) hackathons have many intangible outcomes with long-term impact in nurturing a community of practice.
+   * important to emphasize the connection between risk and failure. organizers ask people to take risks.  
+   * participants take risks in the service of doing something big. 
+* (4) How should a hackathon be scoped?  Based on a series of 10 hackathons, we show how success can depend on scoping, and we explain how to decide on a scope that allows freedom to participants while encouraging outcomes that address concerns of sponsors.
+
+We then proceeded to make a plan for proceeding.  The steps are 
+1.  Deep-dive into projects (Arlin #48).  The purpose is to get specific facts to back up our conclusions.  
+2.  IRB approval (Karen, issue #41).  Approval for including personal information. 
+3.  Venue decision (Aidan #21).  We still need to decide on where this will be published.  
+4.  Supplementary data package (Mike, Rutger). Blocked by IRB approval. Clean up the public repo (#50, Mike), and when IRB approval is obtained, add the non-demographic data from the private repo (#51, Rutger). 
+5.  Survey of related literature (Enrico #28).  Read the literature on hackathons and related participant-driven meetings.  Establish an understanding, and add that to the manuscript including citations to related literature.  
+6.  Massage the current material into a form that is complete and correctly formatted.  Blocked by  #21, #28, #48.
+
+Once we do that, we still need to 
+* decide on authorship 
+* carry out a final round of review, revision, polishing 
+* make a submission package with a cover letter, suggested reviewers, etc. 
+
 ## Hangout, 23 Oct 2015
 
 present: Karen, Enrico, Hilmar, Aidan, Arlin
