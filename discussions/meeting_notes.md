@@ -102,7 +102,6 @@ detailed guidance about HOW to run this kind of event
       * a web of operational links between resources that share data or services
       * a web of personal connections based on shared experiences
 
-
 ## Hangout, 25 Feb 2015
 
 present: Karen, Shannon, Arlin, Jonathan, Aidan, Mike, Rutger, Enrico
