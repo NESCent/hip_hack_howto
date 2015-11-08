@@ -28,7 +28,7 @@ anyone interested.
 
 * [issue tracker](https://waffle.io/arlin/hip_hack_howto) for this repository and for other project activities
 * [draft manuscript](https://docs.google.com/document/d/18kNROccM7ShyhJ6ncsBWLIi73tVjkXsCcYdR_pF6S04/edit#heading=h.h1aawnmoquu1). 
-* [concise guide](appendix_materials/concise_guide_to_NESCent_hackathon.tex) to planning and staging a NESCent-style hackathon
+* [concise guide](manuscript/appendix_materials/concise_guide_to_NESCent_hackathon.tex) to planning and staging a NESCent-style hackathon
 * [meeting notes](discussions/meeting_notes.md) in this repo
 
 ## Repo organization
