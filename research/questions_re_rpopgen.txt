@@ -1,0 +1,91 @@
+# R popgen hackathon 
+
+## Questions and issues 
+
+### Confirm team membership 
+
+Allan Strand (team lead)
+Michelle DePrenger-Levin
+Sean Hoban
+Eric Archer
+Libby Liggins
+Christian Parobek
+
+### before hackathon 
+
+participants noticed 
+* simulation tools in R weren't being used 
+   * R-metasim - generic individual-based engine, arbitrary life-history, arbitrary loci, no linkage, stepwise mutations, used for microsatellites 
+   * another one 
+   * other pop-gen simulators outside of R.  see Sean Hoban review.  
+* difficult to use 
+* build a soft front-end 
+
+### outcomes
+
+* identified use cases 
+   * building null distributions of pop summary statistics 
+   * power analysis 
+   * approximation using ABC
+* prioritized use cases - first 2 but not ABC
+   * forward 
+   * reverse-time coalescent - excoffier et al standalone C++ software 
+* developed outline of workflow and tasks 
+   * built front end to gather parameters 
+   * glue code 
+   * descriptive statistics of the output 
+   * graphics to summarize and display output
+* team organization with tasks
+* 3 new to github, only 1 person really facile with github 
+   * this explains the pattern of commits (the facile person did the commits, even for other people)
+   
+mostly talking during event, about prioritizes, schema, and so on.  Identifying tractable use-cases occupied a lot of time.  Coming up with an architecture and data structures (generic meta-level pop sim data structure, housing input data and analysis, outputs). 
+
+output was a toy example.  Proof-of-concept version.  
+
+MDL and EA - new relationship
+old relationships: AS - EA, AS - SH
+
+### subsequent work 
+
+* confirm group met 26 March 
+   * did the recurring meeting happen?  
+      * yes, biweekly hangouts for last 8 months, with a bit of downtime for fieldwork 
+   * what were the outcomes?  any impacts? 
+      * a lot of work on shiny interface 
+      * updates to stratag (strata-g) on CRAN (Archer)
+      * 
+* most of the work on skelesim has happened after the hackathon, which suggests people are using this. 
+   * What are they using it for?  
+      * not yet, not ready
+   * Are different users using it for different things? 
+      * no 
+   * are the analyses going to appear in publications?  
+      * manuscript in process, halfway between outline and first draft 
+   * is there package documentation? 
+      * no 
+   * is anyone outside the hackathon group using it? 
+      * no
+
+"we don't have a product". 
+
+maybe 14 meetings total
+
+manuscript for March issue of journal, to cover hackathon projects.  Emmanual Paradis pushed for this.  The prospect of publishing was a motivator for AS and team.  
+
+### nimbus 
+
+At hackathon, came up with idea to get NIMBUS funding for another week of work, a "short visit”.  SH was a NIMBUS post-doc and AS did a sabbatical there.  5 out of 6 attended except Parobek on fieldwork, worked for 4 days. 
+
+* rolled back, altered design 
+* coded  - glue code 
+* output, descriptive statistics 
+* front end, lot sof work, not done 
+
+### description 
+
+* what we have now is the original goals statement: "Create an R package that guides users through the workflow of implementing simulations in population genetics questions. Create accompanying documentation that outlines the questions that simulations can address and discusses issues relevant to choice of initial parameters, simulator type, execution, and summary metrics."
+
+### comment
+* this is an interesting project because the contributions kept coming and the distribution changed.  Initially @EricArcher was the top congributor, then later it was @smhoban, and the most recent changes were dominated by @MichelleDBG, who was not a major contributor to code initially.
+
