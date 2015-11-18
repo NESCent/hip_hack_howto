@@ -1,6 +1,30 @@
 # Meeting notes 
 
-## next scheduled Hangout, 18 Nov 2015
+## next scheduled Hangout, 2 Dec 2015
+
+## Hangout, 18 Nov 2015
+
+present: Karen, Rutger, Hilmar, Mike, Arlin, Aidan
+
+### resulting action items
+* all: mark your calendars for Wed, 22 Dec at 10:30 am EST
+* Arlin & Hilmar: transfer repo 
+* Enrico: hackathon literature analysis
+* Arlin: finish deep dive 
+ 
+### Reports, discussion and decisions
+* schedule next meeting - two weeks from today, half hour later
+* IRB update (Karen) - nothing to report 
+* Venue update (Aidan) 
+   * eLife, BMC not responded; F1000 and PeerJ more positive
+   * prefer PeerJ strongly over PeerJ comp sci (not in PubMed)
+   * some prefer post-publication review option at PeerJ
+   * vote was nearly unanimous: (1) F1000 post-pub review, (2) PeerJ. 
+* Deep dive update (Arlin)
+   * unlikely to complete some dives, will take a couple of weeks
+   * nice stories from event 9 (manuscript), 8 (rotl pkg), 4
+   * for event 9, EP (organizer) arranged for special issue of Molecular Ecology Resources, with manuscript submissions due 1 year after the hackathon.  The event 9 group was strongly motivated by this prospect. 
+   * question: could we offer instructions on how to do this?  yes. 
 
 ## Hangout, 4 Nov 2015
 
