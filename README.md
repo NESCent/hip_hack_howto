@@ -37,7 +37,7 @@ This is the main repository for our work. We also have a private repository of d
 of which will be released upon IRB approval. We welcome comments and suggestions from 
 anyone interested.  
 
-* [issue tracker](https://waffle.io/arlin/hip_hack_howto) for this repository and for other project activities
+* [issue tracker](https://waffle.io/nescent/hip_hack_howto) for this repository and for other project activities
 * [draft manuscript](https://docs.google.com/document/d/18kNROccM7ShyhJ6ncsBWLIi73tVjkXsCcYdR_pF6S04/edit#heading=h.h1aawnmoquu1). 
 * [concise guide](manuscript/appendix_materials/concise_guide_to_NESCent_hackathon.tex) to planning and staging a NESCent-style hackathon
 * [meeting notes](discussions/meeting_notes.md) in this repo
