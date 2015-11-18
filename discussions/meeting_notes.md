@@ -4,7 +4,7 @@
 
 ## Hangout, 18 Nov 2015
 
-present: Karen, Rutger, Hilmar, Mike, Arlin, Aidan
+present: Karen, Rutger, Hilmar, Enrico, Arlin, Aidan
 
 ### resulting action items
 * all: mark your calendars for Wed, 22 Dec at 10:30 am EST
