@@ -16,6 +16,10 @@ Process (keep outcomes & impacts in hand while doing this)
 
 ## Phylogeny inference on non-molecular characters (event 1, project 34)
 
+### status 
+
+not started.  can't figure out wehre to start. 
+
 ### pre-assessment
 Many phyloinformaticists are exclusively concerned with phylogenetic analysis based on analysis of sequence but an equally important, and vibrant, means of classification uses features or characters from developmental and morphological studies. One could argue further that these two seemingly distinct approaches will eventually unify, as we begin to understand the details of the relationship between gene and physical manifestation. 
 
@@ -23,10 +27,12 @@ The teams of this hackathon may be defined more by toolkits than by use-cases li
 
 ### research notes 
 
-### narrative and bullet points 
+### polished summary with key points
 
 
 ## Trait Evolution (event 2, project 27)
+### status 
+done
 ### pre-assessment
 Compare various implementations of the same methods (ape, geiger, OUCH, Mesquite): (1) Improve functionality of character fitting in R; (2) Identify gaps in current implementation
 
@@ -48,7 +54,6 @@ AH was running OUCH, LH was running geiger, GH was doing Mesquite
 
 used toy data sets on hand 
 
-
 team also working on something else.  LH and AH were trying to generate fossils and trees at the same time, and analyze them together.  LH and AH were mostly talking about that.  To do list was implemented.  That stuff all got done later.  Later, with Graham Slater, Luke organized a special issue on that.  Had a vague idea that GH was doing similar things.  Important realization.  Made me undertand GH's work better.  LH is sending link to introductory paper.  Way of thinking extends from discussions at the hackathon.  LH hadn't published anything on fossils previously, but later went on to edit a special issue on the topic (http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12091/abstract). His exposure to GH was critical to that.  
 
 previous strategy: just use optim, naive optimization. but putting it up against Mesquite and PAUP, programs that take optimization seriously, made me realize that my code should do the same.  new strategy: paranoia.  Now doing tests using hard problems with multiple optima.  
@@ -63,10 +68,26 @@ LH invited GH to department, he is speaking tomorrow.
 
 compared files before and after from https://cran.r-project.org/src/contrib/Archive/geiger/. 7 of the 20 code files were changed, and 6 of the 19 doc files.  
 
+### polished summary with key points
 
-### narrative and bullet points 
+This team began with the sense that different software implementations for computing likelihoods were not giving the same results.  They compared 4 different implementations (ape, geiger and OUCH in R, and an external application called Mesquite) for several kinds of tests.  Effort was divided by implementation.  Because one of the team members (LH) was the author of geiger, this led to improvements in the geiger package (7 of the 20 code files were changed, and 6 of the 19 documentation files).  A second team member (GH) also contributed code to geiger, and subsequently was listed as an author in the documentation for geiger (https://cran.r-project.org/web/packages/geiger/geiger.pdf).
+
+This project had several intangible impacts reported by LH.  From the comparison with other programs, some of which took optimization very seriously, LH realized that it was not sufficient for the geiger package to use simple built-in optimization routines.  Subsequently, LH spent more time on optimization and challenged the software with hard optimization problems.  During the hackathon, team members spent considerable time discussing a shared interest in integrating fossil data with phylogenies. These discussions did not lead to tangible results during the hackathon.  However, they led to a better awareness of the current state of the field based on expertise provided by GH.  A few years later LH edited a special issue on integrating fossil data with phylogenies, though he had not contributed to this area before the hackathon. 
+
+* comparative tests of 4 implementations 
+   * http://informatics.nescent.org/wiki/R_Hackathon_1/Trait_Evolution_SG.  
+* improvements to the geiger package 
+* priorities for improving geiger 
+   * white noise implemented subsequently, involved addition of GH to geiger project
+* awareness of the importance of custom optimization 
 
 ## Taxonomic Intelligence Subgroup (event 3, project 37)
+
+### status 
+no reply yet from key participant. 
+no reply yet from next participant. 
+One participant did not have much to report-- left the project and says that others did as well. 
+
 ### pre-assessment
 Syntax and protocols for resolving taxonomies.
 
@@ -74,9 +95,14 @@ Syntax and protocols for resolving taxonomies.
 
 have not established a contact yet.  possibly this group disbanded with one or two people remaining. 
 
-### narrative and bullet points 
+### polished summary with key points
 
 ## Integrating Ontologies (event 4, project 18)
+### status 
+one key participant difficult to coordinate
+second key participant contacted
+third key participant contacted 
+
 ### pre-assessment
 Resulting from three pitches (from Julie Thompson, John Wieczorek and Rutger Vos), this project identified as objectives to determine best practices for the building, maintenance and integration of ontologies in a community with rapidly emerging and changing requirements.  Team also included Brandon Chisham, Jim Case, Stan Blum, Peter Midford, and Rosemary Shrestha. 
 
@@ -93,9 +119,11 @@ The listed deliverables are (some no longer available)_:
 
 ### research notes 
 
-### narrative and bullet points 
+### polished summary with key points
 
 ## Galaxy + HyPhy (event 5, project 48)
+### status 
+first key participant contacted, no reply 
 ### pre-assessment
 Galaxy is both a workflow system and a means of persisting computational pipelines and results.  This group worked on improving Galaxy's ability to integrate interactive tools, using [http://hyphy.org HyPhy] as the prototype application.  The Galaxy and HyPhy code bases were modified to support this.
 
@@ -110,9 +138,13 @@ note that the hackathon took place in late 2010 so the GSOC project must have ha
 
 have not established a contact yet. 
 
-### narrative and bullet points 
+### polished summary with key points
 
 ## Tree Store (event 6, project 17)
+### status 
+first key participant contacted, no reply 
+second key participant contacted
+
 ### pre-assessment
 Objectives are to create a store of trees, based on RDF - triple store, that supports depositing and retrieving of trees, include retrieval of metadata and including returning pruned trees
 
@@ -134,9 +166,13 @@ see list of outcomes on the phylotastic table.
 
 have not established a contact yet. 
 
-### narrative and bullet points 
+### polished summary with key points
 
 ## Phylogeotastic (event 7, project 4)
+### status 
+first key participant contacted, too busy
+second key participant contacted, due to talk next Tuesday 11:00 am EST
+
 ### pre-assessment
 Phylogeotastic is a front-end client that enables easy geospatial queries to Phylotastic. It allows the user to specify a geographic region and retrieve the tree of life for the organisms that inhabit that part of the globe. The client links Phylotastic to several clearinghouses for species occurrence data, including GBIF (through the Lampyr app) and iNaturalist.
 
@@ -148,15 +184,18 @@ The only other resources I know about are here: http://www.evoio.org/wiki/Phylot
 
 I think this project will be a good opportunity to explore the things that people do other than coding, because most of the team members were not committing code to the repo.   Were they working on design or user-testing?  Documentation?  Were some of the people learning rather than contributing (which is OK for NESCent hackathons)?  The daily log indicates that Ignacio was integrating redlist data on Wednesday.    
 
-However, phylogeotastic was cited as a use-case in our Phylotastic grant proposal.  That’s an example that I know about, but there may be others that I don’t know about. 
+A tangible downstream outcome and impact is that phylogeotastic was cited as a use-case in our Phylotastic grant proposal, and the proposal succeeded.  
 
 ### research notes 
 
 Conversation with JA planned for end of November. 
 
-### narrative and bullet points 
+### polished summary with key points
 
 ## Library wrappers for OT APIs (event 8, project 8)
+### status 
+completed
+
 ### pre-assessment
 Goal was to develop client libraries for the Open Tree of Life RESTful API, in at least the languages R, Python and Ruby. Starting from the RESTful API itself, which was considered Level 0, the goal was to develop client functionality such that language-native primitives can be passed and received (Level 1) before attempting object wrappers (Level 2).
 
@@ -174,11 +213,62 @@ Other impacts and outcomes are unclear.  For instance, Scott Chamberlain made a 
 
 ### research notes 
 
-conversation with FM planned for Thursday, November 19
+Video chat with FM, Thursday, November 19, 2015
+* mentioned to ropensci 
+* proposed issue on github 
+* Karen suggested at hackathon group to work on wrapping APIs
+* day 1, group together designed shared api tests, form of wrapper functions
+* used inputs in API documentation for test
+* in phylobase, Mark Holder et al's code to parse newick strings, via interface to NCL
+* made it into a standalone package 
+* parsing matches, use of context 
+* DW worked on code to parse unit test routines in json
+* documentation 
+* JS worked on code to parse unit tests, karolis worked on wrappers 
+* FM knew (electronically) MY, didn't know JU, DW or KR
 
-### narrative and bullet points 
+* intangibles 
+   * first serious work with an API
+   * people were responsive and reactive, 
+* first hackathon attended 
+* awareness
+   * problem of parsing Newick
+   
+After hackathon 
+* repo transferred to ropensci 
+* most of work is by FM 
+* added a few functions, testing, writing docs 
+* most of the functionality was done at hackathon
+* DW, JU and FM are authors.  
+
+### polished summary with key points
+
+The 2014 TreeForAll hackathon was centered on the first public release of OpenTree's API.  The "Library wrappers for OpenTree API" group focused on developing wrappers so that the API could be invoked natively from Ruby, Python and R. On the first work day, the team worked as a whole to design wrappers, and also to design a common test system, creating 4 separate repositories.  All of the team members contributed to the shared test repository; there were separate sub-teams for Ruby (1 programmer), Python (3 programmers) and R (3 programmers).  Each subteam worked on designing wrappers for the OpenTree API, interfacing with the test scheme, and creating documentation.  
+
+After the event, the 3 R programmers (who had not worked together previously) decided to expand their rotl (R OpenTree Library) project into a well documented R package.  The basic functionality was established at the hackathon, but much more work was needed to test and refine the functions, and to create documentation.  The github repository indicates that the vast majority of commits took place after the hackathon.  The rotl package became part of the ropensci project, and the 3 authors wrote and submitted a manuscript, currently in review.  The publicly archived version generated comments soon after it was posted. 
+
+* wrapper design for 20 types of API calls 
+   * https://docs.google.com/document/d/1OUS1-AtP6Ub6lGl87Ge_-06AdpnwLBF9Px2Che5l6aA/edit
+* implementations in R, Python and Ruby
+   * https://github.com/ropensci/rotl
+   * https://github.com/OpenTreeOfLife/pyopentree
+   * https://github.com/SpeciesFileGroup/bark
+* design for shared API testing  
+   * https://github.com/OpenTreeOfLife/shared-api-tests/blob/master/README.md
+* concrete inputs and outputs for 27 tests
+   * https://github.com/OpenTreeOfLife/shared-api-tests
+* new 3-way collaboration in R sub-team leading to 
+   * completed package with documentation 
+      * https://cran.rstudio.com/web/packages/rotl/
+   * manuscript submitted for publication
+      * https://github.com/fmichonneau/rotl-ms (auto-generate manuscript)
+      * https://peerj.com/preprints/1471v1 (PeerJ archived version)
 
 ## Integrating simulation with popgen analysis (event 9, project 52)
+
+### status 
+
+completed
 
 ### pre-assessment
 
@@ -187,6 +277,8 @@ what we have now is the original goals statement: "Create an R package that guid
 This is an interesting project because the contributions kept coming and the distribution of effort changed.  Initially EA was the top congributor, then later it was SH, and the most recent changes were dominated by MDPL, who was not a major contributor to code initially.
 
 ### research notes 
+
+Video chat with AS, Monday, Nov 16, 2015
 
 #### overview of team 
 * Confirm team membership - yes
@@ -253,16 +345,19 @@ At hackathon, came up with idea to get NIMBUS funding for another week of work, 
 * output, descriptive statistics 
 * front end, lot of work, not done 
 
-### narrative and bullet points 
+### polished summary with key points
 
-The pitch for this team was based on the sense that R (and other packages) had powerful tools for population simulation (e.g., R-metasim) that were not being used by empirical population geneticists, due to steep learning curves.  The challenge was to wrap multiple simulation packages in a more user-friendly interface.  This challenge involved (1) developing a generic workflow to cover multiple use-cases, (2) presenting inputs, choices, and outputs to the user in a simplified graphical interface, and (3) adapting the front end to input and output of multiple simulation engines.  The group spent most of their time on a high-level design (aspects of which are on the project wiki https://github.com/christianparobek/skeleSim/wiki), and a proof-of-concept implementation (code on github).  
+The pitch for this team was based on the sense that R (and other packages) had powerful tools for population simulation (e.g., R-metasim) that were not being used by empirical population geneticists, due to steep learning curves.  The challenge was to wrap multiple simulation packages in a more user-friendly interface.  This challenge involved (1) developing a generic workflow to cover multiple use-cases, (2) presenting inputs, choices, and outputs to the user in a simplified graphical interface, and (3) adapting the front end to input and output of multiple simulation engines.  The group spent most of their time on a high-level design (aspects of which are on the project wiki), and a proof-of-concept implementation (code on github).  
 
 The initial challenge was far larger than the team could accomplish during a week-long hackathon.  However, the team remained interested, and successfully sought funding to continue their work at a 4-day face-to-face meeting that took place several months later.  They developed a collaboration that has lasted for 8 months with (approximately) bi-weekly meetings that involve all members of the original group (some of the meeting notes are on the github wiki). As a result of this ongoing interest, the vast majority of the github commits occurred in the 8 months after the hackathon.  All 6 team members have committed code to github, and 5 of them have made substantial numbers of commits. 
 
-* design with UI, workflow scheme, and glue code to connect to simulation engines
-* proof-of-concept based on design 
+* design with UI, workflow scheme, and connection to simulation engines
+   * https://github.com/christianparobek/skeleSim/wiki/skeleSim-Outline
+* proof-of-concept implementation based on design 
+   * https://github.com/christianparobek/skeleSim
 * proposal for funding future work
-* second face-to-face meeting with 5 out of 6 team members based on funding secured by team
+* second face-to-face meeting with 5 out of 6 team members 
 * collaboration entailing ~14 meetings of team over subsequent 8 months
+   * partly documented on the wiki https://github.com/christianparobek/skeleSim/wiki
 * a plan to submit a manuscript, with a manuscript outline
  
