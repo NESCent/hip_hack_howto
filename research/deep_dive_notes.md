@@ -33,6 +33,7 @@ The teams of this hackathon may be defined more by toolkits than by use-cases li
 ## Trait Evolution (event 2, project 27)
 ### status 
 done
+
 ### pre-assessment
 Compare various implementations of the same methods (ape, geiger, OUCH, Mesquite): (1) Improve functionality of character fitting in R; (2) Identify gaps in current implementation
 
@@ -44,29 +45,28 @@ For instance, geiger was improved to transform non-ultrametric trees, and possib
 
 https://cran.r-project.org/web/packages/geiger/index.html
 
+compared files before and after from https://cran.r-project.org/src/contrib/Archive/geiger/. 7 of the 20 code files were changed, and 6 of the 19 doc files.  
+
 ### research notes 
+Personal communication (videochat) from Luke Harmon, November 19, 2015
 
-pitch.  nobody knew what was right.  different implementations of same thing.  
+Pitch based on sense that different implementations of same thing give different results, and no one knows what is right.  
 
-yes alfaro, but was mostly with another group.  
+AH was running OUCH, LH was running geiger, GH was doing Mesquite.  MA was there, but was mostly with another group.  
 
-AH was running OUCH, LH was running geiger, GH was doing Mesquite 
+They used toy data sets on hand.
 
-used toy data sets on hand 
+Team also working on something else.  LH and AH were trying to generate fossils and trees at the same time, and analyze them together.  LH and AH were mostly talking about that.  To do list was implemented.  That stuff all got done later.  Later, with Graham Slater, Luke organized a special issue on that.  Had a vague idea that GH was doing similar things.  Important realization.  Made me undertand GH's work better.  LH is sending link to introductory paper.  Way of thinking extends from discussions at the hackathon.  LH hadn't published anything on fossils previously, but later went on to edit a special issue on the topic (http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12091/abstract). His exposure to GH was critical to that.  
 
-team also working on something else.  LH and AH were trying to generate fossils and trees at the same time, and analyze them together.  LH and AH were mostly talking about that.  To do list was implemented.  That stuff all got done later.  Later, with Graham Slater, Luke organized a special issue on that.  Had a vague idea that GH was doing similar things.  Important realization.  Made me undertand GH's work better.  LH is sending link to introductory paper.  Way of thinking extends from discussions at the hackathon.  LH hadn't published anything on fossils previously, but later went on to edit a special issue on the topic (http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12091/abstract). His exposure to GH was critical to that.  
+Previous geiger strategy: just use optim, naive optimization. but putting it up against Mesquite and PAUP, programs that take optimization seriously, made me realize that my code should do the same.  new strategy: paranoia.  Now doing tests using hard problems with multiple optima.  
 
-previous strategy: just use optim, naive optimization. but putting it up against Mesquite and PAUP, programs that take optimization seriously, made me realize that my code should do the same.  new strategy: paranoia.  Now doing tests using hard problems with multiple optima.  
-
-new collaboration: AH ended up on 2011 paper on method Eastman, et al.  
+New collaboration: AH ended up with LH on 2011 paper (Eastman, et al.) on method
 
 GH gave LH his white noise code and LH tied it in after the hackathon.  
 
 Hackathon brought GH into the geiger group, and he is listed as developer of package.  https://cran.r-project.org/web/packages/geiger/geiger.pdf
 
 LH invited GH to department, he is speaking tomorrow. 
-
-compared files before and after from https://cran.r-project.org/src/contrib/Archive/geiger/. 7 of the 20 code files were changed, and 6 of the 19 doc files.  
 
 ### polished summary with key points
 
@@ -84,9 +84,9 @@ This project had several intangible impacts reported by LH.  From the comparison
 ## Taxonomic Intelligence Subgroup (event 3, project 37)
 
 ### status 
-no reply yet from key participant. 
-no reply yet from next participant. 
-One participant did not have much to report-- left the project and says that others did as well. 
+reply from key participant WP. 
+
+One participant did not have much to report-- "While my subgroup didn't produce much in terms of tangible products, it was my introduction to hackathons, and I think played an important role in getting me to where I am now in this group. This includes an introduction to many people in this community, a better understanding of interoperability issues, and a introduction to the NESCent hackathon model." (KC)
 
 ### pre-assessment
 Syntax and protocols for resolving taxonomies.
@@ -99,9 +99,9 @@ have not established a contact yet.  possibly this group disbanded with one or t
 
 ## Integrating Ontologies (event 4, project 18)
 ### status 
-one key participant difficult to coordinate
-second key participant contacted
-third key participant contacted 
+* check resources
+* add resources
+* polished summary
 
 ### pre-assessment
 Resulting from three pitches (from Julie Thompson, John Wieczorek and Rutger Vos), this project identified as objectives to determine best practices for the building, maintenance and integration of ontologies in a community with rapidly emerging and changing requirements.  Team also included Brandon Chisham, Jim Case, Stan Blum, Peter Midford, and Rosemary Shrestha. 
@@ -110,16 +110,50 @@ The project description is very straightforwardL http://www.evoio.org/wiki/Integ
 
 This group seems to have made the most of a weak connection in interests. They all had different interests in ontology, but they took on very concrete problems in this area. 
 
-The listed deliverables are (some no longer available)_: 
-* An XSLT stylesheet that transforms NeXML to CDAO, updated to handle character state matrices. Produced output validates against W3C RDF validator. This style sheet is in current use for the creation of TreeBASE RDF/XML output.
-* An example NeXML instance document of semantically annotated OTUs. This file is part of a growing collection of canonical NeXML example files.
-* A CDAO RDF/XML translation of the NeXML instance document. This file is part of a growing collection of canonical NeXML example files.
-* An adaptor ontology that aligns CDAO with DarwinCore
-* An ontology for occurrence instance data. This file is a one-off example.
+The listed deliverables are (some no longer available): 
+* An XSLT stylesheet that transforms NeXML to CDAO, updated to handle character state matrices. Produced output validates against W3C RDF validator. This style sheet is in current use for the creation of TreeBASE RDF/XML output.  http://nexml.svn.sourceforge.net/svnroot/nexml/trunk/nexml/xslt/nexml2cdao.xsl
+* An example NeXML instance document of semantically annotated OTUs. This file is part of a growing collection of canonical NeXML example files.  https://github.com/nexml/nexml/blob/master/examples/translations/tdwg09.xml
+* A CDAO RDF/XML translation of the NeXML instance document. This file is part of a growing collection of canonical NeXML example files.   https://github.com/nexml/nexml/blob/master/examples/translations/tdwg09.rdf
+* An adaptor ontology that aligns CDAO with DarwinCore (Brandon's file, this has gone missing).  
+* An ontology for occurrence instance data. This file is a one-off example.  http://www.evoio.org/wg/evoio/images/8/87/Tucos.owl
 
 ### research notes 
+This is from Rutger Vos and Arlin Stoltzfus. 
+
+Some of the project resources have moved because NeXML went from sourceforge to github. For example, the translation files (named tdwg09.*) are now here: 
+
+ https://github.com/nexml/nexml/tree/master/examples/translations
+
+The work that JW (whose handle is Tucos) did is still live: 
+
+ http://www.evoio.org/wg/evoio/images/8/87/Tucos.owl 
+ 
+However BC's work has disappeared.  AS contacted BC and file is not readily available. 
+
+The group was somewhat heterogeneous. They worked in small clumps, rather than as a whole group.  This is evidence for the rule that a team over 7 (this team had 8) tends to fragment.  However, the room layout at this event was poor, with seating and tables in rows that made a large group especially difficult.  
+
+The focus on reasoning over data using multiple ontologies is apparent from the use-case descriptions, which are aspirational.  The group never got that far.  Instead the mostly got pieces.  
+
+XSLT translation still used in TreeBASE. Character data were integrated using existing CDAO concepts. 
+
+Examples are in NeXML archive on github.  AS checked all the links.   
+
+An unrelated recollection from the event.  RH (taxonomic information systems expert) was at the event.  RV started discussion, just wanted to get a way to link to taxon, but the discussion got bogged down in complexity very quickly (taxon vs. taxon concept and all that). 
 
 ### polished summary with key points
+
+The common focus of the "Integrating Ontologies" group (project 18) at the Vocamp was reasoning over data using multiple ontologies.  The focus was not to use ontology integration to solve some problem. The group wanted to "identify recommendations and best practices for managing the proliferation of ontologies over recent years in particular from the perspective of promoting interoperability."  Their approach was to develop a practical understanding of the challenges by going through some exercises of integrating ontologies and reasoning over instance data.  
+
+This unusually large group (8 people) was somewhat heterogeneous, working in small clumps, rather than as a whole group.  Some of the actual products were not closely guided by a set of use-cases the group developed.  However, they all shared a theme of integrating 2 or more formalisms. Products included: 
+* An XSLT stylesheet that transforms NeXML to CDAO, updated to handle character state matrices, and which passes the W3C RDF validator. 
+* An example NeXML instance document of semantically annotated OTUs. 
+* A CDAO RDF/XML translation of the NeXML instance document. 
+* An ontology for occurrence instance data. This file is a one-off example.
+* An adaptor ontology that aligns CDAO with DarwinCore
+
+The NeXML files are still used as examples in the NeXML repository on github.  The XSLT translation tool was put to use for the creation of TreeBASE RDF-XML output, and continues to be used in the production system as of December, 2015.  Note that this tool was developed initially at a previous hackathon, and that the desire to expand its capacity clearly overlapped with the goals of TreeBASE. 
+
+Consistent with its stated purpose, the group drew conclusions in its final report (http://www.evoio.org/wiki/Integrating_Ontologies).  For instance, one of the recommendations was that "data integration is most easily achieved by developing small adaptor ontologies" rather than attempting to merge large artefacts.  
 
 ## Galaxy + HyPhy (event 5, project 48)
 ### status 
@@ -142,8 +176,7 @@ have not established a contact yet.
 
 ## Tree Store (event 6, project 17)
 ### status 
-first key participant contacted, no reply 
-second key participant contacted
+Done
 
 ### pre-assessment
 Objectives are to create a store of trees, based on RDF - triple store, that supports depositing and retrieving of trees, include retrieval of metadata and including returning pruned trees
@@ -159,14 +192,46 @@ Once the event started, the group decided to implement a triple-store using RDF 
 see list of outcomes on the phylotastic table.  
 * New release of CDAO ontology adopting OBO conventions	code (http://svn.code.sf.net/p/obo/svn/ontologies/trunk/CDAO/cdao.owl) 
 * SADI web service that returns subtree from NCBI taxonomy (repository	https://github.com/balhoff/phylotastic-sadi)
-* Perl ingestor of Newick trees/TNRS connection (probably Hilmar)
+* Perl ingestor of Newick trees/TNRS connection 
 * PhyloWS REST wrapper around tree store (probably Mark)
 
 ### research notes 
+Arlin Stoltzfus and Hilmar Lapp
 
-have not established a contact yet. 
+Karen's github repo should be listed as the main repo for this group. 
+
+There is a product labeled TNRS (treestore) in the wiki that belongs to this group.  This is an RDF model and ontology for TNRS requests.  
+
+JB sets up virtuoso (he is the one that knew the most about triplestore technology). 
+Sample tree converted to RDF (EP). 
+HL made RDF representation of TNRS report. 
+
+Actually importing the tree into Virtuoso was painful.  They wanted to work with a practical case of a big tree, but bulk import options were limited.  This is why a turtle was done in addition to the RDF XML.  This is why they ended up using smaller trees. 
+
+The group was a little scattered, and didn't feel very productive. There was not a working product at the end, but rather a whole bunch of pieces.  They didn't get all the glue to make it work together.  However, there were signifiant long-term impacts. 
+* JB converting CDAO to using OBO-style identifiers. allowed it to be under purl OBO identifier system
+* we created a bunch of data models for treestore and tnrs matches.  informed the subsequent project by BM, hired as a student to take up this project. eventually became phylocommons, working prototype of a treestore.  
+* also learning project on triplestores and sparql.  JB had the most prior experience, was already committed to using this for phenoscape.  But technology was not ready for this.  difficult to set up and configure.  major limitations to input of large objects. 
+* HL recalls that JS was there. Changes to dendropy are not noted in the wiki, however, AS finds extensive changes to dendropy. 
+
+### changes to data 
+
+done
+* make the google doc the team report (not great, but better than wiki)
+* add Karen's repo
+* swap Karen's repo with SADI as "main" repo product
+* add tnrs encoding as product of this group
+* add phylocommons
 
 ### polished summary with key points
+
+Pre-event discussions established the need for a database of phylogenies with a web-services interface, to interact with other phylotastic components.  Prior to the hackathon, one participant developed a proof-of-concept treestore based on SADI (product  126).  However, the "TreeStore" group that emerged did not build on this, nor did it use any existing schema for a database of trees (several were available).  Instead, they were interested in exploring the potential of building an entirely new kind of database using a triple-store, where the form of the data and any queries must be specified in the terms of a formal ontology.  This approach built on previous work by some members of the group on CDAO (an ontology), and NeXML (a file format that can integrate ontology terms), both developed with some NESCent support.  
+
+The group faced many difficulties and ultimately ended up with pieces, including a prototype with less than the full capacity they had sought.  However, the group's activities resulted in various tangible and intangible outcomes, some with long-term impacts.  The participants set out to learn an unfamiliar technology, and managed to set up a triplestore, populate it with toy instance data, and build a web-services interface (product 17).  A crude tool was built to encode input trees using the ontology.  A new version of the ontology (CDAO) was released with an improvement (the use of OBO naming conventions; product 125) that substantially increased its interoperability.  A separate ontology was built to support reasoning on taxonomic name-matching reports (product 131).  
+ 
+Although the documentation does not indicate it, one of the team members spent most of his time on building support for NeXML metadata (annotation) encodings in the DendroPy package. Github records indicate that this participant (XX) made 73 commits comprising over 5000 new lines of code (11,736 additions and 6380 subtractions), and this was part of a hackathon-associated spike in activity (beginning 2 weeks before the hackathon and lasting 5 weeks after) comprising 238 commits and over 20000 lines of code (32459 additions and 10522 subtractions from May 18 to July 15, 2012). 
+
+Based on the initial prototype, one of the participants hired a student, who subsequently attended the second phylotastic hackathon, and then built Phylocommons, a prototype community database where users can submit trees. 
 
 ## Phylogeotastic (event 7, project 4)
 ### status 
@@ -213,7 +278,8 @@ Other impacts and outcomes are unclear.  For instance, Scott Chamberlain made a 
 
 ### research notes 
 
-Video chat with FM, Thursday, November 19, 2015
+Personal communication (videochat) with Francois Michonneau, Thursday, November 19, 2015
+
 * mentioned to ropensci 
 * proposed issue on github 
 * Karen suggested at hackathon group to work on wrapping APIs
@@ -263,7 +329,8 @@ After the event, the 3 R programmers (who had not worked together previously) de
    * manuscript submitted for publication
       * https://github.com/fmichonneau/rotl-ms (auto-generate manuscript)
       * https://peerj.com/preprints/1471v1 (PeerJ archived version)
-
+* impact
+   * package used in [[Brandvain, 2015 #5346]], authors acknowledged, doesn't name "rotl" unfortunately, which shows the difficulty of such things.  
 ## Integrating simulation with popgen analysis (event 9, project 52)
 
 ### status 
@@ -278,7 +345,7 @@ This is an interesting project because the contributions kept coming and the dis
 
 ### research notes 
 
-Video chat with AS, Monday, Nov 16, 2015
+Personal communication (video chat) from Allan Strand, Monday, Nov 16, 2015
 
 #### overview of team 
 * Confirm team membership - yes
