@@ -38,10 +38,15 @@ This project had several intangible impacts reported by LH.  From the comparison
 ### Status 
 About ready to give up trying to schedule time with key participant WP. 
 
+### Pre-assessment 
+
+There is almost no information about this.  
+
 Karen: "While my subgroup didn't produce much in terms of tangible products, it was my introduction to hackathons, and I think played an important role in getting me to where I am now in this group. This includes an introduction to many people in this community, a better understanding of interoperability issues, and a introduction to the NESCent hackathon model." 
 
-### Polished summary with key points
-The "Taxonomic Intelligence Subgroup" (project 37) left almost no trail of information, and possibly involved only 2 people, with others leaving to join different teams.  
+NEAD has the following item that refers to the group, but its about PhyloWS for TreeBASE rather than "syntax and protocols for resolving taxonomy": 
+
+A new flavor of PhyloWS to return TreeBASE objects in NeXML.  Piel, W., Cranston, K., Kosnik, M., & Seltmann, K. (2009). A new flavor of PhyloWS to return TreeBASE objects in NeXML. NESCent Hackathon on Evolutionary Database Interoperability, Taxonomic Intelligence Subgroup. 9-13 March, 2009, Durham, NC.
 
 ## Integrating Ontologies (event 4, project 18)
 ### Status 
