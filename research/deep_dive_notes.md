@@ -18,17 +18,40 @@
 
 ### Status 
 
-Not started.  Can't figure out wehre to start, due to insufficient information. 
+almost no progress.   to do: 
+* read paper, see what clues are there 
+* ask Rutger 
 
 ### Pre-assessment
 
 The blurb: "Many phyloinformaticists are exclusively concerned with phylogenetic analysis based on analysis of sequence but an equally important, and vibrant, means of classification uses features or characters from developmental and morphological studies. One could argue further that these two seemingly distinct approaches will eventually unify, as we begin to understand the details of the relationship between gene and physical manifestation."
 
-The teams of this hackathon may have been defined more by toolkits than by use-cases like this.    
+The teams of this hackathon may have been defined more by toolkits than by use-cases like this. 
+
+According to event documents, the BioPerl package was enhanced with interoperability between Bio::Phylo and BioPerl APIs, and the BioRuby package was enhanced with a NEXUS-compliant data model and parser for PAUP and TNT results.  No further information is readily available.  
 
 ### Research notes 
 
+contacted Toshiaki Katayama, waiting for reply
+
+Notes on Lapp, et al 2007 
+* they refer to "inference of a phylogeny and support values using non-molecular characters" as item 4 in the list of 6 priorities on p. 5 
+* note that the hackathon had two cross-cutting organizational themes: toolkits and use-cases.  surely some of the teams were toolkit-based. 
+* Table 1 has the following entries under "Phylogeny inference on non-molecular characters":
+   * BioPerl: Interoperability between Bio::Phylo and BioPerl APIs 
+   * BioRuby: NEXUS-compliant data model and parser for PAUP* and TNT results
+
+Rutger says, in regard to the wiki material and table 1 of the paper: 
+
+"I recall a little. As you can see in the table, this activity also included bioruby people (Katayama and Goto), and in the commit history of bioruby you can see that during that hackathon they implemented some very fundamental object types to support phylogenetics at all (which they didn't before), i.e. trees and a newick parser. 
+
+In addition, I know that I implemented the interfaces that bioperl uses for trees (TreeI and NodeI) and character state matrices (AlignI), though I can't reconstruct whether I did that exactly at the hackathon. I may have, but I didn't retain the commit history when I moved to github in 2011. The article about the hackathon says I have.
+
+I have a vague recollection that the bioperl people worked on allowing non-molecular character data, and some way of linking tips in trees to rows in character matrices by overloading the annotation system."
+
 ### Polished summary with key points
+
+The "Phylogeny inference on non-molecular characters" activity (project 34) focused on enhancing existing libraries with methods that use data on morphological and other non-molecular features.  
 
 ## Trait Evolution (event 2, project 27)
 ### Status 
@@ -91,9 +114,25 @@ Karen: "While my subgroup didn't produce much in terms of tangible products, it 
 ### Pre-assessment
 Syntax and protocols for resolving taxonomies.
 
+https://github.com/NESCent/dbhack1/tree/master/taxonIntel 
+
 ### Research notes 
 
+NEAD has an item on this: 
+
+A new flavor of PhyloWS to return TreeBASE objects in NeXML.  Piel, W., Cranston, K., Kosnik, M., & Seltmann, K. (2009). A new flavor of PhyloWS to return TreeBASE objects in NeXML. NESCent Hackathon on Evolutionary Database Interoperability, Taxonomic Intelligence Subgroup. 9-13 March, 2009, Durham, NC.
+
+WP says "I’m thinking that I wrote a web service for TreeBASE trees (i.e. with PhyloWS syntax) and a way of interfacing with uBIo to provide “taxonomic intelligence” on the query terms (e.g. parsing query terms, looking up synonyms, etc) and returning the trees."
+
+AS: Was that the first implementation of a web-services interface for TreeBASE?  If this was a new or augmented feature of a production system, that is important to note (because most hackathon outcomes do not go into production systems like TreeBASE, but into demo code or libraries). 
+
+BP: I think it was more of a “proof of concept” in the sense that at that time TreeBASE was in the middle of being retooled from an application in 4th Dimension to a Java-based (Spring/Hibernate) Model-View-Controller design. What was hacked-up at the hackathon was in Perl / PHP / SOAP-RestFul XML, etc. Ultimately, the new deployment of TreeBASE used the same PhyloWS specification and the same real-time interaction with uBio web services (which now we probably regret, seeing as uBio is on life-support and hasn’t been updated in a decade). But the upshot is better to view this hackathon activity as a playpen for testing some key use-cases in database interoperability, but that ultimately this was all rewritten in Java for TreeBASE.
+
 ### Polished summary with key points
+
+The "Taxonomic Intelligence Subgroup" (project 37) left little trail of information on its activities.  The group seemed to have dissolved, with most initial supporters of the pitch leaving to join different teams, and one person remaining to work on the proposed topic.  A design for phylogeny web services called "PhyloWS" had been suggested at a previous hackathon.  The programmer implemented a design based on PhyloWS to return objects from TreeBASE, an open archive serving the phylogeny community.  Results of queries were returned using the NeXML format (developed partly through NESCent support, which provided early adopters).  The "taxonomic intelligence" referred to using uBio (a taxonomy web service now defunct) to provide information on parsing and synonyms of species names. 
+
+Although TreeBASE is production software, this implementation was more of a proof of concept and a learning exercise (partly because TreeBASE was in the process of a major translation).  However, when a web-services API was re-implemented into the production version of TreeBASE, it used the same API design and the same integration with uBio.  Thus, this is a case in which a hackathon product is the basis for a subsequent reimplementation. 
 
 ## Integrating Ontologies (event 4, project 18)
 ### Status 
@@ -156,6 +195,7 @@ Consistent with its stated purpose, the group drew conclusions in its final repo
 ## Galaxy + HyPhy (event 5, project 48)
 ### Status 
 first key participant contacted, no reply 
+
 ### Pre-assessment
 Galaxy is both a workflow system and a means of persisting computational pipelines and results.  This group worked on improving Galaxy's ability to integrate interactive tools, using [http://hyphy.org HyPhy] as the prototype application.  The Galaxy and HyPhy code bases were modified to support this.
 
@@ -171,6 +211,8 @@ note that the hackathon took place in late 2010 so the GSOC project must have ha
 have not established a contact yet. 
 
 ### Polished summary with key points
+
+The "Galaxy + HyPhy" team (project 48) focused on integrating HyPhy, a toolbox for specifying and computing likelihood models, into Galaxy, a generalized workbench for genomic and other data.  The original web site for the project has disappeared, and little information is available.  
 
 ## Tree Store (event 6, project 17)
 ### Status 
@@ -251,9 +293,45 @@ A tangible downstream outcome and impact is that phylogeotastic was cited as a u
 
 ### Research notes 
 
-Conversation with JA planned for end of November. 
+I found a folder with quite a lot of project information 
+* https://drive.google.com/folderview?id=0B13rD3JLvlRAMXFDTDR3UkNjVVE&usp=drive_web&ddrp=1#list
+
+Conversation with Brian Sidlauskas, December 21, 2015.
+* suggested title: Hackathons produce more than code
+* Inspiration for PGtastic: educational conception, broader impacts.  low-hanging fruit because geographic info is easy to get.  wanted to get something that looked sale-able
+* Ignacio was learning lot.  He had experience with iNat.  Contacted iNat
+* Mike started with Daisy on Mesquite and phylostylotastic.  
+* Julie was doing coding with Greg, and this shows up in early commits.  But Greg did the most.  
+* Brian: vision, icon design
+* Megan: logo design, front-end stuff 
+* Mercedes did the screencast.  
+* demo had choice of mammals, birds, microorganisms or plants.  See map, select region, search resource, send to phylotastic.  Had trouble displaying phylogeny. 
+* at the end, we were close but not complete. Frustrated at difficulty of working with other teams-- they weren't stable in how they were giving us back a tree.  
+
+to do:
+* ask Greg about capability of final version.  
+* confirm that Julie and Greg wrote a GSOC proposal: see folder, same folder as doc.  Was this a follow-on product? 
+* add GSOC proposal to products as needed
+* add screencast to products https://www.dropbox.com/s/9vassi2lby3laen/PhyloGeotastic%20Screen%20Recording.mov?dl=0
+* screencast script: in google drive folder.  
+
+### to do
+to do:
+
+done: 
+* contacted Greg & Julie about proposal
+* changed inadequate scope-or-work link to better gdoc:  https://docs.google.com/document/d/1ULGL4s8T3YBRk15a-MMVAOvMGsOKeKjMpYnALp1CWHI/edit
+* add GSOC proposal to products as needed: https://docs.google.com/document/d/156uPz3u5yVCiunf9vR2VKoLgKNrHyK0k_4-Q-_IHtBw
+* add screencast to products (can't find, old link doesn't work)
+
 
 ### Polished summary with key points
+
+PhyloGeotastic is a web application that enables easy geospatial queries to Phylotastic services. The idea is to allow the user to specify a geographic region and retrieve the phylogeny for the organisms that occur in that region.  The occurrence data come from services providing access to mature resources including GBIF (through the Lampyr app) and iNaturalist.  Phylogeotastic went all the way from idea to somewhat incomplete demonstration installation at the hackathon, and subsequent work (mainly by one participant) made it more complete.  Part of the problem was the need to coordinate with services provided by other hackathon teams, when these services were unstable (in turn, this problem could be attributed to the problematic scope of the second PhyloTastic hackathon: see Discussion). 
+
+A considerable amount of time went into things other than coding (which was mostly the work of one person). The team wanted a demo product with a sale-able look, so they spent considerable time on front-end design, including an interface with separate choices for educators and researchers, custom icons, consistent styling, and about 1000 words of help text explaining what the tool does and how it works.  Two of the team members were relatively inexperienced and were mainly learning rather than contributing, although one of them helped to establish connections to outside resources, and another developed a screencast demonstrating the final product.  
+
+The hackathon project contributed to two downstream outcomes.  PhyloGeotastic was mentioned as a development target in a successful NSF grant proposal (event product XX), and formed the basis for a Google Summer-of-Code proposal that was not funded.  
 
 ## Library wrappers for OT APIs (event 8, project 8)
 ### Status 
@@ -329,6 +407,7 @@ After the event, the 3 R programmers (who had not worked together previously) de
       * https://peerj.com/preprints/1471v1 (PeerJ archived version)
 * impact
    * package used in [[Brandvain, 2015 #5346]], authors acknowledged, doesn't name "rotl" unfortunately, which shows the difficulty of such things.  
+   
 ## Integrating simulation with popgen analysis (event 9, project 52)
 
 ### Status 
