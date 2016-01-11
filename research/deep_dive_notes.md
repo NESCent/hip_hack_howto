@@ -51,9 +51,9 @@ I have a vague recollection that the bioperl people worked on allowing non-molec
 
 ### Polished summary with key points
 
-The "Phylogeny inference on non-molecular characters" activity (project 34) focused on enhancing existing libraries with methods that use data on morphological and other non-molecular features.  
+The "Phylogeny inference on non-molecular characters" activity (project 34) at NESCent's first hackathon focused on enhancing existing libraries with methods that use data on morphological and other non-molecular features (as distinct from methods limited to molecular sequence data).  Generally these enhancements were a cross-cutting activity.  BioRuby developers implemented previously absent fundamental object types to support phylogenetics (e.g., trees, a Newick parser).  Work on BioPerl resulted in interoperability with Bio::Phylo (a separate Perl package of phylogeny-related objects and methods), and an implementation of TreeI, NodeI and AlignI interfaces allowing non-molecular characters.  
 
-## Trait Evolution (event 2, project 27)
+Trait Evolution (event 2, project 27)
 ### Status 
 Done.
 
@@ -130,9 +130,9 @@ BP: I think it was more of a “proof of concept” in the sense that at that ti
 
 ### Polished summary with key points
 
-The "Taxonomic Intelligence Subgroup" (project 37) left little trail of information on its activities.  The group seemed to have dissolved, with most initial supporters of the pitch leaving to join different teams, and one person remaining to work on the proposed topic.  A design for phylogeny web services called "PhyloWS" had been suggested at a previous hackathon.  The programmer implemented a design based on PhyloWS to return objects from TreeBASE, an open archive serving the phylogeny community.  Results of queries were returned using the NeXML format (developed partly through NESCent support, which provided early adopters).  The "taxonomic intelligence" referred to using uBio (a taxonomy web service now defunct) to provide information on parsing and synonyms of species names. 
+The "Taxonomic Intelligence Subgroup" (project 37) left a sparse trail of information.  Two of the 4 initial supporters of the pitch left quickly to join other teams (presumably after failing to find a way to fit productively with the team).  The remaining team of two drew on a design for phylogeny web services called "PhyloWS" suggested at a previous hackathon.  The team, which included the lead developer of TreeBASE (an open archive serving the phylogeny community), implemented a design based on PhyloWS to return objects from TreeBASE.  Results of queries were returned using the NeXML format (developed partly through NESCent support, which provided early adopters).  The "intelligence" aspect of the project involved using uBio (a taxonomy web service now defunct) to provide information on parsing and on synonyms of species names. 
 
-Although TreeBASE is production software, this implementation was more of a proof of concept and a learning exercise (partly because TreeBASE was in the process of a major translation).  However, when a web-services API was re-implemented into the production version of TreeBASE, it used the same API design and the same integration with uBio.  Thus, this is a case in which a hackathon product is the basis for a subsequent reimplementation. 
+Although TreeBASE is production software, this implementation was more of a proof of concept and a learning exercise (partly because TreeBASE was in the process of a major translation).  However, when a web-services API was later re-implemented into the production version of TreeBASE, it used the same API design and the same integration with uBio.  Thus, this is a case in which a hackathon product is the basis for a subsequent reimplementation. 
 
 ## Integrating Ontologies (event 4, project 18)
 ### Status 
