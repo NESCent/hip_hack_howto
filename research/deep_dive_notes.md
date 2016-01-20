@@ -53,7 +53,7 @@ I have a vague recollection that the bioperl people worked on allowing non-molec
 
 The "Phylogeny inference on non-molecular characters" activity (project 34) at NESCent's first hackathon focused on enhancing existing libraries with methods that use data on morphological and other non-molecular features (as distinct from methods limited to molecular sequence data).  Generally these enhancements were a cross-cutting activity.  BioRuby developers implemented previously absent fundamental object types to support phylogenetics (e.g., trees, a Newick parser).  Work on BioPerl resulted in interoperability with Bio::Phylo (a separate Perl package of phylogeny-related objects and methods), and an implementation of TreeI, NodeI and AlignI interfaces allowing non-molecular characters.  
 
-Trait Evolution (event 2, project 27)
+## Trait Evolution (event 2, project 27)
 ### Status 
 Done.
 
@@ -153,6 +153,8 @@ The listed deliverables are (some no longer available):
 * A CDAO RDF/XML translation of the NeXML instance document. This file is part of a growing collection of canonical NeXML example files.   https://github.com/nexml/nexml/blob/master/examples/translations/tdwg09.rdf
 * An adaptor ontology that aligns CDAO with DarwinCore (Brandon's file, this has gone missing).  
 * An ontology for occurrence instance data. This file is a one-off example.  http://www.evoio.org/wg/evoio/images/8/87/Tucos.owl
+
+
 
 ### Research notes 
 This is from Rutger Vos and Arlin Stoltzfus. 

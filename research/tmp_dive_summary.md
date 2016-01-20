@@ -1,20 +1,5 @@
 # Deep dive notes
 
-## Process (keep outcomes & impacts in hand while doing this)
-1.  locate project resources and understand the main thrust of the project
-2.  review resources in detail, and make a list of known outcomes along with possible unknown outcomes and impacts
-3.  review that list with someone who was on the team
-   * review what the team did during the hackathon 
-      * what were the tangible outcomes completed by the end? 
-      * what were some likely intangible outcomes?  
-   * what kinds of follow-up work were done, if any? 
-      * same questions 
-   * what evidence is there of impacts of these tangible and intangible outcomes?
-      * see the outcomes and impacts table  
-
-4.  work out any loose ends and write up a polished summary
-5.  get feedback on summary and incorporate that 
-
 ## Phylogeny inference on non-molecular characters (event 1, project 34)
 
 The "Phylogeny inference on non-molecular characters" activity (project 34) at NESCent's first hackathon focused on enhancing existing libraries with methods that use data on morphological and other non-molecular features (as distinct from methods limited to molecular sequence data).  Generally these enhancements were a cross-cutting activity.  BioRuby developers implemented previously absent fundamental object types to support phylogenetics (e.g., trees, a Newick parser).  Work on BioPerl resulted in interoperability with Bio::Phylo (a separate Perl package of phylogeny-related objects and methods), and an implementation of TreeI, NodeI and AlignI interfaces allowing non-molecular characters.  
