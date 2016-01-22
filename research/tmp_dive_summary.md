@@ -21,7 +21,7 @@ This project had several intangible impacts reported by LH.  From the comparison
 
 The "Taxonomic Intelligence Subgroup" (project 37) left a sparse trail of information.  Two of the 4 initial supporters of the pitch left quickly to join other teams (presumably after failing to find a way to fit productively with the team).  The remaining team of two drew on a design for phylogeny web services called "PhyloWS" suggested at a previous hackathon.  The team, which included the lead developer of TreeBASE (an open archive serving the phylogeny community), implemented a design based on PhyloWS to return objects from TreeBASE.  Results of queries were returned using the NeXML format (developed partly through NESCent support, which provided early adopters).  The "intelligence" aspect of the project involved using uBio (a taxonomy web service now defunct) to provide information on parsing and on synonyms of species names. 
 
-Although TreeBASE is production software, this implementation was more of a proof of concept and a learning exercise (partly because TreeBASE was in the process of a major translation).  However, when a web-services API was later re-implemented into the production version of TreeBASE, it used the same API design and the same integration with uBio.  Thus, this is a case in which a hackathon product is the basis for a subsequent reimplementation. 
+Although TreeBASE is production software, this implementation was more of a proof of concept and a learning exercise (partly because TreeBASE was in the process of a major transition).  However, when a web-services API was later re-implemented into the production version of TreeBASE, it used the same API design and the same integration with uBio.  Thus, this is a case in which a hackathon product is the basis for a subsequent reimplementation. 
 
 ## Integrating Ontologies (event 4, project 18)
 
@@ -58,7 +58,7 @@ PhyloGeotastic is a web application that enables easy geospatial queries to Phyl
 
 A considerable amount of time went into things other than coding (which was mostly the work of one person). The team wanted a demo product with a sale-able look, so they spent considerable time on front-end design, including an interface with separate choices for educators and researchers, custom icons, consistent styling, and about 1000 words of help text explaining what the tool does and how it works.  Two of the team members were relatively inexperienced and were mainly learning rather than contributing, although one of them helped to establish connections to outside resources, and another developed a screencast demonstrating the final product.  
 
-The hackathon project contributed to two downstream outcomes.  PhyloGeotastic was mentioned as a development target in a successful NSF grant proposal (event product XX), and formed the basis for a Google Summer-of-Code proposal that was not funded.  
+The hackathon project contributed to two downstream outcomes.  PhyloGeotastic was mentioned as a development target in a successful NSF grant proposal (event product XX), and formed the basis for a Google Summer-of-Code proposal, although it was not funded.  
 
 ## Library wrappers for OT APIs (event 8, project 8)
 
@@ -78,7 +78,7 @@ After the event, the 3 R programmers (who had not worked together previously) de
    * https://github.com/OpenTreeOfLife/shared-api-tests
 * new 3-way collaboration in R sub-team leading to 
    * completed package with documentation 
-      * https://cran.rstudio.com/web/packages/rotl/
+      * https://cran.r-project.org/web/packages/rotl/
    * manuscript submitted for publication
       * https://github.com/fmichonneau/rotl-ms (auto-generate manuscript)
       * https://peerj.com/preprints/1471v1 (PeerJ archived version)
