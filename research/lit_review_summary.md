@@ -19,7 +19,8 @@
 * [[Mohajer Soltani, 2014 #4580]]: suggestive but superficial analysis of 6 factors that may be important in a set of 6 hackathons: having a well-defined clearly conveyed problem area is "decisive".; cite this for importance of well defined problem that is communicated effectively to participants; cite this for importance of diversity in participant competences.
 * [[Moller, 2014 #4512]]: a general "experience" paper with little rigorous analysis, but focused on the bioinformatics domain; cite this for toolbox interoperability theme; cite this for tradition in bioinformatics-- see quotation about historical importance; cite this for small events with 20+ participants; cite this for bringing together international participants;
 * [[Richard, 2015 #4572]]: design maker event to attract females by making it about wearables, succeed; cite this for increasing diversity by completely changing what the hackathon is about is kinda insulting but hey it worked; seriously, focus on areas of female insterest (cf [[Tsui, 2009 #4586]])
-* [[Souza, 2013 #4573]]: report on civically oriented big data hackathon at google London; cite this for [[Stoltzfus, 2013 #475]]: NESCent event 6 hackathon report; cite this for deep hack report
+* [[Souza, 2013 #4573]]: report on civically oriented big data hackathon at google London; cite this for 
+* [[Stoltzfus, 2013 #475]]: NESCent event 6 hackathon report; cite this for deep hack report
 * [[Tuama, 2012 #4509]]: ; cite this for 
 * [[Vos, 2014 #4508]]: mostly on outcomes, useful due to repo and demo links; cite this for use-case-driven model; cite this for pre-event engagement;
 * [[Zapico, 2013 #4550]]: Green hackathons; cite this for 1. open to participants with and without technical expertise. 2. "Mastodon C" prototype chosen for funding after hackathon and the app was being developed further as a start-up company [I think actually the start-up is "agile big data" and is much broader than one app: see http://www.mastodonc.com/]. 3. The "social-physical-corporeal aspect of these types of events", building community, briding disciplines, citing Coleman, Moilanen and Pargman
@@ -41,8 +42,7 @@
 * [[Irani, 2015 #4541]]: sociopolitical analysis of a hackathon in India; cite this for political perspective on hackathons as manifestations of "entrepreneurial citizenship" in an Indian context.
 * [[Mtsweni, 2015 #4566]]: exploratory case study of hackathons to stimulate interest in CS; cite this for mixing levels of expertise, career stages, mentoring opportunities; cite this for conscious choices of teams to learn a new technology
 * [[Raatikainen, 2013 #4571]]: solid study of one internal hackathon; cite this for mentioning social benefits, collaboration, motivation; cite this for pre-specified targets (ideas, not requirements); cite this for pre-specified teams; cite this for even in an internal hackathon, team members may not have worked together before; cite this for Team formation; cite this for motivation; cite this for off-site "travel" event vs commute; cite this for room layout;
-
-* [[Trainer, 2014 #4504]]: (haven't finished reading this)
+* [[Trainer, 2014 #4504]]: in-depth grounded analysis of social aspects, team formation, and activity, including hard data on #s of discussions and commits at 3 hackathons; cite this for detailed examples of how the hackathon environment leads to interactions that aid in team-formation, social ties, and long-term collaborations; sample survey questions; importance of preparation; pre-event engagement with github; some participants were not comfortable asking for help; 
 
 ## Guidance 
 
