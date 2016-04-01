@@ -6,9 +6,9 @@
 * size 
    * small events with 20+ participants  [[Moller, 2014 #4512]]
    * 
-* in-house [[Burnham, 2012 #4579]] or not
+* in-house [[Burnham, 2012 #4579]] or not 
 * off-site "travel" event vs commute [[Raatikainen, 2013 #4571]]
-* prizes for deliverables [[Fafalios, 2014 #4537]] or downstream support for promising projects souza
+* prizes for deliverables [[Fafalios, 2014 #4537]] or downstream support for promising projects  [[Burnham, 2012 #4579]][[Souza, 2013 #4573]][[Hecht, 2014 #4582]]
 * interdisciplinarity
    * diverse: civically oriented big data hackathon at google London [[Souza, 2013 #4573]]
    * not: e.g., 
@@ -68,12 +68,14 @@
 
 ## value points 
 * motivation [[Raatikainen, 2013 #4571]]
-* explicit focus on providing learning experiences for students [[Linnell, 2014 #4568]]
+* learning 
+   * balance learning objective with providing value to humanitarian sponsor ("Balancing student benefit and social impact") [[Linnell, 2014 #4568]]
+   * explicit focus on providing learning experiences for students [[Linnell, 2014 #4568]]
+   * survey showing top 2 reasons for participation are "learning" and "networking" [[Briscoe, 2014 #4581]]
 * generating excitement [[Mulholland, 2015 #4543]]
 * "Sixty percent of the projects from the hacks held in December, February and March have already shipped internally or to Facebook users."  [[Burnham, 2012 #4579]]
 * "Mastodon C" prototype chosen for funding after hackathon and the app was being developed further as a start-up company [I think actually the start-up is "agile big data" and is much broader than one app: see http://www.mastodonc.com/]. [[Zapico, 2013 #4550]]
 * detailed examples of how the hackathon environment leads to interactions that aid in team-formation, social ties, and long-term collaborations [[Trainer, 2014 #4504]]
-* survey showing top 2 reasons for participation are "learning" and "networking" [[Briscoe, 2014 #4581]]
 
 
 ## outcomes, followups, downstream stuff
