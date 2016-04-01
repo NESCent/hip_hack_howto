@@ -37,6 +37,7 @@
    * brief pitches followed by open-space-like team coalescence [[Mulholland, 2015 #4543]]
    * conscious choices of teams to learn a new technology [[Mtsweni, 2015 #4566]]
    * pre-specified teams [[Raatikainen, 2013 #4571]]
+   * comparison of 3 methods [[Trainer, 2014 #4504]]
 
 * pre-event engagement [[Correia, 2015 #4578; Hecht, 2014 #4582; Vos, 2014 #4508]]
    * importance of well defined problem that is communicated effectively to participants [[Mohajer Soltani, 2014 #4580]] 
@@ -77,6 +78,13 @@
 * "Mastodon C" prototype chosen for funding after hackathon and the app was being developed further as a start-up company [I think actually the start-up is "agile big data" and is much broader than one app: see http://www.mastodonc.com/]. [[Zapico, 2013 #4550]]
 * detailed examples of how the hackathon environment leads to interactions that aid in team-formation, social ties, and long-term collaborations [[Trainer, 2014 #4504]]
 
+## Diversity stuff
+* women in tech and CS program freq = 12 %, [[Briscoe, 2014 #4581]]
+* design maker event to attract females by making it about wearables and succeed,  increasing diversity by completely changing what the hackathon is about-- kinda insulting but hey it worked--; seriously, focus on areas of female insterest (cf [[Tsui, 2009 #4586]]) [[Richard, 2015 #4572]]
+* low freq of 22 % women in software developer positions [[Landivar, 2013 #4587]]
+* even lower frequency in comp sci programs, < 20 %, need a good ref for that (http://readwrite.com/2014/09/02/women-in-computer-science-why-so-few)
+* richard, et al., attempt to increase diversity from traditional 15 % W at PennApps by changing focus 
+* classic work of Margolis & Fisher http://monoskop.org/images/5/53/Margolis_Jane_Fisher_Allan_Unlocking_the_Clubhouse_Women_in_Computing.pdf
 
 ## outcomes, followups, downstream stuff
 * follow-up program to build on successful projects [[Hecht, 2014 #4582]]
@@ -96,9 +104,6 @@
 * costs of remote participation (extra time, lossy communication, lack of in-person dynamics like whiteboarding or looking over a shoulder) [[Christopherson, 2013 #4574]]
 * tradition in bioinformatics-- see quotation about historical importance [[Moller, 2014 #4512]]
 * available online guidance [[McArthur, 2012 #4569; Murby, 2014 #4548]]
-* diversity issues 
-   * women in tech and CS program freq = 12 %, [[Briscoe, 2014 #4581]]
-   * design maker event to attract females by making it about wearables and succeed,  increasing diversity by completely changing what the hackathon is about-- kinda insulting but hey it worked--; seriously, focus on areas of female insterest (cf [[Tsui, 2009 #4586]]) [[Richard, 2015 #4572]]
 * the importance of a "trusted hub". [[Souza, 2013 #4573]]
 * political perspective on hackathons as manifestations of "entrepreneurial citizenship" in an Indian context. [[Irani, 2015 #4541]]
 * the "civic hackathon", which is basically government awarding hackathon projects prize money for outcomes that "deliver services to citizens"  [[Johnson, 2014 #4540]]
