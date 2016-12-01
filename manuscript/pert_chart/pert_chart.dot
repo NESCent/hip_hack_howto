@@ -9,8 +9,8 @@ digraph pert {
 	plenary decision points that are required.		
 	*/
 
-	node [ shape = box, style = filled, fontname = "Verdana" ];
-	edge [ fontname = "Verdana" ];
+	node [ shape = box, style = filled, fontname = "Verdana", fontsize = "20" ];
+	edge [ fontname = "Verdana", fontsize = "20" ];
 	
 	/* The following nodes are assumed to be the responsibility
 	of the "instigators", i.e. the core team that precedes, and
