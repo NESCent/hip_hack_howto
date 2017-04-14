@@ -12,78 +12,77 @@ Arlin Stoltzfus (corresponding author)
 
 # Possible manuscript reviewers
 
-## Studying hackathons
+## Studying hackathons
 
-Dr Erik Trainer
-Postdoctoral research associate
-http://www.cs.cmu.edu/~etrainer/
-Carnegie Mellon University
-etrainer@cs.cmu.edu
+Dr Erik Trainer<br>
+Postdoctoral research associate<br>
+<http://www.cs.cmu.edu/~etrainer/><br>
+Carnegie Mellon University<br>
+etrainer@cs.cmu.edu<br>
 
-Dr Anna Fillipova
-Postdoctoral research associate
-https://www.cs.cmu.edu/directory/afilippo
-Carnegie Mellon University
-afilippo@andrew.cmu.edu
+Dr Anna Fillipova<br>
+Postdoctoral research associate<br>
+<https://www.cs.cmu.edu/directory/afilippo><br>
+Carnegie Mellon University<br>
+afilippo@andrew.cmu.edu<br>
 
-Prof Graham M Jones
-Associate Professor of Anthropology
-https://anthropology.mit.edu/people/faculty/graham-jones
-gmj@mit.edu
-http://anthropology.mit.edu/sites/default/files/documents/jones_there's_no_rules.pdf
+Prof Graham M Jones<br>
+Associate Professor of Anthropology<br>
+<https://anthropology.mit.edu/people/faculty/graham-jones><br>
+gmj@mit.edu<br>
+<http://anthropology.mit.edu/sites/default/files/documents/jones_there's_no_rules.pdf>
 
 ## Running hackathons
 
-Dr Tina Kapur
-Executive Director of Image Guided Therapy
-http://www.spl.harvard.edu/pages/People/tkapur
+Dr Tina Kapur<br>
+Executive Director of Image Guided Therapy<br>
+http://www.spl.harvard.edu/pages/People/tkapur<br>
 Department of Radiology at Brigham and Women's Hospital and Harvard Medical School.
-tkapur@bwh.harvard.edu
+tkapur@bwh.harvard.edu<br>
 Increasing the impact of medical image computing using community-based open-access hackathons: The NA-MIC and 3D Slicer experience
 
-Professor R. Cameron Craddock
-Research Professor
-cameron.craddock@gmail.com rc3593@nyu.edu
-New York University Tandon School of Engineering: Brooklyn, New York, United States 
-https://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0121-x
+Professor R. Cameron Craddock<br>
+Research Professor<br>
+cameron.craddock@gmail.com rc3593@nyu.edu<br>
+New York University Tandon School of Engineering: Brooklyn, New York, United States<br>
+<https://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0121-x>
 
 ## Studying impact of events
 
-Prof Emma Bell
-Professor of Organisation Studies
-http://www.open.ac.uk/people/eb9396
-Open University
-e.bell@keele.ac.uk
-http://benproctor.co.uk/the-unconference-where-we-learn-from-unconferences/
+Prof Emma Bell<br>
+Professor of Organisation Studies<br>
+<http://www.open.ac.uk/people/eb9396><br>
+Open University<br>
+e.bell@keele.ac.uk<br>
+<http://benproctor.co.uk/the-unconference-where-we-learn-from-unconferences/>
 
 ## (Scientific/technical) community engagement
 
-Rachel Happe
-Founder, The Community Roundtable
-https://www.communityroundtable.com/our-story/leadership/
-rachel@communityroundtable.com
-The Community Roundtable
+Rachel Happe<br>
+Founder, The Community Roundtable<br>
+<https://www.communityroundtable.com/our-story/leadership/>
+rachel@communityroundtable.com<br>
+The Community Roundtable<br>
 
-Professor Cameron Neylon
-Professor of Research Communications
-http://cameronneylon.net/
-Curtin University
-contact@http://cameronneylon.net
+Professor Cameron Neylon<br>
+Professor of Research Communications<br>
+<http://cameronneylon.net/>
+Curtin University<br>
+contact@cameronneylon.net
 
-Dr Eva Amsen
-Scientific Engagement Manager
-http://evaamsen.com/about/
-Institute of Cancer Research in London 
-eva.amsen@icr.ac.uk 
+Dr Eva Amsen<br>
+Scientific Engagement Manager<br>
+<http://evaamsen.com/about/><br>
+Institute of Cancer Research in London<br>
+eva.amsen@icr.ac.uk
 
-Jono Bacon
-http://www.jonobacon.org/
-Community consultant (author of seminal book "The Art of Community")
+Jono Bacon<br>
+<http://www.jonobacon.org/><br>
+Community consultant (author of seminal book "The Art of Community")<br>
 jono@jonobacon.org
 
-Lou Woodley
-Community Engagement Director at Trellis/AAAS
-https://socialinsilico.wordpress.com/about/
-AAAS
+Lou Woodley<br>
+Community Engagement Director at Trellis/AAAS<br>
+<https://socialinsilico.wordpress.com/about/>
+AAAS<br>
 lwoodley@aaas.org
-
